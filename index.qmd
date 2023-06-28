@@ -1,0 +1,32 @@
+---
+title: "Lower your expectations: Effect sizes in psychology"
+output: html
+---
+
+This document is intended to be a working document on a research project about the true distribution of effect size in psychology and it's determinants.
+
+There are three possibilities:
+1. There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.
+2. There is a potential contribution of a review/essay/perspective paper. We would synthesize the literature on effect size in psychology and discuss the implications of the findings.
+3. We will conclude that there is no value in pursuing this project.
+
+For now, we will focus on the **empirical** option, which is our working hypothesis.
+
+# Research questions
+- What is the distribution of effect sizes in psychology?
+- How does this distrbution change for different types of studies?
+  - Published vs. unpublished
+  - Lab studies vs. field studies
+  - Experimental vs. correlational studies
+  - Social vs. cognitive
+  - Within person vs. between person
+  - Concurrent vs. time-lagged
+  - Common method vs multi-method
+  
+# Approach
+- We will use meta-analyses as our unit of analysis. We will use the meta-analytic effect size as our dependent variable.
+- We could download all meta-analyses published in Psychological Bulletin and code them for the above variables.
+- We expect to have a missing data problem with 
+
+# Open questions
+- Would it be useful to also use metaBUS
