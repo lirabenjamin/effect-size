@@ -6,6 +6,7 @@ output: html
 This document is intended to be a working document on a research project about the true distribution of effect size in psychology and it's determinants.
 
 There are three possibilities:
+
 1. There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.
 2. There is a potential contribution of a review/essay/perspective paper. We would synthesize the literature on effect size in psychology and discuss the implications of the findings.
 3. We will conclude that there is no value in pursuing this project.
