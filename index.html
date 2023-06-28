@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -60,7 +79,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This document is intended to be a working document on a research project about the true distribution of effect size in psychology and it’s determinants.</p>
+<p>Live google doc <a href="https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit">here</a></p>
+<p>This is a working document on a research project about the true distribution of effect size in psychology and its determinants.</p>
 <p>There are three possibilities:</p>
 <ol type="1">
 <li>There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.</li>
@@ -68,11 +88,17 @@ ul.task-list li input[type="checkbox"] {
 <li>We will conclude that there is no value in pursuing this project.</li>
 </ol>
 <p>For now, we will focus on the <strong>empirical</strong> option, which is our working hypothesis.</p>
+<section id="motivation" class="level1">
+<h1>Motivation</h1>
+<p>There is a lot that has been said about effect sizes in psychology. (1) There are a bunch of essays that argue that effect sizes are smaller than Cohen’s traditional cutoffs, and are still important (e.g.,<span class="citation" data-cites="götz2022"><sup><a href="#ref-götz2022" role="doc-biblioref">1</a></sup></span> <span class="citation" data-cites="funder2019"><sup><a href="#ref-funder2019" role="doc-biblioref">2</a></sup></span>). (2) There are some meta-analyses for particular subdisciplines, or areas of research (e.g., cognitive neuroscience<span class="citation" data-cites="szucs2017"><sup><a href="#ref-szucs2017" role="doc-biblioref">3</a></sup></span>, nudges<span class="citation" data-cites="dellavigna2022"><sup><a href="#ref-dellavigna2022" role="doc-biblioref">4</a></sup></span>, applied psychology<span class="citation" data-cites="bosco2015"><sup><a href="#ref-bosco2015" role="doc-biblioref">5</a></sup></span>). (3) Close to what we want to achieve, there is an estimation of the magnitude of the file drawer effect<span class="citation" data-cites="polanin2016"><sup><a href="#ref-polanin2016" role="doc-biblioref">6</a></sup></span>. (4) The many labs replication is also relevant, in that it showed that across 100 published experiments, their average published effect size was <em>r</em> = .40, whereas the well-powered replication effect sizes were roughly half of this<span class="citation" data-cites="opensciencecollaboration2015"><sup><a href="#ref-opensciencecollaboration2015" role="doc-biblioref">7</a></sup></span>.</p>
+<p>Despite all this, there is no definitive answer for a scientist planning a study and trying to answer the question of what effect size should I expect? How should I plan to power my study? Our vision is that our study would be able to model effect sizes such that I could know that the median effect size in psychology is, say, <em>r</em> = .15. If I know that we are dealing with a social psychology effect, where the predictor and the outcome do not share common method variance (e.g., open ended text correlating with behavior), and the predictor and outcome are separated by 4 years, then, I can expect my effect size to shrink to <em>r</em> = .06.</p>
+<p>Aside from the contribution towards sample size planning and power calculations, we also hope to show how miscalibrated researchers are in terms of what effect sizes can be expected, and how we should evaluate them when reading, reviewing, and conducting research.</p>
+</section>
 <section id="research-questions" class="level1">
 <h1>Research questions</h1>
 <ul>
 <li>What is the distribution of effect sizes in psychology?</li>
-<li>How does this distrbution change for different types of studies?
+<li>How does this distribution change for different types of studies?
 <ul>
 <li>Published vs.&nbsp;unpublished</li>
 <li>Lab studies vs.&nbsp;field studies</li>
@@ -82,6 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Concurrent vs.&nbsp;time-lagged</li>
 <li>Common method vs multi-method</li>
 </ul></li>
+<li>How miscalibrated are scientists to true effect sizes.</li>
 </ul>
 </section>
 <section id="approach" class="level1">
@@ -89,17 +116,43 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>We will use meta-analyses as our unit of analysis. We will use the meta-analytic effect size as our dependent variable.</li>
 <li>We could download all meta-analyses published in Psychological Bulletin and code them for the above variables.</li>
-<li>We expect to have a missing data problem with</li>
 </ul>
 </section>
 <section id="open-questions" class="level1">
 <h1>Open questions</h1>
 <ul>
-<li>Would it be useful to also use metaBUS</li>
+<li>Is this a tractable problem?</li>
+<li>If it were possible, would it be a useful contribution?</li>
+<li>Would it be useful to also use metaBUS for this?</li>
+<li>We expect to have a missing data problem with some of the moderators of effect size. How big of a problem would this be?</li>
+<li>Given what already is out there, is it true that this is a case of “go big or go home”?</li>
 </ul>
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-götz2022" class="csl-entry" role="doc-biblioentry">
+1. Götz, F. M., Gosling, S. D., &amp; Rentfrow, P. J. (2022). <em>Small Effects: The Indispensable Foundation for a Cumulative Psychological Science</em>.
+</div>
+<div id="ref-funder2019" class="csl-entry" role="doc-biblioentry">
+2. Funder, D. C., &amp; Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. <em>Advances in Methods and Practices in Psychological Science</em>, <em>2</em>(2), 156–168. <a href="https://doi.org/10.1177/2515245919847202">https://doi.org/10.1177/2515245919847202</a>
+</div>
+<div id="ref-szucs2017" class="csl-entry" role="doc-biblioentry">
+3. Szucs, D., &amp; Ioannidis, J. P. A. (2017). Empirical assessment of published effect sizes and power in the recent cognitive neuroscience and psychology literature. <em>PLOS Biology</em>, <em>15</em>(3), e2000797. <a href="https://doi.org/10.1371/journal.pbio.2000797">https://doi.org/10.1371/journal.pbio.2000797</a>
+</div>
+<div id="ref-dellavigna2022" class="csl-entry" role="doc-biblioentry">
+4. DellaVigna, S., &amp; Linos, E. (2022). RCTs to Scale: Comprehensive Evidence From Two Nudge Units. <em>Econometrica</em>, <em>90</em>(1), 81–116. <a href="https://doi.org/10.3982/ECTA18709">https://doi.org/10.3982/ECTA18709</a>
+</div>
+<div id="ref-bosco2015" class="csl-entry" role="doc-biblioentry">
+5. Bosco, F. A., Aguinis, H., Singh, K., Field, J. G., &amp; Pierce, C. A. (2015). Correlational effect size benchmarks. <em>Journal of Applied Psychology</em>, <em>100</em>(2), 431–449. <a href="https://doi.org/10.1037/a0038047">https://doi.org/10.1037/a0038047</a>
+</div>
+<div id="ref-polanin2016" class="csl-entry" role="doc-biblioentry">
+6. Polanin, J. R., Tanner-Smith, E. E., &amp; Hennessy, E. A. (2016). Estimating the difference between published and unpublished effect sizes: A meta-review. <em>Review of Educational Research</em>, <em>86</em>(1), 207–236. <a href="https://doi.org/10.3102/0034654315582067">https://doi.org/10.3102/0034654315582067</a>
+</div>
+<div id="ref-opensciencecollaboration2015" class="csl-entry" role="doc-biblioentry">
+7. Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. <em>Science</em>, <em>349</em>(6251), aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
