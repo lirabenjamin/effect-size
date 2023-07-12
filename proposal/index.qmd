@@ -1,8 +1,10 @@
 ---
-title: "Lower your expectations: Effect sizes in psychology"
-output: html
-bibliography: references.bib
-csl: apa-numeric-superscript.csl
+title: "Small effects are a big deal"
+subtitle: "Third year paper proposal"
+author: "Benjamin Lira"
+output: pdf
+bibliography: ../references.bib
+csl: ../apa-numeric-superscript.csl
 ---
 
 Live google doc [here](https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit)

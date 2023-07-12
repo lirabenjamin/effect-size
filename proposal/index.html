@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Benjamin Lira">
+
+<title>Small effects are a big deal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Small effects are a big deal</h1>
+<p class="subtitle lead">Third year paper proposal</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Benjamin Lira </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Live google doc <a href="https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit">here</a></p>
+<p>This is a working document on a potential research project about the true distribution of effect size in psychology and its determinants.</p>
+<p>There are three possibilities:</p>
+<ol type="1">
+<li>There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.</li>
+<li>There is a potential contribution of a review/essay/perspective paper. We would synthesize the literature on effect size in psychology and discuss the implications of the findings.</li>
+<li>We will conclude that there is no value in pursuing this project.</li>
+</ol>
+<p>For now, we will focus on the <strong>empirical</strong> option, which is our working hypothesis.</p>
+<section id="motivation" class="level1">
+<h1>Motivation</h1>
+<p>There is a lot that has been said about effect sizes in psychology. (1) There are a bunch of essays that argue that effect sizes are smaller than Cohen’s traditional cutoffs, and are still important (e.g.,<span class="citation" data-cites="götz2022"><sup><a href="#ref-götz2022" role="doc-biblioref">1</a></sup></span> <span class="citation" data-cites="funder2019"><sup><a href="#ref-funder2019" role="doc-biblioref">2</a></sup></span>). (2) There are some meta-analyses for particular subdisciplines, or areas of research (e.g., cognitive neuroscience<span class="citation" data-cites="szucs2017"><sup><a href="#ref-szucs2017" role="doc-biblioref">3</a></sup></span>, nudges<span class="citation" data-cites="dellavigna2022"><sup><a href="#ref-dellavigna2022" role="doc-biblioref">4</a></sup></span>, applied psychology<span class="citation" data-cites="bosco2015"><sup><a href="#ref-bosco2015" role="doc-biblioref">5</a></sup></span>). (3) Close to what we want to achieve, there is an estimation of the magnitude of the file drawer effect<span class="citation" data-cites="polanin2016"><sup><a href="#ref-polanin2016" role="doc-biblioref">6</a></sup></span>. (4) The many labs replication is also relevant, in that it showed that across 100 published experiments, their average published effect size was <em>r</em> = .40, whereas the well-powered replication effect sizes were roughly half of this<span class="citation" data-cites="opensciencecollaboration2015"><sup><a href="#ref-opensciencecollaboration2015" role="doc-biblioref">7</a></sup></span>. (5) There are also empirical studies demonstrating that even with plenty of data and sophisticated methods life outcomes are really hard to predict<span class="citation" data-cites="salganik2020"><sup><a href="#ref-salganik2020" role="doc-biblioref">8</a></sup></span>. (A similar in principle simulation study<span class="citation" data-cites="ahadi1989"><sup><a href="#ref-ahadi1989" role="doc-biblioref">9</a></sup></span>).</p>
+<p>Despite all this, there is no definitive answer for a scientist planning a study and trying to answer the question of what effect size should I expect? How should I plan to power my study? Our vision is that our study would be able to model effect sizes such that I could know that the median effect size in psychology is, say, <em>r</em> = .15. If I know that we are dealing with a social psychology effect, where the predictor and the outcome do not share common method variance (e.g., open ended text correlating with behavior), and the predictor and outcome are separated by 4 years, then, I can expect my effect size to shrink to <em>r</em> = .06.</p>
+<p>Aside from the contribution towards sample size planning and power calculations, we also hope to show how miscalibrated researchers are in terms of what effect sizes can be expected, and how we should evaluate them when reading, reviewing, and conducting research.</p>
+</section>
+<section id="research-questions" class="level1">
+<h1>Research questions</h1>
+<ul>
+<li>What is the distribution of effect sizes in psychology?</li>
+<li>How does this distribution change for different types of studies?
+<ul>
+<li>Published vs.&nbsp;unpublished</li>
+<li>Lab studies vs.&nbsp;field studies</li>
+<li>Experimental vs.&nbsp;correlational studies</li>
+<li>Social vs.&nbsp;cognitive</li>
+<li>Within person vs.&nbsp;between person</li>
+<li>Concurrent vs.&nbsp;time-lagged</li>
+<li>Common method vs multi-method</li>
+</ul></li>
+<li>How miscalibrated are scientists to true effect sizes. For what kinds of research are they more likely to overestimate effect sizes? What causes this miscalibration?</li>
+</ul>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<ul>
+<li>We will use meta-analyses as our unit of analysis. We will use the meta-analytic effect size as our dependent variable.</li>
+<li>We could download all meta-analyses published in Psychological Bulletin and code them for the above variables.</li>
+</ul>
+</section>
+<section id="open-questions" class="level1">
+<h1>Open questions</h1>
+<ul>
+<li>Is this a tractable problem?</li>
+<li>If it were possible, would it be a useful contribution?</li>
+<li>We expect to have a missing data problem with some of the moderators of effect size. How big of a problem would this be?</li>
+<li>Given what already is out there, is it true that this is a case of “go big or go home”?</li>
+<li>Would it be useful to also use metaBUS for this?</li>
+</ul>
+</section>
+<section id="extra-notes-from-literature-review" class="level1">
+<h1>Extra notes from Literature review</h1>
+<p>Dalton et al<span class="citation" data-cites="dalton2012"><sup><a href="#ref-dalton2012" role="doc-biblioref">10</a></sup></span> suggests that there is <strong>no</strong> publication bias or file drawer inflation bias in perosonnel psychology. - I don’t believe that!</p>
+</section>
+<section id="notes-from-meetings" class="level1">
+<h1>Notes from Meetings</h1>
+<ul>
+<li>Dolores thinks that just using Psych Bulletin data is not gonna fly in Psych Bulletin. It could work for PNAS or some other journal she said.</li>
+<li>An interesting point from Dolores was to use the estimated distribution to try to uncover insights from psychology. To interesting examples: (1) Are effects larger for younger samples? Are kids more malleable? (2) Are effects larger the closer you get to behavior.</li>
+</ul>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-götz2022" class="csl-entry" role="doc-biblioentry">
+1. Götz, F. M., Gosling, S. D., &amp; Rentfrow, P. J. (2022). <em>Small Effects: The Indispensable Foundation for a Cumulative Psychological Science</em>.
+</div>
+<div id="ref-funder2019" class="csl-entry" role="doc-biblioentry">
+2. Funder, D. C., &amp; Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense and Nonsense. <em>Advances in Methods and Practices in Psychological Science</em>, <em>2</em>(2), 156–168. <a href="https://doi.org/10.1177/2515245919847202">https://doi.org/10.1177/2515245919847202</a>
+</div>
+<div id="ref-szucs2017" class="csl-entry" role="doc-biblioentry">
+3. Szucs, D., &amp; Ioannidis, J. P. A. (2017). Empirical assessment of published effect sizes and power in the recent cognitive neuroscience and psychology literature. <em>PLOS Biology</em>, <em>15</em>(3), e2000797. <a href="https://doi.org/10.1371/journal.pbio.2000797">https://doi.org/10.1371/journal.pbio.2000797</a>
+</div>
+<div id="ref-dellavigna2022" class="csl-entry" role="doc-biblioentry">
+4. DellaVigna, S., &amp; Linos, E. (2022). RCTs to Scale: Comprehensive Evidence From Two Nudge Units. <em>Econometrica</em>, <em>90</em>(1), 81–116. <a href="https://doi.org/10.3982/ECTA18709">https://doi.org/10.3982/ECTA18709</a>
+</div>
+<div id="ref-bosco2015" class="csl-entry" role="doc-biblioentry">
+5. Bosco, F. A., Aguinis, H., Singh, K., Field, J. G., &amp; Pierce, C. A. (2015). Correlational effect size benchmarks. <em>Journal of Applied Psychology</em>, <em>100</em>(2), 431–449. <a href="https://doi.org/10.1037/a0038047">https://doi.org/10.1037/a0038047</a>
+</div>
+<div id="ref-polanin2016" class="csl-entry" role="doc-biblioentry">
+6. Polanin, J. R., Tanner-Smith, E. E., &amp; Hennessy, E. A. (2016). Estimating the difference between published and unpublished effect sizes: A meta-review. <em>Review of Educational Research</em>, <em>86</em>(1), 207–236. <a href="https://doi.org/10.3102/0034654315582067">https://doi.org/10.3102/0034654315582067</a>
+</div>
+<div id="ref-opensciencecollaboration2015" class="csl-entry" role="doc-biblioentry">
+7. Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. <em>Science</em>, <em>349</em>(6251), aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>
+</div>
+<div id="ref-salganik2020" class="csl-entry" role="doc-biblioentry">
+8. Salganik, M. J., Lundberg, I., Kindel, A. T., Ahearn, C. E., Al-Ghoneim, K., Almaatouq, A., Altschul, D. M., Brand, J. E., Carnegie, N. B., Compton, R. J., Datta, D., Davidson, T., Filippova, A., Gilroy, C., Goode, B. J., Jahani, E., Kashyap, R., Kirchner, A., McKay, S., … McLanahan, S. (2020). Measuring the predictability of life outcomes with a scientific mass collaboration. <em>Proceedings of the National Academy of Sciences</em>, <em>117</em>(15), 8398–8403. <a href="https://doi.org/10.1073/pnas.1915006117">https://doi.org/10.1073/pnas.1915006117</a>
+</div>
+<div id="ref-ahadi1989" class="csl-entry" role="doc-biblioentry">
+9. Ahadi, S., &amp; Diener, E. (1989). Multiple determinants and effect size. <em>Journal of Personality and Social Psychology</em>, <em>56</em>(3), 398–406. <a href="https://doi.org/10.1037/0022-3514.56.3.398">https://doi.org/10.1037/0022-3514.56.3.398</a>
+</div>
+<div id="ref-dalton2012" class="csl-entry" role="doc-biblioentry">
+10. Dalton, D. R., Aguinis, H., Dalton, C. M., Bosco, F. A., &amp; Pierce, C. A. (2012). Revisiting the file drawer problem in meta-analysis: An assessment of published and nonpublished correlation matrices: Personnel Psychology. <em>Personnel Psychology</em>, <em>65</em>(2), 221–249. <a href="https://doi.org/10.1111/j.1744-6570.2012.01243.x">https://doi.org/10.1111/j.1744-6570.2012.01243.x</a>
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
