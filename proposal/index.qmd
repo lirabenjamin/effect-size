@@ -2,49 +2,56 @@
 title: "Small effects are a big deal"
 subtitle: "Third year paper proposal"
 author: "Benjamin Lira"
-format: html
-# format: 
-#   pdf:
-#     documentclass: article
-#     classoption: onecolumn
-#     fontfamily: times
-# fig-cap-location: top
-# table-cap-location: bottom
+css: custom.css
+# format: html
+format: 
+  pdf:
+    documentclass: article
+    classoption: onecolumn
+    fontfamily: times
+fig-cap-location: top
+table-cap-location: bottom
 editor: visual
 self-contained: true
-# fontsize: 12pt
-# linestretch: 1.6
-# link-citations: true
-# keep-tex: false
-# geometry: margin=1in
-# header-includes: |
-#   \usepackage{sectsty}
-#   \usepackage{helvet}
-#   \usepackage{xcolor}
-#   \definecolor{darkblue}{RGB}{0,0,139}
-#   \usepackage{titlesec}
-#   \allsectionsfont{\sffamily\color{darkblue}}
-#   \usepackage{etoolbox}
-#   \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
+fontsize: 12pt
+linestretch: 1.6
+link-citations: true
+keep-tex: false
+geometry: margin=1in
+header-includes: |
+  \usepackage{sectsty}
+  \usepackage{helvet}
+  \usepackage{xcolor}
+  \setlength{\parindent}{1em}
+  \setlength{\parskip}{1em}
+  \definecolor{darkblue}{RGB}{0,0,139}
+  \usepackage{titlesec}
+  \allsectionsfont{\sffamily\color{darkblue}}
+  \usepackage{etoolbox}
+  \usepackage{setspace}
+  \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
+  \titlespacing*{\section}{0pt}{0pt}{10pt}
+  \titlespacing*{\subsection}{0pt}{0pt}{5pt}
+  \titlespacing*{\subsubsection}{0pt}{0pt}{2pt}
 bibliography: ../references.bib
 csl: ../apa-numeric-superscript.csl
 ---
 
 <!-- # Gap this project would fill -->
 
-There is a lot that has been said about effect sizes in psychology. Since Cohen published effect size guidelines in XX, recent inspection of true effect sizes in psychology has revealed that these original guidelines might have been unrealistic. There are four converging sources of evidence that all point to this conclusion.
+There is a lot that has been said about effect sizes in psychology. Since Cohen @cohen_power_1992 published effect size benchmarks of *r* = .10, .30, and .50 for small, medium, and large correlations, respectively, recent inspection of true effect sizes in psychology has revealed that these original guidelines might have been unrealistic. There are four converging sources of evidence that point to this conclusion.
 
-The first such avenue has relied on theoretical reasons, based on reasoning or simulation, to argue that small effects matter, and that small effects are to be expected. For example, Ahadi @ahadi1989 conducted a simulation study to show that for outcomes that are multiply determined (an assumption that likely holds for behavior), any one of the predictors is bounded at X [Check real data]. Similarly, Funder and Ozer argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Gotz @götz2022 argues that... . Also that paper on behavioral genetics.
+The first such avenue has relied on theoretical reasons, based on reasoning or simulation, to argue that small effects matter, and that small effects are to be expected. For example, Ahadi @ahadi1989 conducted a simulation study to show that for outcomes that are multiply determined (an assumption that likely holds for behavior), the correlation of any one trait predictor is bounded (e.g., at .50 if the behavior is influenced by three traits). Similarly, Funder and Ozer @funder2019 argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Götz @götz2022 argues that if small effect sizes are the norm rather than the exception, psychology can only be a cumulative science if we adjust our expectations regarding effect size.
 
 Second, large scale replication projects have shown that published effect sizes are biased upward. The many labs project @opensciencecollaboration2015 showed that the average effect size across 100 published experiments was *r* = .40, whereas the average effect size across 36 replications was *r* = .20. Interestingly, cognitive psychology had higher effect sizes than social psychology.
 
-Third, prediction contests suggest that even with plenty of data and sophisticated methods, predicting life outcomes is remarkably difficult. Most notably, Salganik @salganik2020 conducted a prediction contest where participants were asked to predict the outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in the outcome.
+Third, prediction contests suggest that even with plenty of data and sophisticated methods, predicting life outcomes is remarkably difficult. Most notably, Salganik @salganik2020 conducted a prediction contest where participants were asked to predict the outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in the two of the outcomes, and 5% on the other four outcomes. Notably, the best models barely outperformed a simple linear regression model with only four predictors, suggesting that more data or more predictors is not guarenteed to improve prediction.
 
-Finally, evidence from meta-analyses, especially for particular sub-fields, provide some indication of what effect sizes might be expected (see for example summary effect sizes in cognitive neuroscience @szucs2017, nudges @dellavigna2022, or applied psychology @bosco2015).  
+Finally, evidence from meta-analyses, especially for particular sub-fields, provide some indication of what effect sizes might be expected (see for example summary effect sizes in cognitive neuroscience @szucs2017, nudges @dellavigna2022, individual differences @gignac2016, or applied psychology @bosco2015). 
 
-Despite this, there is still ample miscalibration among researchers on what are credible and practically significant effect sizes. What's more, most effect sizes are biased upward due to publication bias. Polanin @polanin2016 conducted a meta-review to estimate the file drawer effect, and found that...
+Despite this, there is still ample miscalibration among researchers on what are credible and practically significant effect sizes. What's more, most effect sizes are biased upward due to publication bias. Polanin @polanin2016 conducted a meta-review to estimate the file drawer effect, and found that unpublished effects are, on average .18 SDs smaller than their published counterparts. Contrary to this, Dalton et al @dalton2012 compared unpublished dissertations with journal articles to argue that there is *no* file drawer inflation bias in perosonnel psychology.
 
-Not only are researchers miscalibrated in what effect sizes are to be expected, but also, there is no evidence available to help researchers understand where effect sizes come from. There is reason to believe that longitudinal effects are probably smaller than concurrent ones, because of fadeout @bailey. Common method variance might also inflate effect sizes. The ecological validity of a study might also affect effect sizes.
+Not only are researchers miscalibrated in what effect sizes are to be expected, but also, there is no evidence available to help researchers understand where effect sizes come from. There is reason to believe that longitudinal effects are probably smaller than concurrent ones, because of fadeout @bailey_persistence_2020. Common method variance might also inflate effect sizes. The ecological validity of a study might also affect effect sizes.
 
 We propose a meta-review of effect sizes across psychology to address these limitations. Specifically, we want to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status. We expect great heterogeneity in effect sizes, and thus also plan to explain this heterogeneity: what are the determinants of effect size. Such contribution would allow psychologists to better calibrate their expectations of effect size when planning and reviewing research.
 
@@ -76,13 +83,14 @@ We will conduct a survey of researchers to estimate how miscalibrated they are t
 
 # Reading List
 
-<!-- \footnotesize -->
+\linespread{1}
+\footnotesize
 
 ::: {#refs}
 :::
 
-<!-- \newpage
-\normalsize -->
+\newpage
+\normalsize
 
 # SCRAPS
 
@@ -93,10 +101,6 @@ We will conduct a survey of researchers to estimate how miscalibrated they are t
 -   We expect to have a missing data problem with some of the moderators of effect size. How big of a problem would this be?
 -   Given what already is out there, is it true that this is a case of "go big or go home"?
 -   Would it be useful to also use metaBUS for this?
-
-# Extra notes from Literature review
-
-Dalton et al @dalton2012 suggests that there is **no** publication bias or file drawer inflation bias in perosonnel psychology. - I don't believe that!
 
 # Notes from Meetings
 
