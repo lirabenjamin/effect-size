@@ -2,30 +2,53 @@
 title: "Small effects are a big deal"
 subtitle: "Third year paper proposal"
 author: "Benjamin Lira"
-output: pdf
+format: html
+# format: 
+#   pdf:
+#     documentclass: article
+#     classoption: onecolumn
+#     fontfamily: times
+# fig-cap-location: top
+# table-cap-location: bottom
+editor: visual
+self-contained: true
+# fontsize: 12pt
+# linestretch: 1.6
+# link-citations: true
+# keep-tex: false
+# geometry: margin=1in
+# header-includes: |
+#   \usepackage{sectsty}
+#   \usepackage{helvet}
+#   \usepackage{xcolor}
+#   \definecolor{darkblue}{RGB}{0,0,139}
+#   \usepackage{titlesec}
+#   \allsectionsfont{\sffamily\color{darkblue}}
+#   \usepackage{etoolbox}
+#   \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
 bibliography: ../references.bib
 csl: ../apa-numeric-superscript.csl
 ---
 
-Live google doc [here](https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit)
+<!-- # Gap this project would fill -->
 
-This is a working document on a potential research project about the true distribution of effect size in psychology and its determinants.
+There is a lot that has been said about effect sizes in psychology. Since Cohen published effect size guidelines in XX, recent inspection of true effect sizes in psychology has revealed that these original guidelines might have been unrealistic. There are four converging sources of evidence that all point to this conclusion.
 
-There are three possibilities:
+The first such avenue has relied on theoretical reasons, based on reasoning or simulation, to argue that small effects matter, and that small effects are to be expected. For example, Ahadi @ahadi1989 conducted a simulation study to show that for outcomes that are multiply determined (an assumption that likely holds for behavior), any one of the predictors is bounded at X [Check real data]. Similarly, Funder and Ozer argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Gotz @götz2022 argues that... . Also that paper on behavioral genetics.
 
-1.  There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.
-2.  There is a potential contribution of a review/essay/perspective paper. We would synthesize the literature on effect size in psychology and discuss the implications of the findings.
-3.  We will conclude that there is no value in pursuing this project.
+Second, large scale replication projects have shown that published effect sizes are biased upward. The many labs project @opensciencecollaboration2015 showed that the average effect size across 100 published experiments was *r* = .40, whereas the average effect size across 36 replications was *r* = .20. Interestingly, cognitive psychology had higher effect sizes than social psychology.
 
-For now, we will focus on the **empirical** option, which is our working hypothesis.
+Third, prediction contests suggest that even with plenty of data and sophisticated methods, predicting life outcomes is remarkably difficult. Most notably, Salganik @salganik2020 conducted a prediction contest where participants were asked to predict the outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in the outcome.
 
-# Motivation
+Finally, evidence from meta-analyses, especially for particular sub-fields, provide some indication of what effect sizes might be expected (see for example summary effect sizes in cognitive neuroscience @szucs2017, nudges @dellavigna2022, or applied psychology @bosco2015).  
 
-There is a lot that has been said about effect sizes in psychology. (1) There are a bunch of essays that argue that effect sizes are smaller than Cohen's traditional cutoffs, and are still important (e.g., @götz2022 @funder2019). (2) There are some meta-analyses for particular subdisciplines, or areas of research (e.g., cognitive neuroscience @szucs2017, nudges @dellavigna2022, applied psychology @bosco2015). (3) Close to what we want to achieve, there is an estimation of the magnitude of the file drawer effect @polanin2016. (4) The many labs replication is also relevant, in that it showed that across 100 published experiments, their average published effect size was *r* = .40, whereas the well-powered replication effect sizes were roughly half of this @opensciencecollaboration2015. (5) There are also empirical studies demonstrating that even with plenty of data and sophisticated methods life outcomes are really hard to predict @salganik2020. (A similar in principle simulation study @ahadi1989).
+Despite this, there is still ample miscalibration among researchers on what are credible and practically significant effect sizes. What's more, most effect sizes are biased upward due to publication bias. Polanin @polanin2016 conducted a meta-review to estimate the file drawer effect, and found that...
 
-Despite all this, there is no definitive answer for a scientist planning a study and trying to answer the question of what effect size should I expect? How should I plan to power my study? Our vision is that our study would be able to model effect sizes such that I could know that the median effect size in psychology is, say, *r* = .15. If I know that we are dealing with a social psychology effect, where the predictor and the outcome do not share common method variance (e.g., open ended text correlating with behavior), and the predictor and outcome are separated by 4 years, then, I can expect my effect size to shrink to *r* = .06.
+Not only are researchers miscalibrated in what effect sizes are to be expected, but also, there is no evidence available to help researchers understand where effect sizes come from. There is reason to believe that longitudinal effects are probably smaller than concurrent ones, because of fadeout @bailey. Common method variance might also inflate effect sizes. The ecological validity of a study might also affect effect sizes.
 
-Aside from the contribution towards sample size planning and power calculations, we also hope to show how miscalibrated researchers are in terms of what effect sizes can be expected, and how we should evaluate them when reading, reviewing, and conducting research.
+We propose a meta-review of effect sizes across psychology to address these limitations. Specifically, we want to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status. We expect great heterogeneity in effect sizes, and thus also plan to explain this heterogeneity: what are the determinants of effect size. Such contribution would allow psychologists to better calibrate their expectations of effect size when planning and reviewing research.
+
+Additionally, we plan to use the results of the meta-review to conduct a survey of researchers to estimate how miscalibrated they are in judging effect sizes, and whether this miscalibration is specific. That is, do researchers uniformly overestimate effect sizes, or do they fail to account for the determinants of effect size?
 
 # Research questions
 
@@ -38,12 +61,30 @@ Aside from the contribution towards sample size planning and power calculations,
     -   Within person vs. between person
     -   Concurrent vs. time-lagged
     -   Common method vs multi-method
--   How miscalibrated are scientists to true effect sizes. For what kinds of research are they more likely to overestimate effect sizes? What causes this miscalibration?
+-   How miscalibrated are scientists to true effect sizes. For what kinds of research are they more likely to overestimate effect sizes?
 
-# Approach
+# Methods
 
--   We will use meta-analyses as our unit of analysis. We will use the meta-analytic effect size as our dependent variable.
--   We could download all meta-analyses published in Psychological Bulletin and code them for the above variables.
+## Meta-review
+Our plan is to conduct a meta-review of meta-analyses in psychology. We will use meta-analytic effect sizes as our dependent variable. We plan to obtain a representative sample of meta-analyses in psychology from the past 10 years. We will code for the moderators above, as well as the predictor, the criterion, the average sample size per study, and the average number of studies per meta-analysis, and the average age of participants.
+
+We will use meta-regression to estimate the distribution of effect sizes, and to test for the moderators of effect size.
+
+## Survey
+
+We will conduct a survey of researchers to estimate how miscalibrated they are to true effect sizes. We will use the results of the meta-review to create a set of vignettes that will be used to estimate miscalibration. 
+
+# Reading List
+
+<!-- \footnotesize -->
+
+::: {#refs}
+:::
+
+<!-- \newpage
+\normalsize -->
+
+# SCRAPS
 
 # Open questions
 
