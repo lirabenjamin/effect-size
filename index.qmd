@@ -5,18 +5,16 @@ bibliography: references.bib
 csl: apa-numeric-superscript.csl
 ---
 
-<button onclick="location.href='https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit'" type="button" style="background-color: blue; color: white; padding: 10px 20px;">
+<button onclick="location.href='https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit'" type="button" style="background-color: #273ec2; color: white; padding: 10px 20px;border-radius: 12px;  border: none;">
 Google Doc
 </button>
 
-<button onclick="location.href='https://lirabenjamin.github.io/effect-size/proposal/index.html'" type="button" style="background-color: blue; color: white; padding: 10px 20px;">
+<button onclick="location.href='https://lirabenjamin.github.io/effect-size/proposal/index.html'" type="button" style="background-color: #273ec2; color: white; padding: 10px 20px;border-radius: 12px;  border: none;
+">
 Proposal for third year paper
 </button>
 
-Live google doc [here](https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit)
-
-Proposal for third year paper [here](https://lirabenjamin.github.io/effect-size/proposal/index.pdf)
-
+<br>
 This is a working document on a potential research project about the true distribution of effect size in psychology and its determinants.
 
 There are three possibilities:
