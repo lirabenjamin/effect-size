@@ -3,36 +3,36 @@ title: "Small effects are a big deal"
 subtitle: "Third year paper proposal"
 author: "Benjamin Lira"
 css: custom.css
-# format: html
-format: 
-  pdf:
-    documentclass: article
-    classoption: onecolumn
-    fontfamily: times
+format: html
+# format: 
+#   pdf:
+#     documentclass: article
+#     classoption: onecolumn
+#     fontfamily: times
 fig-cap-location: top
 table-cap-location: bottom
 editor: visual
 self-contained: true
 fontsize: 12pt
-linestretch: 1.6
+# linestretch: 1.6
 link-citations: true
-keep-tex: false
-geometry: margin=1in
-header-includes: |
-  \usepackage{sectsty}
-  \usepackage{helvet}
-  \usepackage{xcolor}
-  \setlength{\parindent}{1em}
-  \setlength{\parskip}{1em}
-  \definecolor{darkblue}{RGB}{0,0,139}
-  \usepackage{titlesec}
-  \allsectionsfont{\sffamily\color{darkblue}}
-  \usepackage{etoolbox}
-  \usepackage{setspace}
-  \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
-  \titlespacing*{\section}{0pt}{0pt}{10pt}
-  \titlespacing*{\subsection}{0pt}{0pt}{5pt}
-  \titlespacing*{\subsubsection}{0pt}{0pt}{2pt}
+# keep-tex: false
+# geometry: margin=1in
+# header-includes: |
+#   \usepackage{sectsty}
+#   \usepackage{helvet}
+#   \usepackage{xcolor}
+#   \setlength{\parindent}{1em}
+#   \setlength{\parskip}{1em}
+#   \definecolor{darkblue}{RGB}{0,0,139}
+#   \usepackage{titlesec}
+#   \allsectionsfont{\sffamily\color{darkblue}}
+#   \usepackage{etoolbox}
+#   \usepackage{setspace}
+#   \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
+#   \titlespacing*{\section}{0pt}{0pt}{10pt}
+#   \titlespacing*{\subsection}{0pt}{0pt}{5pt}
+#   \titlespacing*{\subsubsection}{0pt}{0pt}{2pt}
 bibliography: ../references.bib
 csl: ../apa-numeric-superscript.csl
 ---
@@ -106,4 +106,3 @@ We will conduct a survey of researchers to estimate how miscalibrated they are t
 
 - Dolores thinks that just using Psych Bulletin data is not gonna fly in Psych Bulletin. It could work for PNAS or some other journal she said.
 - An interesting point from Dolores was to use the estimated distribution to try to uncover insights from psychology. To interesting examples: (1) Are effects larger for younger samples? Are kids more malleable? (2) Are effects larger the closer you get to behavior.
-
