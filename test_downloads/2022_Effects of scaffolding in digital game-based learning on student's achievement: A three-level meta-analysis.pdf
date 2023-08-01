@@ -373,4 +373,2168 @@
                 var $this = $(this);
                 var $modal_dialog = $this.find('.modal-dialog');
                 $this.css('display', 'block');
-                $modal_dialog.css({'margin-top': Math.max(0, ($(window).height() - $modal
+                $modal_dialog.css({'margin-top': Math.max(0, ($(window).height() - $modal_dialog.height()) / 2)});
+                $("#login_email").focus();
+            });
+        });
+        var isCN=true;
+        var echarts_relevancy=isCN?"关联度配置":"Relevancy configuration";
+        var echarts_ycolumn=isCN?"柱状图":"Column";
+        var echarts_xbar=isCN?"条形图":"Bar";
+        var echarts_zpie=isCN?"饼图":"Pie";
+        function getISCN() {
+            isCN=true
+        }
+        function checkImgForm() {
+            // 检查URL是否为空
+            var sturul = document.getElementById("stuurl").value;
+            if (sturul == null || sturul == '输入或粘贴图片网址') {
+                alert("请输入或粘贴图片网址!");
+                return false;
+            } else {
+                var arr = new Array();
+                var allFileType = "jpeg,png,gif,jpg,bmp,tiff";
+                arr = allFileType.split(",");
+                var fileType = sturul.substring(sturul.lastIndexOf(".") + 1).toLowerCase();
+                if ($.inArray(fileType, arr) == -1) {
+                    alert("请输入或粘贴*.jpeg;*.png;*.gif;*.jpg;*.bmp;*.tiff格式的图片网址");
+                    return false;
+                }
+            }
+        }
+
+        ///////////////////////////////////////////////////
+
+        function Dosearch() {
+            var query1 = document.getElementById("query1").value;
+            if (query1 == "精确检索请加双引号") {
+                document.getElementById("query1").value = "";
+            }
+
+            //$("#sitesearch").submit();
+            document.getElementById("sitesearch").submit();
+        }
+
+        //////////////////////////////////////////////////
+
+        //---added by wangxc 2016-2-23
+        function showCertcode() {
+            displayCertcode = true;
+            $("#tr_certcode").show();
+            $("#tr_certcode1").show();
+        }
+
+        function check() {
+            email = document.getElementById("login_email").value;
+            password = document.getElementById("tlogin_password").value;
+            certcode = document.getElementById("input-code-login").value;
+            //error=document.getElementById("error")
+            if (email == null || password == null || $.trim(email) == "" || $.trim(password) == "") {
+                document.getElementById("error").innerHTML = "请输入帐号和密码！";
+                return false;
+            }
+            if (displayCertcode) {
+                if (certcode == null || $.trim(certcode) == "") {
+                    document.getElementById("error").innerHTML = "请输入验证码！";
+                    return false;
+                }
+                if (!validateCertcode) {
+                    document.getElementById("error").innerHTML = "验证码错误！";
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        //---
+        function login_site() {
+            if (!check()) {
+                return false;
+            }
+            var login_password = $.base64.btoa(document.getElementById("tlogin_password").value);
+            var login_email = $.base64.btoa(document.getElementById("login_email").value);
+            $.post("" + "/password-login",
+                {
+                    method_type: "ajax_login",
+                    from_form: "true",
+                    random_form: "8171356359145572157",
+                    displayCertcode: displayCertcode,
+                    login_email: login_email,
+                    certCode: document.getElementById("input-code-login").value,
+                    login_password: login_password,
+                    rememberMe: document.getElementById("rememberMe").checked,
+                    timeid: new Date().getTime()
+                    
+                },
+                function (data) {
+                    if (data == "false") {
+                        document.getElementById("error").innerHTML = "验证码错误";
+                        document.getElementById("input-code-login").value = "";
+                        getCaptcha('', 'login');
+                    } else {
+                        var data = eval('(' + data + ')');
+                        if (data != null && data.original_url != null) {
+                            if (data.original_url != "#") {
+                                window.location.href = data.original_url;
+                            } else {
+                                location.reload(true);
+                            }
+
+                            if (typeof (data.msg) != 'undefined') {
+                                alert(data.msg);
+                            }
+                        } else {
+                            document.getElementById("error").innerHTML = data.msg;
+                            if (data.script != null && data.script != "")
+                                eval(data.script);
+                            getCaptcha('', 'login');
+                        }
+                    }
+                },
+                "html")
+            return false;
+        }
+
+        function abortLog() {
+            $("#loginMethodModal").hide();
+        }
+
+        function setCookie(name, value, expiredays) {
+            var exdate = new Date()
+            exdate.setDate(exdate.getDate() + expiredays)
+            document.cookie = name + "=" + escape(value) + ";path=/" + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())
+        }
+
+        function loginWithUsername() {
+            $("#loginMethodModal").modal("hide", null);
+            $(".signin").trigger("click");
+        }
+
+        function getCookie(name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(name + "=")
+                if (c_start != -1) {
+                    c_start = c_start + name.length + 1
+                    c_end = document.cookie.indexOf(";", c_start)
+                    if (c_end == -1) c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end))
+                }
+            }
+            return ""
+        }
+
+        $(function () {
+            $('#language').find('a').click(function () {
+                setCookie('language', $(this).data('value'), 1);
+                //location.reload();
+            });
+            $('#language-menu').find('a').click(function () {
+                setCookie('language', $(this).data('value'), 1);
+                //location.reload();
+            });
+        });
+    </script>
+
+</head>
+    
+
+<body>
+<div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span></button>
+                <div class="text-center" style="height: 80px">
+                    <span class="fa fa-user-circle login-logo"></span>
+                </div>
+                
+                
+                
+            </div>
+            <div class="modal-body form-horizontal">
+                
+                <div>
+                    <div class="form-group form-group-center-80" style="margin: 1em auto; width: 80%; position: relative;">
+                        <img class="userlogin-imgc"
+                             src="/themes/default/image/userlogin.png" alt="">
+                        
+                        <input name="login_email" type="text" class="input-default form-control col-lg-8 center-block"
+                               id="login_email" style="display: inline-block; width: 100%; position: relative; z-index: 1; padding-left: 3em;"/>
+                    </div>
+                    <div class="form-group form-group-center-80" style="margin: 1em auto; width: 80%; position: relative;">
+                        <img class="userlogin-imgc"
+                             src="/themes/default/image/password.png" alt="">
+                        
+                        <input name="login_password" autocomplete="off" type="password"
+                               class="input-default form-control col-lg-8 center-block" id="tlogin_password"
+                               onkeypress="if (event.keyCode == 13) login_site();"/>
+                    </div>
+                    <div class="form-group" id="tr_certcode">
+                        <label for="input-code-login" class="col-sm-4 control-label">验证码:</label>
+                        <input type="text" name="certCode" id="input-code-login" style="border: 1px solid #ccc;" class=" col-sm-7 input-default"
+                               onKeyPress="if (event.keyCode == 13) login_site();"/>
+                    </div>
+                    <div class="form-group" id="tr_certcode1">
+                        <div class="col-sm-3">
+                            <input id="type" name="type" type="text" value="login" style="display: none;">
+                            <img style="display:none;float: right; margin:0px 0 0 0px;"
+                                 src='/image/indicator.gif' id="img-validate-code-login"/>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="/captcha?type=login&num=0.3089208124773395" height="26px"
+                                 width="100px" style="float:left; margin:0 0 5px 0;" id="img-code-login"
+                                 onClick="getCaptcha('','login');" title='刷新'/>
+                            <a href="javascript:getCaptcha('','login');">刷新</a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <a style="margin-left:5px;" href="/forgot">忘记密码？</a>
+                            <label style="margin-left:35px;margin-right:13px; ">
+                                <input name="rememberMe" id="rememberMe" type="checkbox"/>
+                                <span style="cursor:pointer;">记住我</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-12 error text-center" id="error"></label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal" onclick="">取消</a>
+                    <a href="#" class="btn btn-primary" onClick="login_site();">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="loginMethodModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span></button>
+                <div class="text-center" style="height: 80px">
+                    <span class="fa fa-user-circle login-logo"></span>
+                </div>
+                
+                
+                
+            </div>
+            <div class="modal-body form-horizontal">
+                
+                <div class="form-group text-center">
+                    <a href="#" onclick="loginWithUsername();" style="margin-right:10px;valign:top;">
+                        <span class="glyphicon glyphicon-user ydy-red"></span>登录
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="phoneHeader clearfix">
+    <div class="phoneNav clearfix">
+        <div class="phoneLogo">
+            
+            <img style="height:100%;" src="/image/logo.png"/>
+            
+        </div>
+
+        <button class="phoneButtonShow"><i class="fa fa-reorder"></i></button>
+        <button class="phoneButtonHide"><i class="fa fa-remove"></i></button>
+    </div>
+</div>
+
+<div class="phoneHeaders"></div>
+
+<div class="menu-mobile">
+    <ul>
+        <li >
+            <a class="" href="/">学术成果</a>
+        </li>
+        <li ><a class="" href="/dissertation-search?type=home">学位论文</a></li>
+    </ul>
+
+    <div>
+        
+        <ul>
+            <li>
+                <a href="/sso/login"  title="统一认证登录">
+                    统一认证登录
+                </a>
+            </li>
+            <li>
+                <a  href="/login/ldap.jsp" >
+
+                    登录
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+
+    <div class="menu" id="language-menu">
+        
+        <a href="/change-language" data-value="zh_CN">中文</a>
+        <a href="/change-language" data-value="en_US">English</a>
+        <a href="https://www.cuhk.edu.cn">学校主页 </a>
+        <a href="https://library.cuhk.edu.cn">图书馆</a>
+    </div>
+
+</div>
+<script>
+    $(document).ready(function(){
+        $(".phoneButtonShow").click(function(){
+            $(this).hide()
+            $('.phoneButtonHide').show()
+            $("div.menu-mobile").animate({
+                width: '100%'
+            });
+        });
+        $(".phoneButtonLogin").click(function(){
+            $("div.menu-logo").animate({
+                width: '100%'
+            });
+        });
+
+        $(".phoneButtonHide").click(function(){
+            $(this).hide()
+            $('.phoneButtonShow').show()
+            $("div.menu-mobile").animate({
+                width: '0'
+            });
+        });
+    });
+</script>
+<header class="header">
+    <!------------top---------------->
+    <div class="top">
+        <div class="container clearfix">
+            <div class="logo">
+
+                
+                <img  src="/image/logo.png"/>
+                
+            </div>
+            <div class="header-right">
+                <div>
+                    <p id="language">
+                        <a href="/help">帮助</a>
+                        <a href="/change-language" data-value="zh_CN">中文</a>|
+                        <a href="/change-language" data-value="en_US">English</a> </p>
+                    <p style="margin-bottom: 20px">
+                        <a class="font-18" href="https://www.cuhk.edu.cn"><img src="/themes/default/image/school.png"/> 学校主页 </a>|
+                        <a class="font-18" href="https://library.cuhk.edu.cn"><img src="/themes/default/image/libaray.png"/> 图书馆</a> </p>
+                    <form method="post" action="/password-login" id="login_form1"
+                          name="login_form">
+                        <div class="login_form1-left" style="float:left;position: relative;">
+
+                            
+
+                            <a style="margin-left:5px;" title='RSS订阅'
+                               href="/feed/rss_2.0/site"><img
+                                    src="/image/rss2.gif" width="80" height="15"
+                                    alt="RSS Feed" vspace="3" border="0"/></a>&nbsp;
+                            
+
+                            <a style="margin-left:5px;" title='Atom订阅'
+                               href="/feed/atom_1.0/site"><img
+                                    src="/image/atom.png" width="45" height="15"
+                                    alt="RSS Feed" vspace="3" border="0"/></a>&nbsp;
+                            
+                        </div>
+                        
+                        <div class="prompt" style="float:left;position: relative;">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="prompt">
+                                <a href="/sso/login" class="signin login_link" style="margin-right:10px;valign:top;" title="统一认证登录">
+                                    <span class="glyphicon glyphicon-user ydy-red"></span> 统一认证登录
+                                </a>
+                                <a class="login_link" href="/login/ldap.jsp" style="margin-right: 12px;">
+                                    <span class="glyphicon glyphicon-edit"></span> 登录
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------nav---------------->
+    <nav class="nav">
+        <div class="container">
+            <ul class="spaceBetween">
+                <li ><a class="navLink navLink1" href="/">学术成果</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li ><a class="navLink navLink2" href="/dissertation-search?type=home">学位论文</a></li>
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+    </nav>
+</header>
+<script type="text/javascript">
+    var pathName = window.document.location.search;
+    var pathName1 = window.document.location.pathname;
+    if(pathName1.indexOf("advanced-search")!=-1){
+        if (pathName==''){
+            $(".navLink1").addClass("acitveNav");
+        }else {
+            $(".navLink2").addClass("acitveNav");
+        }
+    }
+
+    // $(document).ready(function(){
+    //     $(".navLink").each(function(){
+    //         $this = $(this);
+    //         if($this[0].href==String(window.location)){
+    //             $this.addClass("acitveNav");
+    //         }
+    //     });
+    //     $(".home-js-gjjs").each(function(){
+    //         $this = $(this);
+    //         console.log(window.location.href,String(window.location))
+    //         // if($this[0].href==String(window.location)){
+    //         //     $this.addClass("acitveNav");
+    //         // }
+    //     });
+    // });
+</script>
+
+<div class="header-home-button6">
+
+</div>
+
+
+
+    
+<div class="centralPane central">
+    
+
+
+        
+    <div class='pageContents contents col-lg-12 col-xs-12'
+         style='margin-left: 0;'>
+        
+            
+
+        <script>
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 100) {
+                        $("#side-bar .gotop").fadeIn();
+                    } else {
+                        $("#side-bar .gotop").hide();
+                    }
+                });
+                $("#side-bar .gotop").click(function () {
+                    $('html,body').animate({'scrollTop': 0}, 500);
+                });
+                $(".leftMuneHide").click(function(){
+                    $(this).hide()
+                    $('.leftMuneShow').show()
+                    $("div.navbarDefault").css({
+                        display: 'block'
+                    });
+                });
+                $(".leftMuneShow").click(function(){
+                    $(this).hide()
+                    $('.leftMuneHide').show()
+                    $("div.navbarDefault").css({
+                        display: 'none'
+                    });
+                });
+            });
+        </script>
+
+            
+        <ul id="side-bar" class="side-pannel side-bar">
+            <a href="/feedback" class="text survey" target="_blank"><s class="g-icon-survey1"></s><span>反馈留言</span></a>
+        </ul>
+        <script type="text/javascript">
+            $(function () {
+                $(".width-sign-out").click(function () {
+                    $(".navbarDefault").toggle(function () {
+                    });
+                });
+                $("input[name='login_email']").css({
+                    "display": "inline-block",
+                    "width": "100%",
+                    "position": "relative",
+                    "z-index": "1",
+                    "padding-left": "3em"
+                });
+                $("input[name='login_password']").css({
+                    "display": "inline-block",
+                    "width": "100%",
+                    "position": "relative",
+                    "z-index": "1"
+                });
+                $(".form-group-center-80").css({"margin": "1em auto", "width": "80%", "position": "relative"});
+                $(".modal-footer a[class='btn btn-primary']").css({"padding": ".5em 1em"});
+            })
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/css/share.min.css" type="text/css">
+    <script type="text/javascript" src="/jscripts/jquery.share.min.js"></script>
+<script type="text/javascript" src="/jscripts/pngfix.js"></script>
+<script type='text/javascript' src='/jscripts/jquery.easing.min.js?ver=2.8'></script>
+<script type='text/javascript' src='/jscripts/loopedSlider.js?ver=2.8'></script>
+<script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+
+
+    
+    
+
+            
+                
+            
+    <div class="col-md-12 mt-5 px-5">
+        <div class="home-tp-k-title mb-4">
+            <h1 class="clearfix"><span class="home-tp-k-title-span bule"></span> <span class="home-tp-k-title-name">科研成果详情</span></h1>
+                
+        </div>
+    </div>
+
+
+	
+	<table width="80%" id="dc-all" class="table detailed-table" border="0" align="right" cellpadding="0" cellspacing="0">
+<tr><td class="col-xs-1 right" style="vertical-align:middle;padding-top: 20px;"><strong>题名</strong></td><td class="col-xs-9 table-display-inline"><strong><a class="h1 title-first">Effects of Scaffolding in Digital Game-Based Learning on Student’s Achievement: a Three-Level Meta-analysis<span id="dc-title"></span></a></strong></td></tr>
+<tr><td class="col-xs-1 right"><strong>作者</strong></td><td class="col-xs-9 table-display-inline"><div style='max-height: 80px;overflow-y: auto;    line-height: 26px;'>Cai, Zhihui<a class="red-small">1</a>;  Mao, Peipei<a class="red-small">1</a>;  Wang, Dandan<a class="red-small">1</a>;  <b><a href="https://irepository.cuhk.edu.cn/profile/hejinbo" target="_blank">He, Jinbo</a></b><a class="red-small">2</a>;  Chen, Xinjie<a class="red-small">3</a>;  Fan, Xitao<a class="red-small">4</a></div>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>发表日期</strong></td><td class="col-xs-9 table-display-inline">2022
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>发表期刊</strong></td><td class="col-xs-9 table-display-inline"><a href="/simple-search?query1=Educational+Psychology+Review&field1=dc.citation.source&advanced=false">Educational Psychology Review</a>
+<span id="tab-impact" class="black-decoration"><img src="/image/waiting.gif"/></span></td></tr>
+<tr><td class="col-xs-1 right"><strong>ISSN</strong></td><td class="col-xs-9 table-display-inline">1040726X
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>DOI</strong></td><td class="col-xs-9 table-display-inline"><a href="http://dx.doi.org/10.1007/s10648-021-09655-0">10.1007/s10648-021-09655-0</a>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>一级学科</strong></td><td class="col-xs-9 table-display-inline">心理学
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>教育部统计归属</strong></td><td class="col-xs-9 table-display-inline">科技类
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>期刊发表范围</strong></td><td class="col-xs-9 table-display-inline">国外学术期刊
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>卷/期/页</strong></td><td class="col-xs-9 table-display-inline">卷34 期2 页537-574
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>参考文献</strong></td><td class="col-xs-9 table-display-inline"  style="max-height: 270px;overflow: auto;" ><div class="w-745">[1] Abdul Jabbar, A. I., &amp; Felicia, P. (2015). Gameplay engagement and learning in game-based learning: A systematic review. Review of Educational Research, 85(4), 740–779. 10.3102/0034654315577210 DOI: 10.3102/0034654315577210</br>
+[2] Acquah, E. O., &amp; Katz, H. T. (2020). Digital game-based L2 learning outcomes for primary through high-school students: A systematic literature review. Computers &amp; Education, 143, 103667. 10.1016/j.compedu.2019.103667 DOI: 10.1016/j.compedu.2019.103667</br>
+[3] *Adams, D. M., &amp; Clark, D. B. (2014). Integrating self-explanation functionality into a complex game environment: Keeping gaming in motion. Computers &amp; Education, 73, 149-159. https://doi.org/10.1016/j.compedu.2014.01.002.</br>
+[4] Adkins, S. S. (2017). The 2017-2022 Global Game-based Learning Market. https://seriousplayconf.com/wpcontent/uploads/2017/07/Metaari_2017-2022_Global_Game-based_Learning_Market_Executive_Overview.pdf</br>
+[5] *Arthur, W., Jr., Day, E. A., Bennett, W., Jr., McNelly, T. L., &amp; Jordan, J. A. (1997). Dyadic versus individual training protocols: Loss and reacquisition of a complex skill. Journal of Applied Psychology, 82(5), 783-791. https://doi.org/10.1037/0021-9010.82.5.783.</br>
+[6] Bai, S., Hew, K. F., &amp; Huang, B. (2020). Does gamification improve student learning outcome? Evidence from a meta-analysis and synthesis of qualitative data in educational contexts. Educational Research Review, 30, 100322. 10.1016/j.edurev.2020.100322 DOI: 10.1016/j.edurev.2020.100322</br>
+[7] Barron, B. (2009). When smart groups fail. The Journal of the Learning Sciences, 12(3), 307–359. 10.1207/S15327809JLS1203_1 DOI: 10.1207/S15327809JLS1203_1</br>
+[8] *Barzilai, S., &amp; Blau, I. (2014). Scaffolding game-based learning: Impact on learning achievements, perceived learning, and game experiences. Computers &amp; Education, 70, 65-79. https://doi.org/10.1016/j.compedu.2013.08.003.</br>
+[9] Becker, B. J. (2000). Multivariate meta-analysis. In In Handbook of applied multivariate statistics and mathematical modeling (pp. 499–525). Academic Press. DOI: 10.1016/B978-012691360-6/50018-5</br>
+[10] Belland, B. R. (2014). Scaffolding: Definition, current debates, and future directions. In J. Spector, M. Merrill, J. Elen, &amp; M. Bishop (Eds.), Handbook of research on educational communications and technology. Springer.</br>
+[11] Belland, B. R., Walker, A. E., Kim, N. J., &amp; Lefler, M. (2017). Synthesizing results from empirical research on computer-based scaffolding in STEM education: A meta-analysis. Review of Educational Research, 87(2), 309–344. 10.3102/0034654316670999 DOI: 10.3102/0034654316670999</br>
+[12] Broza, O., &amp; Barzilai, S. (2011). When the mathematics of life meets school mathematics: Playing and learning on the “my money” website. In Learning in the technological era: Proceedings of the sixth chais conference on instructional technologies research (pp. 92-100).</br>
+[13] Bulu, S. T., &amp; Pedersen, S. (2012). Supporting problem-solving performance in a hypermedia learning environment: The role of students’ prior knowledge and metacognitive skills. Computers in Human Behavior, 28(4), 1162–1169. 10.1016/j.chb.2012.01.026 DOI: 10.1016/j.chb.2012.01.026</br>
+[14] Cai, Z., &amp; Fan, X. (2020). A comparison of fixed-effects and random-effects models for multivariate meta-analysis using an SEM approach. Multivariate Behavioral Research, 55(6), 839–854. 10.1080/00273171.2019.1689348 DOI: 10.1080/00273171.2019.1689348</br>
+[15] Charsky, D., &amp; Ressler, W. (2011). “Games are made for fun”: Lessons on the effects of concept maps in the classroom use of computer games. Computers &amp; Education, 56(3), 604–615. 10.1016/j.compedu.2010.10.001 DOI: 10.1016/j.compedu.2010.10.001</br>
+[16] *Chen, C. H. (2019). The impacts of peer competition-based science gameplay on conceptual knowledge, intrinsic motivation, and learning behavioral patterns. Educational Technology Research and Development, 69(1), 179-198. https://doi.org/10.1007/s11423-018-9635-5.</br>
+[17] Chen, S. Y., &amp; Chang, Y. M. (2020). The impacts of real competition and virtual competition in digital game-based learning. Computers in Human Behavior, 104, 106171. 10.1016/j.chb.2019.106171 DOI: 10.1016/j.chb.2019.106171</br>
+[18] *Chen, C. H., Huang, K., &amp; Liu, J. H. (2020a). Inquiry-enhanced digital game-based learning: Effects on secondary students’ conceptual understanding in science, game performance, and behavioral patterns. The Asia-Pacific Education Researcher, 29(4), 319-330. https://doi.org/10.1007/s40299-019-00486-w.</br>
+[19] Chen, X., Zou, D., Cheng, G., &amp; Xie, H. (2020b). Detecting latent topics and trends in educational technologies over four decades using structural topic modeling: A retrospective of all volumes of computers &amp; education. Computers &amp; Education, 151, 103855. 10.1016/j.compedu.2020.103855 DOI: 10.1016/j.compedu.2020.103855</br>
+[20] Chen, K.-C., Jang, S.-J., &amp; Branch, R. M. (2010). Autonomy, affiliation, and ability: Relative salience of factors that influence online learner motivation and learning outcomes. Knowledge Management &amp; E-Learning: An International Journal (KM&amp;EL), 2(1), 30–50.</br>
+[21] *Chen, C. H., &amp; Law, V. (2016). Scaffolding individual and collaborative game-based learning in learning performance and intrinsic motivation. Computers in Human Behavior, 55, 1201-1212. https://doi.org/10.1016/j.chb.2015.03.010</br>
+[22] Chen, C. H., Law, V., &amp; Chen, W. Y. (2017). The effects of peer competition-based science learning game on secondary students’ performance, achievement goals, and perceived ability. Interactive Learning Environments, 26(2), 1–10. 10.1080/10494820.2017.1300776 DOI: 10.1080/10494820.2017.1300776</br>
+[23] Chen, C. H., Liu, J. H., &amp; Shou, W. C. (2018). How competition in a game-based science learning environment influences students’ learning achievement, flow experience, and learning behavioral patterns. Educational Technology &amp; Society, 21(2), 164–176. Retrieved May 15, 2020 from https://www.jstor.org/stable/26388392</br>
+[24] *Chen, C. H., Wang, K. C., &amp; Lin, Y. H. (2015). The comparison of solitary and collaborative modes of game-based learning on students’ science learning and motivation. Educational Technology &amp; Society, 18(2), 237-248. Retrieved May 15, 2020 from https://www.jstor.org/stable/10.2307/jeductechsoci.18.2.237</br>
+[25] Chen, C.-H., Wu, I. C., &amp; Jen, F. L. (2013). Designing online scaffolds for interactive computer simulation. Interactive Learning Environments, 21(3), 229–243. 10.1080/10494820.2010.549831 DOI: 10.1080/10494820.2010.549831</br>
+[26] Cheng, M. T., Chen, J. H., Chu, S. J., &amp; Chen, S. Y. (2015). The use of serious games in science education: A review of selected empirical research from 2002 to 2013. Journal of Computers in Education, 2(3), 353–375. 10.1007/s40692-015-0039-9 DOI: 10.1007/s40692-015-0039-9</br>
+[27] Cheng, P. H., Yeh, T. K., Tsai, J. C., Lin, C. R., &amp; Chang, C. Y. (2019a). Development of an issue-situation-based board game: A systemic learning environment for water resource adaptation education. Sustainability, 11(5), 1341. 10.3390/su11051341 DOI: 10.3390/su11051341</br>
+[28] Cheng, Y. W., Wang, Y., Cheng, I. L., &amp; Chen, N. S. (2019b). An in-depth analysis of the interaction transitions in a collaborative augmented reality-based mathematic game. Interactive Learning Environments, 27(5-6), 782–796. 10.1080/10494820.2019.1610448 DOI: 10.1080/10494820.2019.1610448</br>
+[29] Cheung, M. W. L. (2014). Modeling dependent effect sizes with three-level meta analyses: A structural equation modeling approach. Psychological Methods, 19(2), 211-229. 10.1037/a0032968</br>
+[30] Chun Hung, L., &amp; Liu, E. Z. F. (2014). The effect of self-efficacy and scaffolding on students’ programming learning in robotics learning context. Paper presented at the International Conference on Ubi-Media Computing and Workshops (UMEDIA). 10.1109/U-MEDIA.2014.64 DOI: 10.1109/U-MEDIA.2014.64</br>
+[31] Clark, D. B., Nelson, B. C., Sengupta, P., &amp; D’ Angelo, C. (2009). Rethinking science learning through digital games and simulations: Genres, examples, and evidence. National Research Council.</br>
+[32] Clark, D. B., Tanner-smith, E. E., &amp; Killingsworth, S. S. (2016). Digital games, design, and learning: A systematic review and meta-analysis. Review of Educational Research, 86(1), 79–122. 10.3102/0034654315582065 DOI: 10.3102/0034654315582065</br>
+[33] Cohen, J. (1992). A power primer. Psychological Bulletin, 112, 155–159. DOI: 10.1037/0033-2909.112.1.155</br>
+[34] Conati, C., Jaques, N., &amp; Muir, M. (2013). Understanding attention to adaptive hints in educational games: An eye-tracking study. Journal of Artificial Intelligence in Education, 23, 136–161. 10.1007/s40593-013-0002-8 DOI: 10.1007/s40593-013-0002-8</br>
+[35] *Conati, C., &amp; Manske, M. (2009). Evaluating adaptive feedback in an educational computer game. International Conference on Intelligent Virtual Agents. Springer.</br>
+[36] *Day, E. A., Boatman, P. R., Kowollik, V., Espejo, J., McEntire, L. E., &amp; Sherwin, R. E. (2007). Collaborative training with a more experienced partner: Remediating low pretraining self-efficacy in complex skill acquisition. Human Factors, 49(6), 1132-1148. https://doi.org/10.1518/001872007X249983.</br>
+[37] Dindar, M. (2018). An empirical study on gender, video game play, academic success and complex problem solving skills. Computers &amp; Education, 125, 39–52. 10.1016/j.compedu.2018.05.018 DOI: 10.1016/j.compedu.2018.05.018</br>
+[38] Doo, M. Y., Bonk, C. J., &amp; Heo, H. (2020). A meta-analysis of scaffolding effects in online learning in higher education. The International Review of Research in Open and Distance Learning, 21(3), 60–80. DOI: 10.19173/irrodl.v21i3.4638</br>
+[39] Duval, S., &amp; Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. Biometrics, 56(2), 455–463. 10.1111/j.0006-341X.2000.00455.x DOI: 10.1111/j.0006-341X.2000.00455.x</br>
+[40] van Eck, R. N. (2015). SAPS and digital games: Improving mathematics transfer and attitudes in schools. In Lowrie T., Jorgensen (Zevenbergen) R. (eds) Digital games and mathematics learning in the digital era (pp. 141-173). Springer.</br>
+[41] Erhel, S., &amp; Jamet, E. (2013). Digital game-based learning: Impact of instructions and feedback on motivation and learning effectiveness. Computers &amp; Education, 67, 156–167. 10.1016/j.compedu.2013.02.019 DOI: 10.1016/j.compedu.2013.02.019</br>
+[42] Faizan, N., Löffler, A., Heininger, R., Utesch, M., &amp; Krcmar, H. (2019). Classification of Evaluation Methods for the Effective Assessment of Simulation Games: Results from a Literature Review. International Association of Online Engineering. Retrieved August 10, 2020 from 9(1), 19–33 https://www.learntechlib.org/p/207576/</br>
+[43] Fernández-Castilla, B., Declercq, L., Jamshidi, L., Beretvas, S. N., Onghena, P., &amp; Van den Noortgate, W. (2019). Detecting selection bias in meta-analyses with multiple outcomes: A simulation study. The Journal of Experimental Education. https://doi.org/10.1080/00220973.2019.1582470</br>
+[44] *Fiorella, L., &amp; Mayer, R. E. (2012). Paper-based aids for learning with a computer-based game. Journal of Educational Psychology, 104(4), 1074-1082. https://doi.org/10.1037/a0028088</br>
+[45] Hamari, J., Shernoff, D. J., Rowe, E., Coller, B., Asbell-Clarke, J., &amp; Edwards, T. (2016). Challenging games help students learn: An empirical study on engagement, flow and immersion in game-based learning. Computers in Human Behavior, 54, 170–179. 10.1016/j.chb.2015.07.045 DOI: 10.1016/j.chb.2015.07.045</br>
+[46] Hedges, L. V., &amp; Olkin, I. (1985). Statistical methods for meta-analysis. Academic Press.</br>
+[47] Herz, J. C. (1997). Joystick nation: How videogames ate our quarters, won our hearts, and rewired our minds. Atlantic/Little.</br>
+[48] Higgins, J. P., Thomas, J., Chandler, J., Cumpston, M., Li, T., Page, M. J., &amp; Welch, V. A. (2019). Cochrane handbook for systematic reviews of interventions. John Wiley &amp; Sons. DOI: 10.1002/9781119536604</br>
+[49] Higgins, J. P., Thompson, S. G., Deeks, J. J., &amp; Altman, D. G. (2003). Measuring inconsistency in meta-analyses. British Medical Journal, 327, 557–560. 10.1136/bmj.327.7414.557 DOI: 10.1136/bmj.327.7414.557</br>
+[50] Hsiao, H.-S., Chang, C.-S., Lin, C.-Y., Chang, C.-C., &amp; Chen, J.-C. (2014). The influence of collaborative learning games within different devices on student’s learning performance and behaviours. Australasian Journal of Educational Technology, 30(6), 652–669. 10.14742/ajet.347 DOI: 10.14742/ajet.347</br>
+[51] *Hsu, C. Y., &amp; Tsai, C. C. (2013). Examining the effects of combining self-explanation principles with an educational game on learning science concepts. Interactive Learning Environments, 21(2), 104-115. https://doi.org/10.1080/10494820.2012.705850.</br>
+[52] *Hsu, C. Y., Tsai, C. C., &amp; Wang, H. Y. (2012). Facilitating third graders’ acquisition of scientific concepts through digital game-based learning: The effects of self-explanation principles. Asia-Pacific Education Researcher, 21(1), 71-82.</br>
+[53] *Hsu, C. Y., Tsai, C. C., &amp; Wang, H. Y. (2016). Exploring the effects of integrating self-explanation into a multi-user game on the acquisition of scientific concepts. Interactive Learning Environments, 24(4), 844-858. https://doi.org/10.1080/10494820.2014.926276.</br>
+[54] *Huang, Y. M., &amp; Huang, Y. M. (2015). A scaffolding strategy to develop handheld sensor-based vocabulary games for improving students’ learning motivation and performance. Educational Technology Research and Development, 63(5), 691-708. https://doi.org/10.1007/s11423-015-9382-9.</br>
+[55] *Hung, C. Y., Kuo, F. O., Sun, J. C. Y., &amp; Yu, P. T. (2013). An interactive game approach for improving students’ learning performance in multi-touch game-based learning. IEEE Transactions on Learning Technologies, 7(1), 31-37. https://doi.org/10.1109/TLT.2013.2294806.</br>
+[56] *Hwang, G. J., Sung, H. Y., Hung, C. M., Huang, I., &amp; Tsai, C. C. (2012). Development of a personalized educational computer game based on students’ learning styles. Educational Technology Research and Development, 60(4), 623-638. https://doi.org/10.1007/s11423-012-9241-x.</br>
+[57] Hwang, G. J., &amp; Wu, P. H. (2012). Advancements and trends in digital game-based learning research: A review of publications in selected journals from 2001 to 2010. British Journal of Educational Technology, 43(1), 6–10. 10.1111/j.1467-8535.2011.01242.x DOI: 10.1111/j.1467-8535.2011.01242.x</br>
+[58] *Hwang, G. J., Yang, L. H., &amp; Wang, S. Y. (2013). A concept map-embedded educational computer game for improving students’ learning performance in natural science courses. Computers &amp; Education, 69, 121-130. https://doi.org/10.1016/j.compedu.2013.07.008.</br>
+[59] *Inkpen, K., Booth, K., Klawe, M., &amp; Upitis, R. (1995). Playing together beats playing apart, especially for girls. Paper presented at The First International Conference on Computer Support for Collaborative Learning. https://doi.org/10.3115/222020.222164.</br>
+[60] Järvinen, A. (2008). Games without frontiers: Theories and methods for game studies and design. Tampere University Press.</br>
+[61] Jiang, D. Y., &amp; Kalyuga, S. (2020). Confirmatory factor analysis of cognitive load ratings supports a two-factor model. Quantitative Methods for. Psychology, 16(3), 216–225. 10.20982/tqmp.16.3.p216 DOI: 10.20982/tqmp.16.3.p216</br>
+[62] *Johnson, C. I., &amp; Mayer, R. E. (2010). Applying the self-explanation principle to multimedia learning in a computer-based game-like environment. Computers in Human Behavior, 26(6), 1246-1252. https://doi.org/10.1016/j.chb.2010.03.025.</br>
+[63] Ju, E., &amp; Wagner, C. (1997). Personal computer adventure games: Their structure, principles, and applicability for training. ACM Sigmis Database: the DATABASE for Advances in Information Systems, 28(2), 78–92. 10.1145/264701.264707 DOI: 10.1145/264701.264707</br>
+[64] Kalyuga, S. (2011). Cognitive load theory: how many types of load does it really need? Educational Psychology Review, 23(1), 1–19. 10.1007/s10648-010-9150-7 DOI: 10.1007/s10648-010-9150-7</br>
+[65] *Kao, G. Y. M., Chiang, C. H., &amp; Sun, C. T. (2017). Customizing scaffolds for game-based learning in physics: Impacts on knowledge acquisition and game design creativity. Computers &amp; Education, 113, 294-312. https://doi.org/10.1016/j.compedu.2016.10.005.</br>
+[66] *Kermani, H. (2017). Computer mathematics games and conditions for enhancing young children’s learning of number sense. Malaysian Journal of Learning and Instruction, 14(2), 23-57.</br>
+[67] Khenissi, M. A., Essalmi, F., Jemni, M., Kinshuk, G., &amp; S., &amp; Chen, N. S. (2016). Relationship between learning styles and genres of games. Computers &amp; Education, 101, 1–14. 10.1016/j.compedu.2016.05.005 DOI: 10.1016/j.compedu.2016.05.005</br>
+[68] Kirkham, J. J., Riley, R. D., &amp; Williamson, P. R. (2012). A multivariate meta-analysis approach for reducing the impact of outcome reporting bias in systematic reviews. Statistics in Medicine, 31(20), 2179–2195. 10.1002/sim.5356 DOI: 10.1002/sim.5356</br>
+[69] *Koenig, A. D. (2008). Exploring effective educational video game design: The interplay between narrative and game-schema construction. Arizona State University</br>
+[70] Konstantopoulos, S. (2011). Fixed effects and variance components estimation in threenents metaenents est Research Synthesis. Methods, 2(1), 61–76. 10.1002/jrsm.35 DOI: 10.1002/jrsm.35</br>
+[71] Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher, 49(4), 241–253. 10.3102/0013189X20912798 DOI: 10.3102/0013189X20912798</br>
+[72] Kraiger, K., Ford, J. K., &amp; Salas, E. (1993). Application of cognitive, skill-based, and affective theories of learning outcomes to new methods of training evaluation. Journal of Applied Psychology, 78(2), 311–328. 10.1037//0021-9010.78.2.311 DOI: 10.1037//0021-9010.78.2.311</br>
+[73] *Kranenburg, N. A. (2019). The effects of concept mapping in game-based learning. Master’s thesis, University of Twente.</br>
+[74] *Lal, S. (2019). Investigating the effect of process-oriented worked examples in a game-based problem-solving environment on knowledge-acquisition and transfer. Master's thesis, University of Twente.</br>
+[75] Law, V., &amp; Chen, C. H. (2016). Promoting science learning in game-based learning with question prompts and feedback. Computers &amp; Education, 103, 134–143. 10.1016/j.compedu.2016.10.005 DOI: 10.1016/j.compedu.2016.10.005</br>
+[76] *Lee, Y. H. (2013). The interaction effects of working memory capacity, gaming expertise, and scaffolding design on attention and comprehension in digital game based learning. Michigan State University.</br>
+[77] *Leemkuil, H., &amp; de Jong, T. (2012). Adaptive advice in learning with a computer-based knowledge management simulation game. Academy of Management Learning &amp; Education, 11(4), 653-665. https://doi.org/10.5465/amle.2010.0141.</br>
+[78] *Leutner, D. (1993). Guided discovery learning with computer-based simulation games: Effects of adaptive and non-adaptive instructional support. Learning and Instruction, 3(2), 113-132. 10.1016/0959-4752(93)90011-N</br>
+[79] *Liao, C. W., Chen, C. H., &amp; Shih, S. J. (2019). The interactivity of video and collaboration for learning achievement, intrinsic motivation, cognitive load, and behavior patterns in a digital game-based learning environment. Computers &amp; Education, 133, 43-55. https://doi.org/10.1016/j.compedu.2019.01.013.</br>
+[80] Lin, X. (2001). Designing metacognitive activities. Educational Technology Research and Development, 49(2), 23–40. 10.1007/BF02504926 DOI: 10.1007/BF02504926</br>
+[81] Lin, C., Hwang, G., Fu, Q., &amp; Chen, J. (2018). A flipped contextual game-based learning approach to enhancing EFL students’ English business writing performance and reflective behaviors. Educational Technology &amp; Society, 21(3), 117–131. Retrieved May 18, 2020 from https://www.jstor.org/stable/26458512</br>
+[82] Macaskill, P., Walter, S. D., &amp; Irwig, L. (2001). A comparison of methods to detect publication bias in meta-analysis. Statistics in Medicine, 20(4), 641–654. 10.1002/sim.698 DOI: 10.1002/sim.698</br>
+[83] Mayer, R. E. (2019). Computer games in education. Annual Review of Psychology, 70(1), 531–549. 10.1146/annurev-psych-010418-102744 DOI: 10.1146/annurev-psych-010418-102744</br>
+[84] *Mayer, R. E., &amp; Johnson, C. I. (2010). Adding instructional features that promote learning in a game-like environment. Journal of Educational Computing Research, 42(3), 241-265. https://doi.org/10.2190/EC.42.3.a.</br>
+[85] *Mayer, R. E., Mautone, P., &amp; Prothero, W. (2002). Pictorial aids for learning by doing in a multimedia geology simulation game. Journal of Educational Psychology, 94(1), 171-185. https://doi.org/10.1037/0022-0663.94.1.171.</br>
+[86] Mayer, R. E., &amp; Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning. Educational Psychologist, 38(1), 43–52. 10.1207/S15326985EP3801_6 DOI: 10.1207/S15326985EP3801_6</br>
+[87] *van der Meij, H., Albers, E., &amp; Leemkuil, H. (2011). Learning from games: Does collaboration help?. British Journal of Educational Technology, 42(4), 655-664. https://doi.org/10.1111/j.1467-8535.2010.01067.x.</br>
+[88] Moeyaert, M., Ugille, M., Ferron, J. M., Beretvas, S. N., &amp; Van den Noortgate, W. (2016). The misspecification of the covariance structures in multilevel models for single-case data: A Monte Carlo simulation study. The Journal of Experimental Education, 84(3), 473–509. 10.1080/00220973.2015.1065216 DOI: 10.1080/00220973.2015.1065216</br>
+[89] *Moreno, R., &amp; Mayer, R. E. (2005). Role of guidance, reflection, and interactivity in an agent-based multimedia game. Journal of Educational Psychology, 97(1), 117-128.</br>
+[90] Newman, J. A. (2013). Videogames. Routledge.</br>
+[91] Nihalani, P. K., Mayrath, M., &amp; Robinson, D. H. (2011). When feedback harms and collaboration helps in computer simulation environments: An expertise reversal effect. Journal of Educational Psychology, 103(4), 776–785. 10.1037/a0025276 DOI: 10.1037/a0025276</br>
+[92] Ninaus, M., Kiili, K., Mcmullen, J., &amp; Moeller, K. (2017). Assessing fraction knowledge by a digital game. Computers in Human Behavior, 70, 197–206. 10.1016/j.chb.2017.01.004 DOI: 10.1016/j.chb.2017.01.004</br>
+[93] *O’Neil, H. F., Chung, G. K., Kerr, D., Vendlinski, T. P., Buschang, R. E., &amp; Mayer, R. E. (2014). Adding self-explanation prompts to an educational computer game. Computers in Human Behavior, 30, 23-28. 10.1016/j.chb.2013.07.025.</br>
+[94] *Obikwelu, C. O. (2017). Evaluating scaffolding in serious games with children. Unpublished doctoral dissertation, University of Central Lancashire.</br>
+[95] Palinscar, A., &amp; Brown, A. (1984). Reciprocal teaching of comprehension-fostering and comprehension-monitoring activities. Cognition and Instruction, 1, 117–175. 10.1207/s1532690xci0102_1 DOI: 10.1207/s1532690xci0102_1</br>
+[96] Pass, F., Tuovinen, J. E., Tabbers, H., &amp; Van Gerven, P. W. M. (2003). Cognitive load measurement as a means to advance cognitive load theory. Educational Psychologist, 38(1), 63–71. 10.1207/S15326985EP3801_8 DOI: 10.1207/S15326985EP3801_8</br>
+[97] *Plass, J. L., O'Keefe, P. A., Homer, B. D., Case, J., Hayward, E. O., Stein, M., &amp; Perlin, K. (2013). The impact of individual, competitive, and collaborative mathematics game play on learning, performance, and motivation. Journal of Educational Psychology, 105(4), 1050–1066. 10.1037/a0032688.</br>
+[98] van de Pol, J., Volman, M., &amp; Beishuizen, J. (2010). Scaffolding in teacher–student interaction: A decade of research. Educational Psychology Review, 22(3), 271–296. 10.1007/s10648-010-9127-6 DOI: 10.1007/s10648-010-9127-6</br>
+[99] Pratama, L. D., &amp; Setyaningrum, W. (2018). GBL in math problem solving: Is it effective? International Journal of Interactive Mobile Technologies, 12(6), 101–111. 10.3991/ijim.v12i6.8658 DOI: 10.3991/ijim.v12i6.8658</br>
+[100] Prensky, M. (2001). Digital game-based learning. McGraw-Hill.</br>
+[101] Puntambekar, S., &amp; Hubscher, R. (2005). Tools for scaffolding students in a complex learning environment: What have we gained and what have we missed? Educational Psychologist, 40(1), 1–12. 10.1207/s15326985ep4001_1 DOI: 10.1207/s15326985ep4001_1</br>
+[102] R Core Team. (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. Retrieved March 10, 2020 from https://www.R-project.org/</br>
+[103] Reed, D. A., Cook, D. A., Beckman, T. J., Levine, R. B., Kern, D. E., &amp; Wright, S. M. (2007). Association between funding and quality of published medical education research. JAMA, 298(9), 1002–1009. 10.1001/jama.298.9.1002 DOI: 10.1001/jama.298.9.1002</br>
+[104] Riley, R. D. (2009). Multivariate meta-analysis: the effect of ignoring within-study correlation. Journal of the Royal Statistical Society: Series A (Statistics in Society), 172(4), 789–811. 10.1111/j.1467-985X.2008.00593.x DOI: 10.1111/j.1467-985X.2008.00593.x</br>
+[105] Rosenthal, R. (1979). The file drawer problem and tolerance for null results. Psychological Bulletin, 86(3), 638–641. 10.1037/0033-2909.86.3.638 DOI: 10.1037/0033-2909.86.3.638</br>
+[106] Ross, J. A. (2008). Explanation giving and receiving in cooperative learning groups. In R. M. Gillies, A. F. Ashman, &amp; J. Terwel (Eds.), The teacher’s role in implementing cooperative learning in the classroom (pp. 222–237). Springer. DOI: 10.1007/978-0-387-70892-8_11</br>
+[107] Sailer, M., &amp; Homner, L. (2020). The gamification of learning: A meta-analysis. Educational Psychology Review, 32, 77–112. 10.1007/s10648-019-09498-w DOI: 10.1007/s10648-019-09498-w</br>
+[108] *Sandberg, J. A. C., Wielinga, B. J., &amp; Christoph, L. H. (2012). The role of prescriptive models in learning. Computers &amp; Education, 59(2), 839-854. https://doi.org/10.1016/j.compedu.2011.11.021</br>
+[109] *Schrader, C., &amp; Bastiaens, T. (2012). Learning in educational computer games for novices: The impact of support provision types on virtual presence, cognitive load, and learning outcomes. The International Review of Research in Open and Distributed Learning, 13(3), 206-227. https://doi.org/10.19173/irrodl.v13i3.1166.</br>
+[110] *Segedy, J. R., Biswas, G., Blackstock, E. F., &amp; Jenkins, A. (2013). Guided skill practice as an adaptive scaffolding strategy in open-ended learning environments. In International Conference on Artificial Intelligence in Education (pp. 532-541). Springer.</br>
+[111] Shute, V. J., &amp; Ke, F. (2012). Games, learning and assessment. In D. Ifenthaler &amp; D. Eseryel (Eds.), Assessment in game-based learning: Foundations, innovations, and perspectives (pp. 43–58). Springer. DOI: 10.1007/978-1-4614-3546-4_4</br>
+[112] Skulmowski, A., &amp; Xu, K. M. (2021). Understanding cognitive load in digital and online learning: A new perspective on extraneous cognitive load. Educational Psychology Review. Advance online publication. https://doi.org/10.1007/s10648-021-09624-7</br>
+[113] Smith, R. P., &amp; Learman, L. A. (2017). A plea for MERSQI: The medical education research study quality instrument. Obstetrics &amp; Gynecology, 130(4), 686–690. 10.1097/AOG.0000000000002091 DOI: 10.1097/AOG.0000000000002091</br>
+[114] *Stewart Jr, P. (2013). Learning the rules of the game: The nature of game and classroom supports when using a concept-integrated digital physics game in the middle school science classroom. Doctoral dissertation, Columbia University.</br>
+[115] Sun, C. T., Chen, L. X., &amp; Chu, H. M. (2018). Associations among scaffold presentation, reward mechanisms and problem-solving behaviors in game play. Computers &amp; Education, 119, 95–111. 10.1016/j.compedu.2018.01.001 DOI: 10.1016/j.compedu.2018.01.001</br>
+[116] *Sun, C. T., Wang, D. Y., &amp; Chan, H. L. (2011). How digital scaffolds in games direct problem-solving behaviors. Computers &amp; Education, 57(3), 2118-2125. https://doi.org/10.1016/j.compedu.2011.05.022.</br>
+[117] *Sung, H. Y., &amp; Hwang, G. J. (2013). A collaborative game-based learning approach to improving students’ learning performance in science courses. Computers &amp; education, 63, 43-51. https://doi.org/10.1016/j.compedu.2012.11.019.</br>
+[118] *Sung, H., &amp; Hwang, G. (2018). Facilitating effective digital game-based learning behaviors and learning performances of students based on a collaborative knowledge construction strategy. Interactive Learning Environments, 26(1), 118-134. https://doi.org/10.1080/10494820.2017.1283334.</br>
+[119] Sweller, J. (2010). Element interactivity and intrinsic, extraneous, and germane cognitive load. Educational Psychology Review, 22(2), 123–138. 10.1007/s10648-010-9128-5 DOI: 10.1007/s10648-010-9128-5</br>
+[120] Sweller, J., van Merrienboer, J. J. G., &amp; Paas, F. (1998). Cognitive architecture and instructional design. Educational Psychology Review, 10, 251–296. 10.1023/a:1022193728205 DOI: 10.1023/a:1022193728205</br>
+[121] Sweller, J., van Merriënboer, J. J. G., &amp; Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. Educational Psychology Review, 31(2), 261–292. 10.1007/s10648-019-09465-5 DOI: 10.1007/s10648-019-09465-5</br>
+[122] Tapingkae, P., Panjaburee, P., Hwang, G. J., &amp; Srisawasdi, N. (2020). Effects of a formative assessment-based contextual gaming approach on students’ digital citizenship behaviours, learning motivations, and perceptions. Computers &amp; Education, 159, 103998. 10.1016/j.compedu.2020.103998 DOI: 10.1016/j.compedu.2020.103998</br>
+[123] Taub, M., Sawyer, R., Smith, A., Rowe, J., Azevedo, R., &amp; Lester, J. (2020). The agency effect: The impact of student agency on learning, emotions, and problem-solving behaviors in a game-based learning environment. Computers &amp; Education, 147, 103781. 10.1016/j.compedu.2019.103781 DOI: 10.1016/j.compedu.2019.103781</br>
+[124] Tokac, U., Novak, E., &amp; Thompson, C. G. (2019). Effects of game-based learning on students’ mathematics achievement: A meta-analysis. Journal of Computer Assisted Learning, 35(3), 407–420. 10.1111/jcal.12347 DOI: 10.1111/jcal.12347</br>
+[125] Tsai, M. J., Huang, L. J., Hou, H. T., Hsu, C. Y., &amp; Chiou, G. L. (2016). Visual behavior, flow and achievement in game-based learning. Computers &amp; Education, 98, 115–129. 10.1016/j.compedu.2016.03.011 DOI: 10.1016/j.compedu.2016.03.011</br>
+[126] *Tsai, F. H., Kinzer, C., Hung, K. H., Chen, C. L. A., &amp; Hsu, I. Y. (2013). The importance and use of targeted content knowledge with scaffolding aid in educational simulation games. Interactive Learning Environments, 21(2), 116-128. https://doi.org/10.1080/10494820.2012.705852.</br>
+[127] Tsai, Y. L., &amp; Tsai, C. (2018). Digital game-based second-language vocabulary learning and conditions of research designs: A meta-analysis study. Computers &amp; Education, 125, 345–357. 10.1016/j.compedu.2018.06.020 DOI: 10.1016/j.compedu.2018.06.020</br>
+[128] Tsai, Y. L., &amp; Tsai, C. C. (2020). A meta-analysis of research on digital gameigital science learning. Journal of Computer Assisted Learning, 36(3), 280–294. 10.1111/jcal.12430 DOI: 10.1111/jcal.12430</br>
+[129] Tychsen, A., &amp; Hitchens, M. (2009). Game time: Modeling and analyzing time in multiplayer and massively multiplayer games. Games and Culture, 4(2), 170–201. 10.1177/1555412008325479 DOI: 10.1177/1555412008325479</br>
+[130] *Vandercruysse, S., Ter Vrugte, J., De Jong, T., Wouters, P., Van Oostendorp, H., &amp; Verschaffel, L., et al. (2016). The effectiveness of a math game: The impact of integrating conceptual clarification as support. Computers in Human Behavior, 64, 21-33. https://doi.org/10.1016/j.chb.2016.06.004.</br>
+[131] Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of Statistical Software, 36(3), 1–48. 10.18637/jss.v036.i03 DOI: 10.18637/jss.v036.i03</br>
+[132] Viechtbauer, W., &amp; Cheung, M. W. (2010). Outlier and influence diagnostics for meta-analysis. Research Synthesis Methods, 1(2), 112–125. 10.1002/jrsm.11 DOI: 10.1002/jrsm.11</br>
+[133] Vogel, J. J., Vogel, D. S., Cannon-Bowers, J., Bowers, C. A., Muse, K., &amp; Wright, M. (2006). Computer gaming and interactive simulations for learning: A meta-analysis. Journal of Educational Computing Research, 34, 229–243. 10.2190/FLHV-K4WA-WPVQ-H0YM DOI: 10.2190/FLHV-K4WA-WPVQ-H0YM</br>
+[134] *ter Vrugte, J., de Jong, T., Wouters, P., Vandercruysse, S., Elen, J., &amp; Van Oostendorp, H. (2015a). When a game supports prevocational math education but integrated reflection does not. Journal of Computer Assisted Learning, 31(5), 462-480. https://doi.org/10.1111/jcal.12104.</br>
+[135] *ter Vrugte, J., de Jong, T., Vandercruysse, S., Wouters, P., van Oostendorp, H., &amp; Elen, J. (2015b). How competition and heterogeneous collaboration interact in prevocational game-based mathematics education. Computers &amp; Education, 89, 42-52. https://doi.org/10.1016/j.compedu.2015.08.010.</br>
+[136] Vygotsky, L. S. (1978). In M. Cole, V. John-Steiner, S. Scribner, &amp; E. Souberman (Eds.), Mind in society—The development of higher psychological processes. Harvard University Press.</br>
+[137] *Wang, Y. H. (2020). Exploring the effects of designing a role-playing game with single and peer mode for campus learning. Educational Technology Research and Development, 68(3), 1275-1299. 10.1007/s11423-019-09726-8.</br>
+[138] Wood, D., Bruner, J. S., &amp; Ross, G. (1976). The role of tutoring in problem solving. Journal of Child Psychology and Psychiatry, 17(2), 89–100. 10.1111/j.1469-7610.1976.tb00381.x DOI: 10.1111/j.1469-7610.1976.tb00381.x</br>
+[139] Wouters, P., van Nimwegen, C., van Oostendorp, H., &amp; van Der Spek, E. D. (2013). A meta-analysis of the cognitive and motivational effects of serious games. Journal of Educational Psychology, 105(2), 249–265. 10.1037/a0031311 DOI: 10.1037/a0031311</br>
+[140] Wouters, P., &amp; van Oostendorp, H. (2013). A meta-analytic review of the role of instructional support in game-based learning. Computers &amp; Education, 60, 412–425. 10.1016/j.compedu.2012.07.018 DOI: 10.1016/j.compedu.2012.07.018</br>
+[141] Wronowski, M., Urick, A., Wilson, A. S., Thompson, W., Thomas, D., Wilson, S., …, &amp; Ralston, R. (2019). Effect of a serious educational game on academic and affective outcomes for statistics instruction. Journal of educational computing research, 0735633118824693.</br>
+[142] *Yang, K. H. (2017). Learning behavior and achievement analysis of a digital game-based learning approach integrating mastery learning theory and different feedback models. Interactive Learning Environments, 25(2), 235-248. 10.1080/10494820.2017.1286099.</br>
+[143] Yang, K. H., &amp; Lu, B. C. (2021). Towards the successful game-based learning: Detection and feedback to misconceptions is the key. Computers &amp; Education, 160, 104033. 10.1016/j.compedu.2020.104033 DOI: 10.1016/j.compedu.2020.104033</br>
+[144] Zheng, L. (2016). The effectiveness of self-regulated learning scaffolds on academic performance in computer-based learning environments: A meta-analysis. Asia Pacific Education Review, 17(2), 187–202. 10.1007/s12564-016-9426-9 DOI: 10.1007/s12564-016-9426-9</br>
+[145] *Zumbach, J., Rammerstorfer, L., &amp; Deibl, I. (2020). Cognitive and metacognitive support in learning with a serious game about demographic change. Computers in Human Behavior, 103, 120-129. https://doi.org/10.1016/j.chb.2019.09.026.</br>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>引用统计</strong></td><td class="col-xs-9 table-display-inline"><div class='sci-citation-data-item'>
+被引频次：<a href='https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000742579200001&DestLinkType=CitingArticles&DestApp=ALL_WOS&UsrCustomerID=f9b44aa74bdb1bce83972b7f9e578ebf' title='查看引用文章' target='_blank' class='red-decoration red-border'>8</a>[WOS]
+&nbsp;&nbsp;<a href='https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000742579200001&DestLinkType=FullRecord&DestApp=ALL_WOS&UsrCustomerID=f9b44aa74bdb1bce83972b7f9e578ebf' target='_blank'>[WOS记录]</a>&nbsp;&nbsp;
+&nbsp;&nbsp;<a href='https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000742579200001&DestLinkType=RelatedRecords&DestApp=ALL_WOS&UsrCustomerID=f9b44aa74bdb1bce83972b7f9e578ebf' target='_blank'>[WOS相关记录]</a>
+</div>
+<div id='sci-citation-data-scopus' class='sci-citation-data-item'></div>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>文献类型</strong></td><td class="col-xs-9 table-display-inline"><a class="red-decoration red-border" href="/simple-search?query1=%22%E6%9C%9F%E5%88%8A%E8%AE%BA%E6%96%87%22&field1=dc.type&advanced=false">期刊论文</a>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>条目标识符</strong></td><td class="col-xs-9 table-display-inline" style="word-break:break-all;"><a target='_blank' href='/handle/3EPUXD0A/3267'>https://irepository.cuhk.edu.cn/handle/3EPUXD0A/3267</a>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>专题</strong></td><td class="col-xs-9 table-display-inline"><a target='_blank' href="/handle/3EPUXD0A/9">人文社科学院</a><br/></td></tr>
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>通讯作者</strong></td><td class="col-xs-9 table-display-inline">Cai, Zhihui<tr><td class="col-xs-1 right"><strong>作者单位</strong></td><td class="col-xs-9 table-display-inline"><div style='max-height: 125px;overflow-y: auto;    line-height: 26px;'>1.School of Psychology, Central China Normal University, Hubei, Wuhan, China<br/>2.School of Humanities and Social Science, The Chinese University of Hong Kong (Shenzhen), Shenzhen, China<br/>3.Graduate School of Education, Stanford University, Stanford, United States<br/>4.Faculty of Education, The Chinese University of Hong Kong, Hong Kong<br/><div></td></tr>
+<tr><td class="col-xs-1 right"><strong>推荐引用方式</strong><br><strong>GB/T 7714</strong></td><td class="col-xs-9 table-display-inline">
+Cai, Zhihui,Mao, Peipei,Wang, Dandanet al. Effects of Scaffolding in Digital Game-Based Learning on Student’s Achievement: a Three-Level Meta-analysis[J].
+            Educational Psychology Review,2022.
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>APA</strong></td><td class="col-xs-9 table-display-inline">
+Cai, Zhihui, Mao, Peipei, Wang, Dandan, He, Jinbo, Chen, Xinjie, & Fan, Xitao. (2022). Effects of Scaffolding in Digital Game-Based Learning on Student’s Achievement: a Three-Level Meta-analysis.  Educational Psychology Review. 
+</td></tr>
+<tr><td class="col-xs-1 right"><strong>MLA</strong></td><td class="col-xs-9 table-display-inline">
+Cai, Zhihui,et al."Effects of Scaffolding in Digital Game-Based Learning on Student’s Achievement: a Three-Level Meta-analysis".<i>Educational Psychology Review</i> (2022).
+</td></tr>
+</table>
+<table class="title-entry" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="entry"><td colspan="2"><strong><a class="entry-head">条目包含的文件</a></strong></td><td colspan="5" class="right"><strong>
+</strong></td></tr>
+<td colspan="5" class="right">条目无相关文件。</td></tr>
+</table>
+<table class="title-entry-fixed" cellspacing="0" cellpadding="0" border="0"><tr><td class="border-bottom-red"><strong><a class="red-font-15">个性服务</a></strong></td></tr><tr><td><a class="icon-padding-l icon-view" href="/usage-stats?stats_object=item&object_id=3369">查看访问统计</a></td></tr><tr><td class="border-bottom-red"><strong><a class="red-font-15">谷歌学术</a></strong></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://scholar.google.com/scholar?q=Effects+of+Scaffolding+in+Digital+Game-Based+Learning+on+Student’s+Achievement:+a+Three-Level+Meta-analysis" target="_blank">谷歌学术中相似的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://scholar.google.com/scholar?q=author:Cai, Zhihui" target="_blank">[Cai, Zhihui]的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://scholar.google.com/scholar?q=author:Mao, Peipei" target="_blank">[Mao, Peipei]的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://scholar.google.com/scholar?q=author:Wang, Dandan" target="_blank">[Wang, Dandan]的文章</a></td></tr><tr><td class="border-bottom-red"><strong><a class="red-font-15">百度学术</a></strong></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://xueshu.baidu.com/s?wd=Effects+of+Scaffolding+in+Digital+Game-Based+Learning+on+Student’s+Achievement:+a+Three-Level+Meta-analysis" target="_blank">百度学术中相似的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://xueshu.baidu.com/s?wd=author:Cai, Zhihui" target="_blank">[Cai, Zhihui]的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://xueshu.baidu.com/s?wd=author:Mao, Peipei" target="_blank">[Mao, Peipei]的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="http://xueshu.baidu.com/s?wd=author:Wang, Dandan" target="_blank">[Wang, Dandan]的文章</a></td></tr><tr><td class="border-bottom-red"><strong><a class="red-font-15">必应学术</a></strong></td></tr><tr><td><a class="icon-padding-l icon-title" href="https://www.bing.com/academic/search?q=Effects+of+Scaffolding+in+Digital+Game-Based+Learning+on+Student’s+Achievement:+a+Three-Level+Meta-analysis" target="_blank">必应学术中相似的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="https://www.bing.com/academic/search?q=Cai, Zhihui&filters=author:Cai, Zhihui" target="_blank">[Cai, Zhihui]的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="https://www.bing.com/academic/search?q=Mao, Peipei&filters=author:Mao, Peipei" target="_blank">[Mao, Peipei]的文章</a></td></tr><tr><td><a class="icon-padding-l icon-title" href="https://www.bing.com/academic/search?q=Wang, Dandan&filters=author:Wang, Dandan" target="_blank">[Wang, Dandan]的文章</a></td></tr><tr><td class="border-bottom-red"><strong><a class="red-font-15">相关权益政策</a></strong></td></tr><tr><td><a class="null-value">暂无数据</a></td></tr><tr><td class="border-bottom-red"><strong><a class="red-font-15">收藏/分享</a></strong></td></tr><tr><td><div class="social-share"></div></td></tr></table></td></tr></table>
+
+	<div id="loopedSlider">
+            
+            </div>
+
+
+        <table width="33%"  border="0" align="center" cellpadding="3" cellspacing="3">
+          <tr>
+            <td>
+            
+            <form method="get" action="/handle/3EPUXD0A/3267" id="viewItemForm">
+                <input type="text" name="workspace_id" value="" style="display: none;" />
+                <!--Modified by lijw,7/27/2014.-->
+                <!--<input type="submit" name="submitThis" value="简要信息" />-->
+
+                <input type="text" name="mode" value="simple" style="display: none;"/>
+                <input type="text" name="page" id="commentCurrPage" value="0" style="display: none;"/>
+                <input type="text" name="rndComment" id="rndComment" value="0" style="display: none;"/>
+            </form>
+        </td>
+          </tr>
+        </table>
+
+        
+        
+
+
+        
+        <div class="comment">
+            <div style="  border:1px solid #ccc; padding:0; overflow:hidden;width: 100%">
+                <div style="background-color:#EEF1F6; padding-left:5px; font-weight:bold; line-height:25px; margin:0; overflow:hidden;  border-bottom:1px solid #ccc; background-image:url(/image/comment/title-bg.jpg); background-repeat:repeat-x;">
+                    <div style="float:left; width:150px;">
+                        所有评论
+                        <span style="font-size:11px; color:#666666; font-weight:normal;">(0)</span>
+                    </div>
+                    <div style="float:right;">
+                        <a class="btn btn-primary btn-sm" onclick="newReplay()" title='发表评论/异议/意见'>[发表评论/异议/意见]</a></div>
+                </div>
+                <div style="padding:5px 15px 0px 15px;">
+                
+                    <div style="line-height:30px; padding-left:5px;">暂无评论</div>
+                
+                </div>
+            </div>
+
+        <div>&nbsp;</div>
+
+        <div id="item-comment" class="item-comment_wrapper" style="display:none;">
+
+            <div class="item-comment_container">
+
+                <ul class="item-comment">
+
+                    <li class="active"><a href="#tab1">评论</a></li>
+
+                    <li><a href="#tab2">权益异议</a></li>
+
+                    <li><a href="#tab3">反馈意见</a></li>
+
+                </ul>
+
+            </div>
+
+            <div id="item-comment_content_container">
+                <div id="tab1" class="item-comment_content" style="display: block;">
+                
+                <div style="margin-top:20px; text-align:center; color:#000;">
+                    评注功能仅针对注册用户开放，请您<a href="/password-login">登录</a>
+                </div></br>
+                
+                </div>
+
+
+                <div id="tab2" class="item-comment_content media-scroll">
+
+                     <form id="commentFormObjection"  method="post" action="/comment">
+                        <table style="background-color:#fff;" cellpadding="2" cellspacing="1" class="table-condensed">
+                            <tr><td colspan="2" style="color:red; text-align:center; line-height:25px;">您对该条目有什么异议，请向管理员反馈。</td></tr>
+
+                            <tr>
+                                <td valign="top" style="font-size:13.5px;">
+                                    内 容：
+                                </td>
+                                <td>
+                                    <textarea id="editor2" name="comment" style="width:500px; height:330px;"></textarea>
+                                </td>
+                            </tr>
+
+                             
+                            <tr>
+                                <td style="width:60px; font-size:13.5px;">
+                                    <span style="color:red;">*</span>Email：
+                                </td>
+                                <td>
+                                    <input type="text" name="email" style="width:200px;" id="input-email-objection" class="required form-control"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:60px; font-size:13.5px;">
+                                    单位:
+                                </td>
+                                <td>
+                                    <input class="form-control" type="text" name="organization" id="input-email-organization"  style="width:500px;"/>
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td style="width:60px; font-size:13.5px;">
+                                    验证码：
+                                </td>
+                                <td style="line-height:35px; ">
+                                    <input type="text" class="form-control" name="organization" id="input-code-objection"  style="width:80px; float:left; margin:5px 0 0 0;"/>&nbsp;<img style="display:none; float:left; margin:8px 0 0 5px;" src='/image/indicator.gif' id="img-validate-code-objection" />
+                                    <img src="/captcha?type=objection&num=0.4463653169139281" height="30px" width="110px" id="img-code-objection" style="float:left; margin:0 0 0 50px;" onclick='getCaptcha("","objection");' title="点击刷新验证码"/><span style="cursor:pointer;"  onclick='getCaptcha("","objection");' >刷新</span>
+
+                                </td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <input name="" id="submitObjection" type="button" value="提交" style="width:60px;" onClick="commitObjectionForm('add',this);"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                </div>
+
+                <div id="tab3" class="item-comment_content media-scroll">
+
+
+                     <form id="commentFormFeedback"  method="post" action="/comment">
+                        <table class="table-condensed" style="background-color:#fff;"  >
+                            <tr><td colspan="2" style="color:red; text-align:center; line-height:25px;">您在知识库使用过程中有什么好的想法或者建议可以反馈给我们。</td></tr>
+
+                            <tr>
+                                <td style="width:60px; font-size:13.5px;">
+                                    <span style="color:red;">*</span>标 题：
+                                </td>
+                                <td>
+                                    <input  type="text" name="subject" id="input-title-feedback"  style="width:400px;" class="required form-control"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" style="font-size:13.5px;">
+                                    内 容：
+                                </td>
+                                <td>
+                                    <textarea class="form-control" id="editor3" name="comment" style="width:500px; height:330px;"></textarea>
+                                </td>
+                            </tr>
+
+                            
+                            <tr>
+                                <td style="width:60px; font-size:13.5px;">
+                                    <span style="color:red;">*</span>Email：
+                                </td>
+                                <td>
+                                    <input  type="text" name="email" id="input-email-feedback" style="width:200px;" class="required form-control"/>
+                                </td>
+                            </tr>
+                            
+
+
+                            
+                            <tr>
+                                <td style="width:60px; font-size:13.5px;">
+                                    验证码：
+                                </td>
+                                <td style="line-height:35px; ">
+                                    <input class="form-control" type="text" name="organization"  id="input-code-feedback" style="width:80px; float:left; margin:5px 0 0 0;"/>&nbsp;<img style="display:none; float:left; margin:8px 0 0 5px;" src='/image/indicator.gif' id="img-validate-code-feedback" />
+                                    <img src="/captcha?type=feedback&num=0.3313839735621146" height="30px" width="110px" style="float:left; margin:0 0 0 50px;" id="img-code-feedback" onclick='getCaptcha("","feedback");' title="点击刷新验证码"/><span style="cursor:pointer;"  onclick='getCaptcha("","feedback");' >刷新</span>
+
+                                </td>
+                            </tr>
+                            
+
+
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <input name="" id="submitObjection" type="button" value="提交" style="width:60px;" onClick="commitFeedbackForm();"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="div_modify_comment" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h3>修改评论</h3>
+                    </div>
+                    <div class="modal-body form-horizontal">
+                        <textarea id="editor4" name="comment" style="width:500px; height:330px;"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="text" id="comment_id" style="display: none;"/>
+                        <a href="#" class="btn" data-dismiss="modal">取消</a>
+                        <a href="#" class="btn btn-primary" onclick="submitComment();">确定</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+         <p class="submitFormHelp">除非特别说明，本系统中所有内容都受版权保护，并保留所有权利。</p>
+    <div id="epersonModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h3>选择用户</h3>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <table id="epersonlist"></table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-cancel" data-dismiss="modal">取消</a>
+                    <a href="#" class="btn btn-primary" data-dismiss="modal">确定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    function showEPersonList()
+    {
+        $('#epersonModal').modal('show');
+    }
+    function queryParams(params) {
+        return params;
+    }
+    //弹出选择用户窗口
+    $('#epersonModal').on('show.bs.modal', function (e) {
+        var uurl = ''+'/tools/eperson-list?json=hasItems';
+        $('#epersonlist').bootstrapTable({
+            locale:"zh-CN",
+            method: 'get',
+            url: uurl,
+            cache: false,
+            striped: true,
+            pagination: true,
+            sidePagination: "server",
+            pageSize: 10,
+            pageList: [10, 20, 50],
+            pageNumber:1,
+            search: true,
+            clickToSelect: true,
+            selectItemName:'eperson_id',
+            queryParams: queryParams,
+            columns: [{
+                radio: true,
+            }, {
+                field: 'fullname',
+                title: '姓名',
+                width:100,
+                sortable: true
+            }, {
+                field: 'department',
+                width:150,
+                title: '所属部门'
+            }, {
+                field: 'email',
+                width:200,
+                title: '电子邮件'
+            }]
+        });
+    });
+
+    //弹出界面的确认按钮
+    $('#epersonModal .btn-primary').click(function(){
+        var selectRows = $("#epersonlist").bootstrapTable('getSelections');
+        var eperson_id;
+        if(selectRows.length == 1)
+        {
+            eperson_id= selectRows[0].eperson_id;
+            var r=confirm("是否发送邮件")
+            if (r==true)
+            {
+                $.get(baseURL+"/tools/author-push",
+                    {
+                        "method_type":"saveSingleItem",
+                        "item_id":"3369",
+                        "selected_eperson_3369":eperson_id,
+                        "is_send_email_3369":true,
+                    },
+                    function(data){
+                        if(data!=null){
+                            window.alert("推送成功");
+                        }
+                    })
+            }
+            else
+            {
+                $.get(baseURL+"/tools/author-push",
+                    {
+                        "method_type":"saveSingleItem",
+                        "item_id":"3369",
+                        "selected_eperson_3369":eperson_id,
+                        "is_send_email_3369":false,
+                    },
+                    function(data){
+                        if(data!=null){
+                            window.alert("推送成功");
+                        }
+                    })
+            }
+        }else if(selectRows.length <1){
+            window.alert("请选择要推送的用户");
+        }
+    });
+
+	function addRow(html)
+	{
+		var t = document.getElementById("dc-all");
+		var Row = t.insertRow(t.rows.length);
+		var Cell = Row.insertCell(0);
+		var Cell2 = Row.insertCell(1);
+		Cell.setAttribute("class","col-xs-1 right");
+		Cell2.setAttribute("class","col-xs-9 table-display-inline");
+		Cell.innerHTML='<strong>其他</strong>';
+		Cell2.innerHTML=html;
+	}
+	function getthom()
+	{
+		if(document.getElementById("dc-title")!=null)
+		{
+			var title = document.getElementById("dc-title").innerHTML;
+			$.get(baseURL+"/get-sci-citation",
+			{
+				"itemid":"3369",
+				"getscitype":"thomsonreuters",
+				"num":Math.random()
+			},
+			function(data)
+			{
+				if(data.length>10)
+				{
+					var data = eval('('+data+')');
+
+					if(data!=null)
+					{
+						if(data.sci_citataion[0].ESI_MOST_CITED_ARTICLE=="1" && data.sci_citataion[0].HOT_PAPER=="1")
+						{
+							title= title + '[ESI高被引论文、ESI热点论文]';
+						}else if(data.sci_citataion[0].ESI_MOST_CITED_ARTICLE=="1")
+						{
+							title = title + '[ESI高被引论文]';
+						}
+						else if(data.sci_citataion[0].HOT_PAPER=="1")
+						{
+							title = title + '[ESI热点论文]';
+						}
+
+						document.getElementById("dc-title").innerHTML=title;
+						var qiwang="";
+						if(data.sci_citataion[0].JOURNAL_EXPECTED_CITATIONS!=null && data.sci_citataion[0].JOURNAL_EXPECTED_CITATIONS!="")
+							qiwang+='期刊期望引文数:'+data.sci_citataion[0].JOURNAL_EXPECTED_CITATIONS+";";
+						if(data.sci_citataion[0].JOURNAL_ACT_EXP_CITATIONS!=null && data.sci_citataion[0].JOURNAL_ACT_EXP_CITATIONS!="")
+							qiwang=qiwang+'期刊规范化引文影响力:'+data.sci_citataion[0].JOURNAL_ACT_EXP_CITATIONS+";";
+						if(data.sci_citataion[0].NCI!=null && data.sci_citataion[0].NCI!="")
+							qiwang=qiwang+'学科规范化引文影响力:'+data.sci_citataion[0].NCI;
+						if(qiwang.length>0)
+						{
+							var jif=$("#tab-impact").html();
+							if(jif.length>0)
+								$("#tab-impact").html(jif.replace(")",";")+qiwang+")");
+							else
+								$("#tab-impact").html("("+qiwang+")");
+						}
+
+						var html="";
+						flag=false;
+						if(data.sci_citataion[0].IS_INTERNATIONAL_COLLAB=="1")
+						{
+							flag = true;
+							html+='国际合作论文</br>';
+						}
+						if(data.sci_citataion[0].IS_INSTITUTION_COLLAB=="1")
+						{
+							flag = true;
+							html+='机构合作论文</br>';
+						}
+						if(data.sci_citataion[0].IS_INDUSTRY_COLLAB=="1")
+						{
+							flag = true;
+							html+='横向合作论文</br>';
+						}
+						if(data.sci_citataion[0].OA_FLAG=="1")
+						{
+							flag = true;
+							html+='开放获取论文</br>';
+						}
+						if(flag)
+						{
+							addRow(html);
+						}
+					}
+				}
+			},
+			"html");
+		}
+	}
+	//alert(document.getElementById("dc-all"));
+
+</script>
+<script type="text/javascript">
+	var pageCount=0;
+	var currentPage=1;
+	var baseURL = "";
+    $('.social-share').share();
+	$(document).ready(function()
+	{
+		displaySWF();
+		ajaxVerifyCode("", "feedback");
+		ajaxVerifyCode("", "objection");
+        var slideto='null';
+	        if(slideto!=null && slideto!=""){
+			 slideto = "slideto-"+slideto;
+			 var slide= $('.'+slideto)[0];
+			 $('.view_bitstream').find(slide).trigger("click");
+	        }
+		$(".file").click(function() {
+			$(".file").css("background-color","#fff");
+			 $(this).css("background-color","#eee");
+			$("#div-slr-right-inner").html("");
+			$("#img-slr-loading").show();
+			$.get("/bitstream",
+				{
+					"method":"get-slr-bit",
+					"item_id":3369,
+					"date":this.id,
+					num:Math.random()
+				},
+				function(data){
+					$("#img-slr-loading").hide();
+					data = eval('('+data+')');
+					$("#div-slr-right-inner").html(data.files);
+				},
+				"html")
+		});
+
+		$("#slr-data-tree").treeview({
+				persist: "location",
+				collapsed: true,
+				unique: false
+			});
+
+		var baseURL='';
+
+
+
+		if(document.getElementById("tab-impact")!=null)
+		{
+			var qktitle="Educational Psychology Review";
+			var qkissn="1040726X";
+			var itemid="3369";
+			//alert(itemid);
+			//var geturl="http://210.77.64.207/journalLib/newestjcr.jsp?callback=?&title="+encodeURI(qktitle)+"&issn="+qkissn+"&itemid="+itemid;
+			//alert(geturl)
+			if(qktitle!=""||qkissn!="")
+			{
+				$.ajax({
+					type: "GET",
+					async: false,
+				  //url: "http://210.77.64.207/journalLib/newestjcr.jsp?callback=?&title="+encodeURI(qktitle)+"&issn="+qkissn+"&itemid="+itemid,
+					url: baseURL+"/getJIF?title="+encodeURIComponent(encodeURIComponent(qktitle))+"&issn="+qkissn+"&itemid="+itemid,
+					dataType: "json",
+					contentType:"application/json;charset=utf-8",
+					//jsonp: "qkimpact",
+					//jsonpCallback:"?",
+					timeout: 5000,
+					error:function(data) {
+						//alert("error");
+					},
+					success: function(jdata) {
+						var jcrresult="";
+						var jcrfactor=(jdata.factor=="no results"||jdata.factor=="")?"0":jdata.factor;
+						if(jcrfactor!="0" && jcrfactor!="-1")
+						{
+							jcrresult=jcrfactor;
+							var jcrpubyear=(jdata.pubyear=="no results"||jdata.pubyear=="")?"0":jdata.pubyear;
+							if(jcrpubyear!="0")
+							{
+								jcrresult+="[JCR-"+jcrpubyear+"]";
+							}
+						}
+						var jcrfactor5=(jdata.factor5=="no results"||jdata.factor5=="")?"0":jdata.factor5;
+						if(jcrfactor5!="0" && jcrfactor5!="-1")
+						{
+							jcrresult+=(jcrresult=="")?jcrfactor5+"[5-Year]":","+jcrfactor5+"[5-Year]";
+						}
+
+						if((jcrfactor!="0"||jcrfactor5!="0") && (jcrfactor!="-1" || jcrfactor5!="-1"))
+						{
+							$("#tab-impact").html("(IF:"+jcrresult+")");
+						}
+						else
+						{
+							$("#tab-impact").html("");
+						}
+					}
+				});
+			}
+			else
+			{
+				$("#tab-impact").html("");
+			}
+		}
+
+
+		if(document.getElementById("sci-citation-data")!=null)
+		{
+			$("#sci-citation-data").css("color","#999");
+			$("#sci-citation-data").html('正在获取...');
+
+			$.get(baseURL+"/get-sci-citation",
+			{
+				"itemid":"3369",
+				"num":Math.random()
+			},
+			function(data)
+			{
+				var flag=false;
+				if(data.length>10)
+				{
+						$("#sci-citation-data").css("color","#000");
+						var data = eval('('+data+')');
+						var html="";
+						if(data!=null)
+						{
+							if(data.sci_citataion[0].timesCited!=null && data.sci_citataion[0].citingArticlesURL!=null)
+							{
+								flag=true;
+								html+="被引频次：<a href='"+data.sci_citataion[0].citingArticlesURL+"' title='查看引用文章' target='_blank'>"+data.sci_citataion[0].timesCited+"</a>[WOS]&nbsp;&nbsp;";
+							}
+							else if(data.sci_citataion[0].timesCited!=null && data.sci_citataion[0].timesCited=="0")
+							{
+								flag=true;
+								html+="被引频次[WOS]："+data.sci_citataion[0].timesCited+",&nbsp;&nbsp;";
+							}
+
+							if(data.sci_citataion[0].sourceURL!=null)
+							{
+								html+="<a href='"+data.sci_citataion[0].sourceURL+"' target='_blank'>[WOS记录]</a>&nbsp;&nbsp;";
+							}
+							if(data.sci_citataion[0].relatedRecordsURL!=null)
+							{
+								html+="<a href='"+data.sci_citataion[0].relatedRecordsURL+"' target='_blank'>[WOS相关记录]</a>";
+							}
+						//html+="</div>";
+						}
+						//$("#tab-sci-citation").show();
+						$("#sci-citation-data").html(html);
+				}
+				if(!flag)
+				{
+					$("#sci-citation-data").html("无");
+					$("#sci-citation-data").css("color","#999");
+				}
+			},
+			"html");
+		}
+
+        if(document.getElementById("sci-citation-data-scopus")!=null)
+        {
+            $.get(""+"/get-scopus-citation",
+                {
+                    item_id:3369,
+                    timeid:new Date().getTime()
+                },
+                function(data){
+                    if(data.length>10)
+                    {
+                        var data = eval('('+data+')');
+                        $("#sci-citation-data-scopus").css("color","#000");
+
+                        var html="";var sourceURL="";
+                        if(data!=null && data.citedbyCount!=-1)
+                        {
+                            if(data.citedbyCount!=null && data.citedyurl!=null)
+                            {
+                                flag=true;
+                                html+="被引频次:<a href='"+data.citedyurl+"' title='查看引用文章' target='_blank' class='red-decoration red-border'>"+data.citedbyCount+"</a>[SCOPUS]&nbsp;&nbsp;";
+                            }
+                            else if(data.citedbyCount!=null && data.citedbyCount=="0")
+                            {
+                                flag=true;
+                                html+="被引频次：:"+data.citedbyCount+"[SCOPUS]&nbsp;&nbsp;";
+                            }
+
+                            if(data.url!=null)
+                            {
+                                html+="<a href='"+data.url+"' target='_blank'>[Scopus记录]</a>&nbsp;&nbsp;";
+                            }
+                            if(data.citedyurl!=null)
+                            {
+                                html+="<a href='"+data.citedyurl+"' target='_blank'>[Scopus相关记录]</a>";
+                            }
+                            $("#sci-citation-data-scopus").html(html);
+                        }
+                        else
+                        {
+                            $("#sci-citation-data-scopus").html("无");
+                            $("#sci-citation-data-scopus").css("color","#999");
+                        }
+
+
+                        //$("#tab-sci-citation").show();
+                    }
+                    /*if(data!=null && data.citation_count!=null && data.citation_count!="-1")
+                    {
+                        //$("#tab-cscd-citation").show();
+                        $("#cscd-citation-data").html("被引频次[CSCD]:"+data.citation_count);
+                    }*/
+                    else
+                    {
+                        $("#sci-citation-data-scopus").html("无");
+                        $("#sci-citation-data-scopus").css("color","#999");
+                    }
+
+                },
+                "html")
+        }
+
+
+		if(document.getElementById("cscd-citation-data")!=null)
+		{
+			$.get(""+"/get-cscd-citation",
+					{
+						item_id:3369,
+					 	timeid:new Date().getTime()
+					},
+					function(data){
+						if(data.length>10)
+						{
+                    var data = eval('('+data+')');
+								$("#sci-citation-data").css("color","#000");
+
+								var html="";
+								if(data!=null && data.cscd_citataion[0].timesCited!=null && data.cscd_citataion[0].timesCited!="")
+								{
+									if(data.cscd_citataion[0].citingArticlesURL!=null)
+									{
+										flag=true;
+										html+="被引频次：<a href='"+data.cscd_citataion[0].citingArticlesURL+"' title='查看引用文章' target='_blank'>"+data.cscd_citataion[0].timesCited+"</a>[CSCD]&nbsp;&nbsp;";
+									}
+									else if(data.cscd_citataion[0].timesCited=="0")
+									{
+										flag=true;
+										html+="被引频次[CSCD]："+data.cscd_citataion[0].timesCited+",&nbsp;&nbsp;";
+									}
+
+									if(data.cscd_citataion[0].sourceURL!=null)
+									{
+										html+="<a href='"+data.cscd_citataion[0].sourceURL+"' target='_blank'>[CSCD记录]</a>&nbsp;&nbsp;";
+									}
+									if(data.cscd_citataion[0].relatedRecordsURL!=null)
+									{
+										html+="<a href='"+data.cscd_citataion[0].relatedRecordsURL+"' target='_blank'>[CSCD相关记录]</a>";
+									}
+
+									$("#cscd-citation-data").html(html);
+								}
+								else
+								{
+									$("#cscd-citation-data").html("无");
+									$("#cscd-citation-data").css("color","#999");
+								}
+
+								//$("#tab-sci-citation").show();
+						}
+					/*if(data!=null && data.citation_count!=null && data.citation_count!="-1")
+					{
+						//$("#tab-cscd-citation").show();
+						$("#cscd-citation-data").html("被引频次[CSCD]:"+data.citation_count);
+					}*/
+					else
+					{
+						$("#cscd-citation-data").html("无");
+						$("#cscd-citation-data").css("color","#999");
+					}
+
+					},
+					"html")
+		}
+
+		
+
+		$(".pager").pager({ lang: true, pagenumber: currentPage, pagecount: pageCount, buttonClickCallback: PageClick });
+
+
+		$(".class-view-swf").click(function() {
+			var id=this.id.substring(this.id.lastIndexOf("-")+1);
+			if(id!="")
+			{
+				/*--var bitHandle=document.getElementById("span-view-swf-"+id);
+
+				if(bitHandle!=null && bitHandle.innerHTML!="")
+				{
+					var swf=baseURL+"/get-swf?bitHandle="+bitHandle.innerHTML;
+					displaySWF(swf);
+				}
+				else*/
+				{
+					var imgLoading=document.getElementById("id-view-swf-loading-"+id);
+					imgLoading.style.display = "";
+
+					$.get(""+"/bitstream",
+					{
+						orignalBitID:id,
+						itemID:3369,
+					 	method:"get-swf-bit",
+					 	timeid:new Date().getTime()
+					},
+					function(data){
+						imgLoading.style.display = "none";
+						if(data.substring(0,2)=="ok")
+						{
+							data=data.substring(3);
+							displaySWF(baseURL+"/get-swf?bitHandle="+data);
+						}
+						else
+							alert("暂不允许浏览");
+
+					},
+					"html")
+				}
+			}
+		});
+
+		$(".class-view-video").click(function() {
+			var id=this.id.substring(this.id.lastIndexOf("-")+1);
+			if(id!="")
+			{
+				var imgHandle=document.getElementById("span-view-video-img-"+id).innerHTML;
+				var videoHandle=document.getElementById("span-view-video-"+id).innerHTML;
+				document.getElementById("div-video-title").innerHTML = document.getElementById("span-bit-name-"+id).innerHTML;
+				jwplayer("myElement").setup({
+						width:620,
+						height:480,
+						file:videoHandle,
+						image: imgHandle,
+						primary: "flash"
+					});
+			}
+		});
+
+		setTimeout(function () {
+			var editorone=document.getElementById("editor1");
+			if(editorone!=null)
+			   CKEDITOR.replace('editor1');
+			//CKEDITOR.replace('editor2');
+			//CKEDITOR.replace('editor3');
+			CKEDITOR.replace("editor4");
+        },500);
+        $("#div_modify_comment").on('show.bs.modal', function(){
+            var $this = $(this);
+            var $modal_dialog = $this.find('.modal-dialog');
+            $this.css('display', 'block');
+            $modal_dialog.css({'margin-top': Math.max(0, ($(window).height() - $modal_dialog.height()) / 2) });
+        });
+	});
+
+	/*
+	function commitForm(action,obj)
+	{
+		$("#callURL").attr("value",window.location.href);
+		if(action=="add")
+		{
+			var editor_data = CKEDITOR.instances.editor1.getData();
+			//var editor_data = $("#editor1").attr("value");
+			if(editor_data=="")
+			{
+				alert("请输入评论内容");
+			}
+			else
+				submitForm('add',editor_data,'0');
+		}
+		else if(action=="del")
+		{
+			if (confirm('您确定要删除吗？'))
+			{
+				var id=obj.id.replace("delete_","")
+				submitForm('delete','',id);
+			}
+		}
+	}*/
+
+	function displaySWF()
+	{
+		var loopedSlider=document.getElementById("loopedSlider");
+		var viewerPlaceHolders=getElementsByClass(loopedSlider, "viewerPlaceHolder", "div");
+		if(viewerPlaceHolders!=null)
+		{
+			for(var i=0; i<viewerPlaceHolders.length; i++)
+			{
+				var viewerPlaceHolder = viewerPlaceHolders[i];
+				var swf = viewerPlaceHolder.id;
+				//viewerPlaceHolder.style.display="block";
+				viewerPlaceHolder.style.width="640px";
+				viewerPlaceHolder.style.height="750px";
+
+				var fp = new FlexPaperViewer(
+										 ""+'/FlexPaper_1.5.1_flash/FlexPaperViewer',
+										 viewerPlaceHolder, { config : {
+										 SwfFile : swf,
+										 Scale : 0.6,
+										 ZoomTransition : 'easeOut',
+										 ZoomTime : 0.5,
+										 ZoomInterval : 0.2,
+										 FitPageOnLoad : true,
+										 FitWidthOnLoad : true,
+										 FullScreenAsMaxWindow : false,
+										 ProgressiveLoading : false,
+										 MinZoomSize : 0.2,
+										 MaxZoomSize : 5,
+										 SearchMatchAll : false,
+										 InitViewMode : 'Portrait',
+										 PrintPaperAsBitmap : false,
+
+										 ViewModeToolsVisible : true,
+										 ZoomToolsVisible : true,
+										 NavToolsVisible : true,
+										 CursorToolsVisible : true,
+										 SearchToolsVisible : true,
+
+										 localeChain: 'en_US'
+										 }});
+			}
+		}
+	}
+	function commitCommentForm(action,obj)
+	{
+		if(action=="add")
+		{
+			var editor_data = CKEDITOR.instances.editor1.getData();
+			if(editor_data=="")
+			{
+				alert("请输入评论内容");
+			}
+			else
+			{
+				submitAlert('loading','正在提交...');
+				$("#commentCurrPage").attr("value",1);
+					$.post(baseURL+"/comment",
+					{
+						"type":"comment",
+						"content":editor_data,
+						"action":action,
+						"resourceID":'3369',
+						"num":Math.random()
+					},
+					function(data){
+						if(data.substring(0,2)=="ok")
+							submitAlert('succeed',data.substring(3));
+						else
+							submitAlert('error',data);
+						setTimeout("refreshThis();",1000);
+						$("#item-comment").hide();
+					},
+					"html")
+			}
+		}
+		else if(action=="del")
+		{
+			if (confirm('您确定要删除吗？'))
+			{
+				var comment_id=obj.id.replace("delete_","")
+				//submitForm('delete','',id);
+				submitAlert('loading','正在删除...');
+				$("#commentCurrPage").attr("value",1);
+					$.post(baseURL+"/comment",
+					{
+						"type":"comment",
+						"commentID":comment_id,
+						"action":action,
+						"num":Math.random()
+					},
+					function(data){
+						if(data.substring(0,2)=="ok")
+							submitAlert('succeed',data.substring(3));
+						else
+							submitAlert('error',data);
+						setTimeout("refreshThis();",1000);
+					},
+					"html")
+			}
+		}
+	}
+
+	function commitObjectionForm()
+	{
+		var value_editor_data =  $("#editor2").val(); // CKEDITOR.instances.editor2.getData();
+		var value_input_title;
+		var value_email;
+		var value_organization;
+		var value_code;
+
+		if(value_editor_data.trim()=="")
+		{
+			alert("请输入异议内容");
+			return;
+		}
+
+		var logined=false;
+		if(!logined)
+		{
+			var input_email = document.getElementById("input-email-objection");
+			value_email=input_email.value.trim();
+			if(value_email=="")
+			{
+				alert("请输入Email");
+				return;
+			}
+			var input_code = document.getElementById("input-code-objection");
+			value_code=input_code.value;
+			if(value_code=="")
+			{
+				alert("请输入验证码");
+				return;
+			}
+			var input_organization = document.getElementById("input-email-organization");
+			value_organization=input_organization.value.trim();
+
+
+		}
+		submitAlert('loading','正在提交...');
+
+		$.post(baseURL+"/comment",
+		{
+			"type":"objection",
+			"content":value_editor_data,
+			"resourceID":'3369',
+			"organization":value_organization,
+			"email":value_email,
+			"code":value_code,
+			"num":Math.random()
+		},
+		function(data)
+		{
+			if(dialog!=null)
+				dialog.close();
+
+			if(data.length>3 && data.substring(0,2)=="ok")
+			{
+				data=data.substring(3);
+				submitAlert('succeed',data);
+
+				document.getElementById("commentFormObjection").reset();
+				$("#item-comment").hide();
+				// CKEDITOR.instances.editor2.setData("");
+				$("#editor2").val("");
+				getCaptcha(baseURL, "objection");
+
+				//setTimeout("resetForm('commentFormObjection');",3000);
+			}
+			else
+			{
+				submitAlert('error',data);
+			}
+			//setTimeout("refreshThis();",1000);
+		},
+		"html")
+	}
+
+
+	function commitFeedbackForm()
+	{
+		var value_editor_data =  $("#editor3").val();// CKEDITOR.instances.editor3.getData();
+		var value_input_title;
+		var value_email;
+		var value_code;
+
+		var input_title = document.getElementById("input-title-feedback");
+		value_input_title = input_title.value.trim();
+		if(value_input_title=="")
+		{
+			alert("请填写标题");
+			return;
+		}
+		if(value_editor_data.trim()=="")
+		{
+			alert("请输入反馈内容");
+			return;
+		}
+
+		var logined=false;
+		if(!logined)
+		{
+			var input_email = document.getElementById("input-email-feedback");
+			value_email=input_email.value.trim();
+			value_code=document.getElementById("input-code-objection").value;
+
+			var input_code = document.getElementById("input-code-feedback");
+			value_code=input_code.value;
+			if(value_code=="")
+			{
+				alert("请输入验证码");
+				return;
+			}
+		}
+		submitAlert('loading','正在提交...');
+
+		$.post(baseURL+"/comment",
+		{
+			"type":"feedback",
+			"content":value_editor_data,
+			"resourceID":'3369',
+			"title":value_input_title,
+			"email":value_email,
+			"code":value_code,
+			"num":Math.random()
+		},
+		function(data){
+			if(dialog!=null)
+				dialog.close();
+
+			if(data.length>3 && data.substring(0,2)=="ok")
+			{
+				data=data.substring(3);
+				submitAlert('succeed',data);
+
+				document.getElementById("commentFormFeedback").reset();
+				$("#item-comment").hide();
+				// CKEDITOR.instances.editor3.setData("");
+				$("#editor3").val("");
+				getCaptcha(baseURL, "feedback");
+
+				//setTimeout("resetForm('commentFormObjection');",3000);
+			}
+			else
+			{
+				submitAlert('error',data);
+			}
+		},
+		"html")
+	}
+
+	function submitForm(action, comment, comment_id)
+	{
+		submitAlert('loading','正在提交...');
+		$("#commentCurrPage").attr("value",1);
+			$.post(baseURL+"/comment",
+			{
+				"comment":comment,
+				"action":action,
+				"resourceID":'3369',
+				"commentID":comment_id
+			},
+			function(data){
+				submitAlert('succeed',data);
+				setTimeout("refreshThis();",1000);
+			},
+			"html")
+	}
+	function refreshThis()
+	{
+		$("#commentCurrPage").attr("value",1);
+		$("#rndComment").attr("value",new Date().getTime());
+		$("#viewItemForm").submit();
+	}
+	var dialog;
+	function submitAlert(iconName, text)
+	{
+		dialog=art.dialog({
+			title:'提示',
+			drag: false,
+    		resize: false,
+			lock: true,
+			background: '#ccc', // 背景色
+			opacity: 0.57,	// 透明度
+			content: text,
+			icon: iconName,
+			ok:true
+		});
+	}
+
+	function resetForm(formName)
+	{
+		if(dialog!=null)
+				dialog.close();
+
+		document.getElementById(formName).reset();
+		if(formName=="")
+			$("#editor2").val("");
+			// CKEDITOR.instances.editor2.setData("");
+
+	}
+
+	function alertLogin()
+	{
+		dialog=art.dialog({
+			title:'提示',
+			drag: false,
+    		resize: false,
+			lock: true,
+			background: '#ccc', // 背景色
+			opacity: 0.57,	// 透明度
+			content: '请您先登录！',
+			icon: 'warning',
+			ok:function () {
+				window.location.href=baseURL+"/password-login";
+				return true;
+			},
+			cancelVal: '取消',
+			cancel: true
+		});
+	}
+	PageClick = function(pageclickednumber) {
+		$(".pager").pager({ lang: true, pagenumber: pageclickednumber, pagecount: pageCount, buttonClickCallback: PageClick });
+		$("#commentCurrPage").attr("value",pageclickednumber);
+		$("#rndComment").attr("value",new Date().getTime());
+		$("#viewItemForm").submit();
+	}
+
+	function newReplay()
+	{
+		//var logined='false';
+		//if(logined=="true")
+		//{
+			$("#item-comment").show();
+			window.location.href=window.location.href+"#new_comment";
+		//}
+		//else
+		//{
+		//	alertLogin();
+		//}
+	}
+
+	function showDetails(id) {
+		id="div_details_"+id;
+		dialog=art.dialog({
+			title:'详细信息',
+			drag: false,
+			width:800,
+    		resize: false,
+			lock: true,
+			background: '#ccc', // 背景色
+			opacity: 0.57,	// 透明度
+			content: $("#"+id).html(),
+		});
+	}
+    function submitComment () {
+        var comment_id = $("#comment_id").val();
+        var editor_data = CKEDITOR.instances.editor4.getData();
+        if(editor_data==="")
+        {
+            alert("请输入评论内容");
+            return;
+        }
+        $.post(baseURL+"/comment",
+            {
+                "type":"comment",
+                "commentID":comment_id,
+                "action":"modify",
+                "content":editor_data,
+                "num":Math.random()
+            },
+            function(data){
+                if(data.substring(0,2)=="ok")
+                    submitAlert('succeed',data.substring(3));
+                else
+                    submitAlert('error',data);
+				CKEDITOR.instances.editor4.setData("");
+                setTimeout("refreshThis();",1000);
+            },
+            "html");
+    }
+
+	function modifyComment(obj)
+	{
+		var comment_id=obj.id.replace("modify_","")
+        $("#comment_id").val(comment_id);
+		CKEDITOR.instances.editor4.setData($("#comment_"+comment_id).val());
+        $("#div_modify_comment").modal();
+	}
+	$(function(){
+	    $(".table.detailed-table").parent().addClass("tabel-body");
+    });
+</script>
+<style type="text/css">
+.details {
+display:none;
+}
+.jiathis_style .ico{
+	float: left;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 18px!important;
+	text-align: left;
+    overflow: hidden;
+    display: block!important;
+    height: 16px!important;
+    line-height: 16px!important;
+    padding-left: 20px!important;
+    cursor: pointer;
+}
+.jiathis_style .citeULike{
+    background: url(/image/bookmarks/citeulike.gif) no-repeat left;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--luln20160705-->
+
+
+
+    
+                    
+
+                </div>
+
+
+			</div>	
+
+
+<!------------footer---------------->
+<footer class="footer">
+    
+	<div class="custom custom1 container clearfix py-4">
+        <div class="foot_logo">
+            <img src="/themes/newCss/image/footLogo.png"/>
+        </div>
+        <div class="foot_right">
+            <ul class="spaceBetween mt-2">
+                <li ><a href="/">首页</a></li>
+                <li ><a href="/search-filter?field=dc.type_filter&from=navbar">学术成果</a></li>
+                <li ><a href="/community-list">机构/专题</a></li>
+                <li ><a  href="/browse-author">学者</a></li>
+                <li ><a href="/knowledge-analysis?type=advancedmap">数据分析</a></li>
+                <li ><a href="/simple-search">检索</a></li>
+
+
+
+
+            </ul>
+            <div class="spaceBetween mt-3">
+                <div class="foot_tj">
+                成果量
+                <span id="a272801" name="a272801">4924</span>
+                </div>
+                <div class="foot_tj">
+                &nbsp;&nbsp;全文量
+                <span id="a272802" name="a272802">697</span>
+                </div>
+                <div class="foot_tj">
+                    下载量
+                    <span id="a272801" name="a272801">36</span>
+                </div>
+                <div class="foot_tj">
+                    &nbsp;&nbsp;浏览量
+                    <span id="a272802" name="a272802">500361</span>
+                </div>
+                
+                <div>
+                    <select onchange="window.location.href=this.value" class="form-control form-control-sm">
+                        
+                        <option value="http://www.irgrid.ac.cn/">中国科学院机构知识库</option>
+                        
+                        <option value="https://ir.pku.edu.cn/">北京大学机构知识库</option>
+                        
+                        <option value="http://dspace.xmu.edu.cn/dspace/">厦门大学学术典藏库</option>
+                        
+                        <option value="http://authors.library.caltech.edu/">加州理工学院机构知识库</option>
+                        
+                        <option value="http://dspace.mit.edu/">麻省理工学院机构知识库</option>
+                        
+                        <option value="https://www.cuhk.edu.cn/">香港中文大学（深圳）</option>
+                        
+                        <option value="https://library.cuhk.edu.cn/">香港中文大学（深圳）图书馆</option>
+                        
+                        <option value="http://www.caswiz.com/">中科维智</option>
+                        
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+	</div>
+	<div class="allfoot allfoot1"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+
+		<p>
+            地址邮编: 深圳市龙岗区龙翔大道2001号（518172）&nbsp;&nbsp;
+            <span>|&nbsp;&nbsp;</span>
+            电话: (86) 755 8427 3000&nbsp;&nbsp;
+            <span>|&nbsp;&nbsp;</span>
+            <a href="mailto:library@cuhk.edu.cn" target="_blank" >联系我们</a>
+            @2023
+            <a href=https://www.cuhk.edu.cn/>香港中文大学（深圳）</a>
+            - Powered by
+            <a href="http://www.cspace.org.cn/" >CSpace</a>
+        </p>
+
+    </div>
+</footer>
+
+<footer class="phoneFooter">
+
+    <div class="phoneFootertop clearfix">
+        <div class="foot_tj">
+            成果量
+            <span id="a272801" name="a272801">4924</span>
+        </div>
+        <div class="foot_tj">
+            全文量
+            <span id="a272802" name="a272802">697</span>
+        </div>
+        <div class="foot_tj">
+            下载量
+            <span id="a272801" name="a272801">36</span>
+        </div>
+        <div class="foot_tj">
+            浏览量
+            <span id="a272802" name="a272802">500361</span>
+        </div>
+    </div>
+    <div class="phoneFooterBottom">
+        <p>地址邮编: 深圳市龙岗区龙翔大道2001号（518172）&nbsp;&nbsp;</p>
+        <p>电话: (86) 755 8427 3000&nbsp;&nbsp;</p>
+        <p><a href="mailto:library@cuhk.edu.cn" target="_blank" >联系我们</a></p>
+        <p>@2023<a href=https://www.cuhk.edu.cn/>香港中文大学（深圳）</a>- Powered by<a href="http://www.cspace.org.cn/" >CSpace</a>
+        </p>
+    </div>
+
+</footer>
+
+  </body>
+</html>
