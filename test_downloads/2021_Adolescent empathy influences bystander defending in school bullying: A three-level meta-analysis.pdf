@@ -1,0 +1,1403 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=NsJH3Ts1-89I8lZURwQYmw&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TFKV632');
+    </script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=jfKETtlWamfZ4l02YiFCQw&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N279F7B');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    <!--Snowplow Tag-->
+
+        <script type="text/javascript">
+            (function (p, l, o, w, i, n, g) {
+                if (!p[i]) {
+                    p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                    p.GlobalSnowplowNamespace.push(i); p[i] = function () { (p[i].q = p[i].q || []).push(arguments) }; p[i].q = p[i].q || [];
+                    n = l.createElement(o); g = l.getElementsByTagName(o)[0]; n.async = 1; n.src = w;
+                    g.parentNode.insertBefore(n, g)
+                }
+            }(window, document, "script", "https://cdnjs.cloudflare.com/ajax/libs/snowplow/2.18.2/sp.min.js", "snowplow"));
+
+            snowplow('newTracker', 'spTracker-inline-live', 'sp-live-collector.cdp.frontiersin.io', {
+                appId: '1',
+                eventMethod: 'post',
+                anonymousTracking: true,
+                stateStorageStrategy: 'none',
+                contexts: {
+                    webPage: true
+                }
+            });
+            snowplow('enableActivityTracking', 30, 10);
+            window.snowplow('trackPageView');
+            snowplow('enableAnonymousTracking', { withServerAnonymisation: true });
+            snowplow('clearUserData');
+            snowplow('setUserId', '0');
+        </script>
+    <!--End Snowplow Tag-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"598a124f17","applicationID":"3007887","transactionName":"MQcDMkECCkNSW0YMWghNLDBwTCVCR1FRCVAlDQ8SQQwIXFZKHSNACg41A0sXJkl3d3s=","queueTime":0,"applicationTime":341,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgUHUl5WGwAAVFZaDwY=",licenseKey:"598a124f17",applicationID:"3007887"};;/*! For license information please see nr-loader-full-1.237.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,r={5763:(e,t,r)=>{r.d(t,{P_:()=>f,Mt:()=>g,C5:()=>s,DL:()=>m,OP:()=>T,lF:()=>j,Yu:()=>y,Dg:()=>h,CX:()=>c,GE:()=>b,sU:()=>_});var n=r(8632),i=r(9567);const a={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,n.Qy)(e,o[e],"info")}var d=r(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function h(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,n.Qy)(e,l[e],"config")}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=f(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const p={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,p),(0,n.Qy)(e,v[e],"loader_config")}const y=(0,n.mF)().o;var w=r(385),x=r(6818);const A={buildEnv:x.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:x.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:x.q4,denyList:void 0},E={};function T(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,A),(0,n.Qy)(e,E[e],"runtime")}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{r.d(t,{Re:()=>i,gF:()=>a,q4:()=>n});const n="1.237.0",i="PROD",a="CDN"},385:(e,t,r)=>{r.d(t,{FN:()=>o,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>a,il:()=>n,pL:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=""+a?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(n&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,r)=>{r.d(t,{w:()=>a});var n=r(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{r.d(t,{L:()=>u,R:()=>c});var n=r(2177),i=r(1284),a=r(4322),o=r(3325);const s={};function c(e,t){const r={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const r=[...s[e]];function o(t){const r=e?n.ee.get(e):n.ee,o=a.X.handlers;if(r.backlog&&o){var s=r.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete o[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;o(t)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],a=e[3],o=e[2];i.apply(a,o)}}))}},2177:(e,t,r)=>{r.d(t,{ee:()=>d});var n=r(8632),i=r(2210),a=r(1284),o=r(5763),s="nr@context";let c=(0,n.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,r){var n={},c={},h={},g=!1;try{g=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var p={on:b,addEventListener:b,removeEventListener:y,emit:m,get:x,listeners:w,context:v,buffer:A,abort:f,aborted:!1,isBuffering:E,debugId:r,backlog:g?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,a){if(!1!==a&&(a=!0),!d.aborted||i){t&&a&&t.emit(e,r,n);for(var o=v(n),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(o,r);var f=T()[c[e]];return f&&f.push([p,e,r,o]),o}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function x(t){return h[t]=h[t]||e(p,t)}function A(e,t){var r=T();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function E(e){return!!T()[c[e]]}function T(){return p.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,r)=>{r.d(t,{E:()=>n,p:()=>i});var n=r(2177).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{r.d(t,{X:()=>a});var n=r(5546);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.E,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.E);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},3239:(e,t,r)=>{r.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var n=r(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(r,n))}},4402:(e,t,r)=>{r.d(t,{Ht:()=>d,M:()=>c,Rl:()=>o,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++r).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(r,++i).toString(16));return o.join("")}function c(){return s(16)}function d(){return s(32)}},7056:(e,t,r)=>{r.d(t,{Bq:()=>n,Hb:()=>a,oD:()=>i});const n="NRBA",i=144e5,a=18e5},7894:(e,t,r)=>{function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{r.d(t,{e:()=>a});var n=r(385),i={};function a(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};let t;var r=n._A?.location,a={};if(n.il)t=document.createElement("a"),t.href=e;else try{t=new URL(e,r.href)}catch(e){return a}a.port=t.port;var o=t.href.split("://");!a.port&&o[1]&&(a.port=o[1].split("/")[0].split("@").pop().split(":")[1]),a.port&&"0"!==a.port||(a.port="https"===o[0]?"443":"80"),a.hostname=t.hostname||r.hostname,a.pathname=t.pathname,a.protocol=o[0],"/"!==a.pathname.charAt(0)&&(a.pathname="/"+a.pathname);var s=!t.protocol||":"===t.protocol||t.protocol===r.protocol,c=t.hostname===r.hostname&&t.port===r.port;return a.sameOrigin=s&&(!t.hostname||c),"/"===a.pathname&&(i[e]=a),a}},50:(e,t,r)=>{function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2587:(e,t,r)=>{r.d(t,{N:()=>c,T:()=>d});var n=r(2177),i=r(5546),a=r(8e3),o=r(3325);const s={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]};function c(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,n]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),d[t]=Boolean(n))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),d[e]=!1)})),(0,a.L)(t,o.D.pageViewEvent))}const d={}},2210:(e,t,r)=>{r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{r.d(t,{P:()=>a});var n=r(2177);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{r.d(t,{K:()=>o,b:()=>a});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.bP)("load",e,t)}function o(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{r.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var n=r(7894),i=r(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[r]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,r)=>{r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{r.d(t,{em:()=>m,u5:()=>D,QU:()=>P,Kf:()=>z});var n=r(2177);const i="nr@original";var a=Object.prototype.hasOwnProperty,o=!1;function s(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,a){n||(n="");var o,s,c,d="-"===n.charAt(0);for(c=0;c<t.length;c++)u(o=e[s=t[c]])||(e[s]=r(o,d?s+n:n,i,s,a))},r.flag=i,r;function r(t,r,n,o,s){return u(t)?t:(r||(r=""),nrWrapper[i]=t,d(t,nrWrapper,e),nrWrapper);function nrWrapper(){var i,d,u,l;try{d=this,i=[...arguments],u="function"==typeof n?n(i,d):n||{}}catch(t){c([t,"",[i,d,o],u],e)}a(r+"start",[i,d,o],u,s);try{return l=t.apply(d,i)}catch(e){throw a(r+"err",[i,d,e],u,s),e}finally{a(r+"end",[i,d,l],u,s)}}}function a(r,n,i,a){if(!o||t){var s=o;o=!0;try{e.emit(r,n,i,t,a)}catch(t){c([t,r,n,i],e)}o=s}}}function c(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){c([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n]);return t}function u(e){return!(e&&e instanceof Function&&e.apply&&!e[i])}var l=r(2210),f=r(385);const h={},g=XMLHttpRequest,p="addEventListener",v="removeEventListener";function m(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=s(t,!0);function i(e){r.inPlace(e,[p,v],"-",a)}function a(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&b(document,i),b(f._A,i),b(g.prototype,i)),t.on(p+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(v+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function b(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,p);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),a=2;a<n;a++)i[a-2]=arguments[a];r&&t(r,...i)}var y="fetch-",w=y+"body-",x=["arrayBuffer","blob","json","text","formData"],A=f._A.Request,E=f._A.Response,T="prototype",_="nr@context";const j={};function D(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(A&&E&&f._A.fetch))return t;if(j[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(n+"before-start",[r],a),a[_]&&a[_].dt&&(e=a[_].dt);var o=i.apply(this,r);return t.emit(n+"start",[r,e],o),o.then((function(e){return t.emit(n+"end",[null,e],o),e}),(function(e){throw t.emit(n+"end",[e],o),e}))})}return j[t.debugId]=1,x.forEach((e=>{r(A[T],e,w),r(E[T],e,w)})),r(f._A,"fetch",y),t.on(y+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(y+"done",[null,r],n)}else t.emit(y+"done",[e],n)})),t}const C={},S=["pushState","replaceState"];function P(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||C[t.debugId]++||(C[t.debugId]=1,s(t).inPlace(window.history,S,"-")),t}var O=r(3239);var R=r(5763);var I=r(50);const N={},k=["open","send"];function z(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(N[r.debugId]++)return r;N[r.debugId]=1,m(t);var i=s(r),a=R.Yu.XHR,o=R.Yu.MO,c=R.Yu.PR,d=R.Yu.SI,u="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],g=f._A.XMLHttpRequest.listeners,p=f._A.XMLHttpRequest=function(e){var t=new a(e);function n(){try{r.emit("new-xhr",[t],t),t.addEventListener(u,b,(0,O.m$)(!1))}catch(e){(0,I.Z)("An error occured while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}}return this.listeners=g?[...g,n]:[n],this.listeners.forEach((e=>e())),t};function v(e,t){i.inPlace(t,["onreadystatechange"],"fn-",E)}function b(){var e=this,t=r.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",E)}if(function(e,t){for(var r in e)t[r]=e[r]}(a,p),p.prototype=a.prototype,i.inPlace(p.prototype,k,"-xhr-",E),r.on("send-xhr-start",(function(e,t){v(e,t),function(e){h.push(e),o&&(y?y.then(A):d?d(A):(w=-w,x.data=w))}(t)})),r.on("open-xhr-start",v),o){var y=c&&c.resolve();if(!d&&!c){var w=1,x=document.createTextNode(w);new o(A).observe(x,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===u||A()}));function A(){for(var e=0;e<h.length;e++)v(0,h[e]);h.length&&(h=[])}function E(e,t){return t}return r}},7825:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{r.d(t,{gF:()=>a,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>o});const n=r(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{r.d(t,{Dz:()=>i,OJ:()=>o,qw:()=>a,t9:()=>n});const n=r(3325).D.pageViewEvent,i="firstbyte",a="domcontent",o="windowload"},9251:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},3614:(e,t,r)=>{r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>d,FN_START:()=>c,PUSH_STATE:()=>u,RESOURCE:()=>a,START:()=>o});const n=r(3325).D.sessionTrace,i="bstResource",a="resource",o="-start",s="-end",c="fn"+o,d="fn"+s,u="pushState"},5938:(e,t,r)=>{r.d(t,{W:()=>a});var n=r(5763),i=r(2177);class a{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1}}},9144:(e,t,r)=>{r.d(t,{j:()=>v});var n=r(3325),i=r(5763),a=r(5546),o=r(2177),s=r(7894),c=r(8e3),d=r(3960),u=r(385),l=r(50),f=r(3081),h=r(8632);function g(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...n))})),a.length>1?a:a[0]}(t,...n)}}))}var p=r(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:x={loaderType:v},exposed:A=!0}=t;const E=(0,h.gG)();y||(b=E.init,y=E.info,w=E.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),x.denyList=b.ajax?.block_internal?(b.ajax.deny_list||[]).concat(y.beacon,y.errorBeacon):b.ajax?.deny_list,(0,i.sU)(e,x),g();const T=function(e,t){t||(0,c.R)(e,"api");const h={};var g=o.ee.get(e),p=g.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,a){const o=(0,i.C5)(e);return null===r?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:r}}),x(v,n,!0,a||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>h[e]=x(v,e,!0,"api"))),h.addPageAction=x(v,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=x(v,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,x(v,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,g),function(){if(p.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){throw p.emit("fn-err",[arguments,this,e],r),e}finally{p.emit("fn-end",[(0,s.z)()],r)}}}};function x(e,t,r,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,g),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,g),r?void 0:this}}function A(){r.e(439).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=x(m,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,g),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,g)},u.il?(0,d.b)((()=>A()),!0):A(),h}(e,m);return(0,h.Qy)(e,T,"api"),(0,h.Qy)(e,A,"exposed"),(0,h.EZ)("activatedFeatures",p.T),T}},3325:(e,t,r)=>{r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"636893b0",147:"0d982f48",193:"a490ad60",242:"22036a2b",317:"f8100d3b",348:"d72a908a",412:"d2774909",439:"eaff3276",538:"643cfeda",590:"948ed12b",646:"a8872fbe",675:"772ac1fe",786:"e765729e",860:"50b8f759",873:"495db083",898:"629e6d59"}[e]+"-1.237.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=58,i.p="https://js-agent.newrelic.com/",(()=>{var e={58:0,521:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,d=0;if(o.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var a={};(()=>{i.r(a);var e=i(50);class t{addPageAction(t,r){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,r){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,r,n){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,r){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,r){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var r=i(3325),n=i(5763);const o=Object.values(r.D);function s(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var c=i(9144);var d=i(5546),u=i(385),l=i(8e3),f=i(5938),h=i(3960);class g extends f.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler,this.featAggregate,this.onAggregateImported,n&&(0,l.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const r=u.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let n;try{if(r){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,l.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(412).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),a(!1)}};u.il?(0,h.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var p=i(7633),v=i(7894);class m extends g{static featureName=p.t9;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.Tt)&&"undefined"!=typeof PerformanceTiming){const t=(0,n.OP)(e);t[p.Dz]=Math.max(Date.now()-t.offset,0),(0,h.K)((()=>t[p.qw]=Math.max((0,v.z)()-t[p.Dz],0))),(0,h.b)((()=>{const e=(0,v.z)();t[p.OJ]=Math.max(e-t[p.Dz],0),(0,d.p)("timing",["load",e],void 0,r.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(1117),y=i(1284);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var a=this.getBucket(e,t,r,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,r){t[e]=x(r,t[e])})),t}(n,a.metrics),a}merge(e,t,r,n,i){var a=this.getBucket(e,t,n,i);if(a.metrics){var o=a.metrics;o.count+=r.count,(0,y.D)(r,(function(e,t){if("count"!==e){var n=o[e],i=r[e];i&&!i.c?o[e]=x(i.t,n):o[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=x(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=E(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function E(e){return"object"!=typeof e?[]:(0,y.D)(e,T)}function T(e,t){return t}var _=i(8632),j=i(4402),D=i(4351);var C=i(7956),S=i(3239),P=i(9251);class O extends g{static featureName=P.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,r),u.il&&((0,n.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,C.N)((()=>(0,d.p)("docHidden",[(0,v.z)()],void 0,P.t,this.ee)),!0),(0,S.bP)("pagehide",(()=>(0,d.p)("winPagehide",[(0,v.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var R=i(3081);class I extends g{static featureName=R.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t9,r),this.importAggregator()}}var N=i(6660);class k{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class z extends g{static featureName=N.t;#e=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#e.has(n)&&(this.#e.add(n),(0,d.p)("err",[this.#t(n),(0,v.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,d.p)("ierr",[this.#t(e),(0,v.z)(),!0],void 0,r.D.jserrors,this.ee)})),u._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,d.p)("err",[this.#r(e),(0,v.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,S.m$)(!1,this.removeOnAbort?.signal)),u._A.addEventListener("error",(e=>{this.abortHandler&&(this.#e.has(e.error)?this.#e.delete(e.error):(0,d.p)("err",[this.#n(e),(0,v.z)()],void 0,r.D.jserrors,this.ee))}),(0,S.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.#e.clear(),this.abortHandler=void 0}#t(e){return e instanceof Error?e:void 0!==e?.message?new k(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new k("string"==typeof e?e:(0,D.P)(e))}#r(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new k(t);const r=this.#t(e.reason);return r.message=t+r.message,r}#n(e){return e.error instanceof Error?e.error:new k(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let L=1;const M="nr@id";function B(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===u._A?0:(0,H.X)(e,M,(function(){return L++}))}function U(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,D.P)(e).length}catch(e){return}}}var q=i(1214),F=i(7243);class Z{constructor(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,a=(t.trustKey||"").toString()||null;if(!r||!i)return null;var o=(0,j.M)(),s=(0,j.Ht)(),c=Date.now(),d={spanId:o,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(o,s),d.traceContextStateHeader=this.generateTraceContextStateHeader(o,c,r,i,a)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(o,s,c,r,i,a)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,a){if(!("function"==typeof u._A?.btoa))return null;var o={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return a&&n!==a&&(o.d.tk=a),btoa((0,D.P)(o))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var a=(0,F.e)(r.allowed_origins[i]);if(e.hostname===a.hostname&&e.protocol===a.protocol&&e.port===a.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var G=i(7825),V=["load","error","abort","timeout"],X=V.length,W=n.Yu.REQ,Q=u._A.XMLHttpRequest;class K extends g{static featureName=G.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,G.t,i),(0,n.OP)(e).xhrWrappable&&(this.dt=new Z(e),this.handler=(e,t,r,n)=>(0,d.p)(e,t,r,n,this.ee),(0,q.u5)(this.ee),(0,q.Kf)(this.ee),function(e,t,i,a){function o(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=E,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){_(t,e)}),(0,S.m$)(!1)),u.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,S.m$)(!1))}function s(e){this.params={method:e[0]},T(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var o=a.generateTracePayload(this.parsedOrigin);if(o){var s=!1;o.newrelicHeader&&(r.setRequestHeader("newrelic",o.newrelicHeader),s=!0),o.traceContextParentHeader&&(r.setRequestHeader("traceparent",o.traceContextParentHeader),o.traceContextStateHeader&&r.setRequestHeader("tracestate",o.traceContextStateHeader),s=!0),s&&(this.dt=o)}}function d(e,r){var n=this.metrics,i=e[0],a=this;if(n&&i){var o=U(i);o&&(n.txSize=o)}this.startTime=(0,v.z)(),this.listener=function(e){try{"abort"!==e.type||a.loadCaptureCalled||(a.params.aborted=!0),("load"!==e.type||a.called===a.totalCbs&&(a.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof a.end)&&a.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<X;s++)r.addEventListener(V[s],this.listener,(0,S.m$)(!1))}function l(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+B(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+B(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function g(){this.endTime=(0,v.z)()}function p(e,r){r instanceof Q&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof Q&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function b(e,t,r){t instanceof Q&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,v.z)()))}function y(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,v.z)()-this.xhrCbStart,this.onload,r],r)}function w(e){var t,r=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:u._A?.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,F.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=a.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if("string"==typeof e[0]||u._A?.URL&&e[0]&&e[0]instanceof URL){var i={};for(var o in r)i[o]=r[o];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}else e[0]&&e[0].headers&&s(e[0].headers,n)&&(this.dt=n);function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function x(e,t){this.params={},this.metrics={},this.startTime=(0,v.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:u._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),T(this,r);var a=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=a,this.txSize=U(n.body)||0}function A(e,t){var n;this.endTime=(0,v.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var a={txSize:this.txSize,rxSize:n,duration:(0,v.z)()-this.startTime};i("xhr",[this.params,a,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function E(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var a=0;a<X;a++)e.removeEventListener(V[a],this.listener,!1);t.aborted||(n.duration=(0,v.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):_(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function T(e,t){var r=(0,F.e)(t),n=e.params;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}function _(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?U(e.response):"text"===r||""===r||void 0===r?U(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",o),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",d),t.on("xhr-cb-time",l),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",g),t.on("addEventListener-end",p),t.on("removeEventListener-end",m),t.on("fn-end",y),t.on("fetch-before-start",w),t.on("fetch-start",x),t.on("fn-start",b),t.on("fetch-done",A)}(e,this.ee,this.handler,this.dt),this.importAggregator())}}var Y=i(3614);const{BST_RESOURCE:$,RESOURCE:J,START:ee,END:te,FEATURE_NAME:re,FN_END:ne,FN_START:ie,PUSH_STATE:ae}=Y;var oe=i(4649);class se extends g{static featureName=oe.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,oe.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);super(),u._A?(this.agentIdentifier=r,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,c.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=s(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>n[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(r){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",r);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[m,O,class extends g{static featureName=re;constructor(e,t){if(super(e,t,re,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!u.il)return;const n=this.ee;let i;(0,q.QU)(n),this.eventsEE=(0,q.em)(n),this.eventsEE.on(ie,(function(e,t){this.bstStart=(0,v.z)()})),this.eventsEE.on(ne,(function(e,t){(0,d.p)("bst",[e[0],t,this.bstStart,(0,v.z)()],void 0,r.D.sessionTrace,n)})),n.on(ae+ee,(function(e){this.time=(0,v.z)(),this.startPath=location.pathname+location.hash})),n.on(ae+te,(function(e){(0,d.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,d.p)($,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:J,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},K,I,se,z],loaderType:"pro"})})(),window.NRBA=a})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis" />
+    <meta property="og:description" name="Description" content="Even though numerous studies have shown that adolescent empathy is positively related to bystander defending in school bullying, others have failed to detect a significant association between these two variables. To address this discrepancy, a three-level meta-analysis of 27 papers (35 independent studies, N = 25,012 adolescents) was conducted. The results showed that empathy was positively correlated with bystander defending. Furthermore, the strength of the relationship between empathy and bystander defending was moderated by the type of empathy and the evaluators of defending. Specifically, the correlation coefficient between affective empathy and bystander defending (r = 0.27, 95% CI [0.22, 0.32]) was significantly stronger than that between cognitive empathy and bystander defending (r = 0.22, 95% CI [0.17, 0.28]). Finally, the strength of the relationship between empathy and bystander defending was moderated by the evaluator of defending behavior. That is, the correlation coefficient of bystander defending measured by self-evaluation was significantly stronger than that measured by peer-evaluation. The results showed that empathy was closely related to bystander defending. Thus, school bullying can be prevented from the perspective of enhancing empathy among adolescents." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/articles/10.3389/fpsyg.2021.690898/full" />
+
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/690898/690898_Thumb_400.jpg" />
+            <meta name="citation_volume" content="12" />
+        <meta name="citation_journal_title" content="Frontiers in Psychology" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Psychol." />
+        <meta name="citation_issn" content="1664-1078" />
+        <meta name="citation_doi" content="10.3389/fpsyg.2021.690898" />
+        <meta name="citation_firstpage" content="690898" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis" />
+        <meta name="citation_keywords" content="Bullying; Empathy; bystander defending; Three-level meta-analysis; cognitive empathy; affective empathy; Adolescents." />
+        <meta name="citation_abstract" content="Even though numerous studies have shown that adolescent empathy is positively related to bystander defending in school bullying, others have failed to detect a significant association between these two variables. To address this discrepancy, a three-level meta-analysis of 27 papers (35 independent studies, N = 2,5012 adolescents) was conducted. The results showed that empathy was positively correlated with bystander defending. Furthermore, the strength of the relationship between empathy and bystander defending was moderated by the type of empathy and the evaluators of defending. Specifically, the correlation coefficient between affective empathy and bystander defending was significantly stronger than that between cognitive empathy and bystander defending. Finally, the strength of the relationship between empathy and bystander defending was moderated by the evaluator of defending behavior. That is, the correlation coefficient of bystander defending measured by self-evaluation was significantly stronger than that measured by peer-evaluation. The results showed that empathy was closely related to bystander defending. Thus, school bullying can be prevented from the perspective of enhancing empathy among adolescents." />
+        <meta name="description" content="Even though numerous studies have shown that adolescent empathy is positively related to bystander defending in school bullying, others have failed to detect a significant association between these two variables. To address this discrepancy, a three-level meta-analysis of 27 papers (35 independent studies, N = 2,5012 adolescents) was conducted. The results showed that empathy was positively correlated with bystander defending. Furthermore, the strength of the relationship between empathy and bystander defending was moderated by the type of empathy and the evaluators of defending. Specifically, the correlation coefficient between affective empathy and bystander defending was significantly stronger than that between cognitive empathy and bystander defending. Finally, the strength of the relationship between empathy and bystander defending was moderated by the evaluator of defending behavior. That is, the correlation coefficient of bystander defending measured by self-evaluation was significantly stronger than that measured by peer-evaluation. The results showed that empathy was closely related to bystander defending. Thus, school bullying can be prevented from the perspective of enhancing empathy among adolescents." />
+        <meta name="citation_online_date" content="2021/06/09" />
+        <meta name="citation_publication_date" content="2021/08/05" />
+        <meta name="citation_author" content="Deng, Xiaoping" />
+        <meta name="citation_author_institution" content="Research Center of Educational Economics, Gannan Normal University, China" />
+        <meta name="citation_author_institution" content="School of Education Science, Gannan Normal University, China" />
+        <meta name="citation_author" content="Yang, Junru" />
+        <meta name="citation_author_institution" content="School of Education Science, Gannan Normal University, China" />
+        <meta name="citation_author" content="Wu, Yuzhen" />
+        <meta name="citation_author_institution" content="Department of Rear-Service Management, Gannan Normal University, China" />
+    <meta name="Keywords" content="Bullying, Empathy, bystander defending, Three-level meta-analysis, cognitive empathy, affective empathy, Adolescents." />
+
+        <meta name="dc.identifier" content="doi:10.3389/fpsyg.2021.690898">
+        <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function () {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview: 'False',
+                TenantName: 'Frontiers'
+            }
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"article_accepteddate":"Accepted: ","article_analyticstooltip":"In May 2023, Frontiers adopted a new reporting platform to be Counter 5 compliant, in line with industry standards.","article_analyticsviewimpact":"View article impact","article_bibtex":"BibTex","article_copyrighttext":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","article_downloadarticle":"Download Article","article_downloadpdf":"Download PDF","article_downloadprovisionalarticle":"Download Provisional Article","article_endnote":"EndNote","article_epub":"EPUB","article_exportcitation":"Export Citation","article_jats":"JATS","article_nlm":"XML (NLM)","article_pdf":"PDF","article_provisionalpdf":"Provisional PDF","article_publisheddate":"Published online: ","article_readfulltext":"Read Full Text","article_receiveddate":"Received: ","article_referencemanager":"Reference Manager","article_shareon":"SHARE ON","article_simpletextfile":"Simple TEXT file","article_supplementaldata":"SUPPLEMENTAL DATA","article_tableofcontent":"TABLE OF CONTENTS","article_viewenhancedpdf":"ReadCube","article_xml":"XML","browserwarningtext":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","impact_backtoarticle":"Back to article","people_also_lookedat":"People also looked at","article_analyticstotalviews":"total views","ART_FRONTIERS":"Frontiers","Article_AnalyticsTotalViews":"total views","Article_ArchiveLinkText":"Articles","Article_Citation":"Citation:","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright:","Article_Correspondence":"* Correspondence:","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by:","Article_Keywords":"Keywords:","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published:","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","article_lastmodifieddate":"Last modified: "};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '36',
+                SectionId: '46'
+            };
+    })();
+
+    var FRArticleDetails = (function () {
+
+            return {
+                ArticleId: '690898',
+                SectionTitle: 'Developmental Psychology',
+                DisclaimerText: 'All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.',
+                IsHTMLPublished:'True',
+                IsPreview: 'False',
+                LinkedArticles: null,
+                DisplayRelatedArticlesBox: 'True',
+                DisplayTitlePillLabels: 'False',
+                IsOriginalArticle: 'False',
+                IsArticleIdsToHideRelatedArticleBox: 'False'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=Fp4H7kLloN90qq2u8knCdlhXA6aGuosX8WE_xkzfWjc1" rel="stylesheet"/>
+
+    <style type="text/css"> .journal-psychology {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+background-size: 49%;
+}
+
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+ background-size: 39%;
+ }}
+
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+ background-size: 46%;
+ }}
+
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+background-size: 46%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { 
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% -10px;
+background-size: 42%;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 17px;
+background-size: 58%;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) { 
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 33px;
+background-size: 66%;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 115px;
+background-size: 64%;
+ }} </style>
+    
+</head>
+<body class="journal-psychology section-developmental-psychology">
+
+    
+    <a href="#main-content" class="bypassBlock-wrapper" id="bypass">
+        <span class="bypassBlock-button">Skip to main content</span>
+    </a>
+    <script type="text/javascript">
+
+        const container = document.getElementById("bypass");
+
+        //eventListeners
+        container.addEventListener('focus', function () {
+            document.documentElement.setAttribute("bypass-focus", "true");
+        }, true);
+
+        container.addEventListener('blur', function () {
+            document.documentElement.setAttribute("bypass-focus", "false");
+        }, true);
+
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFKV632&gtm_auth=NsJH3Ts1-89I8lZURwQYmw&gtm_preview=env-1&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N279F7B&gtm_auth=jfKETtlWamfZ4l02YiFCQw&gtm_preview=env-1&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=vbc13dTGr7qL7XerHFDUYx5a5aMhnEvReT2oPGkMwm81"></script>
+
+
+
+    <frontiers-ibar main-domain="frontiersin.org" is-frontiers="true" tenant-name="FRONTIERS"  loop-url="https://loop.frontiersin.org" journal-id="36"></frontiers-ibar>
+    <div class="page-container sidemenu-collapsed" id="main-content">
+        
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+        <div class="row" id="similar-articles">
+            <div class="new-wrapper">
+                
+
+
+<style>
+    .disabled-supplementary-btn {
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: .65;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+</style>
+<aside class="right-container">
+
+        <div class="side-article-download clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <button data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon-label" data-event="download-button-click">Download Article</span>
+                        </button>
+
+                        <div class="dropdown-menu-wrapper">
+                            <div class="dropdown-menu-mobile-title">
+                                Download Article
+                            </div>
+                            <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a class="download-files-pdf action-link" href="/articles/10.3389/fpsyg.2021.690898/pdf" data-test-id="article-downloadpdf" data-event="downloadpdf-button-click" id="download_article​">
+                                            Download PDF
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fpsyg.2021.690898" data-test-id="article-viewenhancedpdf" data-event="downloadreadcube-button-click" id="download_article​">
+                                            ReadCube
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-epub" href="/articles/10.3389/fpsyg.2021.690898/epub" data-test-id="article-epub" data-event="downloadepub-button-click" id="download_article​">
+                                            EPUB
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-nlm" href="/articles/10.3389/fpsyg.2021.690898/xml/nlm" data-test-id="article-nlm" data-event="downloadnlm-button-click" id="download_article​">
+                                            XML (NLM)
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                            <button class="dropdown-menu-mobile-close-button" aria-label="Close" data-toggle="dropdown"></button>
+                        </div>
+                    </li>
+                                <li class="dropdown">
+                </li>
+
+                <li class="dropdown">
+                    <button type="button" class="navbar-toggle navbar-citations" data-event="citation-button-click" data-toggle="dropdown" data-target="#" aria-expanded="false">
+                    </button>
+                    <div class="dropdown-menu-wrapper">
+                        <div class="dropdown-menu-mobile-title">
+                            Export citation
+                        </div>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a data-test-id="article-endnote" href="/articles/10.3389/fpsyg.2021.690898/endNote" data-event="endnotedownload-button-click">
+                                        EndNote
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-referencemanager" href="/articles/10.3389/fpsyg.2021.690898/reference" data-event="referencemanagerdownload-button-click">
+                                        Reference Manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-simpletextfile" href="/articles/10.3389/fpsyg.2021.690898/text" data-event="simpletextfiledownload-button-click">
+                                        Simple TEXT file
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-bibtex" href="/articles/10.3389/fpsyg.2021.690898/bibTex" data-event="bibtexdownload-button-click">
+                                        BibTex
+                                    </a>
+                                </li>
+                        </ul>
+                        <button class="dropdown-menu-mobile-close-button"
+                                aria-label="Close"
+                                data-toggle="dropdown"></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+    <div class="stats-container">
+        <div class="divide-container">
+            <div class="flex-container-metrics">
+                <ul class="nav">
+                        <li class="impact-data" id="views-section" style="display:none">
+                            <span class="views-count" id="views-count"></span>
+                            <span class="title-views">Total views</span>
+                        </li>
+                        <li class="impact-data" id="downloads-section" style="display:none">
+                            <span class="views-count" id="downloads-count"></span>
+                            <span class="title-views">Downloads</span>
+                        </li>
+                        <li class="impact-data" id="citations-section" style="display:none">
+                            <span class="views-count" id="citations-count"></span>
+                            <span class="title-views">Citations</span>
+                        </li>
+                </ul>
+                    <div class="infoPopover" id="infoPopover" style="display:none">
+                        <div role="button" class="infoPopover__trigger"></div>
+                        <div class="infoPopover__content">
+                            <p>
+                                In May 2023, Frontiers adopted a new reporting platform to be Counter 5 compliant, in line with industry standards.
+                            </p>
+                                <a href="https://blog.frontiersin.org/2023/05/16/open-access-publisher-frontiers-moves-to-a-new-article-metric-platform-counter/" target="_blank">Read more</a>
+                            <div role="button" class="infoPopover__close"></div>
+                        </div>
+                    </div>
+            </div>
+                <div class="articleImpact" id="article-impact">
+                    <span class="borderLine"></span>
+                        <a class="articleImpact--url"
+                           data-test-id="view-article-impact"
+                           data-event="impact-button-click"
+                           href="http://loop-impact.frontiersin.org/impact/article/690898#views"
+                           target="_blank">View article impact</a>
+                </div>
+        </div>
+        <div class="side-article-impact">
+            <ul class="nav">
+                <li class="altmetric-wrapper">
+                    <div class='altmetric-embed' data-badge-type='donut' data-event="altmetric-button-click" data-badge-popover="bottom" data-doi='10.3389/fpsyg.2021.690898' data-condensed="true" data-link-target="new"></div>
+                    <a class="altmetricScore_url" href="https://www.altmetric.com/details/doi/10.3389/fpsyg.2021.690898" target="_blank">View altmetric score</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+        <aside id="anchors" class="pull-left table-of-contents side-article">
+            <div class="side-people hidden-sm hidden-xs">
+                    <section class="side-article-editors">
+                                <header><h5 class="like-h4">Edited by</h5></header>
+                                <a class="authors" href="https://loop.frontiersin.org/people/585070/overview" target="_blank">
+                                    <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/585070/24"></img>
+                                    <h6 class="author-link-aside">Eleonora Farina</h6>
+                                </a>
+                                <div class="clearfix"></div>
+                                <p><span class="notes">University of Milano-Bicocca, Italy</span></p>
+                                                        <header><h5 class="like-h4"> Reviewed by</h5></header>
+                                    <a class="authors" href="https://loop.frontiersin.org/people/264099/overview" target="_blank">
+                                        <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/264099/24"></img>
+                                        <h6 class="author-link-aside">Lin Zhang</h6>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <p><span class="notes">Ningbo University, China</span></p>
+                                    <a class="authors" href="https://loop.frontiersin.org/people/279622/overview" target="_blank">
+                                        <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/279622/24"></img>
+                                        <h6 class="author-link-aside">Veronica Ornaghi</h6>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <p><span class="notes">University of Milano-Bicocca, Italy</span></p>
+                                            </section>
+            </div>
+
+        <nav>
+                <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+                <ul class="nav nav-list list-unstyled contents" data-event="toc-link-click">
+                    <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Abstract</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Results</a></li>
+<li><a href="#h5">Discussion</a></li>
+<li><a href="#h6">Data Availability Statement</a></li>
+<li><a href="#h7">Author Contributions</a></li>
+<li><a href="#h8">Funding</a></li>
+<li><a href="#h9">Conflict of Interest</a></li>
+<li><a href="#h10">Publisher&#x00027;s Note</a></li>
+<li><a href="#h11">References</a></li>
+</ul>                    </li>
+                </ul>
+        </nav>
+    </aside>
+
+
+    <div class="clearfix"></div>
+
+        <div class="side-article-download side-export clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                                    <li class="dropdown text-center citation">
+                        <button data-target="#" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon-label" data-event="citation-button-click">Export citation</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a data-test-id="article-endnote" id="export_citation" href="/articles/10.3389/fpsyg.2021.690898/endNote" data-event="endnotedownload-button-click">
+                                        EndNote
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-referencemanager" id="export_citation" href="/articles/10.3389/fpsyg.2021.690898/reference" data-event="referencemanagerdownload-button-click">
+                                        Reference Manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-simpletextfile" id="export_citation" href="/articles/10.3389/fpsyg.2021.690898/text" data-event="simpletextfiledownload-button-click">
+                                        Simple TEXT file
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-bibtex" id="export_citation" href="/articles/10.3389/fpsyg.2021.690898/bibTex" data-event="bibtexdownload-button-click">
+                                        BibTex
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="side-crossmark">
+            <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+            <a data-target="crossmark" class="crossmark">
+                <figure>
+                    <img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_square_no_text.svg" title="" alt="">
+                </figure>
+                <div id="crossmark-icon">Check for updates</div>
+            </a>
+
+        </div>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+
+            <h5 class="like-h4" data-event="peoplelookedat-link-click">People also looked at</h5>
+        </article>
+
+
+</aside>
+
+                
+<main class="">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                   
+                    <!-- End CrossMark Snippet -->
+
+                        <div class="header-bar-one">
+                            <h2>
+                                SYSTEMATIC REVIEW article
+                            </h2>
+                        </div>
+                    <div class="header-bar-three-container">
+                        <div class="header-bar-three">
+                            Front. Psychol., 05 August 2021<br>Sec. Developmental Psychology
+
+                            <br />
+                                <span class="volumeInfo"> Volume 12 - 2021 | </span>
+
+
+
+                                    <a href="https://doi.org/10.3389/fpsyg.2021.690898">https://doi.org/10.3389/fpsyg.2021.690898</a>
+                        </div>
+                    </div>
+                </div>
+
+<div class="JournalAbstract">
+<a id="h1" name="h1"></a><h1>Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis</h1>
+<div class="authors">
+<a href="https://www.frontiersin.org/people/u/1281098" class="user-id-1281098"><img class="pr5" src="https://loop.frontiersin.org/images/profile/1281098/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'">Xiaoping Deng</a><sup>1,2</sup><sup>&#x0002A;</sup>  <a href="https://www.frontiersin.org/people/u/1292901" class="user-id-1292901"><img class="pr5" src="https://loop.frontiersin.org/images/profile/1292901/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'">Junru Yang</a><sup>2</sup> <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg">Yuzhen Wu<sup>3</sup></div>
+<ul class="notes">
+<li><span><sup>1</sup></span>Research Center of Educational Economics, Gannan Normal University, Ganzhou, China</li>
+<li><span><sup>2</sup></span>School of Education Science, Gannan Normal University, Ganzhou, China</li>
+<li><span><sup>3</sup></span>Department of Rear-Service Management, Gannan Normal University, Ganzhou, China</li>
+</ul>
+<p>Even though numerous studies have shown that adolescent empathy is positively related to bystander defending in school bullying, others have failed to detect a significant association between these two variables. To address this discrepancy, a three-level meta-analysis of 27 papers (35 independent studies, <i>N</i> = 25,012 adolescents) was conducted. The results showed that empathy was positively correlated with bystander defending. Furthermore, the strength of the relationship between empathy and bystander defending was moderated by the type of empathy and the evaluators of defending. Specifically, the correlation coefficient between affective empathy and bystander defending (<i>r</i> = 0.27, 95% CI [0.22, 0.32]) was significantly stronger than that between cognitive empathy and bystander defending (<i>r</i> = 0.22, 95% CI [0.17, 0.28]). Finally, the strength of the relationship between empathy and bystander defending was moderated by the evaluator of defending behavior. That is, the correlation coefficient of bystander defending measured by self-evaluation was significantly stronger than that measured by peer-evaluation. The results showed that empathy was closely related to bystander defending. Thus, school bullying can be prevented from the perspective of enhancing empathy among adolescents.</p>
+<div class="clear"></div>
+</div>
+<div class="JournalFullText">
+<a id="h2" name="h2"></a><h2>Introduction</h2>
+<p class="mb15">School bullying is a predominant social issue worldwide and refers to repeated attacks that cause physical and psychological harm to victims (<a href="#B46">Olweus, 2013</a>). Research by <a href="#B69">Zhang et al. (2018)</a> showed that 27% of junior high school students in China have experienced school bullying. School bullying has serious adverse effects for all involved. For example, victims have lower academic achievement and are likelier to experience loneliness, depression, anxiety, and suicidal ideation (<a href="#B40">Nakamoto and Schwartz, 2011</a>). Bystanders feel guilt and shame, causing loss of confidence and lower self-esteem (<a href="#B38">Mazzone et al., 2016</a>). Furthermore, bullying behavior increases the risk of bullies perpetrating crimes in adulthood (<a href="#B30">Klomek et al., 2015</a>).</p>
+<p class="mb0">Previous empirical studies show that the behavioral reactions of bystanders greatly influence school bullying. Approximately 74 percent of the individuals involved in bullying are bystanders (<a href="#B50">Pouwels et al., 2017</a>). Bystander defending behavior can effectively end bullying behavior (<a href="#B23">Hawkins et al., 2001</a>) and reduce the incidence of school bullying. Bystander defending refers to the behaviors that are carried out to support the victim, such as comforting the victim in the bullying situation, seeking help from adults or others, resisting the bully, and so forth (<a href="#B57">Salmivalli et al., 1996</a>). Therefore, promoting bystander defending is essential for the intervention and prevention of school bullying, and researchers are increasingly focusing on interventions for school bullying via bystander defending. However, only 19% of bystanders engage in defending behavior (<a href="#B23">Hawkins et al., 2001</a>).</p>
+<h3>Empathy and Defending</h3>
+<p class="mb15">Furthermore, previous research indicates that students with a high level of empathy are likelier to engage in bystander defending during school bullying situations (<a href="#B11">Cuervo et al., 2018</a>). Most studies define empathy as understanding other people&#x00027;s emotions and sharing their emotional states (<a href="#B12">Davis, 1983</a>; <a href="#B28">Jolliffe and Farrington, 2004</a>). Currently, empathy is predominantly measured using the Interpersonal Relation Index (IRI) compiled by <a href="#B12">Davis (1983)</a>. It comprises 28 items, including four dimensions: perspective taking, empathic concern, fantasy, and personal distress. <a href="#B3">Baron-Cohen and Wheelwright (2004)</a> developed the Empathy Quotient (EQ) for abnormal groups (such as people with autism). It comprises 60 items including cognitive empathy, emotional reactivity, and social skills. <a href="#B29">Jolliffe and Farrington (2006)</a> suggested that the previous scales failed to distinguish sympathy from empathy and to accurately measure cognitive empathy. To address these limitations, they compiled the Basic Empathy Scale (BES) which consists of 20 items, including two dimensions of cognitive empathy and affective empathy.</p>
+<p class="mb0">However, previous studies regarding the relationship between empathy and bystander defending yielded conflicting results. For example, both the empathy-altruism hypothesis (<a href="#B4">Batson, 1987</a>) and the theory of prosocial moral behavior and development (<a href="#B24">Hoffman, 2001</a>) propose that witnessing another person in distress stimulates an empathic response, guilt, anger, and a desire to alleviate the distress, which results in helping behavior. Bystander defending is altruistic in a specific situation; that is, when bystanders witness school bullying, they will empathize with the painful experience of the victim, thereby prompting bystanders to engage in defending behavior. Several empirical studies have supported this view and found that empathy has a significant positive correlation with bystander defending (<a href="#B21">Gini et al., 2007</a>, <a href="#B22">2008</a>; <a href="#B43">Nickerson et al., 2008</a>; <a href="#B67">Xie and Ngai, 2020</a>). Additionally, the meta-analysis results of <a href="#B71">Zych et al. (2017)</a> show that empathy can significantly positively predict bystander defending. However, other studies found that empathy was not significantly related to bystander defending (<a href="#B27">Jenkins et al., 2016</a>; <a href="#B45">Oh and Park, 2019</a>), or that empathy was negatively correlated with bystander defending in school bullying (<a href="#B2">Barhight et al., 2013</a>). Therefore, we proposed that empathy is positively correlated with bystander defending (Hypothesis 1).</p>
+<h3>Moderators of Effect Sizes of Correlates of Defending</h3>
+<p class="mb15">Furthermore, the inconsistencies regarding bystander defending and empathy may be because the type of empathy affects the relationship between empathy and bystander defending. Multi-dimensional researchers believe that empathy includes affective empathy and cognitive empathy. Affective empathy refers to the ability to experience the emotional state of others (<a href="#B33">Lovett and Sheffield, 2007</a>). Cognitive empathy refers to recognizing other people&#x00027;s emotions and understanding their views (<a href="#B25">Hogan, 1969</a>; <a href="#B12">Davis, 1983</a>). Some studies showed that the relationship between both types of empathy and bystander defending is directionally inconsistent. For example, <a href="#B2">Barhight et al. (2013)</a> found that affective empathy was negatively correlated with bystander defending, while <a href="#B47">Peets et al. (2015)</a> found that cognitive empathy was positively correlated with bystander defending. Moreover, some studies have found that cognitive empathy could significantly predict bystander defending, while affective empathy had no significant effect (<a href="#B16">Espelage et al., 2012</a>; <a href="#B49">Polanin et al., 2012</a>). Contrarily, <a href="#B66">Wolfgang (2017)</a> found that affective empathy was significantly correlated with bystander defending, while cognitive empathy had no significant effect. Finally, previous research indicates that affective empathy is more closely related to bystander defending than cognitive empathy (<a href="#B63">van der Ploeg et al., 2017</a>; <a href="#B19">Fredrick et al., 2020</a>). Therefore, we set forth Hypothesis 2: the magnitude of the association between empathy and bystander defending is moderated by the type of empathy.</p>
+<p class="mb15">Furthermore, the evaluators of defending behavior may also moderate the relationship between empathy and bystander defending. Bystander defending is measured using the Participant Role Questionnaire (PRQ) and its revised versions. The questionnaire was first compiled by Salmivalli et al. in 1996 and comprised 50 items. Salmivalli et al. revised the questionnaire in 1998 to 23 items applicable to middle school students (<a href="#B58">Salmivalli et al., 1998</a>). Subsequently, in 2004, it was reduced to 15 items applicable to primary school students (<a href="#B59">Salmivalli and Voeten, 2004</a>). Self-evaluation and evaluation by others may lead to inconsistent research results. Moreover, self-evaluation is affected by the social desirability effect, and subjects may thus report more defending behaviors. For example, <a href="#B70">Zhang (2005)</a> found that the self-reported scores of junior high school students were significantly higher than peer-reported scores regarding defending; that is, they exaggerated their defending tendency in bullying situations. Several studies indicated that when self-evaluation was used to measure bystander defending (<a href="#B41">Nickerson and Mele-Taylor, 2014</a>; <a href="#B19">Fredrick et al., 2020</a>), defending behavior was higher than the correlation coefficient when using peer-evaluation (<a href="#B22">Gini et al., 2008</a>; <a href="#B66">Wolfgang, 2017</a>). Therefore, we suggested Hypothesis 3: the evaluation method of measuring defending behavior may moderate the association between empathy and bystander defending.</p>
+<p class="mb0">Different age groups will influence the correlation between empathy and bystander defending. For example, there is no significant correlation between empathy and bystander defending in early adolescence (<a href="#B2">Barhight et al., 2013</a>); however, there is a significant correlation between empathy and bystander defending in middle adolescence (<a href="#B10">Correia and Dalbert, 2008</a>). Additionally, <a href="#B6">Caravita et al. (2009)</a> showed that the correlation coefficient between empathy and bystander defending increased proportionally with students&#x00027; age. Moreover, the correlation coefficient between empathy and bystander defending among adolescents in middle school (<a href="#B53">Pozzoli et al., 2017</a>; <a href="#B68">Yun and Graham, 2018</a>) was stronger than for early adolescents (<a href="#B51">P&#x000F6;yh&#x000F6;nen et al., 2010</a>; <a href="#B34">Lucas-Molina et al., 2018</a>). Therefore, we proposed Hypothesis 4: the age of the subjects will moderate the relationship between empathy and bystander defending.</p>
+<h3>Present Study</h3>
+<p class="mb0">The main aim of this meta-analysis was to synthesize results from a large number of published and unpublished studies investigating relations between adolescent empathy and bystander defending in school bullying. We also examined potential moderators of these relations (e.g., the types of empathy, the evaluators of bystander defending, age of the sample). Building on the empathy-altruism hypothesis (<a href="#B4">Batson, 1987</a>) and the theory of prosocial moral behavior and development (<a href="#B24">Hoffman, 2001</a>), it is expected that empathy is positively correlated with bystander defending. Also, it is hypothesized that affective empathy is more closely related to bystander defending than cognitive empathy. Also, the relation between empathy and bystander defending assessed by self-report is stronger than bystander defending assessed by peer-report. Finally, the positive association between empathy and bystander defending can be assumed to be strengthened by age.</p>
+<a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+<h3 class="pt0">Search Strategies</h3>
+<p class="mb15">We first conducted an electronic search of the following databases: Web of Science, ProQuest, CNKI, and WanFang Data using combinations of the relevant keywords: empathy<sup>&#x0002A;</sup> AND defend<sup>&#x0002A;</sup> or intervention<sup>&#x0002A;</sup> or bully<sup>&#x0002A;</sup>. Since bystander defending behavior was proposed by Salmivalli in 1996, the retrieval time was set from 1996 to 2020. Moreover, we examined references cited in other articles using both backward and forward search methods. Based on the above-mentioned retrieval rules, 567 studies were ultimately retrieved.</p>
+<p class="mb0">Four criteria were used to screen the literature: (1) empirical studies on the relationship between empathy and traditional bullying bystander defending; (2) studies distinguishing between the cognitive and affective dimensions of empathy; (3) the necessary data were reported by meta-analysis, including sample size and effect size index, such as a correlation; and (4) the samples comprised school-age children and adolescents. First, 205 duplicate studies were eliminated by the title of the studies. Next, 302 irrelevant topics, e.g., cyberbullying studies, and non-empirical research studies were eliminated by reading the title and abstract. Next, seven articles cannot get the original text. Then, through full-text reading, a total of 26 pieces of literature were excluded, including 20 studies that did not distinguish between cognitive empathy and affective empathy, three studies that did not meet the sample requirements, two studies that did not have the necessary data for reporting, and one study with duplicate samples. Finally, 27 studies were included in the meta-analysis. Of these, six studies included multiple independent samples; thus, 35 independent studies were included in the meta-analysis. The detailed flowchart of the selection process for eligible studies is shown in <a href="#F1">Figure 1</a>.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/690898/fpsyg-12-690898-HTML/image_m/fpsyg-12-690898-g001.jpg" name="figure1" target="_blank">
+<img id="F1" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/690898/fpsyg-12-690898-HTML/image_m/fpsyg-12-690898-g001.jpg"></a>
+<p><strong>Figure 1</strong>. Flowchart presenting the selection process of studies.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Coding the Studies</h3>
+<p class="mb15">The features of the research included in the meta-analysis were coded, including literature information (author name &#x0002B; publication year), sample size, adolescent development stage, average age, proportion of males, empathy type, evaluation subject of defending behavior, country, and correlation coefficient. When coding adolescent development stages, we found that some studies reported only the grades of the subjects rather than the average age. Thus, the adolescent development stages were divided into early, middle and late stages according to the age and grades of the subjects. The early stage refers to subjects aged under 12 years or in primary school, the middle stage refers to subjects aged 12&#x0007E;14 years or in junior high school, and the late stage refers to subjects aged over 15 years old or in high school. Since only one included study comprised subjects belonging to the late adolescent stage, the research subjects were coded as the middle stage.</p>
+<p class="mb0">In this study, the first author created the research feature coding table, read the original literature, and completed the coding table prepared in advance. After verification and proofreading by other authors, the results indicated no obvious difference between the two codes, except for a few data deviations. See <a href="#T1">Table 1</a> for the coding data included in the original study.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/690898/fpsyg-12-690898-HTML/image_m/fpsyg-12-690898-t001.jpg" name="Table1" target="_blank">
+<img id="T1" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/690898/fpsyg-12-690898-HTML/image_m/fpsyg-12-690898-t001.jpg">
+</a>
+<p><strong>Table 1</strong>. Studies included in the meta-analysis.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Analyses</h3>
+<p class="mb15">Pearson&#x00027;s product-moment correlation coefficient was used to determine the effect size. To eliminate the influence of different sample sizes, the correlation coefficients of each study were transformed by Fisher&#x00027;s Z, and the average number of Z values after transformation were calculated. The average number of Z values were then transformed into a correlation coefficient (<a href="#B32">Lipsey and Wilson, 2001</a>).</p>
+<p class="mb15">The outliers were identified by studentized deleted residuals. Values &#x0003E;2.5 were identified as outliers (<a href="#B13">Deng et al., 2016</a>). We used Cook&#x00027;s distance and standardized <i>Df Beta</i> to identify the threatening effect size, which were values &#x0003E;1 (<a href="#B13">Deng et al., 2016</a>). Research results which had abnormal values and posed a threat to the effect quantity were deleted, and other effect sizes were retained for subsequent analyses.</p>
+<p class="mb15">A three-level random effect model was used to estimate the total effect. Some studies use the same sample to report multiple effects, and the effects from the same study tend to be more similar than those from different studies, which violates the assumption of the independence of effect sizes (<a href="#B9">Cheung, 2014</a>). In the past, meta-analyses addressed these limitations by deleting parts of effect sizes or combining effect sizes; however, these cause information loss or discount the differences between effect sizes, respectively. Therefore, we adopted the three-level random effect model, which decomposes the total variance of effect size into sampling variance (level 1), the variance between effect sizes from the same study (level 2), and the variance between studies (level 3) (<a href="#B61">Van den Noortgate et al., 2013</a>). The three-level random effect model can include the effects from the same research and all available effects to obtain the maximum information and statistical ability.</p>
+<p class="mb15">The funnel plot and Egger&#x00027;s regression method were used to test the publication bias. Some studies have shown that published research is likelier to present significant results than unpublished research, and the meta-analysis includes five dissertations. Thus, it is necessary to evaluate the publishing deviation (<a href="#B56">Rothstein et al., 2005</a>). Egger linear regression analysis is used to test the symmetry of the funnel plot and significant results indicate publication bias, wherein the trim and fill method is used to analyze sensitivity and correct total effect sizes.</p>
+<p class="mb15">The likelihood ratio test (<i>LRT</i>) and variance distribution of effect sizes were used to test whether heterogeneity exists (<a href="#B61">Van den Noortgate et al., 2013</a>). If the result of <i>LRT</i> is significant or the sampling variance accounts for &#x0003C;75% of the total variance, then heterogeneity is confirmed, and it is reasonable to conduct moderator analysis.</p>
+<p class="mb15">The Omnibus Test under the fixed-effect model was used for moderator analysis (<a href="#B61">Van den Noortgate et al., 2013</a>). For two levels of classified moderator variables, the moderator variables are converted into two virtual variables, and each virtual variable is set at 0/1. The omnibus test follows F-distribution and a significant result indicates that the moderator variables are significant. T-distribution was used to test the effect sizes of each level and whether the difference between them was significant (<a href="#B54">Raudenbush and Bryk, 2002</a>).</p>
+<p class="mb0">The analyses were conducted using the metafor package for the R environment (<a href="#B65">Viechtbauer, 2010</a>).</p>
+<a id="h4" name="h4"></a><h2>Results</h2>
+<h3 class="pt0">Analysis of Outliers</h3>
+<p class="mb0">The results showed that studentized deleted residuals of the second and the 57th effects were 2.88 and 2.96, respectively, and were classified as outliers. The standardized <i>Df Beta</i> values of the second and the 57th effect quantity were 1.92 and 1.94, respectively, both of which were threatening effect values. Thus, these two effect sizes were deleted, and other effect sizes were retained for meta-analysis.</p>
+<h3>Analysis of Heterogeneity</h3>
+<p class="mb0"><i>LRT</i> showed that when comparing the entire model with the model after deleting level 2, there was a significant difference between the effects in the study (&#x003C3;<sup>2</sup> = 0.003, <i>LRT</i> = 90.44, <i>p</i> &#x0003C; 0.0001). When comparing the whole model with the model after deleting level 3, there were significant differences between the studies (&#x003C3;<sup>2</sup> = 0.015, <i>LRT</i> = 12.70, <i>p</i> &#x0003C; 0.001). Therefore, the whole model including levels 2 and 3 were selected for this study. Additionally, the variance distribution results showed that the variance of level 2 accounted for 16.46% and the variance of level 3 accounted for 76.13%. Thus, the total systematic error accounted for 92.59%. Considering these results, it is necessary to investigate the influence of moderator variables on the relationship between them.</p>
+<h3>Publication Bias and Main Effect Sizes Analysis</h3>
+<p class="mb15">The funnel plot showed that the effect sizes were concentrated above the graph and evenly distributed on both sides of the total effect. The Egger&#x00027;s linear regression results were not significant (<i>t</i> = 0.18, <i>df</i> = 54, <i>p</i> = 0.86). This indicates that there is no significant publication bias in this study, and the results of the meta-analysis are reliable.</p>
+<p class="mb0">The random-effect model was used to estimate the correlation coefficient between empathy and bystander defending behavior. The results showed that the correlation between empathy and defending was 0.25 (<i>CI</i> = 0.21 &#x0007E; 0.30, <i>p</i> &#x0003C; 0.001). <a href="#B20">Gignac and Szodorai (2016)</a> proposed that 0.1 &#x0003C; <i>r</i> &#x0003C; 0.2 signifies a low correlation, 0.2 &#x02264; <i>r</i> &#x02264; 0.3 indicates a medium correlation, and 0.3 &#x0003C; <i>r</i> shows a strong correlation. Thus, there was a moderate correlation between empathy and bystander defending behavior.</p>
+<h3>Analysis of Moderator</h3>
+<p class="mb0">The omnibus test was used to examine the moderating effects of empathy type, developmental stage, and defending behavior evaluators on the relationship between empathy and bystander defending. The results showed that empathy type significantly moderated the relationship between empathy and bystander defending, [<i>F</i><sub>(1,54)</sub> = 6.31, <i>p</i> = 0.02]. The correlation coefficient between affective empathy and bystander defending was significantly stronger than for cognitive empathy and defending. The evaluator of bystander defending behavior significantly moderated the relationship between empathy and defending, [<i>F</i><sub>(1, 54)</sub> = 15.18, <i>p</i> &#x0003C; 0.001]. Self-evaluation of defending behavior showed a greater correlation coefficient between empathy and bystander defending than for peer evaluation. The subjects&#x00027; developmental stage did not act as significant moderators, [<i>F</i><sub>(1,54)</sub> = 0.45, <i>p</i> = 0.05]. Specific results are shown in <a href="#T2">Table 2</a>.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 2</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/690898/fpsyg-12-690898-HTML/image_m/fpsyg-12-690898-t002.jpg" name="Table2" target="_blank">
+<img id="T2" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/690898/fpsyg-12-690898-HTML/image_m/fpsyg-12-690898-t002.jpg">
+</a>
+<p><strong>Table 2</strong>. Results for the moderators of empathy and defending.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<a id="h5" name="h5"></a><h2>Discussion</h2>
+<h3 class="pt0">Empathy and Defending</h3>
+<p class="mb15">A total of 35 independent sample studies were included in the current study to perform a meta-analysis regarding the correlation between empathy and bystander defending behavior. Our results supported Hypothesis 1; that is, there was a significant positive correlation between empathy and bystander defending behavior. However, the hypotheses of zero correlation and negative correlation were not supported. The results are consistent with previous research (<a href="#B64">Van Noorden et al., 2015</a>; <a href="#B71">Zych et al., 2017</a>; <a href="#B37">Ma et al., 2019</a>), as well as the meta-analysis results of <a href="#B42">Nickerson et al. (2015)</a>. However, the correlation coefficient obtained in this meta-analysis was lower than that obtained by <a href="#B42">Nickerson et al. (2015)</a>, which may be related to the inclusion criteria for the literature selection. First, compared with <a href="#B42">Nickerson et al. (2015)</a>, we included additional research from 2015 to 2020, and the number of studies may have influenced the results. Secondly, although the meta-analysis of <a href="#B42">Nickerson et al. (2015)</a> distinguished between cognitive and affective empathy in the literature inclusion criteria, some studies which were included did not actually classify empathy, which may also lead to inconsistent results.</p>
+<p class="mb0"><a href="#B17">Ettekal et al. (2015)</a> emphasized the importance of considering affective processes (such as affective understanding and empathy) when studying bullying and bystander behavior, and posited that affective processes affect children&#x00027;s social cognition and thus their social goals. Empathy is conceptualized as an affective feature and a cognitive ability (<a href="#B12">Davis, 1983</a>; <a href="#B29">Jolliffe and Farrington, 2006</a>). However, empathy is a necessary but insufficient component in the development of prosocial behavior (<a href="#B29">Jolliffe and Farrington, 2006</a>). Specifically, empathy elicits the emotional experience of the victim within the individual. Therefore, adolescents with a higher level of empathy are likelier to recognize the victim&#x00027;s feelings and needs, and thus enact defending behavior. Several previous studies have also proven that defending was related to higher empathy. Therefore, enhancing adolescents&#x00027; empathy is essential in improving their bystander defending behavior in school bullying situations.</p>
+<h3>Moderation Effects</h3>
+<p class="mb15">We found that empathy type moderated the relationship between empathy and bystander defending. Although both cognitive empathy and affective empathy were significantly associated with bystander defending, the correlation between affective empathy and bystander defending was stronger, supporting Hypothesis 2. Past researchers assumed that the cognitive and affective components of empathy were different; thus, cognitive and affective empathy should be considered together (<a href="#B12">Davis, 1983</a>; <a href="#B28">Jolliffe and Farrington, 2004</a>). This is consistent with our findings. For example, a review by <a href="#B64">Van Noorden et al. (2015)</a> also found that affective empathy had a higher correlation with bystander defending than did cognitive empathy. However, our results are inconsistent with the meta-analysis results of <a href="#B42">Nickerson et al. (2015)</a>. This may be because the outliers were not deleted in the meta-analysis of <a href="#B42">Nickerson et al. (2015)</a>, which may reduce the correlation coefficient between the overall affective empathy and bystander defending, leading to empathy types that did not yield moderator effects. <a href="#B19">Fredrick et al. (2020)</a> examined the relationship between cognitive and affective empathy and five proposed stages of defending in bullying. They found that cognitive empathy was significantly positively correlated with three stages: paying attention to a school bullying incident, undertaking intervention responsibility, and knowing how to deal with a bullying incident. However, affective empathy was significantly positively correlated with interpreting the situation as an emergency and the actual defending behavior. This indicated that while cognitive empathy is important, affective empathy is necessary to spur participation in defending behavior. Compared with affective empathy, cognitive empathy had a weaker correlation with bystander defending; however, it had a positive correlation with bullying behavior. According to previous studies, general empathy includes affective and cognitive components and does not distinguish between defender and outsider (<a href="#B22">Gini et al., 2008</a>). However, individuals who manipulate situations and other people for their benefit must undergo advanced psychological skills training, including perspective-taking skills and social intelligence to understand and predict others&#x00027; behaviors (<a href="#B6">Caravita et al., 2009</a>). Thus, feeling another person&#x00027;s emotions (affective empathy) is likelier to promote positive behavior (defending), while understanding another person&#x00027;s affect (cognitive empathy) may be used to harm that person (<a href="#B51">P&#x000F6;yh&#x000F6;nen et al., 2010</a>).</p>
+<p class="mb15">In the current study, we found that the evaluators of defending behavior significantly regulated the relationship between empathy and bystander defending, supporting Hypothesis 3. While the correlation between empathy and bystander defending was significant for both self-evaluation and peer-evaluation, it was significantly stronger for self-evaluation. This may be because when self-evaluation is adopted, individuals may readily report defending behaviors. When individuals evaluate their behavior, they will consciously conceal behaviors that do not conform to social expectations, while exaggerating socially desirable behaviors to maintain their image and self-esteem. <a href="#B37">Ma et al. (2019)</a> suggested that using the self-report method with a clear description of the imaginary victims can better stimulate teenagers&#x00027; self-identity to the victims, thus enhancing their willingness to engage in defending. Compared research reporting on actual defending behavior, this tendency may exaggerate the effect size between affective empathy and bystander defending. According to previous studies, compared with self-reported evaluations, the comprehensive judgment of peer students may be a more accurate measurement (<a href="#B5">Bouman et al., 2012</a>; <a href="#B26">Hunt et al., 2012</a>). However, there are some constraints regarding peer evaluation because peers may not accurately identify the behavior of individuals in school bullying, and the evaluation of peers is also affected by social pressure. Therefore, future research must employ various methods of reporting to address these inherent limitations.</p>
+<p class="mb0">We found no significant moderating effect of the developmental stage on the relationship between empathy and bystander defending; thus, Hypothesis 4 was unsupported. The correlation between empathy and bystander defending in early adolescence was not significantly different from that of middle adolescence; however, the correlation between empathy and bystander defending in early and middle adolescence was significant. Previous studies suggested that young children were likelier to engage in more defending behavior than older children (<a href="#B59">Salmivalli and Voeten, 2004</a>; <a href="#B18">Evans and Smokowski, 2015</a>). Furthermore, <a href="#B37">Ma et al. (2019)</a> found that younger children were likelier to report defending behavior or to be nominated as a defender than older children. Simultaneously, some studies propose that empathy decreases with age (<a href="#B48">Phillips et al., 2002</a>). Thus, this may explain why there was no significant difference in the correlation coefficient between empathy and bystander defending behavior in early and middle adolescence. Furthermore, because some studies included in the meta-analysis only reported the grade of the subjects, we divided the adolescent age into early and middle stages according to the grade and age. This general classification method may lead to excessive loss of age information, and if the age of the subjects is considered as a continuous variable for moderator analysis, different results may be obtained.</p>
+<h3>Limitations</h3>
+<p class="mb0">Since most studies included in the meta-analysis did not report the correlation between empathy and the defending behavior of male and female subjects respectively, we did not analyze the moderating effect of gender. Compared with boys, girls tend to participate more in defending behavior (<a href="#B44">O&#x00027;Connell et al., 1999</a>; <a href="#B52">Pozzoli and Gini, 2010</a>; <a href="#B16">Espelage et al., 2012</a>; <a href="#B63">van der Ploeg et al., 2017</a>). Several studies have found that girls have a higher level of empathy than boys (<a href="#B15">Eisenberg and Lennon, 1983</a>; <a href="#B51">P&#x000F6;yh&#x000F6;nen et al., 2010</a>; <a href="#B62">Van der Graaff et al., 2014</a>). Therefore, future research can further examine the regulatory role of gender. Additionally, this study could not include all unpublished studies and non-English and Chinese studies and excluded some studies that did not provide effect sizes. This may have led to the loss of some samples. Therefore, the unpublished gray literature can be further included in future research to expand the number of studies.</p>
+<h3>Conclusion</h3>
+<p class="mb0">Adolescent empathy can significantly positively predict bystander defending behavior in school bullying. The relationship is moderated by empathy type and the evaluator of the defending behavior. Furthermore, the correlation between affective empathy and defending is significantly stronger than that between cognitive empathy and defending, and the correlation between empathy and self-evaluative defending was significantly stronger than that between empathy and peer evaluated defending. Nevertheless, empathy type and the evaluator of the defending behavior have to be taken into account and controlled for in future studies. Thus, teaching students how to empathize with others may be crucial for adolescents to engage in defending behavior toward victims. Teaching students to be more aware of emotional distress of others and taking the &#x0201C;emotional&#x0201D; perspective of the victim may enhance affective empathy to aid youth interpreting bullying as a distressing event that requires intervention. This may increase cognitive empathy by teaching them how to recognize certain emotions (e.g., humiliation, fear) and what types of scenarios may elicit such emotions (e.g., a friend joking with another friend would likely not make one individual feel embarrassed).</p>
+<a id="h6" name="h6"></a><h2>Data Availability Statement</h2>
+<p class="mb0">The original contributions presented in the study are included in the article/supplementary material, further inquiries can be directed to the corresponding author.</p>
+<a id="h7" name="h7"></a><h2>Author Contributions</h2>
+<p class="mb0">XD conceived and designed the study. JY and YW collected data. XD and JY analyzed the data and wrote the paper. All authors contributed to the article and approved the submitted version.</p>
+<a id="h8" name="h8"></a><h2>Funding</h2>
+<p class="mb0">This work was supported by School Foundation of Gannan Normal University, namely Research Methods in Psychology.</p>
+<a id="h9" name="h9"></a><h2>Conflict of Interest</h2>
+<p class="mb0">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<a id="h10" name="h10"></a><h2>Publisher&#x00027;s Note</h2>
+<p class="mb0">All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+<a id="h11" name="h11"></a><h2>References</h2>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B1" id="B1"></a> <sup id="footnotesuper1"><a id="note1a"></a><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Barchia, K., and Bussey, K. (2011). Predictors of student defenders of peer aggression victims: empathy and social cognitive factors. <i>Int. J. Behav. Dev.</i> 35, 289&#x02013;297. doi: 10.1177/0165025410396746</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1177/0165025410396746" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Barchia&#x00026;author=K.+Bussey+&#x00026;publication_year=2011&#x00026;title=Predictors+of+student+defenders+of+peer+aggression+victims%3A+empathy+and+social+cognitive+factors&#x00026;journal=Int.+J.+Behav.+Dev.&#x00026;volume=35&#x00026;pages=289-297" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B2" id="B2"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Barhight, L. R., Hubbard, J. A., and Hyde, C. T. (2013). Children&#x00027;s physiological and emotional reactions to witnessing bullying predict bystander intervention. <i>Child Dev</i>. 84, 375&#x02013;390. doi: 10.1111/j.1467-8624.2012.01839.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22931441" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1467-8624.2012.01839.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+R.+Barhight&#x00026;author=J.+A.+Hubbard&#x00026;author=C.+T.+Hyde+&#x00026;publication_year=2013&#x00026;title=Children&#x00027;s+physiological+and+emotional+reactions+to+witnessing+bullying+predict+bystander+intervention&#x00026;journal=Child+Dev&#x00026;volume=84&#x00026;pages=375-390" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B3" id="B3"></a> Baron-Cohen, S., and Wheelwright, S. (2004). The empathy quotient: an investigation of adults with Asperger syndrome or high functioning autism, and normal sex differences. <i>J. Autism Dev. Disord.</i> 34, 163&#x02013;175. doi: 10.1023/B:JADD.0000022607.19833.00</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15162935" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1023/B:JADD.0000022607.19833.00" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Baron-Cohen&#x00026;author=S.+Wheelwright+&#x00026;publication_year=2004&#x00026;title=The+empathy+quotient%3A+an+investigation+of+adults+with+Asperger+syndrome+or+high+functioning+autism,+and+normal+sex+differences&#x00026;journal=J.+Autism+Dev.+Disord.&#x00026;volume=34&#x00026;pages=163-175" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B4" id="B4"></a> Batson, C. D. (1987). Prosocial motivation: is it ever truly altruistic? <i>Adv. Exp. Soc. Psychol.</i> 20, 65&#x02013;122. doi: 10.1016/S0065-2601(08)60412-8</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/S0065-2601(08)60412-8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+D.+Batson+&#x00026;publication_year=1987&#x00026;title=Prosocial+motivation%3A+is+it+ever+truly+altruistic%3F&#x00026;journal=Adv.+Exp.+Soc.+Psychol.&#x00026;volume=20&#x00026;pages=65-122" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B5" id="B5"></a> Bouman, T., van der Meulen, M., Goossens, F. A., Olthof, T., Vermande, M. M., and Aleva, E. A. (2012). Peer and self-reports of victimization and bullying: their differential association with internalizing problems and social adjustment. <i>J. Sch. Psychol</i>. 50, 759&#x02013;774. doi: 10.1016/j.jsp.2012.08.004</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23245499" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jsp.2012.08.004" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Bouman&#x00026;author=M.+van+der+Meulen&#x00026;author=F.+A.+Goossens&#x00026;author=T.+Olthof&#x00026;author=M.+M.+Vermande&#x00026;author=E.+A.+Aleva+&#x00026;publication_year=2012&#x00026;title=Peer+and+self-reports+of+victimization+and+bullying%3A+their+differential+association+with+internalizing+problems+and+social+adjustment&#x00026;journal=J.+Sch.+Psychol&#x00026;volume=50&#x00026;pages=759-774" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B6" id="B6"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Caravita, S. C. S., Di Blasio, P., and Salmivalli, C. (2009). Unique and interactive effects of empathy and social status on involvement in bullying. <i>Soc. Dev</i>. 18, 140&#x02013;163. doi: 10.1111/j.1467-9507.2008.00465.x</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1111/j.1467-9507.2008.00465.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+C.+S.+Caravita&#x00026;author=P.+Di+Blasio&#x00026;author=C.+Salmivalli+&#x00026;publication_year=2009&#x00026;title=Unique+and+interactive+effects+of+empathy+and+social+status+on+involvement+in+bullying&#x00026;journal=Soc.+Dev&#x00026;volume=18&#x00026;pages=140-163" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B7" id="B7"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Caravita, S. C. S., Di Blasio, P., and Salmivalli, C. (2010). Early adolescents&#x00027; participation in bullying: is tom involved? <i>J. Early Adolesc</i>. 30, 138&#x02013;170. doi: 10.1177/0272431609342983</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1177/0272431609342983" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+C.+S.+Caravita&#x00026;author=P.+Di+Blasio&#x00026;author=C.+Salmivalli+&#x00026;publication_year=2010&#x00026;title=Early+adolescents&#x00027;+participation+in+bullying%3A+is+tom+involved%3F&#x00026;journal=J.+Early+Adolesc&#x00026;volume=30&#x00026;pages=138-170" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B8" id="B8"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Carroll, H. L. (2014). <i>Social cognitive factors-associated with verbal bullying and defending</i> (Unpublished doctoral dissertation). Wayne State University, Detroit, MI, United States.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=H.+L.+Carroll+&#x00026;publication_year=2014&#x00026;title=Social+cognitive+factors-associated+with+verbal+bullying+and+defending" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B9" id="B9"></a> Cheung, M. W.-L. (2014). Modeling dependent effect sizes with three-level meta-analyses: a structural equation modeling approach. <i>Psychol. Methods</i> 19, 211&#x02013;229. doi: 10.1037/a0032968</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23834422" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/a0032968" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+W.+-L.+Cheung+&#x00026;publication_year=2014&#x00026;title=Modeling+dependent+effect+sizes+with+three-level+meta-analyses%3A+a+structural+equation+modeling+approach&#x00026;journal=Psychol.+Methods&#x00026;volume=19&#x00026;pages=211-229" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B10" id="B10"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Correia, I., and Dalbert, C. (2008). School bullying: belief in a personal just world of bullies, victims, and defenders. <i>Eur. Psychol</i>. 13, 248&#x02013;254. doi: 10.1027/1016-9040.13.4.248</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1027/1016-9040.13.4.248" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+Correia&#x00026;author=C.+Dalbert+&#x00026;publication_year=2008&#x00026;title=School+bullying%3A+belief+in+a+personal+just+world+of+bullies,+victims,+and+defenders&#x00026;journal=Eur.+Psychol&#x00026;volume=13&#x00026;pages=248-254" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B11" id="B11"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Cuervo, A. A. V., Nieblas, C. A., Ferrer, B. M., and Parra-P&#x000E9;rez, L. (2018). Relations between restorative parental discipline, family climate, parental support, empathy, shame, and defenders in bullying. <i>Child. Youth Serv. Rev</i>. 95, 152&#x02013;159. doi: 10.1016/j.childyouth.2018.10.015</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.childyouth.2018.10.015" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+A.+V.+Cuervo&#x00026;author=C.+A.+Nieblas&#x00026;author=B.+M.+Ferrer&#x00026;author=L.+Parra-P&#x000E9;rez+&#x00026;publication_year=2018&#x00026;title=Relations+between+restorative+parental+discipline,+family+climate,+parental+support,+empathy,+shame,+and+defenders+in+bullying&#x00026;journal=Child.+Youth+Serv.+Rev&#x00026;volume=95&#x00026;pages=152-159" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B12" id="B12"></a> Davis, M. H. (1983). Measuring individual differences in empathy: evidence for a multidimensional approach. <i>J. Pers. Soc. Psychol</i>. 44, 113&#x02013;126. doi: 10.1037/0022-3514.44.1.113</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1037/0022-3514.44.1.113" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+H.+Davis+&#x00026;publication_year=1983&#x00026;title=Measuring+individual+differences+in+empathy%3A+evidence+for+a+multidimensional+approach&#x00026;journal=J.+Pers.+Soc.+Psychol&#x00026;volume=44&#x00026;pages=113-126" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B13" id="B13"></a> Deng, X. P., Luo, X. W., and andWu, Y. Z. (2016). The mediating effect of parental involvement between family socioeconomic status and academic performance: meta-analysis structural equation modeling. <i>Adv. Psychol. Sci</i>. 24,1844&#x02013;1853. doi: 10.3724/SP.J.1042.2016.01844</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.3724/SP.J.1042.2016.01844" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=X.+P.+Deng&#x00026;author=X.+W.+Luo&#x00026;author=Y.+Z.+andWu+&#x00026;publication_year=2016&#x00026;title=The+mediating+effect+of+parental+involvement+between+family+socioeconomic+status+and+academic+performance%3A+meta-analysis+structural+equation+modeling&#x00026;journal=Adv.+Psychol.+Sci&#x00026;volume=24&#x00026;pages=1844-1853" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B14" id="B14"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Dollar, T. J. (2016). <i>Person-level predictors of bullying and bystander behaviors of middle school students</i> (Unpublished doctoral dissertation). Wayne State University, Detroit, MI, United States.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=T.+J.+Dollar+&#x00026;publication_year=2016&#x00026;title=Person-level+predictors+of+bullying+and+bystander+behaviors+of+middle+school+students" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B15" id="B15"></a> Eisenberg, N., and Lennon, R. (1983). Sex differences in empathy and related capacities. <i>Psychol. Bull.</i> 94, 100&#x02013;131. doi: 10.1037/0033-2909.94.1.100</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1037/0033-2909.94.1.100" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=N.+Eisenberg&#x00026;author=R.+Lennon+&#x00026;publication_year=1983&#x00026;title=Sex+differences+in+empathy+and+related+capacities&#x00026;journal=Psychol.+Bull.&#x00026;volume=94&#x00026;pages=100-131" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B16" id="B16"></a> Espelage, D., Green, H., and Polanin, J. (2012). Willingness to intervene in bullying episodes among middle school students: individual and peer-group influences. <i>J. Early Adolesc</i>. 32, 776&#x02013;801. doi: 10.1177/0272431611423017</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1177/0272431611423017" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Espelage&#x00026;author=H.+Green&#x00026;author=J.+Polanin+&#x00026;publication_year=2012&#x00026;title=Willingness+to+intervene+in+bullying+episodes+among+middle+school+students%3A+individual+and+peer-group+influences&#x00026;journal=J.+Early+Adolesc&#x00026;volume=32&#x00026;pages=776-801" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B17" id="B17"></a> Ettekal, I., Kochenderfer-Ladd, B., and Ladd, G. W. (2015). A synthesis of person- and relational-level factors that influence bullying and bystanding behaviors: toward an integrative framework. <i>Aggress. Violent Behav</i>. 23, 75&#x02013;86. doi: 10.1016/j.avb.2015.05.011</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.avb.2015.05.011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+Ettekal&#x00026;author=B.+Kochenderfer-Ladd&#x00026;author=G.+W.+Ladd+&#x00026;publication_year=2015&#x00026;title=A+synthesis+of+person-+and+relational-level+factors+that+influence+bullying+and+bystanding+behaviors%3A+toward+an+integrative+framework&#x00026;journal=Aggress.+Violent+Behav&#x00026;volume=23&#x00026;pages=75-86" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B18" id="B18"></a> Evans, C. B. R., and Smokowski, P. R. (2015). Prosocial bystander behavior in bullying dynamics: assessing the impact of social capital. <i>J. Youth Adolesc</i>. 44, 2289&#x02013;2307. doi: 10.1007/s10964-015-0338-5</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26251101" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s10964-015-0338-5" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+B.+R.+Evans&#x00026;author=P.+R.+Smokowski+&#x00026;publication_year=2015&#x00026;title=Prosocial+bystander+behavior+in+bullying+dynamics%3A+assessing+the+impact+of+social+capital&#x00026;journal=J.+Youth+Adolesc&#x00026;volume=44&#x00026;pages=2289-2307" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B19" id="B19"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Fredrick, S. S., Jenkins, L. N., and Ray, K. (2020). Dimensions of empathy and bystander intervention in bullying in elementary school. <i>J. Sch. Psychol</i>. 79, 31&#x02013;42. doi: 10.1016/j.jsp.2020.03.001</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/32389247" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jsp.2020.03.001" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+S.+Fredrick&#x00026;author=L.+N.+Jenkins&#x00026;author=K.+Ray+&#x00026;publication_year=2020&#x00026;title=Dimensions+of+empathy+and+bystander+intervention+in+bullying+in+elementary+school&#x00026;journal=J.+Sch.+Psychol&#x00026;volume=79&#x00026;pages=31-42" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B20" id="B20"></a> Gignac, G. E., and Szodorai, E. T. (2016). Effect size guidelines for individual differences researchers. <i>Pers. Individ. Differ</i>. 102, 74&#x02013;78. doi: 10.1016/j.paid.2016.06.069</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.paid.2016.06.069" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+E.+Gignac&#x00026;author=E.+T.+Szodorai+&#x00026;publication_year=2016&#x00026;title=Effect+size+guidelines+for+individual+differences+researchers&#x00026;journal=Pers.+Individ.+Differ&#x00026;volume=102&#x00026;pages=74-78" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B21" id="B21"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Gini, G., Albiero, P., Benelli, B., and Gianmarco Alto, &#x000C8;. (2007). Does empathy predict adolescents&#x00027; bullying and defending behavior? <i>Aggress. Behav</i>. 33, 467&#x02013;476. doi: 10.1002/ab.20204</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17683107" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/ab.20204" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+Gini&#x00026;author=P.+Albiero&#x00026;author=B.+Benelli&#x00026;author=&#x000C8;.+Gianmarco+Alto+&#x00026;publication_year=2007&#x00026;title=Does+empathy+predict+adolescents&#x00027;+bullying+and+defending+behavior%3F&#x00026;journal=Aggress.+Behav&#x00026;volume=33&#x00026;pages=467-476" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B22" id="B22"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Gini, G., Albiero, P., Benelli, B., and Gianmarco Alto, &#x000C8;. (2008). Determinants of adolescents&#x00027; active defending and passive bystanding behavior in bullying. <i>J. Adolesc</i>. 31, 93&#x02013;105. doi: 10.1016/j.adolescence.2007.05.002</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17574660" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.adolescence.2007.05.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+Gini&#x00026;author=P.+Albiero&#x00026;author=B.+Benelli&#x00026;author=&#x000C8;.+Gianmarco+Alto+&#x00026;publication_year=2008&#x00026;title=Determinants+of+adolescents&#x00027;+active+defending+and+passive+bystanding+behavior+in+bullying&#x00026;journal=J.+Adolesc&#x00026;volume=31&#x00026;pages=93-105" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B23" id="B23"></a> Hawkins, D. L., Pepler, D. J., and Craig, W. M. (2001). Naturalistic observations of peer interventions in bullying. <i>Soc. Dev</i>. 10, 512&#x02013;527. doi: 10.1111/1467-9507.00178</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1111/1467-9507.00178" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+L.+Hawkins&#x00026;author=D.+J.+Pepler&#x00026;author=W.+M.+Craig+&#x00026;publication_year=2001&#x00026;title=Naturalistic+observations+of+peer+interventions+in+bullying&#x00026;journal=Soc.+Dev&#x00026;volume=10&#x00026;pages=512-527" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B24" id="B24"></a> Hoffman, M. L. (2001). <i>Empathy and Moral Development: Implications for Caring and Justice</i>. Cambridge: Cambridge University Press.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+L.+Hoffman+&#x00026;publication_year=2001&#x00026;title=Empathy+and+Moral+Development%3A+Implications+for+Caring+and+Justice" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B25" id="B25"></a> Hogan, R. (1969). Development of an empathy scale. <i>J. Consult. Clin. Psychol</i>. 33, 307&#x02013;316. doi: 10.1037/h0027580</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1037/h0027580" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+Hogan+&#x00026;publication_year=1969&#x00026;title=Development+of+an+empathy+scale&#x00026;journal=J.+Consult.+Clin.+Psychol&#x00026;volume=33&#x00026;pages=307-316" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B26" id="B26"></a> Hunt, C., Peters, L., and Rapee, R. M. (2012). Development of a measure of the experience of being bullied in youth. <i>Psychol. Assess.</i> 24, 156&#x02013;165. doi: 10.1037/a0025178</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22250594" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/a0025178" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Hunt&#x00026;author=L.+Peters&#x00026;author=R.+M.+Rapee+&#x00026;publication_year=2012&#x00026;title=Development+of+a+measure+of+the+experience+of+being+bullied+in+youth&#x00026;journal=Psychol.+Assess.&#x00026;volume=24&#x00026;pages=156-165" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B27" id="B27"></a> Jenkins, L. N., Demaray, M. K., Fredrick, S. S., and Summers, K. H. (2016). Associations among middle school students&#x00027; bullying roles and social skills. <i>J. Sch. Violence</i> 15, 259&#x02013;278. doi: 10.1080/15388220.2014.986675</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/15388220.2014.986675" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+N.+Jenkins&#x00026;author=M.+K.+Demaray&#x00026;author=S.+S.+Fredrick&#x00026;author=K.+H.+Summers+&#x00026;publication_year=2016&#x00026;title=Associations+among+middle+school+students&#x00027;+bullying+roles+and+social+skills&#x00026;journal=J.+Sch.+Violence&#x00026;volume=15&#x00026;pages=259-278" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B28" id="B28"></a> Jolliffe, D., and Farrington, D. P. (2004). Empathy and offending: a systematic review and meta-analysis. <i>Aggress. Violent Behav</i>. 9, 441&#x02013;476. doi: 10.1016/j.avb.2003.03.001</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.avb.2003.03.001" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Jolliffe&#x00026;author=D.+P.+Farrington+&#x00026;publication_year=2004&#x00026;title=Empathy+and+offending%3A+a+systematic+review+and+meta-analysis&#x00026;journal=Aggress.+Violent+Behav&#x00026;volume=9&#x00026;pages=441-476" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B29" id="B29"></a> Jolliffe, D., and Farrington, D. P. (2006). Development and validation of the basic empathy scale. <i>J. Adolesc</i>. 29, 589&#x02013;611. doi: 10.1016/j.adolescence.2005.08.010</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16198409" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.adolescence.2005.08.010" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Jolliffe&#x00026;author=D.+P.+Farrington+&#x00026;publication_year=2006&#x00026;title=Development+and+validation+of+the+basic+empathy+scale&#x00026;journal=J.+Adolesc&#x00026;volume=29&#x00026;pages=589-611" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B30" id="B30"></a> Klomek, A. B., Sourander, A., and Elonheimo, H. (2015). Bullying by peers in childhood and effects on psychopathology, suicidality, and criminality in adulthood. <i>Lancet Psychiatry</i> 2, 930&#x02013;941. doi: 10.1016/S2215-0366(15)00223-0</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26462227" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S2215-0366(15)00223-0" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+B.+Klomek&#x00026;author=A.+Sourander&#x00026;author=H.+Elonheimo+&#x00026;publication_year=2015&#x00026;title=Bullying+by+peers+in+childhood+and+effects+on+psychopathology,+suicidality,+and+criminality+in+adulthood&#x00026;journal=Lancet+Psychiatry&#x00026;volume=2&#x00026;pages=930-941" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B31" id="B31"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Li, M. R., Xiao, D., and Peng, T. (2020). Research on bystander behavior related to bullying attitude, empathy, and life satisfaction in school. <i>Chin. J. Health Psychol</i>. 28, 1257&#x02013;1263. doi: 10.13342/j.cnki.cjhp.2020.08.031</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.13342/j.cnki.cjhp.2020.08.031" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+R.+Li&#x00026;author=D.+Xiao&#x00026;author=T.+Peng+&#x00026;publication_year=2020&#x00026;title=Research+on+bystander+behavior+related+to+bullying+attitude,+empathy,+and+life+satisfaction+in+school&#x00026;journal=Chin.+J.+Health+Psychol&#x00026;volume=28&#x00026;pages=1257-1263" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B32" id="B32"></a> Lipsey, M. W., and Wilson, D. B. (2001). <i>Practical Meta-Analysis</i>. Thousand Oaks, CA: Sage.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+W.+Lipsey&#x00026;author=D.+B.+Wilson+&#x00026;publication_year=2001&#x00026;title=Practical+Meta-Analysis" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B33" id="B33"></a> Lovett, B. J., and Sheffield, R. A. (2007). Affective empathy deficits in aggressive children and adolescents: a critical review. <i>Clin. Psychol. Rev</i>. 27, 1&#x02013;13. doi: 10.1016/j.cpr.2006.03.003</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16697094" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.cpr.2006.03.003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+J.+Lovett&#x00026;author=R.+A.+Sheffield+&#x00026;publication_year=2007&#x00026;title=Affective+empathy+deficits+in+aggressive+children+and+adolescents%3A+a+critical+review&#x00026;journal=Clin.+Psychol.+Rev&#x00026;volume=27&#x00026;pages=1-13" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B34" id="B34"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Lucas-Molina, B., P&#x000E9;rez-Alb&#x000E9;niz, A., Fonseca-Pedrero, E., and Gim&#x000E9;nez-Das&#x000ED;, M. (2018). Bullying, defending, and outsider behaviors: the moderating role of social status and gender in their relationship with empathy. <i>Clin. Psychol. Rev</i>. 59, 473&#x02013;482. doi: 10.1111/sjop.12453</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29741790" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/sjop.12453" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+Lucas-Molina&#x00026;author=A.+P&#x000E9;rez-Alb&#x000E9;niz&#x00026;author=E.+Fonseca-Pedrero&#x00026;author=M.+Gim&#x000E9;nez-Das&#x000ED;+&#x00026;publication_year=2018&#x00026;title=Bullying,+defending,+and+outsider+behaviors%3A+the+moderating+role+of+social+status+and+gender+in+their+relationship+with+empathy&#x00026;journal=Clin.+Psychol.+Rev&#x00026;volume=59&#x00026;pages=473-482" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B35" id="B35"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Ma, J. (2018). <i>Research on the relationship between bullying bystanders&#x00027; behavior and empathy and prosocial behavior in school pupils</i> (Unpublished Master&#x00027;s thesis). Chongqing Normal University, Chongqing, China.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=J.+Ma+&#x00026;publication_year=2018&#x00026;title=Research+on+the+relationship+between+bullying+bystanders&#x00027;+behavior+and+empathy+and+prosocial+behavior+in+school+pupils" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B36" id="B36"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Ma, T. L. (2020). Adolescents&#x00027; willingness to help with peer victimisation in taiwan: the role of individual and situation: pecific characteristics. <i>Int. J. Psychol</i>. 55, 201&#x02013;209. doi: 10.1002/ijop.12565</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30623410" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/ijop.12565" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+L.+Ma+&#x00026;publication_year=2020&#x00026;title=Adolescents&#x00027;+willingness+to+help+with+peer+victimisation+in+taiwan%3A+the+role+of+individual+and+situation%3A+pecific+characteristics&#x00026;journal=Int.+J.+Psychol&#x00026;volume=55&#x00026;pages=201-209" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B37" id="B37"></a> Ma, T. L., Meter, D. J., Chen, W. T., and Lee, Y. (2019). Defending behavior of peer victimization in school and cyber context during childhood and adolescence: a meta-analytic review of individual and peer-relational characteristics. <i>Psychol. Bull</i>. 145, 891&#x02013;928. doi: 10.1037/bul0000205</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31343187" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/bul0000205" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+L.+Ma&#x00026;author=D.+J.+Meter&#x00026;author=W.+T.+Chen&#x00026;author=Y.+Lee+&#x00026;publication_year=2019&#x00026;title=Defending+behavior+of+peer+victimization+in+school+and+cyber+context+during+childhood+and+adolescence%3A+a+meta-analytic+review+of+individual+and+peer-relational+characteristics&#x00026;journal=Psychol.+Bull&#x00026;volume=145&#x00026;pages=891-928" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B38" id="B38"></a> Mazzone, A., Camodeca, M., and Salmivalli, C. (2016). Stability and change of outsider behavior in school bullying: the role of shame and guilt in a longitudinal perspective. <i>J. Early Adolesc</i>. 38, 164&#x02013;177. doi: 10.1177/0272431616659560</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1177/0272431616659560" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Mazzone&#x00026;author=M.+Camodeca&#x00026;author=C.+Salmivalli+&#x00026;publication_year=2016&#x00026;title=Stability+and+change+of+outsider+behavior+in+school+bullying%3A+the+role+of+shame+and+guilt+in+a+longitudinal+perspective&#x00026;journal=J.+Early+Adolesc&#x00026;volume=38&#x00026;pages=164-177" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B39" id="B39"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Menolascino, N., and Jenkins, L. N. (2018). Predicting bystander intervention among middle school students. <i>Sch. Psychol. Q</i>. 33, 305&#x02013;313. doi: 10.1037/spq0000262</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29878822" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/spq0000262" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=N.+Menolascino&#x00026;author=L.+N.+Jenkins+&#x00026;publication_year=2018&#x00026;title=Predicting+bystander+intervention+among+middle+school+students&#x00026;journal=Sch.+Psychol.+Q&#x00026;volume=33&#x00026;pages=305-313" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B40" id="B40"></a> Nakamoto, J., and Schwartz, D. (2011). The association between peer victimization and functioning at school among urban latino children. <i>J. Appl. Dev. Psychol</i>. 32, 89&#x02013;97. doi: 10.1016/j.appdev.2011.02.003</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.appdev.2011.02.003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Nakamoto&#x00026;author=D.+Schwartz+&#x00026;publication_year=2011&#x00026;title=The+association+between+peer+victimization+and+functioning+at+school+among+urban+latino+children&#x00026;journal=J.+Appl.+Dev.+Psychol&#x00026;volume=32&#x00026;pages=89-97" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B41" id="B41"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Nickerson, A., and Mele-Taylor, D. (2014). Empathetic responsiveness, group norms, and prosocial affiliations in bullying roles. <i>Sch. Psychol. Q</i>. 29, 99&#x02013;109. doi: 10.1037/spq0000052</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24708291" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/spq0000052" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Nickerson&#x00026;author=D.+Mele-Taylor+&#x00026;publication_year=2014&#x00026;title=Empathetic+responsiveness,+group+norms,+and+prosocial+affiliations+in+bullying+roles&#x00026;journal=Sch.+Psychol.+Q&#x00026;volume=29&#x00026;pages=99-109" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B42" id="B42"></a> Nickerson, A. B., Aloe, A. M., and Werth, J. M. (2015). The relation of empathy and defending in bullying: a meta-analytic investigation. <i>Sch. Psychol. Rev</i>. 44, 372&#x02013;390. doi: 10.17105/spr-15-0035.1</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.17105/spr-15-0035.1" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+B.+Nickerson&#x00026;author=A.+M.+Aloe&#x00026;author=J.+M.+Werth+&#x00026;publication_year=2015&#x00026;title=The+relation+of+empathy+and+defending+in+bullying%3A+a+meta-analytic+investigation&#x00026;journal=Sch.+Psychol.+Rev&#x00026;volume=44&#x00026;pages=372-390" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B43" id="B43"></a> Nickerson, A. B., Mele, D., and Princiotta, D. (2008). Attachment and empathy as predictors of roles as defenders or outsiders in bullying interactions. <i>J. Sch. Psychol</i>. 46, 687&#x02013;703. doi: 10.1016/j.jsp.2008.06.002</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19083379" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jsp.2008.06.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+B.+Nickerson&#x00026;author=D.+Mele&#x00026;author=D.+Princiotta+&#x00026;publication_year=2008&#x00026;title=Attachment+and+empathy+as+predictors+of+roles+as+defenders+or+outsiders+in+bullying+interactions&#x00026;journal=J.+Sch.+Psychol&#x00026;volume=46&#x00026;pages=687-703" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B44" id="B44"></a> O&#x00027;Connell, P., Pepler, D., and Craig, W. (1999). Peer involvement in bullying: insights and challenges for intervention. <i>J. Adolesc</i>. 22, 437&#x02013;452. doi: 10.1006/jado.1999.0238</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/10469508" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1006/jado.1999.0238" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+O&#x00027;Connell&#x00026;author=D.+Pepler&#x00026;author=W.+Craig+&#x00026;publication_year=1999&#x00026;title=Peer+involvement+in+bullying%3A+insights+and+challenges+for+intervention&#x00026;journal=J.+Adolesc&#x00026;volume=22&#x00026;pages=437-452" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B45" id="B45"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Oh, J., and Park, J. H. (2019). Influence of affective empathy and guilt-proneness on defending behavior against bullying among middle school students and the moderating role of classroom climate. <i>Fam. Environ. Res</i>. 57, 419&#x02013;430. doi: 10.6115/fer.2019.031</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.6115/fer.2019.031" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Oh&#x00026;author=J.+H.+Park+&#x00026;publication_year=2019&#x00026;title=Influence+of+affective+empathy+and+guilt-proneness+on+defending+behavior+against+bullying+among+middle+school+students+and+the+moderating+role+of+classroom+climate&#x00026;journal=Fam.+Environ.+Res&#x00026;volume=57&#x00026;pages=419-430" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B46" id="B46"></a> Olweus, D. (2013). School bullying: development and some important challenges. <i>Annu. Rev. Clin. Psychol</i>. 9, 751&#x02013;780. doi: 10.1146/annurev-clinpsy-050212-185516</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23297789" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1146/annurev-clinpsy-050212-185516" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Olweus+&#x00026;publication_year=2013&#x00026;title=School+bullying%3A+development+and+some+important+challenges&#x00026;journal=Annu.+Rev.+Clin.+Psychol&#x00026;volume=9&#x00026;pages=751-780" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B47" id="B47"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Peets, K., P&#x000F6;Yh&#x000F6;Nen, V., Juvonen, J., and Salmivalli, C. (2015). Classroom norms of bullying alter the degree to which children defend in response to their affective empathy and power. <i>Dev. Psychol</i>. 51, 913&#x02013;920. doi: 10.1037/a0039287</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25961871" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/a0039287" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Peets&#x00026;author=V.+P&#x000F6;Yh&#x000F6;Nen&#x00026;author=J.+Juvonen&#x00026;author=C.+Salmivalli+&#x00026;publication_year=2015&#x00026;title=Classroom+norms+of+bullying+alter+the+degree+to+which+children+defend+in+response+to+their+affective+empathy+and+power&#x00026;journal=Dev.+Psychol&#x00026;volume=51&#x00026;pages=913-920" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B48" id="B48"></a> Phillips, L. H., Mac Lean, R. D. J., and Allen, R. (2002). Age and the understanding of emotions: neuropsychological and sociocognitive perspectives. <i>J. Gerontol. Ser. B Psychol. Sci. Soc. Sci</i>. 57, 526&#x02013;530. doi: 10.1093/geronb/57.6.P526</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12426435" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/geronb/57.6.P526" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+H.+Phillips&#x00026;author=R.+D.+J.+Mac+Lean&#x00026;author=R.+Allen+&#x00026;publication_year=2002&#x00026;title=Age+and+the+understanding+of+emotions%3A+neuropsychological+and+sociocognitive+perspectives&#x00026;journal=J.+Gerontol.+Ser.+B+Psychol.+Sci.+Soc.+Sci&#x00026;volume=57&#x00026;pages=526-530" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B49" id="B49"></a> Polanin, J. R., Espelage, D. L., and Pigott, T. D. (2012). A meta-analysis of school-based bullying prevention programs&#x00027; effects on bystander intervention behavior. <i>Sch. Psychol. Rev</i>. 41, 47&#x02013;65. doi: 10.1080/02796015.2012.12087375</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/02796015.2012.12087375" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+R.+Polanin&#x00026;author=D.+L.+Espelage&#x00026;author=T.+D.+Pigott+&#x00026;publication_year=2012&#x00026;title=A+meta-analysis+of+school-based+bullying+prevention+programs&#x00027;+effects+on+bystander+intervention+behavior&#x00026;journal=Sch.+Psychol.+Rev&#x00026;volume=41&#x00026;pages=47-65" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B50" id="B50"></a> Pouwels, J. L., Lansu, T., and Cillessen, A. (2017). Adolescents&#x00027; explicit and implicit evaluations of hypothetical and actual peers with different bullying participant roles. <i>J. Exp. Child Psychol</i>. 159, 219&#x02013;241. doi: 10.1016/j.jecp.2017.02.008</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28315590" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jecp.2017.02.008" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+L.+Pouwels&#x00026;author=T.+Lansu&#x00026;author=A.+Cillessen+&#x00026;publication_year=2017&#x00026;title=Adolescents&#x00027;+explicit+and+implicit+evaluations+of+hypothetical+and+actual+peers+with+different+bullying+participant+roles&#x00026;journal=J.+Exp.+Child+Psychol&#x00026;volume=159&#x00026;pages=219-241" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B51" id="B51"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>P&#x000F6;yh&#x000F6;nen, V., Juvonen, J., and Salmivalli, C. (2010). What does it take to stand up for the victim of bullying? the interplay between personal and social factors. <i>Merrill Palmer Q. (Wayne State Univ. Press)</i> 56, 143&#x02013;163. doi: 10.1353/mpq.0.0046</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1353/mpq.0.0046" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=V.+P&#x000F6;yh&#x000F6;nen&#x00026;author=J.+Juvonen&#x00026;author=C.+Salmivalli+&#x00026;publication_year=2010&#x00026;title=What+does+it+take+to+stand+up+for+the+victim+of+bullying%3F+the+interplay+between+personal+and+social+factors&#x00026;journal=Merrill+Palmer+Q.+(Wayne+State+Univ.+Press)&#x00026;volume=56&#x00026;pages=143-163" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B52" id="B52"></a> Pozzoli, T., and Gini, G. (2010). Active defending and passive bystanding behavior in bullying: the role of personal characteristics and perceived peer pressure. <i>J. Abnorm. Child Psychol</i>. 38, 815&#x02013;827. doi: 10.1007/s10802-010-9399-9</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20228996" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s10802-010-9399-9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Pozzoli&#x00026;author=G.+Gini+&#x00026;publication_year=2010&#x00026;title=Active+defending+and+passive+bystanding+behavior+in+bullying%3A+the+role+of+personal+characteristics+and+perceived+peer+pressure&#x00026;journal=J.+Abnorm.+Child+Psychol&#x00026;volume=38&#x00026;pages=815-827" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B53" id="B53"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Pozzoli, T., Gini, G., and Thornberg, R. (2017). Getting angry matters: going beyond perspective taking and empathic concern to understand bystanders&#x00027; behavior in bullying. <i>Int. J. Psychol</i>. 61, 87&#x02013;95. doi: 10.1016/j.adolescence.2017.09.011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28972918" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.adolescence.2017.09.011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Pozzoli&#x00026;author=G.+Gini&#x00026;author=R.+Thornberg+&#x00026;publication_year=2017&#x00026;title=Getting+angry+matters%3A+going+beyond+perspective+taking+and+empathic+concern+to+understand+bystanders&#x00027;+behavior+in+bullying&#x00026;journal=Int.+J.+Psychol&#x00026;volume=61&#x00026;pages=87-95" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B54" id="B54"></a> Raudenbush, S. W., and Bryk, A. S. (2002). <i>Hierarchical Linear Models: Applications and Data Analysis Methods, 2nd Edn</i>. London: Sage.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=S.+W.+Raudenbush&#x00026;author=A.+S.+Bryk+&#x00026;publication_year=2002&#x00026;title=Hierarchical+Linear+Models%3A+Applications+and+Data+Analysis+Methods,+2nd+Edn" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B55" id="B55"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Rieffe, C., and Camodeca, M. (2016). Empathy in adolescence: relations with emotion awareness and social roles. <i>Br. J. Dev. Psychol</i>. 34, 340&#x02013;353. doi: 10.1111/bjdp.12133</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26778274" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/bjdp.12133" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Rieffe&#x00026;author=M.+Camodeca+&#x00026;publication_year=2016&#x00026;title=Empathy+in+adolescence%3A+relations+with+emotion+awareness+and+social+roles&#x00026;journal=Br.+J.+Dev.+Psychol&#x00026;volume=34&#x00026;pages=340-353" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B56" id="B56"></a> Rothstein, H. R., Sutton, A. J., and Borenstein, M. (2005). <i>Publication Bias in Meta-Analysis: Prevention, Assessment, and Adjustments</i>. Chichester: John Wiley and Sons Ltd.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=H.+R.+Rothstein&#x00026;author=A.+J.+Sutton&#x00026;author=M.+Borenstein+&#x00026;publication_year=2005&#x00026;title=Publication+Bias+in+Meta-Analysis%3A+Prevention,+Assessment,+and+Adjustments" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B57" id="B57"></a> Salmivalli, C., Lagerspetz, K., Bj&#x000F6;rkqvist, K., &#x000F6;sterman, K., and Kaukiainen, A. (1996). Bullying as a group process: participant roles and their relations to social status within the group. <i>Aggress. Behav</i>. 22, 1&#x02013;15.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=C.+Salmivalli&#x00026;author=K.+Lagerspetz&#x00026;author=K.+Bj&#x000F6;rkqvist&#x00026;author=K.+&#x000F6;sterman&#x00026;author=A.+Kaukiainen+&#x00026;publication_year=1996&#x00026;title=Bullying+as+a+group+process%3A+participant+roles+and+their+relations+to+social+status+within+the+group&#x00026;journal=Aggress.+Behav&#x00026;volume=22&#x00026;pages=1-15" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B58" id="B58"></a> Salmivalli, C., Lappalainen, M., and Lagerspetz, K. (1998). Stability and change of behavior in connection with bullying in schools: a two-year follow-up. <i>Aggress. Behav</i>. 24, 205&#x02013;218.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=C.+Salmivalli&#x00026;author=M.+Lappalainen&#x00026;author=K.+Lagerspetz+&#x00026;publication_year=1998&#x00026;title=Stability+and+change+of+behavior+in+connection+with+bullying+in+schools%3A+a+two-year+follow-up&#x00026;journal=Aggress.+Behav&#x00026;volume=24&#x00026;pages=205-218" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B59" id="B59"></a> Salmivalli, C., and Voeten, M. (2004). Connections between attitudes, group norms, and behaviour in bullying situations. <i>Int. J. Behav. Dev</i>. 28, 246&#x02013;258. doi: 10.1080/01650250344000488</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/01650250344000488" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Salmivalli&#x00026;author=M.+Voeten+&#x00026;publication_year=2004&#x00026;title=Connections+between+attitudes,+group+norms,+and+behaviour+in+bullying+situations&#x00026;journal=Int.+J.+Behav.+Dev&#x00026;volume=28&#x00026;pages=246-258" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B60" id="B60"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>van Beurden, S. L., Braakhekke, M., Derks, K. R., and Terpstra, M. (2012). <i>Peer roles in bullying: Relations to maternal support, empathic concern, and personal distress</i> (Unpublished Bachelor&#x00027;s thesis). Utrecht University, Utrecht, Netherlands.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=S.+L.+van+Beurden&#x00026;author=M.+Braakhekke&#x00026;author=K.+R.+Derks&#x00026;author=M.+Terpstra+&#x00026;publication_year=2012&#x00026;title=Peer+roles+in+bullying%3A+Relations+to+maternal+support,+empathic+concern,+and+personal+distress" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B61" id="B61"></a> Van den Noortgate, W., L&#x000F3;pez-L&#x000F3;pez, J., Mar&#x000ED;n-Mart&#x000ED;nez, F., and Sanchez-Meca, J. (2013). Three-level meta-analysis of dependent effect sizes. <i>Behav. Res. Methods</i> 45, 576&#x02013;594. doi: 10.3758/s13428-012-0261-6</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23055166" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3758/s13428-012-0261-6" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=W.+Van+den+Noortgate&#x00026;author=J.+L&#x000F3;pez-L&#x000F3;pez&#x00026;author=F.+Mar&#x000ED;n-Mart&#x000ED;nez&#x00026;author=J.+Sanchez-Meca+&#x00026;publication_year=2013&#x00026;title=Three-level+meta-analysis+of+dependent+effect+sizes&#x00026;journal=Behav.+Res.+Methods&#x00026;volume=45&#x00026;pages=576-594" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B62" id="B62"></a> Van der Graaff, J., Branje, S., Wied, M., Hawk, S., Lier, P., and Meeus, W. (2014). Perspective taking and empathic concern in adolescence: gender differences in developmental changes. <i>Dev. Psychol</i>. 50, 881&#x02013;888. doi: 10.1037/a0034325</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24040846" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/a0034325" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Van+der+Graaff&#x00026;author=S.+Branje&#x00026;author=M.+Wied&#x00026;author=S.+Hawk&#x00026;author=P.+Lier&#x00026;author=W.+Meeus+&#x00026;publication_year=2014&#x00026;title=Perspective+taking+and+empathic+concern+in+adolescence%3A+gender+differences+in+developmental+changes&#x00026;journal=Dev.+Psychol&#x00026;volume=50&#x00026;pages=881-888" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B63" id="B63"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>van der Ploeg, R., Kretschmer, T., Salmivalli, C., and Veenstra, R. (2017). Defending victims: what does it take to intervene in bullying and how is it rewarded by peers? <i>J. Sch. Psychol</i>. 65, 1&#x02013;10. doi: 10.1016/j.jsp.2017.06.002</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29145937" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jsp.2017.06.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+van+der+Ploeg&#x00026;author=T.+Kretschmer&#x00026;author=C.+Salmivalli&#x00026;author=R.+Veenstra+&#x00026;publication_year=2017&#x00026;title=Defending+victims%3A+what+does+it+take+to+intervene+in+bullying+and+how+is+it+rewarded+by+peers%3F&#x00026;journal=J.+Sch.+Psychol&#x00026;volume=65&#x00026;pages=1-10" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B64" id="B64"></a> Van Noorden, T. H. J., Haselager, G. J. T., Cillessen, A. H. N., and Bukowski, W. M. (2015). Empathy and involvement in bullying in children and adolescents: a systematic review. <i>J. Youth Adolesc</i>. 44, 637&#x02013;657. doi: 10.1007/s10964-014-0135-6</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24894581" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s10964-014-0135-6" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+H.+J.+Van+Noorden&#x00026;author=G.+J.+T.+Haselager&#x00026;author=A.+H.+N.+Cillessen&#x00026;author=W.+M.+Bukowski+&#x00026;publication_year=2015&#x00026;title=Empathy+and+involvement+in+bullying+in+children+and+adolescents%3A+a+systematic+review&#x00026;journal=J.+Youth+Adolesc&#x00026;volume=44&#x00026;pages=637-657" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B65" id="B65"></a> Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. <i>J. Stat. Softw</i>. 36, 1&#x02013;48. doi: 10.18637/jss.v036.i03</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.18637/jss.v036.i03" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=W.+Viechtbauer+&#x00026;publication_year=2010&#x00026;title=Conducting+meta-analyses+in+R+with+the+metafor+package&#x00026;journal=J.+Stat.+Softw&#x00026;volume=36&#x00026;pages=1-48" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B66" id="B66"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Wolfgang, B. R. (2017). <i>The role of empathy and appreciation of differences in adolescents&#x00027; defending behaviors</i> (Unpublished doctoral dissertation). Fordham University, New York, NY, United States.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=B.+R.+Wolfgang+&#x00026;publication_year=2017&#x00026;title=The+role+of+empathy+and+appreciation+of+differences+in+adolescents&#x00027;+defending+behaviors" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B67" id="B67"></a> Xie, H., and Ngai, S. S. (2020). Participant roles of peer bystanders in school bullying situations: evidence from Wuhan, China. <i>Child. Youth Serv. Rev</i>. 110, 1&#x02013;10. doi: 10.1016/j.childyouth.2020.104762</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.childyouth.2020.104762" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Xie&#x00026;author=S.+S.+Ngai+&#x00026;publication_year=2020&#x00026;title=Participant+roles+of+peer+bystanders+in+school+bullying+situations%3A+evidence+from+Wuhan,+China&#x00026;journal=Child.+Youth+Serv.+Rev&#x00026;volume=110&#x00026;pages=1-10" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B68" id="B68"></a> <sup><a class="footnoteanchor" href="#note1">&#x0002A;</a></sup>Yun, H., and Graham, S. (2018). Defending victims of bullying in early adolescence: a multilevel analysis. <i>J. Youth Adolesc</i>. 47, 1926&#x02013;1937. doi: 10.1007/s10964-018-0869-7</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29845442" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s10964-018-0869-7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Yun&#x00026;author=S.+Graham+&#x00026;publication_year=2018&#x00026;title=Defending+victims+of+bullying+in+early+adolescence%3A+a+multilevel+analysis&#x00026;journal=J.+Youth+Adolesc&#x00026;volume=47&#x00026;pages=1926-1937" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B69" id="B69"></a> Zhang, H., Zhou, H., and Tao, T. (2018). Bullying behaviors and psychosocial adjustment among school-aged children in China. <i>J. Interpers. Violence</i>. 34, 2363&#x02013;2375. doi: 10.1177/0886260518780777</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29911464" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1177/0886260518780777" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Zhang&#x00026;author=H.+Zhou&#x00026;author=T.+Tao+&#x00026;publication_year=2018&#x00026;title=Bullying+behaviors+and+psychosocial+adjustment+among+school-aged+children+in+China&#x00026;journal=J.+Interpers.+Violence&#x00026;volume=34&#x00026;pages=2363-2375" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B70" id="B70"></a> Zhang, W. J. (2005). <i>Connection between participant roles in bullying situations and peer status among students&#x00027; in secondary schools</i> (Unpublished doctoral dissertation). Shandong Normal University, Jinan, China.</p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B71" id="B71"></a> Zych, I., Ttofi, M. M., and Farrington, D. P. (2017). Empathy and callous-unemotional traits in different bullying roles: a systematic review and meta-analysis. <i>Trauma Violence Abus</i> 20, 3&#x02013;21. doi: 10.1177/1524838016683456</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30803395" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1177/1524838016683456" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+Zych&#x00026;author=M.+M.+Ttofi&#x00026;author=D.+P.+Farrington+&#x00026;publication_year=2017&#x00026;title=Empathy+and+callous-unemotional+traits+in+different+bullying+roles%3A+a+systematic+review+and+meta-analysis&#x00026;journal=Trauma+Violence+Abus&#x00026;volume=20&#x00026;pages=3-21" target="_blank">Google Scholar</a></p>
+</div>
+<div id="footnotetext" class="fulltextdescription">
+<p style="margin-top:0em;margin-bottom:0em;margin-left:1em;text-indent:-1em;" id="note1">&#x0002A;<a class="footnotetextanchor" href="#note1a" title="">^</a>References marked with an asterisk indicate studies included in the meta-analysis.</p>
+</div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+<p><span>Keywords:</span> bullying, empathy, bystander defending, three-level meta-analysis, cognitive empathy, affective empathy, adolescents</p>
+<p><span>Citation:</span> Deng X, Yang J and Wu Y (2021) Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis. <i>Front. Psychol.</i> 12:690898. doi: 10.3389/fpsyg.2021.690898</p>
+<p id="timestamps"><span>Received:</span> 04 April 2021; <span>Accepted:</span> 09 June 2021;<br> <span>Published:</span> 05 August 2021.</p>
+<div><p>Edited by:</p> <a href="https://loop.frontiersin.org/people/585070/overview">Eleonora Farina</a>, University of Milano-Bicocca, Italy</div>
+<div><p>Reviewed by:</p> <a href="https://loop.frontiersin.org/people/264099/overview">Lin Zhang</a>, Ningbo University, China<br> <a href="https://loop.frontiersin.org/people/279622/overview">Veronica Ornaghi</a>, University of Milano-Bicocca, Italy</div>
+<p><span>Copyright</span> &#x000A9; 2021 Deng, Yang and Wu. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>&#x0002A;Correspondence:</span> Xiaoping Deng, <a href="mailto:dxp1984&#x00040;gmail.com">dxp1984&#x00040;gmail.com</a></p>
+<div class="clear"></div>
+</div>    <div class="research-topic-container" style="display: none;">
+        <a href="/research-topics/18306#articles" data-test-id="relatedRT-link">
+            <div class="research-topic-data">
+                <h5 class="topic-title">
+                    <span>This article is part of the Research Topic</span>
+                </h5>
+                <p style="margin-bottom:0;">
+
+                    Socio-emotional Skills in Relation to Aggressive and Prosocial Behaviors: from Early Childhood to Adolescence
+                </p>
+                    <div class="topic-link-trim" data-event="rt-link-click">
+                        View all
+14                        Articles <span style="position: relative;top: 1px;"></span>
+                    </div>
+
+
+            </div>
+        </a>
+    </div>
+
+
+<!-- TODO:BEGIN IS PART OF RT-->
+<script type="text/javascript">
+      
+            const isPartOfRTElements = document.getElementsByClassName('research-topic-container');
+
+            if (isPartOfRTElements.length > 0) {
+                const headerBar3Container = document.getElementsByClassName('header-bar-three-container');
+
+                if (headerBar3Container.length > 0) {
+                    const container = headerBar3Container[0];
+                    container.appendChild(isPartOfRTElements[0]);
+                    isPartOfRTElements[0].style.display = 'block';
+                }
+            }
+       
+</script>
+<!-- TODO:END IS PART OF RT-->
+
+                <div class="thin-line-dark"></div>
+
+            </div>
+        </div>
+    </div>
+</main>
+            </div>
+
+                <div class="side-article-subjects only-devices  widget-listing people-also-looked-at hidden">
+                    <h5 class="like-h4">People also looked at</h5>
+                </div>
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true"
+     style="display: none; padding-right: 17px;">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal"  aria-label="Close"><span data-event="supplementaryclose-icon-click" aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message" style="display: none;">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper" id="loader" style="display: none;">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading..">
+                </div>
+                <br>
+                <div class="table-responsive" id="localFiles">
+
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br>
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>" data-event="supplementarydownload-button-click">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" data-event="supplementarydownload-button-click" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel" id="notify_me_popup">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+</div>
+
+    </div>
+        <a id="floating-download-pdf-btn" class="floating-button" data-event="downloadfloating-button-click" href="/articles/10.3389/fpsyg.2021.690898/pdf">
+            <span class="floating-button-text" data-event="downloadfloating-button-click">Download</span>
+        </a>
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                document.onload = observerDowloadFloatingBtn();
+            });
+            function downloadButtonVisibilityChange(entries) {
+                const btn = entries[0];
+                const floatingBtn = document.querySelector("#floating-download-pdf-btn");
+                if (!btn.isIntersecting) {
+                    floatingBtn.classList.add("floating-button--show");
+                } else {
+                    floatingBtn.classList.remove("floating-button--show");
+                }
+            }
+
+            function observerDowloadFloatingBtn() {
+                const options = {
+                    root: document.getElementsByName('body')[0],
+                    rootMargin: '0px',
+                    threshold: 1.0
+                }
+
+                const observer = new IntersectionObserver(downloadButtonVisibilityChange, options);
+                const target = document.querySelector('[data-test-id="download-button"]');
+                observer.observe(target);
+            }
+        </script>
+    <frontiers-footer main-domain="frontiersin.org"></frontiers-footer>
+
+    <script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+ 
+    <script src=" https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script>
+ 
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=O9-mxZHGMRH9UWcWq5BW6IczDmW5Nz2Fjt5wgZmuXZA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '690898',
+                DOI:'10.3389/fpsyg.2021.690898',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '69',
+                SpecialityId: '305',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000',
+                ProvisionallyAcceptedText: 'The final, formatted version of the article will be published soon.',
+                NotifyMeButtonText: 'Notify me',
+                NotifyMeButtonSecondaryText: 'We&#39;ll notify you',
+                IsSimilarArticleVisible: FRSafe.boolean('True'),
+                JournalId: '36',
+                SectionId: '46',
+                JournalName: 'Psychology',
+                SectionName: 'Developmental Psychology',
+                ArticleTitle: 'Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis',
+                AcceptedDate: '20210609',
+                PublishedDate: '20210805',
+                ContentType: 'Published',
+                ResearchTopicId: '18306',
+                IsImpactMetricsVisible: FRSafe.boolean('True')
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '690898',
+                ownerId: '1281098',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '29',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script>
+        function setBodyOverflow(dropdownElement) {
+            if (!dropdownElement) return;
+            const windowWidth = window.innerWidth;
+            if (windowWidth <= 1024) {
+                const body = document.querySelector("body");
+                if (dropdownElement.classList.contains("open")) {
+                    body.style.overflow = "hidden";
+                } else {
+                    body.style.overflow = "auto";
+                }
+            }
+        }
+        $(document).ready(function () {
+            $(document).on('click', '.dropdown-menu-wrapper', function (e) {
+                e.stopPropagation();
+            });
+
+            $(document).on('click', '[data-toggle="dropdown"]', function (e) {
+                const dropdownElement = e.target.closest(".dropdown")
+                if (dropdownElement) {
+                    setBodyOverflow(dropdownElement);
+                }
+            });
+        });
+
+        function supplementalDataToggle() {
+            const el = document.getElementById("supplementaryFilesModal");
+            if (el) {
+                el.classList.toggle("in");
+                if (el.classList.contains("in")) {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+            }
+        }
+
+        function initToggleSupplementalData() {
+            const btn = document.getElementsByClassName("btn-open-supplemental")[0];
+            const btn2 = document.getElementsByClassName("btn-open-supplemental")[1];
+            const closeButtons = document.getElementById("supplementaryFilesModal").querySelectorAll("[data-dismiss='modal']");
+
+            if (btn) { btn.onclick = supplementalDataToggle; }
+            if (btn2) { btn2.onclick = supplementalDataToggle; }
+            if (closeButtons) { closeButtons.forEach(b => b.onclick = supplementalDataToggle); }
+        }
+
+
+        initToggleSupplementalData();
+    </script>
+
+    <script type="text/plain" class="optanon-category-C0002">
+        function trackUserViewItemGA4() {
+            const dataLayer = (window).dataLayer;
+            if (dataLayer) {
+                dataLayer.push({
+                    'event': 'view_article',
+                    'content_type': 'Published',
+                    'article_title': 'Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis',
+                    'journal_title': 'Psychology',
+                    'research_topic_title': 'Socio-emotional Skills in Relation to Aggressive and Prosocial Behaviors: from Early Childhood to Adolescence',
+                    'section_title': "Developmental Psychology",
+                    'published_date': '20210805',
+                    'accepted_date': '20210609',
+                    'article_id': '690898',
+                    'journal_id': '36',
+                    'research_topic_id': '18306',
+                    'section_id' :'46',
+                    'article_type': 'SYSTEMATIC REVIEW article'
+                });
+            }
+        }
+
+            trackUserViewItemGA4();
+
+    </script>
+
+        <script type="text/javascript">
+            dataLayer.push({
+                'loopId': undefined,
+            });
+        </script>
+    <script type="text/javascript">
+        var FRTitles = (function () {
+            return {
+                ResearchTopicTitle: 'Socio-emotional Skills in Relation to Aggressive and Prosocial Behaviors: from Early Childhood to Adolescence',
+                ArticleTypeName: 'SYSTEMATIC REVIEW article'
+            };
+    })();
+    </script>
+    <!-- BEGIN TODO UXD-1800: Inconsistent sizing of equations -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          CommonHTML: {
+            scale: 80
+          },
+          PreviewHTML: {
+            scale: 80
+          }
+        });
+    </script>
+    <!-- END TODO UXD-1800: Inconsistent sizing of equations -->
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+    
+    <script src="https://static.frontiersin.org/areas/articles/js/app?v=FqC08Dhm0brey5SIgVI2XAwK7bdHJ7l20qYimnBrqi01"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/webcomponents?v=10ZwhKhNgH_pj31INEOwCEvN4hA3MyJdkY4rkLyap2s1"></script>
+
+
+    <script type="text/plain" class="optanon-category-C0004" src="https://widgets.figshare.com/static/figshare.js">
+    </script>
+
+</body>
+</html>

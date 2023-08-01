@@ -1,0 +1,1276 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=NsJH3Ts1-89I8lZURwQYmw&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TFKV632');
+    </script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=jfKETtlWamfZ4l02YiFCQw&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N279F7B');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    <!--Snowplow Tag-->
+
+        <script type="text/javascript">
+            (function (p, l, o, w, i, n, g) {
+                if (!p[i]) {
+                    p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                    p.GlobalSnowplowNamespace.push(i); p[i] = function () { (p[i].q = p[i].q || []).push(arguments) }; p[i].q = p[i].q || [];
+                    n = l.createElement(o); g = l.getElementsByTagName(o)[0]; n.async = 1; n.src = w;
+                    g.parentNode.insertBefore(n, g)
+                }
+            }(window, document, "script", "https://cdnjs.cloudflare.com/ajax/libs/snowplow/2.18.2/sp.min.js", "snowplow"));
+
+            snowplow('newTracker', 'spTracker-inline-live', 'sp-live-collector.cdp.frontiersin.io', {
+                appId: '1',
+                eventMethod: 'post',
+                anonymousTracking: true,
+                stateStorageStrategy: 'none',
+                contexts: {
+                    webPage: true
+                }
+            });
+            snowplow('enableActivityTracking', 30, 10);
+            window.snowplow('trackPageView');
+            snowplow('enableAnonymousTracking', { withServerAnonymisation: true });
+            snowplow('clearUserData');
+            snowplow('setUserId', '0');
+        </script>
+    <!--End Snowplow Tag-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"598a124f17","applicationID":"3007887","transactionName":"MQcDMkECCkNSW0YMWghNLDBwTCVCR1FRCVAlDQ8SQQwIXFZKHSNACg41A0sXJkl3d3s=","queueTime":0,"applicationTime":337,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgUHUl5WGwAAVFZaDwY=",licenseKey:"598a124f17",applicationID:"3007887"};;/*! For license information please see nr-loader-full-1.237.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,r={5763:(e,t,r)=>{r.d(t,{P_:()=>f,Mt:()=>g,C5:()=>s,DL:()=>m,OP:()=>T,lF:()=>j,Yu:()=>y,Dg:()=>h,CX:()=>c,GE:()=>b,sU:()=>_});var n=r(8632),i=r(9567);const a={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,n.Qy)(e,o[e],"info")}var d=r(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function h(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,n.Qy)(e,l[e],"config")}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=f(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const p={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,p),(0,n.Qy)(e,v[e],"loader_config")}const y=(0,n.mF)().o;var w=r(385),x=r(6818);const A={buildEnv:x.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:x.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:x.q4,denyList:void 0},E={};function T(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,A),(0,n.Qy)(e,E[e],"runtime")}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{r.d(t,{Re:()=>i,gF:()=>a,q4:()=>n});const n="1.237.0",i="PROD",a="CDN"},385:(e,t,r)=>{r.d(t,{FN:()=>o,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>a,il:()=>n,pL:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=""+a?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(n&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,r)=>{r.d(t,{w:()=>a});var n=r(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{r.d(t,{L:()=>u,R:()=>c});var n=r(2177),i=r(1284),a=r(4322),o=r(3325);const s={};function c(e,t){const r={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const r=[...s[e]];function o(t){const r=e?n.ee.get(e):n.ee,o=a.X.handlers;if(r.backlog&&o){var s=r.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete o[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;o(t)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],a=e[3],o=e[2];i.apply(a,o)}}))}},2177:(e,t,r)=>{r.d(t,{ee:()=>d});var n=r(8632),i=r(2210),a=r(1284),o=r(5763),s="nr@context";let c=(0,n.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,r){var n={},c={},h={},g=!1;try{g=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var p={on:b,addEventListener:b,removeEventListener:y,emit:m,get:x,listeners:w,context:v,buffer:A,abort:f,aborted:!1,isBuffering:E,debugId:r,backlog:g?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,a){if(!1!==a&&(a=!0),!d.aborted||i){t&&a&&t.emit(e,r,n);for(var o=v(n),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(o,r);var f=T()[c[e]];return f&&f.push([p,e,r,o]),o}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function x(t){return h[t]=h[t]||e(p,t)}function A(e,t){var r=T();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function E(e){return!!T()[c[e]]}function T(){return p.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,r)=>{r.d(t,{E:()=>n,p:()=>i});var n=r(2177).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{r.d(t,{X:()=>a});var n=r(5546);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.E,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.E);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},3239:(e,t,r)=>{r.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var n=r(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(r,n))}},4402:(e,t,r)=>{r.d(t,{Ht:()=>d,M:()=>c,Rl:()=>o,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++r).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(r,++i).toString(16));return o.join("")}function c(){return s(16)}function d(){return s(32)}},7056:(e,t,r)=>{r.d(t,{Bq:()=>n,Hb:()=>a,oD:()=>i});const n="NRBA",i=144e5,a=18e5},7894:(e,t,r)=>{function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{r.d(t,{e:()=>a});var n=r(385),i={};function a(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};let t;var r=n._A?.location,a={};if(n.il)t=document.createElement("a"),t.href=e;else try{t=new URL(e,r.href)}catch(e){return a}a.port=t.port;var o=t.href.split("://");!a.port&&o[1]&&(a.port=o[1].split("/")[0].split("@").pop().split(":")[1]),a.port&&"0"!==a.port||(a.port="https"===o[0]?"443":"80"),a.hostname=t.hostname||r.hostname,a.pathname=t.pathname,a.protocol=o[0],"/"!==a.pathname.charAt(0)&&(a.pathname="/"+a.pathname);var s=!t.protocol||":"===t.protocol||t.protocol===r.protocol,c=t.hostname===r.hostname&&t.port===r.port;return a.sameOrigin=s&&(!t.hostname||c),"/"===a.pathname&&(i[e]=a),a}},50:(e,t,r)=>{function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2587:(e,t,r)=>{r.d(t,{N:()=>c,T:()=>d});var n=r(2177),i=r(5546),a=r(8e3),o=r(3325);const s={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]};function c(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,n]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),d[t]=Boolean(n))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),d[e]=!1)})),(0,a.L)(t,o.D.pageViewEvent))}const d={}},2210:(e,t,r)=>{r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{r.d(t,{P:()=>a});var n=r(2177);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{r.d(t,{K:()=>o,b:()=>a});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.bP)("load",e,t)}function o(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{r.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var n=r(7894),i=r(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[r]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,r)=>{r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{r.d(t,{em:()=>m,u5:()=>D,QU:()=>P,Kf:()=>z});var n=r(2177);const i="nr@original";var a=Object.prototype.hasOwnProperty,o=!1;function s(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,a){n||(n="");var o,s,c,d="-"===n.charAt(0);for(c=0;c<t.length;c++)u(o=e[s=t[c]])||(e[s]=r(o,d?s+n:n,i,s,a))},r.flag=i,r;function r(t,r,n,o,s){return u(t)?t:(r||(r=""),nrWrapper[i]=t,d(t,nrWrapper,e),nrWrapper);function nrWrapper(){var i,d,u,l;try{d=this,i=[...arguments],u="function"==typeof n?n(i,d):n||{}}catch(t){c([t,"",[i,d,o],u],e)}a(r+"start",[i,d,o],u,s);try{return l=t.apply(d,i)}catch(e){throw a(r+"err",[i,d,e],u,s),e}finally{a(r+"end",[i,d,l],u,s)}}}function a(r,n,i,a){if(!o||t){var s=o;o=!0;try{e.emit(r,n,i,t,a)}catch(t){c([t,r,n,i],e)}o=s}}}function c(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){c([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n]);return t}function u(e){return!(e&&e instanceof Function&&e.apply&&!e[i])}var l=r(2210),f=r(385);const h={},g=XMLHttpRequest,p="addEventListener",v="removeEventListener";function m(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=s(t,!0);function i(e){r.inPlace(e,[p,v],"-",a)}function a(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&b(document,i),b(f._A,i),b(g.prototype,i)),t.on(p+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(v+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function b(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,p);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),a=2;a<n;a++)i[a-2]=arguments[a];r&&t(r,...i)}var y="fetch-",w=y+"body-",x=["arrayBuffer","blob","json","text","formData"],A=f._A.Request,E=f._A.Response,T="prototype",_="nr@context";const j={};function D(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(A&&E&&f._A.fetch))return t;if(j[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(n+"before-start",[r],a),a[_]&&a[_].dt&&(e=a[_].dt);var o=i.apply(this,r);return t.emit(n+"start",[r,e],o),o.then((function(e){return t.emit(n+"end",[null,e],o),e}),(function(e){throw t.emit(n+"end",[e],o),e}))})}return j[t.debugId]=1,x.forEach((e=>{r(A[T],e,w),r(E[T],e,w)})),r(f._A,"fetch",y),t.on(y+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(y+"done",[null,r],n)}else t.emit(y+"done",[e],n)})),t}const C={},S=["pushState","replaceState"];function P(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||C[t.debugId]++||(C[t.debugId]=1,s(t).inPlace(window.history,S,"-")),t}var O=r(3239);var R=r(5763);var I=r(50);const N={},k=["open","send"];function z(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(N[r.debugId]++)return r;N[r.debugId]=1,m(t);var i=s(r),a=R.Yu.XHR,o=R.Yu.MO,c=R.Yu.PR,d=R.Yu.SI,u="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],g=f._A.XMLHttpRequest.listeners,p=f._A.XMLHttpRequest=function(e){var t=new a(e);function n(){try{r.emit("new-xhr",[t],t),t.addEventListener(u,b,(0,O.m$)(!1))}catch(e){(0,I.Z)("An error occured while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}}return this.listeners=g?[...g,n]:[n],this.listeners.forEach((e=>e())),t};function v(e,t){i.inPlace(t,["onreadystatechange"],"fn-",E)}function b(){var e=this,t=r.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",E)}if(function(e,t){for(var r in e)t[r]=e[r]}(a,p),p.prototype=a.prototype,i.inPlace(p.prototype,k,"-xhr-",E),r.on("send-xhr-start",(function(e,t){v(e,t),function(e){h.push(e),o&&(y?y.then(A):d?d(A):(w=-w,x.data=w))}(t)})),r.on("open-xhr-start",v),o){var y=c&&c.resolve();if(!d&&!c){var w=1,x=document.createTextNode(w);new o(A).observe(x,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===u||A()}));function A(){for(var e=0;e<h.length;e++)v(0,h[e]);h.length&&(h=[])}function E(e,t){return t}return r}},7825:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{r.d(t,{gF:()=>a,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>o});const n=r(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{r.d(t,{Dz:()=>i,OJ:()=>o,qw:()=>a,t9:()=>n});const n=r(3325).D.pageViewEvent,i="firstbyte",a="domcontent",o="windowload"},9251:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},3614:(e,t,r)=>{r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>d,FN_START:()=>c,PUSH_STATE:()=>u,RESOURCE:()=>a,START:()=>o});const n=r(3325).D.sessionTrace,i="bstResource",a="resource",o="-start",s="-end",c="fn"+o,d="fn"+s,u="pushState"},5938:(e,t,r)=>{r.d(t,{W:()=>a});var n=r(5763),i=r(2177);class a{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1}}},9144:(e,t,r)=>{r.d(t,{j:()=>v});var n=r(3325),i=r(5763),a=r(5546),o=r(2177),s=r(7894),c=r(8e3),d=r(3960),u=r(385),l=r(50),f=r(3081),h=r(8632);function g(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...n))})),a.length>1?a:a[0]}(t,...n)}}))}var p=r(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:x={loaderType:v},exposed:A=!0}=t;const E=(0,h.gG)();y||(b=E.init,y=E.info,w=E.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),x.denyList=b.ajax?.block_internal?(b.ajax.deny_list||[]).concat(y.beacon,y.errorBeacon):b.ajax?.deny_list,(0,i.sU)(e,x),g();const T=function(e,t){t||(0,c.R)(e,"api");const h={};var g=o.ee.get(e),p=g.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,a){const o=(0,i.C5)(e);return null===r?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:r}}),x(v,n,!0,a||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>h[e]=x(v,e,!0,"api"))),h.addPageAction=x(v,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=x(v,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,x(v,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,g),function(){if(p.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){throw p.emit("fn-err",[arguments,this,e],r),e}finally{p.emit("fn-end",[(0,s.z)()],r)}}}};function x(e,t,r,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,g),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,g),r?void 0:this}}function A(){r.e(439).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=x(m,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,g),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,g)},u.il?(0,d.b)((()=>A()),!0):A(),h}(e,m);return(0,h.Qy)(e,T,"api"),(0,h.Qy)(e,A,"exposed"),(0,h.EZ)("activatedFeatures",p.T),T}},3325:(e,t,r)=>{r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"636893b0",147:"0d982f48",193:"a490ad60",242:"22036a2b",317:"f8100d3b",348:"d72a908a",412:"d2774909",439:"eaff3276",538:"643cfeda",590:"948ed12b",646:"a8872fbe",675:"772ac1fe",786:"e765729e",860:"50b8f759",873:"495db083",898:"629e6d59"}[e]+"-1.237.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=58,i.p="https://js-agent.newrelic.com/",(()=>{var e={58:0,521:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,d=0;if(o.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var a={};(()=>{i.r(a);var e=i(50);class t{addPageAction(t,r){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,r){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,r,n){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,r){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,r){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var r=i(3325),n=i(5763);const o=Object.values(r.D);function s(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var c=i(9144);var d=i(5546),u=i(385),l=i(8e3),f=i(5938),h=i(3960);class g extends f.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler,this.featAggregate,this.onAggregateImported,n&&(0,l.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const r=u.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let n;try{if(r){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,l.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(412).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),a(!1)}};u.il?(0,h.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var p=i(7633),v=i(7894);class m extends g{static featureName=p.t9;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.Tt)&&"undefined"!=typeof PerformanceTiming){const t=(0,n.OP)(e);t[p.Dz]=Math.max(Date.now()-t.offset,0),(0,h.K)((()=>t[p.qw]=Math.max((0,v.z)()-t[p.Dz],0))),(0,h.b)((()=>{const e=(0,v.z)();t[p.OJ]=Math.max(e-t[p.Dz],0),(0,d.p)("timing",["load",e],void 0,r.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(1117),y=i(1284);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var a=this.getBucket(e,t,r,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,r){t[e]=x(r,t[e])})),t}(n,a.metrics),a}merge(e,t,r,n,i){var a=this.getBucket(e,t,n,i);if(a.metrics){var o=a.metrics;o.count+=r.count,(0,y.D)(r,(function(e,t){if("count"!==e){var n=o[e],i=r[e];i&&!i.c?o[e]=x(i.t,n):o[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=x(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=E(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function E(e){return"object"!=typeof e?[]:(0,y.D)(e,T)}function T(e,t){return t}var _=i(8632),j=i(4402),D=i(4351);var C=i(7956),S=i(3239),P=i(9251);class O extends g{static featureName=P.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,r),u.il&&((0,n.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,C.N)((()=>(0,d.p)("docHidden",[(0,v.z)()],void 0,P.t,this.ee)),!0),(0,S.bP)("pagehide",(()=>(0,d.p)("winPagehide",[(0,v.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var R=i(3081);class I extends g{static featureName=R.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t9,r),this.importAggregator()}}var N=i(6660);class k{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class z extends g{static featureName=N.t;#e=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#e.has(n)&&(this.#e.add(n),(0,d.p)("err",[this.#t(n),(0,v.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,d.p)("ierr",[this.#t(e),(0,v.z)(),!0],void 0,r.D.jserrors,this.ee)})),u._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,d.p)("err",[this.#r(e),(0,v.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,S.m$)(!1,this.removeOnAbort?.signal)),u._A.addEventListener("error",(e=>{this.abortHandler&&(this.#e.has(e.error)?this.#e.delete(e.error):(0,d.p)("err",[this.#n(e),(0,v.z)()],void 0,r.D.jserrors,this.ee))}),(0,S.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.#e.clear(),this.abortHandler=void 0}#t(e){return e instanceof Error?e:void 0!==e?.message?new k(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new k("string"==typeof e?e:(0,D.P)(e))}#r(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new k(t);const r=this.#t(e.reason);return r.message=t+r.message,r}#n(e){return e.error instanceof Error?e.error:new k(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let L=1;const M="nr@id";function B(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===u._A?0:(0,H.X)(e,M,(function(){return L++}))}function U(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,D.P)(e).length}catch(e){return}}}var q=i(1214),F=i(7243);class Z{constructor(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,a=(t.trustKey||"").toString()||null;if(!r||!i)return null;var o=(0,j.M)(),s=(0,j.Ht)(),c=Date.now(),d={spanId:o,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(o,s),d.traceContextStateHeader=this.generateTraceContextStateHeader(o,c,r,i,a)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(o,s,c,r,i,a)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,a){if(!("function"==typeof u._A?.btoa))return null;var o={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return a&&n!==a&&(o.d.tk=a),btoa((0,D.P)(o))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var a=(0,F.e)(r.allowed_origins[i]);if(e.hostname===a.hostname&&e.protocol===a.protocol&&e.port===a.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var G=i(7825),V=["load","error","abort","timeout"],X=V.length,W=n.Yu.REQ,Q=u._A.XMLHttpRequest;class K extends g{static featureName=G.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,G.t,i),(0,n.OP)(e).xhrWrappable&&(this.dt=new Z(e),this.handler=(e,t,r,n)=>(0,d.p)(e,t,r,n,this.ee),(0,q.u5)(this.ee),(0,q.Kf)(this.ee),function(e,t,i,a){function o(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=E,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){_(t,e)}),(0,S.m$)(!1)),u.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,S.m$)(!1))}function s(e){this.params={method:e[0]},T(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var o=a.generateTracePayload(this.parsedOrigin);if(o){var s=!1;o.newrelicHeader&&(r.setRequestHeader("newrelic",o.newrelicHeader),s=!0),o.traceContextParentHeader&&(r.setRequestHeader("traceparent",o.traceContextParentHeader),o.traceContextStateHeader&&r.setRequestHeader("tracestate",o.traceContextStateHeader),s=!0),s&&(this.dt=o)}}function d(e,r){var n=this.metrics,i=e[0],a=this;if(n&&i){var o=U(i);o&&(n.txSize=o)}this.startTime=(0,v.z)(),this.listener=function(e){try{"abort"!==e.type||a.loadCaptureCalled||(a.params.aborted=!0),("load"!==e.type||a.called===a.totalCbs&&(a.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof a.end)&&a.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<X;s++)r.addEventListener(V[s],this.listener,(0,S.m$)(!1))}function l(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+B(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+B(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function g(){this.endTime=(0,v.z)()}function p(e,r){r instanceof Q&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof Q&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function b(e,t,r){t instanceof Q&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,v.z)()))}function y(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,v.z)()-this.xhrCbStart,this.onload,r],r)}function w(e){var t,r=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:u._A?.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,F.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=a.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if("string"==typeof e[0]||u._A?.URL&&e[0]&&e[0]instanceof URL){var i={};for(var o in r)i[o]=r[o];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}else e[0]&&e[0].headers&&s(e[0].headers,n)&&(this.dt=n);function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function x(e,t){this.params={},this.metrics={},this.startTime=(0,v.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:u._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),T(this,r);var a=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=a,this.txSize=U(n.body)||0}function A(e,t){var n;this.endTime=(0,v.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var a={txSize:this.txSize,rxSize:n,duration:(0,v.z)()-this.startTime};i("xhr",[this.params,a,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function E(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var a=0;a<X;a++)e.removeEventListener(V[a],this.listener,!1);t.aborted||(n.duration=(0,v.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):_(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function T(e,t){var r=(0,F.e)(t),n=e.params;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}function _(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?U(e.response):"text"===r||""===r||void 0===r?U(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",o),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",d),t.on("xhr-cb-time",l),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",g),t.on("addEventListener-end",p),t.on("removeEventListener-end",m),t.on("fn-end",y),t.on("fetch-before-start",w),t.on("fetch-start",x),t.on("fn-start",b),t.on("fetch-done",A)}(e,this.ee,this.handler,this.dt),this.importAggregator())}}var Y=i(3614);const{BST_RESOURCE:$,RESOURCE:J,START:ee,END:te,FEATURE_NAME:re,FN_END:ne,FN_START:ie,PUSH_STATE:ae}=Y;var oe=i(4649);class se extends g{static featureName=oe.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,oe.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);super(),u._A?(this.agentIdentifier=r,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,c.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=s(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>n[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(r){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",r);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[m,O,class extends g{static featureName=re;constructor(e,t){if(super(e,t,re,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!u.il)return;const n=this.ee;let i;(0,q.QU)(n),this.eventsEE=(0,q.em)(n),this.eventsEE.on(ie,(function(e,t){this.bstStart=(0,v.z)()})),this.eventsEE.on(ne,(function(e,t){(0,d.p)("bst",[e[0],t,this.bstStart,(0,v.z)()],void 0,r.D.sessionTrace,n)})),n.on(ae+ee,(function(e){this.time=(0,v.z)(),this.startPath=location.pathname+location.hash})),n.on(ae+te,(function(e){(0,d.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,d.p)($,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:J,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},K,I,se,z],loaderType:"pro"})})(),window.NRBA=a})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis" />
+    <meta property="og:description" name="Description" content="Higher education aims for university students to produce knowledge from the critical reflection of scientific texts. Therefore, it is necessary to develop a deep mental representation of written information. The objective of this research was to determine through a systematic review and meta-analysis the proportion of university students who have an optimal performance at each level of reading comprehension. Systematic review of empirical studies has been limited from 2010 to March 2021 using the Web of Science, Scopus, Medline, and PsycINFO databases. Two reviewers performed data extraction independently. A random-effects model of proportions was used for the meta-analysis and heterogeneity was assessed with I2. To analyze the influence of moderating variables, meta-regression was used and two ways were used to study publication bias. Seven articles were identified with a total sample of the seven of 1,044. The proportion of students at the literal level was 56% (95% CI = 39–72%, I2 = 96.3%), inferential level 33% (95% CI = 19–46%, I2 = 95.2%), critical level 22% (95% CI = 9–35%, I2 = 99.04%), and organizational level 22% (95% CI = 6–37%, I2 = 99.67%). Comparing reading comprehension levels, there is a significant higher proportion of university students who have an optimal level of literal compared to the rest of the reading comprehension levels. The results have to be interpreted with caution but are a guide for future research." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/articles/10.3389/fpsyg.2021.712901/full" />
+
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/712901/712901_Thumb_400.jpg" />
+            <meta name="citation_volume" content="12" />
+        <meta name="citation_journal_title" content="Frontiers in Psychology" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Psychol." />
+        <meta name="citation_issn" content="1664-1078" />
+        <meta name="citation_doi" content="10.3389/fpsyg.2021.712901" />
+        <meta name="citation_firstpage" content="712901" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis" />
+        <meta name="citation_keywords" content="reading comprehension; higher education; university students; Systematic review; Meta-analysis" />
+        <meta name="citation_abstract" content="Higher Education aims for university students to produce knowledge from the critical reflection of scientific texts. Therefore, it is necessary to develop a model of the situation of written information. The objective of this research was to determine through a systematic review and meta-analysis the proportion of university students who have an optimal performance at each level of reading comprehension. The systematic review of empirical studies is carried out from 2010 to March 2021 using the Web of Science, Scopus, Medline, PsycINFO databases. Two reviewers performed data extraction independently. A random-effects model of proportions was used for the meta-analysis and heterogeneity was assessed with I2. To analyze the influence of moderating variables, meta-regression was used and two ways were used to study publication bias. Seven articles were identified (n = 1044). The proportion of students at the literal level was 56% (95% CI: 39% - 72%, I2 = 96.3%), inferential level 33% (95% CI: 19% - 46%, I2 = 95.2%), critical level 22% (95% CI: 9% - 35%, I2 = 99.04%) and organizational level 22% (95% CI: 6% - 37%, I2 = 99.67%). Comparing reading comprehension levels, there is a significant higher proportion of university students who have an optimal level of literal compared to the rest of the reading comprehension levels. The results have to be interpreted with caution but are a guide for future research." />
+        <meta name="description" content="Higher Education aims for university students to produce knowledge from the critical reflection of scientific texts. Therefore, it is necessary to develop a model of the situation of written information. The objective of this research was to determine through a systematic review and meta-analysis the proportion of university students who have an optimal performance at each level of reading comprehension. The systematic review of empirical studies is carried out from 2010 to March 2021 using the Web of Science, Scopus, Medline, PsycINFO databases. Two reviewers performed data extraction independently. A random-effects model of proportions was used for the meta-analysis and heterogeneity was assessed with I2. To analyze the influence of moderating variables, meta-regression was used and two ways were used to study publication bias. Seven articles were identified (n = 1044). The proportion of students at the literal level was 56% (95% CI: 39% - 72%, I2 = 96.3%), inferential level 33% (95% CI: 19% - 46%, I2 = 95.2%), critical level 22% (95% CI: 9% - 35%, I2 = 99.04%) and organizational level 22% (95% CI: 6% - 37%, I2 = 99.67%). Comparing reading comprehension levels, there is a significant higher proportion of university students who have an optimal level of literal compared to the rest of the reading comprehension levels. The results have to be interpreted with caution but are a guide for future research." />
+        <meta name="citation_online_date" content="2021/07/07" />
+        <meta name="citation_publication_date" content="2021/08/04" />
+        <meta name="citation_author" content="de-la-Pe&#241;a, Cristina" />
+        <meta name="citation_author_institution" content="Departamento de M&#233;todos de Investigaci&#243;n y Diagn&#243;stico en Educaci&#243;n, Universidad Internacional de la Rioja, Spain" />
+        <meta name="citation_author" content="Luque-Rojas, Mar&#237;a Jes&#250;s" />
+        <meta name="citation_author_institution" content="Department of Theory and History of Education and Research Methods and Diagnosis in Education, University of Malaga, Spain" />
+    <meta name="Keywords" content="reading comprehension, higher education, university students, Systematic review, Meta-analysis" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fpsyg.2021.712901">
+        <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function () {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview: 'False',
+                TenantName: 'Frontiers'
+            }
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"article_accepteddate":"Accepted: ","article_analyticstooltip":"In May 2023, Frontiers adopted a new reporting platform to be Counter 5 compliant, in line with industry standards.","article_analyticsviewimpact":"View article impact","article_bibtex":"BibTex","article_copyrighttext":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","article_downloadarticle":"Download Article","article_downloadpdf":"Download PDF","article_downloadprovisionalarticle":"Download Provisional Article","article_endnote":"EndNote","article_epub":"EPUB","article_exportcitation":"Export Citation","article_jats":"JATS","article_nlm":"XML (NLM)","article_pdf":"PDF","article_provisionalpdf":"Provisional PDF","article_publisheddate":"Published online: ","article_readfulltext":"Read Full Text","article_receiveddate":"Received: ","article_referencemanager":"Reference Manager","article_shareon":"SHARE ON","article_simpletextfile":"Simple TEXT file","article_supplementaldata":"SUPPLEMENTAL DATA","article_tableofcontent":"TABLE OF CONTENTS","article_viewenhancedpdf":"ReadCube","article_xml":"XML","browserwarningtext":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","impact_backtoarticle":"Back to article","people_also_lookedat":"People also looked at","article_analyticstotalviews":"total views","ART_FRONTIERS":"Frontiers","Article_AnalyticsTotalViews":"total views","Article_ArchiveLinkText":"Articles","Article_Citation":"Citation:","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright:","Article_Correspondence":"* Correspondence:","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by:","Article_Keywords":"Keywords:","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published:","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","article_lastmodifieddate":"Last modified: "};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '36',
+                SectionId: '56'
+            };
+    })();
+
+    var FRArticleDetails = (function () {
+
+            return {
+                ArticleId: '712901',
+                SectionTitle: 'Educational Psychology',
+                DisclaimerText: 'All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.',
+                IsHTMLPublished:'True',
+                IsPreview: 'False',
+                LinkedArticles: null,
+                DisplayRelatedArticlesBox: 'True',
+                DisplayTitlePillLabels: 'False',
+                IsOriginalArticle: 'False',
+                IsArticleIdsToHideRelatedArticleBox: 'False'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=Fp4H7kLloN90qq2u8knCdlhXA6aGuosX8WE_xkzfWjc1" rel="stylesheet"/>
+
+    <style type="text/css"> .journal-psychology {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+background-size: 49%;
+}
+
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+ background-size: 39%;
+ }}
+
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+ background-size: 46%;
+ }}
+
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+background-size: 46%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { 
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% -10px;
+background-size: 42%;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 17px;
+background-size: 58%;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) { 
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 33px;
+background-size: 66%;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 115px;
+background-size: 64%;
+ }} </style>
+    
+</head>
+<body class="journal-psychology section-educational-psychology">
+
+    
+    <a href="#main-content" class="bypassBlock-wrapper" id="bypass">
+        <span class="bypassBlock-button">Skip to main content</span>
+    </a>
+    <script type="text/javascript">
+
+        const container = document.getElementById("bypass");
+
+        //eventListeners
+        container.addEventListener('focus', function () {
+            document.documentElement.setAttribute("bypass-focus", "true");
+        }, true);
+
+        container.addEventListener('blur', function () {
+            document.documentElement.setAttribute("bypass-focus", "false");
+        }, true);
+
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFKV632&gtm_auth=NsJH3Ts1-89I8lZURwQYmw&gtm_preview=env-1&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N279F7B&gtm_auth=jfKETtlWamfZ4l02YiFCQw&gtm_preview=env-1&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=vbc13dTGr7qL7XerHFDUYx5a5aMhnEvReT2oPGkMwm81"></script>
+
+
+
+    <frontiers-ibar main-domain="frontiersin.org" is-frontiers="true" tenant-name="FRONTIERS"  loop-url="https://loop.frontiersin.org" journal-id="36"></frontiers-ibar>
+    <div class="page-container sidemenu-collapsed" id="main-content">
+        
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+        <div class="row" id="similar-articles">
+            <div class="new-wrapper">
+                
+
+
+<style>
+    .disabled-supplementary-btn {
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: .65;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+</style>
+<aside class="right-container">
+
+        <div class="side-article-download clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <button data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon-label" data-event="download-button-click">Download Article</span>
+                        </button>
+
+                        <div class="dropdown-menu-wrapper">
+                            <div class="dropdown-menu-mobile-title">
+                                Download Article
+                            </div>
+                            <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a class="download-files-pdf action-link" href="/articles/10.3389/fpsyg.2021.712901/pdf" data-test-id="article-downloadpdf" data-event="downloadpdf-button-click" id="download_article​">
+                                            Download PDF
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fpsyg.2021.712901" data-test-id="article-viewenhancedpdf" data-event="downloadreadcube-button-click" id="download_article​">
+                                            ReadCube
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-epub" href="/articles/10.3389/fpsyg.2021.712901/epub" data-test-id="article-epub" data-event="downloadepub-button-click" id="download_article​">
+                                            EPUB
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-nlm" href="/articles/10.3389/fpsyg.2021.712901/xml/nlm" data-test-id="article-nlm" data-event="downloadnlm-button-click" id="download_article​">
+                                            XML (NLM)
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                            <button class="dropdown-menu-mobile-close-button" aria-label="Close" data-toggle="dropdown"></button>
+                        </div>
+                    </li>
+                                <li class="dropdown">
+                </li>
+
+                <li class="dropdown">
+                    <button type="button" class="navbar-toggle navbar-citations" data-event="citation-button-click" data-toggle="dropdown" data-target="#" aria-expanded="false">
+                    </button>
+                    <div class="dropdown-menu-wrapper">
+                        <div class="dropdown-menu-mobile-title">
+                            Export citation
+                        </div>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a data-test-id="article-endnote" href="/articles/10.3389/fpsyg.2021.712901/endNote" data-event="endnotedownload-button-click">
+                                        EndNote
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-referencemanager" href="/articles/10.3389/fpsyg.2021.712901/reference" data-event="referencemanagerdownload-button-click">
+                                        Reference Manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-simpletextfile" href="/articles/10.3389/fpsyg.2021.712901/text" data-event="simpletextfiledownload-button-click">
+                                        Simple TEXT file
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-bibtex" href="/articles/10.3389/fpsyg.2021.712901/bibTex" data-event="bibtexdownload-button-click">
+                                        BibTex
+                                    </a>
+                                </li>
+                        </ul>
+                        <button class="dropdown-menu-mobile-close-button"
+                                aria-label="Close"
+                                data-toggle="dropdown"></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+    <div class="stats-container">
+        <div class="divide-container">
+            <div class="flex-container-metrics">
+                <ul class="nav">
+                        <li class="impact-data" id="views-section" style="display:none">
+                            <span class="views-count" id="views-count"></span>
+                            <span class="title-views">Total views</span>
+                        </li>
+                        <li class="impact-data" id="downloads-section" style="display:none">
+                            <span class="views-count" id="downloads-count"></span>
+                            <span class="title-views">Downloads</span>
+                        </li>
+                        <li class="impact-data" id="citations-section" style="display:none">
+                            <span class="views-count" id="citations-count"></span>
+                            <span class="title-views">Citations</span>
+                        </li>
+                </ul>
+                    <div class="infoPopover" id="infoPopover" style="display:none">
+                        <div role="button" class="infoPopover__trigger"></div>
+                        <div class="infoPopover__content">
+                            <p>
+                                In May 2023, Frontiers adopted a new reporting platform to be Counter 5 compliant, in line with industry standards.
+                            </p>
+                                <a href="https://blog.frontiersin.org/2023/05/16/open-access-publisher-frontiers-moves-to-a-new-article-metric-platform-counter/" target="_blank">Read more</a>
+                            <div role="button" class="infoPopover__close"></div>
+                        </div>
+                    </div>
+            </div>
+                <div class="articleImpact" id="article-impact">
+                    <span class="borderLine"></span>
+                        <a class="articleImpact--url"
+                           data-test-id="view-article-impact"
+                           data-event="impact-button-click"
+                           href="http://loop-impact.frontiersin.org/impact/article/712901#views"
+                           target="_blank">View article impact</a>
+                </div>
+        </div>
+        <div class="side-article-impact">
+            <ul class="nav">
+                <li class="altmetric-wrapper">
+                    <div class='altmetric-embed' data-badge-type='donut' data-event="altmetric-button-click" data-badge-popover="bottom" data-doi='10.3389/fpsyg.2021.712901' data-condensed="true" data-link-target="new"></div>
+                    <a class="altmetricScore_url" href="https://www.altmetric.com/details/doi/10.3389/fpsyg.2021.712901" target="_blank">View altmetric score</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+        <aside id="anchors" class="pull-left table-of-contents side-article">
+            <div class="side-people hidden-sm hidden-xs">
+                    <section class="side-article-editors">
+                                <header><h5 class="like-h4">Edited by</h5></header>
+                                <a class="authors" href="https://loop.frontiersin.org/people/120999/overview" target="_blank">
+                                    <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/120999/24"></img>
+                                    <h6 class="author-link-aside">Eduardo Blanco Calvo</h6>
+                                </a>
+                                <div class="clearfix"></div>
+                                <p><span class="notes">University of Malaga, Spain</span></p>
+                                                        <header><h5 class="like-h4"> Reviewed by</h5></header>
+                                    <a class="authors" href="https://loop.frontiersin.org/people/1256647/overview" target="_blank">
+                                        <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/1256647/24"></img>
+                                        <h6 class="author-link-aside">Clara Molinero Caparr&#243;s</h6>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <p><span class="notes">Universidad Francisco de Vitoria, Spain</span></p>
+                                    <a class="authors" href="https://loop.frontiersin.org/people/1351680/overview" target="_blank">
+                                        <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/1351680/24"></img>
+                                        <h6 class="author-link-aside">Manuel M&#225;rquez Cruz</h6>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <p><span class="notes">Complutense University of Madrid, Spain</span></p>
+                                            </section>
+            </div>
+
+        <nav>
+                <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+                <ul class="nav nav-list list-unstyled contents" data-event="toc-link-click">
+                    <li>
+<ul class="flyoutJournal"> <li><a href="#h1">Abstract</a></li> <li><a href="#h2">Introduction</a></li> <li><a href="#h3">The Present Study</a></li> <li><a href="#h4">Materials and Methods</a></li> <li><a href="#h5">Results</a></li> <li><a href="#h6">Discussion</a></li> <li><a href="#h7">Limitations and Conclusion</a></li> <li><a href="#h8">Data Availability Statement</a></li> <li><a href="#h9">Author Contributions</a></li> <li><a href="#h10">Funding</a></li> <li><a href="#h11">Conflict of Interest</a></li> <li><a href="#h12">Publisher&#x2019;s Note</a></li> <li><a href="#h13">References</a></li> </ul>                    </li>
+                </ul>
+        </nav>
+    </aside>
+
+
+    <div class="clearfix"></div>
+
+        <div class="side-article-download side-export clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                                    <li class="dropdown text-center citation">
+                        <button data-target="#" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon-label" data-event="citation-button-click">Export citation</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a data-test-id="article-endnote" id="export_citation" href="/articles/10.3389/fpsyg.2021.712901/endNote" data-event="endnotedownload-button-click">
+                                        EndNote
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-referencemanager" id="export_citation" href="/articles/10.3389/fpsyg.2021.712901/reference" data-event="referencemanagerdownload-button-click">
+                                        Reference Manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-simpletextfile" id="export_citation" href="/articles/10.3389/fpsyg.2021.712901/text" data-event="simpletextfiledownload-button-click">
+                                        Simple TEXT file
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-bibtex" id="export_citation" href="/articles/10.3389/fpsyg.2021.712901/bibTex" data-event="bibtexdownload-button-click">
+                                        BibTex
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="side-crossmark">
+            <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+            <a data-target="crossmark" class="crossmark">
+                <figure>
+                    <img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_square_no_text.svg" title="" alt="">
+                </figure>
+                <div id="crossmark-icon">Check for updates</div>
+            </a>
+
+        </div>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+
+            <h5 class="like-h4" data-event="peoplelookedat-link-click">People also looked at</h5>
+        </article>
+
+
+</aside>
+
+                
+<main class="">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                   
+                    <!-- End CrossMark Snippet -->
+
+                        <div class="header-bar-one">
+                            <h2>
+                                SYSTEMATIC REVIEW article
+                            </h2>
+                        </div>
+                    <div class="header-bar-three-container">
+                        <div class="header-bar-three">
+                            Front. Psychol., 04 August 2021<br>Sec. Educational Psychology
+
+                            <br />
+                                <span class="volumeInfo"> Volume 12 - 2021 | </span>
+
+
+
+                                    <a href="https://doi.org/10.3389/fpsyg.2021.712901">https://doi.org/10.3389/fpsyg.2021.712901</a>
+                        </div>
+                    </div>
+                </div>
+
+<div class="JournalAbstract"> <a id="h1" name="h1"></a>
+<h1>Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis</h1> <div class="authors"><a href="https://www.frontiersin.org/people/u/1018046" class="user-id-1018046"><img class="pr5" src="https://loop.frontiersin.org/images/profile/1018046/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'">Cristina de-la-Pe&#x000F1;a</a><sup>1</sup><sup>&#x0002A;</sup> <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg">Mar&#x000ED;a Jes&#x000FA;s Luque-Rojas<sup>2</sup></div> <ul class="notes"> <li><span><sup>1</sup></span>Departamento de M&#x000E9;todos de Investigaci&#x000F3;n y Diagn&#x000F3;stico en Educaci&#x000F3;n, Universidad Internacional de la Rioja, Logro&#x000F1;o, Spain</li> <li><span><sup>2</sup></span>Department of Theory and History of Education and Research Methods and Diagnosis in Education, University of Malaga, M&#x000E1;laga, Spain</li> </ul>
+<p>Higher education aims for university students to produce knowledge from the critical reflection of scientific texts. Therefore, it is necessary to develop a deep mental representation of written information. The objective of this research was to determine through a systematic review and meta-analysis the proportion of university students who have an optimal performance at each level of reading comprehension. Systematic review of empirical studies has been limited from 2010 to March 2021 using the Web of Science, Scopus, Medline, and PsycINFO databases. Two reviewers performed data extraction independently. A random-effects model of proportions was used for the meta-analysis and heterogeneity was assessed with <i>I</i><sup>2</sup>. To analyze the influence of moderating variables, meta-regression was used and two ways were used to study publication bias. Seven articles were identified with a total sample of the seven of 1,044. The proportion of students at the literal level was 56% (95% CI = 39&#x2013;72%, <i>I</i><sup>2</sup> = 96.3%), inferential level 33% (95% CI = 19&#x2013;46%, <i>I</i><sup>2</sup> = 95.2%), critical level 22% (95% CI = 9&#x2013;35%, <i>I</i><sup>2</sup> = 99.04%), and organizational level 22% (95% CI = 6&#x2013;37%, <i>I</i><sup>2</sup> = 99.67%). Comparing reading comprehension levels, there is a significant higher proportion of university students who have an optimal level of literal compared to the rest of the reading comprehension levels. The results have to be interpreted with caution but are a guide for future research.</p> <div class="clear"></div> </div> <div class="JournalFullText"> <a id="h2" name="h2"></a>
+<h2>Introduction</h2>
+<p class="mb15">Reading comprehension allows the integration of knowledge that facilitates training processes and successful coping with academic and personal situations. In higher education, this reading comprehension has to provide students with autonomy to self-direct their academic-professional learning and provide critical thinking in favor of community service (<a href="#ref55">UNESCO, 2009</a>). However, research in recent years (<a href="#ref6">Bharuthram, 2012</a>; <a href="#ref1">Afflerbach et al., 2015</a>) indicates that a part of university students are not prepared to successfully deal with academic texts or they have reading difficulties (<a href="#ref50">Smagorinsky, 2001</a>; <a href="#ref13">Cox et al., 2014</a>), which may limit academic training focused on written texts. This work aims to review the level of reading comprehension provided by studies carried out in different countries, considering the heterogeneity of existing educational models.</p>
+<p class="mb15">The level of reading comprehension refers to the type of mental representation that is made of the written text. The reader builds a mental model in which he can integrate explicit and implicit data from the text, experiences, and previous knowledge (<a href="#ref32">Kucer, 2016</a>; <a href="#ref57">van den Broek et al., 2016</a>). Within the framework of the construction-integration model (<a href="#ref28">Kintsch and van Dijk, 1978</a>; <a href="#ref27">Kintsch, 1998</a>), the most accepted model of reading comprehension, processing levels are differentiated, specifically: A superficial level that identifies or memorizes data forming the basis of the text and a deep level in which the text situation model is elaborated integrating previous experiences and knowledge. At these levels of processing, the cognitive strategies used, are different according to the domain-learning model (<a href="#ref2">Alexander, 2004</a>) from basic coding to a transformation of the text. In the scientific literature, there are investigations (<a href="#ref61">Yussof et al., 2013</a>; <a href="#ref54">Ulum, 2016</a>) that also identify levels of reading comprehension ranging from a literal level of identification of ideas to an inferential and critical level that require the elaboration of inferences and the data transformation.</p>
+<p class="mb15">Studies focused on higher education (<a href="#ref5">Barletta et al., 2005</a>; <a href="#ref60">Y&#x000E1;&#x000F1;ez Botello, 2013</a>) show that university students are at a literal or basic level of understanding, they often have difficulties in making inferences and recognizing the macrostructure of the written text, so they would not develop a model of a situation of the text. These scientific results are in the same direction as the research on reading comprehension in the mother tongue in the university population. <a href="#ref6">Bharuthram (2012)</a> indicates that university students do not access or develop effective strategies for reading comprehension, such as the capacity for abstraction and synthesis-analysis. Later, <a href="#ref33">Livingston et al. (2015)</a> find that first-year education students present limited reading strategies and difficulties in understanding written texts. <a href="#ref39">Ntereke and Ramoroka (2017)</a> found that only 12.4% of students perform well in a reading comprehension task, 34.3% presenting a low level of execution in the task.</p>
+<p class="mb0">Factors related to the level of understanding of written information are the mode of presentation of the text (printed vs. digital), the type of metacognitive strategies used (planning, making inferences, inhibition, monitoring, etc.), the type of text and difficulties (novel vs. a science passage), the mode of writing (text vs. multimodal), the type of reading comprehension task, and the diversity of the student. For example, several studies (<a href="#ref53">Tuncer and Bahadir, 2014</a>; <a href="#ref52">Trakhman et al., 2019</a>; <a href="#ref26">Kazazoglu, 2020</a>) indicate that reading is more efficient with better performance in reading comprehension tests in printed texts compared to the same text in digital and according to <a href="#ref51">Spencer (2006)</a> college students prefer to read in print vs. digital texts. In reading the written text, metacognitive strategies are involved (<a href="#ref3">Amril et al., 2019</a>) but studies (<a href="#ref12">Channa et al., 2018</a>) seem to indicate that students do not use them for reading comprehension, specifically; <a href="#ref31">Korotaeva (2012)</a> finds that only 7% of students use them. Concerning the type of text and difficulties, for <a href="#ref58">Wolfe and Woodwyk (2010)</a>, expository texts benefit more from the construction of a situational model of the text than narrative texts, although <a href="#ref19">Feng (2011)</a> finds that expository texts are more difficult to read than narrative texts. Regarding the modality of the text, <a href="#ref35">Mayer (2009)</a> and <a href="#ref22">Guo et al. (2020)</a> indicate that multimodal texts that incorporate images into the text positively improve reading comprehension. In a study of <a href="#ref29">Kobayashi (2002)</a> using open questions, close, and multiple-choice shows that the type and format of the reading comprehension assessment test significantly influence student performance and that more structured tests help to better differentiate the good ones and the poor ones in reading comprehension. Finally, about student diversity, studies link reading comprehension with the interest and intrinsic motivation of university students (<a href="#ref11">Cartwright et al., 2019</a>; <a href="#ref15">Dewi et al., 2020</a>), with gender (<a href="#ref49">Saracaloglu and Karasakaloglu, 2011</a>), finding that women present a better level of reading comprehension than men and with knowledge related to reading (<a href="#ref42">Perfetti et al., 1987</a>). In this research, it was controlled that all were printed and unimodal texts, that is, only text. This is essential because the cognitive processes involved in reading comprehension can vary with these factors (<a href="#ref8">Butcher and Kintsch, 2003</a>; <a href="#ref59">Xu et al., 2020</a>).</p> <a id="h3" name="h3"></a>
+<h2>The Present Study</h2>
+<p class="mb0">Regardless of the educational context, in any university discipline, preparing essays or developing arguments are formative tasks that require a deep level of reading comprehension (inferences and transformation of information) that allows the elaboration of a situation model, and not having this level can lead to limited formative learning. Therefore, the objective of this research was to know the state of reading comprehension levels in higher education; specifically, the proportion of university students who perform optimally at each level of reading comprehension. It is important to note that there is not much information about the different levels in university students and that it is the only meta-analytic review that explores different levels of reading comprehension in this educational stage. This is a relevant issue because the university system requires that students produce knowledge from the critical reflection of scientific texts, preparing them for innovation, employability, and coexistence in society.</p> <a id="h4" name="h4"></a>
+<h2>Materials and Methods</h2>
+<h3>Eligibility Criteria: Inclusion and Exclusion</h3>
+<p class="mb15">Empirical studies written in Spanish or English are selected that analyze the reading comprehension level in university students.</p>
+<p class="mb15">The exclusion criteria are as follows: (a) book chapters or review books or publications; (b) articles in other languages; (c) studies of lower educational levels; (d) articles that do not identify the age of the sample; (e) second language studies; (f) students with learning difficulties or other disorders; (g) publications that do not indicate the level of reading comprehension; (h) studies that relate reading competence with other variables but do not report reading comprehension levels; (i) pre-post program application work; (j) studies with experimental and control groups; (k) articles comparing pre-university stages or adults; (l) publications that use multi-texts; (m) studies that use some type of technology (computer, hypertext, web, psychophysiological, online questionnaire, etc.); and (n) studies unrelated to the subject of interest.</p>
+<p class="mb0">Only those publications that meet the following criteria are included as: (a) be empirical research (article, thesis, final degree/master&#x2019;s degree, or conference proceedings book); (b) university stage; (c) include data or some measure on the level of reading comprehension that allows calculating the effect size; (d) written in English or Spanish; (e) reading comprehension in the first language or mother tongue; and (f) the temporary period from January 2010 to March 2021.</p>
+<h3>Search Strategies</h3>
+<p class="mb15">A three-step procedure is used to select the studies included in the meta-analysis. In the first step, a review of research and empirical articles in English and Spanish from January 2010 to March 2021. The search is carried out in online databases of languages in Spanish and English, such as Web of Science (WoS), Scopus, Medline, and PsycINFO, to review empirical productions that analyze the level of reading comprehension in university students. In the second step, the following terms (titles, abstracts, keywords, and full text) are used to select the articles: Reading comprehension and higher education, university students, in Spanish and English, combined with the Boolean operators AND and OR. In the last step, secondary sources, such as the Google search engine, Theseus, and references in publications, are explored.</p>
+<p class="mb15">The search reports 4,294 publications (articles, theses, and conference proceedings books) in the databases and eight records of secondary references, specifically, 1989 from WoS, 2001 from Scopus, 42 from Medline, and 262 of PsycINFO. Of the total (4,294), 1,568 are eliminated due to duplications, leaving 2,734 valid records. Next, titles and abstracts are reviewed and 2,659 are excluded because they do not meet the inclusion criteria. The sample of 75 publications is reduced to 40 articles, excluding 35 because the full text cannot be accessed (the authors were contacted but did not respond), the full text did not show specific statistical data, they used online questionnaires or computerized presentations of the text. Finally, seven articles in Spanish were selected for use in the meta-analysis of the reading comprehension level of university students. Data additional to those included in the articles were not requested from the selected authors.</p>
+<p class="mb0">The PRISMA-P guidelines (<a href="#ref38">Moher et al., 2015</a>) are followed to perform the meta-analysis and the flow chart for the selection of publications relevant to the subject is exposed <a href="#fig1">(Figure 1)</a>.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">FIGURE 1</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g001.jpg" name="figure1" target="_blank"><img id="fig1" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g001.jpg"></a>
+<p><strong>Figure 1</strong>. Flow diagram for the selection of articles.</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<h3>Encoding Procedure</h3>
+<p class="mb15">This research complies with what is established in the manual of systematic reviews (<a href="#ref23">Higgins and Green, 2008</a>) in which clear objectives, specific search terms, and eligibility criteria for previously defined works are established. Two independent coders, reaching a 100% agreement, carry out the study search process. Subsequently, the research is codified, for this, a coding protocol is used as a guide to help resolve the ambiguities between the coders; the proposals are reflected and discussed and discrepancies are resolved, reaching a degree of agreement between the two coders of 97%.</p>
+<p class="mb0">For all studies, the reference, country, research objective, sample size, age and gender, reading comprehension test, other tests, and reading comprehension results were coded in percentages. All this information was later systematized in <a href="#tab1">Table 1</a>.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">TABLE 1</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t001.jpg" name="table1" target="_blank"><img id="tab1" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t001.jpg"></a>
+<p><strong>Table 1</strong>. Results of the empirical studies included in the meta-analysis.
+</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<p class="mb15">In relation to the type of reading comprehension level, it was coded based on the levels of the scientific literature as follows: 1 = literal; 2 = inferential; 3 = critical; and 4 = organizational.</p>
+<p class="mb0">Regarding the possible moderating variables, it was coded if the investigations used a standardized reading comprehension measure (value = 1) or non-standardized (value = 0). This research considers the standardized measures of reading comprehension as the non-standardized measures created by the researchers themselves in their studies or questionnaires by other authors. By the type of evaluation test, we encode between multiple-choice (value = 0) or multiple-choices plus open question (value = 1). By type of text, we encode between argumentative (value = 1) or unknown (value = 0). By the type of career, we encode social sciences (value = 1) or other careers (health sciences; value = 0). Moreover, by the type of publication, we encode between article (value = 1) or doctoral thesis (value = 0).</p>
+<h3>Effect Size and Statistical Analysis</h3>
+<p class="mb15">This descriptive study with a sample <i>k</i> = 7 and a population of 1,044 university students used a continuous variable and the proportions were used as the effect size to analyze the proportion of students who had an optimal performance at each level of reading comprehension. As for the percentages of each level of reading comprehension of the sample, they were transformed into absolute frequencies. A random-effects model (<a href="#ref7">Borenstein et al., 2009</a>) was used as the effect size. These random-effects models have a greater capacity to generalize the conclusions and allow estimating the effects of different sources of variation (moderating variables). The DerSimonian and Laird method (<a href="#ref18">Egger et al., 2001</a>) was used, calculating raw proportion and for each proportion its standard error, value of <i>p</i> and 95% confidence interval (CI).</p>
+<p class="mb15">To examine sampling variability, Cochran&#x2019;s <i>Q</i> test (to test the null hypothesis of homogeneity between studies) and <i>I</i><sup>2</sup> (proportion of variability) were used. According to <a href="#ref24">Higgins et al. (2003)</a>, if <i>I</i><sup>2</sup> reaches 25%, it is considered low, if it reaches 50% and if it exceeds 75% it is considered high. A meta-regression analysis was used to investigate the effect of the moderator variables (type of measure, type of evaluation test, type of text, type of career, and type of publication) in each level of reading comprehension of the sample studies. For each moderating variable, all the necessary statistics were calculated (estimate, standard error, CI, <i>Q</i>, and <i>I</i><sup>2</sup>).</p>
+<p class="mb15">To compare the effect sizes of each level (literal, inferential, critical, and organizational) of reading comprehension, the chi-square test for the proportion recommended by <a href="#ref10">Campbell (2007)</a> was used.</p>
+<p class="mb15">Finally, to analyze publication bias, this study uses two ways: Rosenthal&#x2019;s fail-safe number and regression test. Rosenthal&#x2019;s fail-safe number shows the number of missing studies with null effects that would make the previous correlations insignificant (<a href="#ref7">Borenstein et al., 2009</a>). When the values are large there is no bias. In the regression test, when the regression is not significant, there is no bias.</p>
+<p class="mb0">The software used to classify and encode data and produce descriptive statistics was with Microsoft Excel and the Jamovi version 1.6 free software was used to perform the meta-analysis.</p> <a id="h5" name="h5"></a>
+<h2>Results</h2>
+<p class="mb0">The results of the meta-analysis are presented in three parts: the general descriptive analysis of the included studies; the meta-analytic analysis with the effect size, heterogeneity, moderating variables, and comparison of effect sizes; and the study of publication bias.</p>
+<h3>Overview of Included Studies</h3>
+<p class="mb15">The search carried out of the scientific literature related to the subject published from 2010 to March 2021 generated a small number of publications, because it was limited to the higher education stage and required clear statistical data on reading comprehension.</p>
+<p class="mb15"><a href="#tab1">Table 1</a> presents all the publications reviewed in this meta-analysis with a total of students evaluated in the reviewed works that amounts to 1,044, with the smallest sample size of 30 (<a href="#ref14">Del Pino-Y&#x000E9;pez et al., 2019</a>) and the largest with 570 (<a href="#ref21">Guevara Ben&#x000ED;tez et al., 2014</a>). Regarding gender, 72% women and 28% men were included. Most of the sample comes from university degrees in social sciences, such as psychology and education (71.42%) followed by health sciences (14.28%) engineering and a publication (14.28%) that does not indicate origin. These publications selected according to the inclusion criteria for the meta-analysis come from more countries with a variety of educational systems, but all from South America. Specifically, the countries that have more studies are Mexico (28.57%) and Colombia, Chile, Bolivia, Peru, and Ecuador with 14.28% each, respectively. The years in which they were published are 2.57% in 2018 and 2016 and 14.28% in 2019, 2014, and 2013.</p>
+<p class="mb15">A total of 57% of the studies analyze four levels of reading comprehension (literal, inferential, critical, and organizational) and 43% investigate three levels of reading comprehension (literal, inferential, and critical). Based on the moderating variables, 57% of the studies use standardized reading comprehension measures and 43% non-standardized measures. According to the evaluation test used, 29% use multiple-choice questions and 71% combine multiple-choice questions plus open questions. 43% use an argumentative text and 57% other types of texts (not indicated in studies). By type of career, 71% are students of social sciences and 29% of other different careers, such as engineering or health sciences. In addition, 71% are articles and 29% with research works (thesis and degree works).</p>
+<p class="mb0"><a href="#tab2">Table 2</a> shows the reading comprehension assessment instruments used by the authors of the empirical research integrated into the meta-analysis.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">TABLE 2</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t002.jpg" name="table2" target="_blank"><img id="tab2" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t002.jpg"></a>
+<p><strong>Table 2</strong>. Reading comprehension assessment tests used in higher education.
+</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<h3>Meta-Analytic Analysis of the Level of Reading Comprehension</h3>
+<p class="mb0">The literal level presents a mean proportion effect size of 56% (95% CI = 39&#x2013;72%; <a href="#fig2">Figure 2</a>). The variability between the different samples of the literal level of reading comprehension was significant (<i>Q</i> = 162.066, <i>p</i> &#x0003C; 0.001; <i>I</i><sup>2</sup> = 96.3%). No moderating variable used in this research had a significant contribution to heterogeneity: type of measurement (<i>p</i> = 0.520), type of test (<i>p</i> = 0.114), type of text (<i>p</i> = 0.520), type of career (<i>p</i> = 0.235), and type of publication (<i>p</i> = 0.585). The high variability is explained by other factors not considered in this work, such as the characteristics of the students (cognitive abilities) or other issues.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">FIGURE 2</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g002.jpg" name="figure2" target="_blank"><img id="fig2" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g002.jpg"></a>
+<p><strong>Figure 2</strong>. Forest plot of literal level.</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<p class="mb0">The inferential level presents a mean proportion effect size of 33% (95% CI = 19&#x2013;46%; <a href="#fig3">Figure 3</a>). The variability between the different samples of the inferential level of reading comprehension was significant (<i>Q</i> = 125.123, <i>p</i> &#x0003C; 0.001; <i>I</i><sup>2</sup> = 95.2%). The type of measure (<i>p</i> = 0.011) and the type of text (<i>p</i> = 0.011) had a significant contribution to heterogeneity. The rest of the variables had no significance: type of test (<i>p</i> = 0.214), type of career (<i>p</i> = 0.449), and type of publication (<i>p</i> = 0.218). According to the type of measure, the proportion of students who have an optimal level in inferential administering a standardized test is 28.7% less than when a non-standardized test is administered. The type of measure reduces variability by 2.57% and explains the differences between the results of the studies at the inferential level. According to the type of text, the proportion of students who have an optimal level in inferential using an argumentative text is 28.7% less than when using another type of text. The type of text reduces the variability by 2.57% and explains the differences between the results of the studies at the inferential level.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">FIGURE 3</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g003.jpg" name="figure3" target="_blank"><img id="fig3" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g003.jpg"></a>
+<p><strong>Figure 3</strong>. Forest plot of inferential level.</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<p class="mb0">The critical level has a mean effect size of the proportion of 22% (95% CI = 9&#x2013;35%; <a href="#fig4">Figure 4</a>). The variability between the different samples of the critical level of reading comprehension was significant (<i>Q</i> = 627.044, <i>p</i> &#x0003C; 0.001; <i>I</i><sup>2</sup> = 99.04%). No moderating variable used in this research had a significant contribution to heterogeneity: type of measurement (<i>p</i> = 0.575), type of test (<i>p</i> = 0.691), type of text (<i>p</i> = 0.575), type of career (<i>p</i> = 0.699), and type of publication (<i>p</i> = 0.293). The high variability is explained by other factors not considered in this work, such as the characteristics of the students (cognitive abilities).</p>
+<div class="DottedLine"></div> <div class="Imageheaders">FIGURE 4</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g004.jpg" name="figure4" target="_blank"><img id="fig4" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g004.jpg"></a>
+<p><strong>Figure 4</strong>. Forest plot of critical level.</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<p class="mb0">The organizational level presents a mean effect size of the proportion of 22% (95% CI = 6&#x2013;37%; <a href="#fig5">Figure 5</a>). The variability between the different samples of the organizational level of reading comprehension was significant (<i>Q</i> = 1799.366, <i>p</i> &#x0003C; 0.001; <i>I</i><sup>2</sup> = 99.67%). The type of test made a significant contribution to heterogeneity (<i>p</i> = 0.289). The other moderating variables were not significant in this research: type of measurement (<i>p</i> = 0.289), type of text (<i>p</i> = 0.289), type of career (<i>p</i> = 0.361), and type of publication (<i>p</i> = 0.371). Depending on the type of test, the proportion of students who have an optimal level in organizational with multiple-choices tests plus open questions is 37% higher than while using only multiple-choice tests. The type of text reduces the variability by 0.27% and explains the differences between the results of the studies at the organizational level.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">FIGURE 5</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g005.jpg" name="figure5" target="_blank"><img id="fig5" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-g005.jpg"></a>
+<p><strong>Figure 5</strong>. Forest plot of organizational level.</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<p class="mb0"><a href="#tab3">Table 3</a> shows the difference between the estimated effect sizes and the significance. There is a larger proportion of students having an optimal level of reading comprehension at the literal level compared to the inferential, critical, and organizational level; an optimal level of reading comprehension at the inferential level vs. the critical and organizational level.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">TABLE 3</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t003.jpg" name="table3" target="_blank"><img id="tab3" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t003.jpg"></a>
+<p><strong>Table 3</strong>. Results of effect size comparison.
+</p></div> <div class="clear"></div> <div class="DottedLine"></div>
+<h3>Analysis of Publication Bias</h3>
+<p class="mb0">This research uses two ways to verify the existence of bias independently of the sample size. <a href="#tab4">Table 4</a> shows the results and there is no publication bias at any level of reading comprehension.</p>
+<div class="DottedLine"></div> <div class="Imageheaders">TABLE 4</div> <div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t004.jpg" name="table4" target="_blank"><img id="tab4" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/712901/fpsyg-12-712901-HTML/image_m/fpsyg-12-712901-t004.jpg"></a>
+<p><strong>Table 4</strong>. Publication bias results.
+</p></div> <div class="clear"></div> <div class="DottedLine"></div> <a id="h6" name="h6"></a>
+<h2>Discussion</h2>
+<p class="mb15">This research used a systematic literature search and meta-analysis to provide estimates of the number of cases of university students who have an optimal level in the different levels of reading comprehension. All the information available on the subject at the international level was analyzed using international databases in English and Spanish, but the potentially relevant publications were limited. Only seven Spanish language studies were identified internationally. In these seven studies, the optimal performance at each level of reading comprehension varied, finding heterogeneity associated with the very high estimates, which indicates that the summary estimates have to be interpreted with caution and in the context of the sample and the variables used in this meta-analysis.</p>
+<p class="mb15">In this research, the effects of the type of measure, type of test, type of text, type of career, and type of publication have been analyzed. Due to the limited information in the publications, it was not possible to assess the effect of any more moderating variables.</p>
+<p class="mb15">We found that some factors significantly influence heterogeneity according to the level of reading comprehension considered. The type of measure influenced the optimal performance of students in the inferential level of reading comprehension; specifically, the proportion of students who have an optimal level in inferential worsens if the test is standardized. Several studies (<a href="#ref43">Pike, 1996</a>; <a href="#ref30">Koretz, 2002</a>) identify differences between standardized and non-standardized measures in reading comprehension and a favor of non-standardized measures developed by the researchers (<a href="#ref44">Pyle et al., 2017</a>). The ability to generate inferences of each individual may difficult to standardize because each person differently identifies the relationship between the parts of the text and integrates it with their previous knowledge (<a href="#ref40">Oakhill, 1982</a>; <a href="#ref9">Cain et al., 2004</a>). This mental representation of the meaning of the text is necessary to create a model of the situation and a deep understanding (<a href="#ref37">McNamara and Magliano, 2009</a>; <a href="#ref56">van den Broek and Espin, 2012</a>).</p>
+<p class="mb15">The type of test was significant for the organizational level of reading comprehension. The proportion of students who have an optimal level in organizational improves if the reading comprehension assessment test is multiple-choice plus open questions. The organizational level requires the reordering of written information through analysis and synthesis processes (<a href="#ref21">Guevara Ben&#x000ED;tez et al., 2014</a>); therefore, it constitutes a production task that is better reflected in open questions than in reproduction questions as multiple choice (<a href="#ref17">Dinsmore and Alexander, 2015</a>). <a href="#ref36">McNamara and Kintsch (1996)</a> identify that open tasks require an effort to make inferences related to previous knowledge and multidisciplinary knowledge. Important is to indicate that different evaluation test formats can measure different aspects of reading comprehension (<a href="#ref62">Zheng et al., 2007</a>).</p>
+<p class="mb15">The type of text significantly influenced the inferential level of reading comprehension. The proportion of students who have an optimal level in inferential decreases with an argumentative text. The expectations created before an argumentative text made it difficult to generate inferences and, therefore, the construction of the meaning of the text. This result is in the opposite direction to the study by <a href="#ref16">Diakidoy et al. (2011)</a> who find that the refutation text, such as the argumentative one, facilitates the elaboration of inferences compared to other types of texts. It is possible that the argumentative text, given its dialogical nature of arguments and counterarguments, with a subject unknown by the students, has determined the decrease of inferences based on their scarce previous knowledge of the subject, needing help to elaborate the structure of the text read (<a href="#ref46">Reznitskaya et al., 2007</a>). It should be pointed out that in meta-analysis studies, 43% use argumentative texts. Knowing the type of the text is relevant for generating inferences, for instance, according to <a href="#ref4">Baretta et al. (2009)</a> the different types of text are processed differently in the brain generating more or fewer inferences; specifically, using the N400 component, they find that expository texts generate more inferences from the text read.</p>
+<p class="mb15">For the type of career and the type of publication, no significance was found at any level of reading comprehension in this sample. This seems to indicate that university students have the same level of performance in tasks of literal, critical inferential, and organizational understanding regardless of whether they are studying social sciences, health sciences, or engineering. Nor does the type of publication affect the state of the different levels of reading comprehension in higher education.</p>
+<p class="mb15">The remaining high heterogeneity at all levels of reading comprehension was not captured in this review, indicating that there are other factors, such as student characteristics, gender, or other issues, that are moderating and explaining the variability at the literal, inferential, critical, and organizational reading comprehension in university students.</p>
+<p class="mb15">To the comparison between the different levels of reading comprehension, the literal level has a significantly higher proportion of students with an optimal level than the inferential, critical, and organizational levels. The inferential level has a significantly higher proportion of students with an optimal level than the critical and organizational levels. This corresponds with data from other investigations (<a href="#ref34">M&#x000E1;rquez et al., 2016</a>; <a href="#ref14">Del Pino-Y&#x000E9;pez et al., 2019</a>) that indicate that the literal level is where university students execute with more successes, being more difficult and with less success at the inferential, organizational, and critical levels. This indicates that university students of this sample do not generate a coherent situation model that provides them with a global mental representation of the read text according to the model of <a href="#ref27">Kintsch (1998)</a>, but rather they make a literal analysis of the explicit content of the read text. This level of understanding can lead to less desirable results in educational terms (<a href="#ref17">Dinsmore and Alexander, 2015</a>).</p>
+<p class="mb0">The educational implications of this meta-analysis in this sample are aimed at making universities aware of the state of reading comprehension levels possessed by university students and designing strategies (courses and workshops) to optimize it by improving the training and employability of students. Some proposals can be directed to the use of reflection tasks, integration of information, graphic organizers, evaluation, interpretation, nor the use of paraphrasing (<a href="#ref45">Rahmani, 2011</a>). Some studies (<a href="#ref25">Hong-Nam and Leavell, 2011</a>; <a href="#ref41">Parr and Woloshyn, 2013</a>) demonstrate the effectiveness of instructional courses in improving performance in reading comprehension and metacognitive strategies. In addition, it is necessary to design reading comprehension assessment tests in higher education that are balanced, validated, and reliable, allowing to have data for the different levels of reading comprehension.</p> <a id="h7" name="h7"></a>
+<h2>Limitations and Conclusion</h2>
+<p class="mb15">This meta-analysis can be used as a starting point to report on reading comprehension levels in higher education, but the results should be interpreted with caution and in the context of the study sample and variables. Publications without sufficient data and inaccessible articles, with a sample of seven studies, may have limited the international perspective. The interest in studying reading comprehension in the mother tongue, using only unimodal texts, without the influence of technology and with English and Spanish has also limited the review. The limited amount of data in the studies has limited meta-regression.</p>
+<p class="mb15">This review is a guide to direct future research, broadening the study focus on the level of reading comprehension using digital technology, experimental designs, second languages, and investigations that relate reading comprehension with other factors (gender, cognitive abilities, etc.) that can explain the heterogeneity in the different levels of reading comprehension. The possibility of developing a comprehensive reading comprehension assessment test in higher education could also be explored.</p>
+<p class="mb15">This review contributes to the scientific literature in several ways. In the first place, this meta-analytic review is the only one that analyzes the proportion of university students who have an optimal performance in the different levels of reading comprehension. This review is made with international publications and this topic is mostly investigated in Latin America. Second, optimal performance can be improved at all levels of reading comprehension, fundamentally inferential, critical, and organizational. The literal level is significantly the level of reading comprehension with the highest proportion of optimal performance in university students. Third, the students in this sample have optimal performance at the inferential level when they are non-argumentative texts and non-standardized measures, and, in the analyzed works, there is optimal performance at the organizational level when multiple-choice questions plus open questions are used.</p>
+<p class="mb0">The current research is linked to the research project &#x201C;Study of reading comprehension in higher education&#x201D; of Asociaci&#x000F3;n Educar para el Desarrollo Humano from Argentina.</p> <a id="h8" name="h8"></a>
+<h2>Data Availability Statement</h2>
+<p class="mb0">The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.</p> <a id="h9" name="h9"></a>
+<h2>Author Contributions</h2>
+<p class="mb0">Cd-l-P had the idea for the article and analyzed the data. ML-R searched the data. Cd-l-P and ML-R selected the data and contributed to the valuable comments and manuscript writing. All authors contributed to the article and approved the submitted version.</p> <a id="h10" name="h10"></a>
+<h2>Funding</h2>
+<p class="mb15">This paper was funded by the Universidad Internacional de la Rioja and Universidad de M&#x000E1;laga.</p> <a id="h11" name="h11"></a>
+<h2>Conflict of Interest</h2>
+<p class="mb15">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<p class="mb0">The handling editor declared a shared affiliation though no other collaboration with one of the authors ML-R at the time of the review.</p> <a id="h12" name="h12"></a>
+<h2>Publisher&#x2019;s Note</h2>
+<p class="mb0">All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p> <a id="h13" name="h13"></a>
+<h2>References</h2>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref1" id="ref1"></a>Afflerbach, P., Cho, B.-Y., and Kim, J.-Y. (2015). Conceptualizing and assessing higher-order thinking in reading. <i>Theory Pract.</i> 54, 203&#x2013;212. doi: 10.1080/00405841.2015.1044367</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/00405841.2015.1044367" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+Afflerbach&#x00026;author=B.-Y.+Cho&#x00026;author=J.-Y.+Kim&#x00026;publication_year=2015&#x00026;title=Conceptualizing+and+assessing+higher-order+thinking+in+reading&#x00026;journal=Theory+Pract.&#x00026;volume=54&#x00026;pages=203-212" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref2" id="ref2"></a>Alexander, P. A. (2004). &#x201C;A model of domain learning: reinterpreting expertise as a multidimensional, multistage process,&#x201D; in <i>Motivation, Emotion, and Cognition: Integrative Perspectives on Intellectual Functioning and Development.</i> eds. D. Y. Dai and R. J. Sternberg (Mahwah, NJ: Erlbaum), 273&#x2013;298.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=P.+A.+Alexander&#x00026;publication_year=2004&#x00026;title=A+model+of+domain+learning:+reinterpreting+expertise+as+a+multidimensional+multistage+process&#x00026;journal=Motivation+Emotion+and+Cognition:+Integrative+Perspectives+on+Intellectual+Functioning+and+Development.&#x00026;pages=273-298" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref3" id="ref3"></a>Amril, A., Hasanuddin, W. S., and Atmazaki, (2019). The contributions of reading strategies and reading frequencies toward students&#x2019; reading comprehension skill in higher education. <i>Int. J. Eng. Adv. Technol. (IJEAT)</i> 8, 593&#x2013;595. doi: 10.35940/ijeat.F1105.0986S319</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.35940/ijeat.F1105.0986S319" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Amril&#x00026;author=W.+S.+Hasanuddin&#x00026;author=Atmazaki&#x00026;publication_year=2019&#x00026;title=The+contributions+of+reading+strategies+and+reading+frequencies+toward+students&#x2019;+reading+comprehension+skill+in+higher+education&#x00026;journal=Int.+J.+Eng.+Adv.+Technol.+(IJEAT)&#x00026;volume=8&#x00026;pages=593-595" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref4" id="ref4"></a>Baretta, L., Braga Tomitch, L. M., MacNair, N., Kwan Lim, V., and Waldie, K. E. (2009). Inference making while reading narrative and expository texts: an ERP study. <i>Psychol. Neurosci.</i> 2, 137&#x2013;145. doi: 10.3922/j.psns.2009.2.005</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.3922/j.psns.2009.2.005" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+Baretta&#x00026;author=L.+M.+Braga+Tomitch&#x00026;author=N.+MacNair&#x00026;author=V.+Kwan+Lim&#x00026;author=K.+E.+Waldie&#x00026;publication_year=2009&#x00026;title=Inference+making+while+reading+narrative+and+expository+texts:+an+ERP+study&#x00026;journal=Psychol.+Neurosci.&#x00026;volume=2&#x00026;pages=137-145" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref5" id="ref5"></a>Barletta, M., Bovea, V., Delgado, P., Del Villar, L., Lozano, A., May, O., et al. (2005). <i>Comprensi&#x000F3;n y Competencias Lectoras en Estudiantes Universitarios.</i> Barranquilla: Uninorte.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+Barletta&#x00026;author=V.+Bovea&#x00026;author=P.+Delgado&#x00026;author=L.+Del+Villar&#x00026;author=A.+Lozano&#x00026;author=O.+May&#x00026;publication_year=2005&#x00026;journal=Comprensi&#x000F3;n+y+Competencias+Lectoras+en+Estudiantes+Universitarios.&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref6" id="ref6"></a>Bharuthram, S. (2012). Making a case for the teaching of reading across the curriculum in higher education. <i>S. Afr. J. Educ.</i> 32, 205&#x2013;214. doi: 10.15700/saje.v32n2a557</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.15700/saje.v32n2a557" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Bharuthram&#x00026;publication_year=2012&#x00026;title=Making+a+case+for+the+teaching+of+reading+across+the+curriculum+in+higher+education&#x00026;journal=S.+Afr.+J.+Educ.&#x00026;volume=32&#x00026;pages=205-214" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref7" id="ref7"></a>Borenstein, M., Hedges, L. V., Higgins, J. P. T., and Rothstein, H. R. (2009). <i>Introduction to Meta-Analysis.</i> United Kingdom: John Wiley and Sons, Ltd, 45&#x2013;49.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+Borenstein&#x00026;author=L.+V.+Hedges&#x00026;author=J.+P.+T.+Higgins&#x00026;author=H.+R.+Rothstein&#x00026;publication_year=2009&#x00026;journal=Introduction+to+Meta-Analysis.&#x00026;pages=45-49" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref8" id="ref8"></a>Butcher, K. R., and Kintsch, W. (2003). &#x201C;Text comprehension and discourse processing,&#x201D; in <i>Handbook of Psychology: Experimental Psychology.</i> 2nd <i>Edn</i>. <i>Vol</i>. 4. eds. A. F. Healy, R. W. Proctor, and I. B. Weiner (New Jersey: John Wiley and Sons, Inc.), 575&#x2013;595.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=K.+R.+Butcher&#x00026;author=W.+Kintsch&#x00026;publication_year=2003&#x00026;title=Text+comprehension+and+discourse+processing&#x00026;journal=Handbook+of+Psychology:+Experimental+Psychology.&#x00026;volume=4&#x00026;pages=575-595" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref9" id="ref9"></a>Cain, K., Oakhill, J., and Bryant, P. (2004). Children&#x2019;s reading comprehension ability: concurrent prediction by working memory, verbal ability, and component skills. <i>J. Educ. Psychol.</i> 96, 31&#x2013;42. doi: 10.1037/0022-0663.96.1.31</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1037/0022-0663.96.1.31" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Cain&#x00026;author=J.+Oakhill&#x00026;author=P.+Bryant&#x00026;publication_year=2004&#x00026;title=Children&#x2019;s+reading+comprehension+ability:+concurrent+prediction+by+working+memory+verbal+ability+and+component+skills&#x00026;journal=J.+Educ.+Psychol.&#x00026;volume=96&#x00026;pages=31-42" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref10" id="ref10"></a>Campbell, I. (2007). Chi-squared and Fisher-Irwin tests of two-by-two tables with small sample recommendations. <i>Stat. Med.</i> 26, 3661&#x2013;3675. doi: 10.1002/sim.2832 </p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17315184" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/sim.2832" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+Campbell&#x00026;publication_year=2007&#x00026;title=Chi-squared+and+Fisher-Irwin+tests+of+two-by-two+tables+with+small+sample+recommendations&#x00026;journal=Stat.+Med.&#x00026;volume=26&#x00026;pages=3661-3675" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref11" id="ref11"></a>Cartwright, K. B., Lee, S. A., Barber, A. T., DeWyngaert, L. U., Lane, A. B., and Singleton, T. (2019). Contributions of executive function and cognitive intrinsic motivation to university students&#x2019; reading comprehension. <i>Read. Res. Q.</i> 55, 345&#x2013;369. doi: 10.1002/rrq.273</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1002/rrq.273" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+B.+Cartwright&#x00026;author=S.+A.+Lee&#x00026;author=A.+T.+Barber&#x00026;author=L.+U.+DeWyngaert&#x00026;author=A.+B.+Lane&#x00026;author=T.+Singleton&#x00026;publication_year=2019&#x00026;title=Contributions+of+executive+function+and+cognitive+intrinsic+motivation+to+university+students&#x2019;+reading+comprehension&#x00026;journal=Read.+Res.+Q.&#x00026;volume=55&#x00026;pages=345-369" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref12" id="ref12"></a>Channa, M. A., Abassi, A. M., John, S., and Sahito, J. K. M. (2018). Reading comprehension and metacognitive strategies in first-year engineering university students in Pakistan. <i>Int. J. Engl. Ling.</i> 8, 78&#x2013;87. doi: 10.5539/ijel.v8n6p78</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.5539/ijel.v8n6p78" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+A.+Channa&#x00026;author=A.+M.+Abassi&#x00026;author=S.+John&#x00026;author=J.+K.+M.+Sahito&#x00026;publication_year=2018&#x00026;title=Reading+comprehension+and+metacognitive+strategies+in+first-year+engineering+university+students+in+Pakistan&#x00026;journal=Int.+J.+Engl.+Ling.&#x00026;volume=8&#x00026;pages=78-87" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref13" id="ref13"></a>Cox, S. R., Friesner, D. L., and Khayum, M. (2014). Do Reading skills courses help underprepared readers achieve academic success in college? <i>J. College Reading and Learn.</i> 33, 170&#x2013;196. doi: 10.1080/10790195.2003.10850147</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/10790195.2003.10850147" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+R.+Cox&#x00026;author=D.+L.+Friesner&#x00026;author=M.+Khayum&#x00026;publication_year=2014&#x00026;title=Do+Reading+skills+courses+help+underprepared+readers+achieve+academic+success+in+college?&#x00026;journal=J.+College+Reading+and+Learn.&#x00026;volume=33&#x00026;pages=170-196" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref14" id="ref14"></a>Del Pino-Y&#x000E9;pez, G. M., Saltos-Rodr&#x000ED;guez, L. J., and Moreira-Aguayo, P. Y. (2019). Estrategias did&#x000E1;cticas para el afianzamiento de la comprensi&#x000F3;n lectora en estudiantes universitarios. <i>Revista cient&#x000ED;fica Dominio de las Ciencias</i> 5, 171&#x2013;187. doi: 10.23857/dc.v5i1.1038</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.23857/dc.v5i1.1038" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+M.+Del+Pino-Y&#x000E9;pez&#x00026;author=L.+J.+Saltos-Rodr&#x000ED;guez&#x00026;author=P.+Y.+Moreira-Aguayo&#x00026;publication_year=2019&#x00026;title=Estrategias+did&#x000E1;cticas+para+el+afianzamiento+de+la+comprensi&#x000F3;n+lectora+en+estudiantes+universitarios&#x00026;journal=Revista+cient&#x000ED;fica+Dominio+de+las+Ciencias&#x00026;volume=5&#x00026;pages=171-187" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref15" id="ref15"></a>Dewi, R. S., Fahrurrozi, Hasanah, U., and Wahyudi, A. (2020). Reading interest and Reading comprehension: a correlational study in Syarif Hidayatullah State Islamic University, Jakarta. <i>Talent Dev. Excell.</i> 12, 241&#x2013;250.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=R.+S.+Dewi&#x00026;author=Fahrurrozi&#x00026;author=U.+Hasanah&#x00026;author=A.+Wahyudi&#x00026;publication_year=2020&#x00026;title=Reading+interest+and+Reading+comprehension:+a+correlational+study+in+Syarif+Hidayatullah+State+Islamic+University+Jakarta&#x00026;journal=Talent+Dev.+Excell.&#x00026;volume=12&#x00026;pages=241-250" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref16" id="ref16"></a>Diakidoy, I. N., Mouskounti, T., and Ioannides, C. (2011). Comprehension and learning from refutation and expository texts. <i>Read. Res. Q.</i> 46, 22&#x2013;38. doi: 10.1598/RRQ.46.1.2</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1598/RRQ.46.1.2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+N.+Diakidoy&#x00026;author=T.+Mouskounti&#x00026;author=C.+Ioannides&#x00026;publication_year=2011&#x00026;title=Comprehension+and+learning+from+refutation+and+expository+texts&#x00026;journal=Read.+Res.+Q.&#x00026;volume=46&#x00026;pages=22-38" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref17" id="ref17"></a>Dinsmore, D. J., and Alexander, P. A. (2015). A multidimensional investigation of deep-level and surface-level processing. <i>J. Exp. Educ.</i> 84, 213&#x2013;244. doi: 10.1080/00220973.2014.979126</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/00220973.2014.979126" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+J.+Dinsmore&#x00026;author=P.+A.+Alexander&#x00026;publication_year=2015&#x00026;title=A+multidimensional+investigation+of+deep-level+and+surface-level+processing&#x00026;journal=J.+Exp.+Educ.&#x00026;volume=84&#x00026;pages=213-244" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref18" id="ref18"></a>Egger, M., Smith, D., and Altmand, D. G. (2001). <i>Systematic Reviews in Health Care: Meta-Analysis in Context.</i> London: BMJ Publishing Group.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+Egger&#x00026;author=D.+Smith&#x00026;author=D.+G.+Altmand&#x00026;publication_year=2001&#x00026;journal=Systematic+Reviews+in+Health+Care:+Meta-Analysis+in+Context.&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref19" id="ref19"></a>Feng, L. (2011). A short analysis of the text variables affecting reading and testing reading. <i>Stud. Lit. Lang.</i> 2, 44&#x2013;49.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=L.+Feng&#x00026;publication_year=2011&#x00026;title=A+short+analysis+of+the+text+variables+affecting+reading+and+testing+reading&#x00026;journal=Stud.+Lit.+Lang.&#x00026;volume=2&#x00026;pages=44-49" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref20" id="ref20"></a>Figueroa Romero, R. L., Casta&#x000F1;eda S&#x000E1;nchez, W., and Tamay Carranza, I. A. (2016). <i>Nivel de comprensi&#x000F3;n lectora en los estudiantes del primer ciclo de la Universidad San Pedro, filial Caraz, 2016.</i> (Trabajo de investigaci&#x000F3;n, Universidad San Pedro). Repositorio Institucional USP. Available at: <a href="http://repositorio.usanpedro.edu.pe/bitstream/handle/USANPEDRO/305/PI1640418.pdf?sequence=1andisAllowed=y">http://repositorio.usanpedro.edu.pe/bitstream/handle/USANPEDRO/305/PI1640418.pdf?sequence=1andisAllowed=y</a> (Accessed February 15, 2021).</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=R.+L.+Figueroa+Romero&#x00026;author=W.+Casta&#x000F1;eda+S&#x000E1;nchez&#x00026;author=I.+A.+Tamay+Carranza&#x00026;publication_year=2016&#x00026;journal=Nivel+de+comprensi&#x000F3;n+lectora+en+los+estudiantes+del+primer+ciclo+de+la+Universidad+San+Pedro+filial+Caraz+2016.&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref21" id="ref21"></a>Guevara Ben&#x000ED;tez, Y., Guerra Garc&#x000ED;a, J., Delgado S&#x000E1;nchez, U., and Flores Rub&#x000ED;, C. (2014). Evaluaci&#x000F3;n de distintos niveles de comprensi&#x000F3;n lectora en estudiantes mexicanos de Psicolog&#x000ED;a. <i>Acta Colombiana de Psicolog&#x000ED;a</i> 17, 113&#x2013;121. doi: 10.14718/ACP.2014.17.2.12</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.14718/ACP.2014.17.2.12" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Guevara+Ben&#x000ED;tez&#x00026;author=J.+Guerra+Garc&#x000ED;a&#x00026;author=U.+Delgado+S&#x000E1;nchez&#x00026;author=C.+Flores+Rub&#x000ED;&#x00026;publication_year=2014&#x00026;title=Evaluaci&#x000F3;n+de+distintos+niveles+de+comprensi&#x000F3;n+lectora+en+estudiantes+mexicanos+de+Psicolog&#x000ED;a&#x00026;journal=Acta+Colombiana+de+Psicolog&#x000ED;a&#x00026;volume=17&#x00026;pages=113-121" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref22" id="ref22"></a>Guo, D., Zhang, S., Wright, K. L., and McTigue, E. M. (2020). Do you get the picture? A meta-analysis of the effect of graphics on reading comprehension. <i>AERA Open</i> 6, 1&#x2013;20. doi: 10.1177/2332858420901696</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1177/2332858420901696" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Guo&#x00026;author=S.+Zhang&#x00026;author=K.+L.+Wright&#x00026;author=E.+M.+McTigue&#x00026;publication_year=2020&#x00026;title=Do+you+get+the+picture?+A+meta-analysis+of+the+effect+of+graphics+on+reading+comprehension&#x00026;journal=AERA+Open&#x00026;volume=6&#x00026;pages=1-20" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref23" id="ref23"></a>Higgins, J. P., and Green, S. (2008). <i>Cochrane Handbook for Systematic Reviews of Interventions.</i> The Cochrane Collaboration.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=J.+P.+Higgins&#x00026;author=S.+Green&#x00026;publication_year=2008&#x00026;journal=Cochrane+Handbook+for+Systematic+Reviews+of+Interventions.&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref24" id="ref24"></a>Higgins, J. P., Thompson, S. G., Deeks, J. J., and Altman, D. G. (2003). Measuring inconsistency in meta-analyses. <i>BMJ</i> 327, 327&#x2013;557. doi: 10.1136/bmj.327.7414.557 </p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12958120" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1136/bmj.327.7414.557" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+P.+Higgins&#x00026;author=S.+G.+Thompson&#x00026;author=J.+J.+Deeks&#x00026;author=D.+G.+Altman&#x00026;publication_year=2003&#x00026;title=Measuring+inconsistency+in+meta-analyses&#x00026;journal=BMJ&#x00026;volume=327&#x00026;pages=327-557" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref25" id="ref25"></a>Hong-Nam, K., and Leavell, A. G. (2011). Reading strategy instruction, metacognitive awareness, and self-perception of striving college developmental readers. <i>J. College Literacy Learn.</i> 37, 3&#x2013;17.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=K.+Hong-Nam&#x00026;author=A.+G.+Leavell&#x00026;publication_year=2011&#x00026;title=Reading+strategy+instruction+metacognitive+awareness+and+self-perception+of+striving+college+developmental+readers&#x00026;journal=J.+College+Literacy+Learn.&#x00026;volume=37&#x00026;pages=3-17" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref26" id="ref26"></a>Kazazoglu, S. (2020). Is printed text the best choice? A mixed-method case study on reading comprehension. <i>J. Lang. Linguistic Stud.</i> 16, 458&#x2013;473. doi: 10.17263/jlls.712879</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.17263/jlls.712879" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Kazazoglu&#x00026;publication_year=2020&#x00026;title=Is+printed+text+the+best+choice?+A+mixed-method+case+study+on+reading+comprehension&#x00026;journal=J.+Lang.+Linguistic+Stud.&#x00026;volume=16&#x00026;pages=458-473" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref27" id="ref27"></a>Kintsch, W. (1998). <i>Comprehension: A Paradigm for Cognition.</i> New York: Cambridge University Press.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=W.+Kintsch&#x00026;publication_year=1998&#x00026;journal=Comprehension:+A+Paradigm+for+Cognition.&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref28" id="ref28"></a>Kintsch, W., and van Dijk, T. A. (1978). Toward a model of text comprehension and production. <i>Psychol. Rev.</i> 85, 363&#x2013;394. doi: 10.1037/0033-295X.85.5.363</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1037/0033-295X.85.5.363" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=W.+Kintsch&#x00026;author=T.+A.+van+Dijk&#x00026;publication_year=1978&#x00026;title=Toward+a+model+of+text+comprehension+and+production&#x00026;journal=Psychol.+Rev.&#x00026;volume=85&#x00026;pages=363-394" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref29" id="ref29"></a>Kobayashi, M. (2002). Method effects on reading comprehension test performance: test organization and response format. <i>Lang. Test.</i> 19, 193&#x2013;220. doi: 10.1191/0265532202lt227oa</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1191/0265532202lt227oa" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Kobayashi&#x00026;publication_year=2002&#x00026;title=Method+effects+on+reading+comprehension+test+performance:+test+organization+and+response+format&#x00026;journal=Lang.+Test.&#x00026;volume=19&#x00026;pages=193-220" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref30" id="ref30"></a>Koretz, D. (2002). Limitations in the use of achievement tests as measures of educators&#x2019; productivity. <i>J. Hum. Resour.</i> 37, 752&#x2013;777. doi: 10.2307/3069616</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.2307/3069616" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Koretz&#x00026;publication_year=2002&#x00026;title=Limitations+in+the+use+of+achievement+tests+as+measures+of+educators&#x2019;+productivity&#x00026;journal=J.+Hum.+Resour.&#x00026;volume=37&#x00026;pages=752-777" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref31" id="ref31"></a>Korotaeva, I. V. (2012). Metacognitive strategies in reading comprehension of education majors. <i>Procedural-Social and Behav. Sci.</i> 69, 1895&#x2013;1900. doi: 10.1016/j.sbspro.2012.12.143</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.sbspro.2012.12.143" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+V.+Korotaeva&#x00026;publication_year=2012&#x00026;title=Metacognitive+strategies+in+reading+comprehension+of+education+majors&#x00026;journal=Procedural-Social+and+Behav.+Sci.&#x00026;volume=69&#x00026;pages=1895-1900" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref32" id="ref32"></a>Kucer, S. B. (2016). Accuracy, miscues, and the comprehension of complex literary and scientific texts. <i>Read. Psychol.</i> 37, 1076&#x2013;1095. doi: 10.1080/02702711.2016.1159632</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/02702711.2016.1159632" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+B.+Kucer&#x00026;publication_year=2016&#x00026;title=Accuracy+miscues+and+the+comprehension+of+complex+literary+and+scientific+texts&#x00026;journal=Read.+Psychol.&#x00026;volume=37&#x00026;pages=1076-1095" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref33" id="ref33"></a>Livingston, C., Klopper, B., Cox, S., and Uys, C. (2015). The impact of an academic reading program in the bachelor of education (intermediate and senior phase) degree. <i>Read. Writ.</i> 6, 1&#x2013;11. doi: 10.4102/rw.v6i1.66</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.4102/rw.v6i1.66" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Livingston&#x00026;author=B.+Klopper&#x00026;author=S.+Cox&#x00026;author=C.+Uys&#x00026;publication_year=2015&#x00026;title=The+impact+of+an+academic+reading+program+in+the+bachelor+of+education+(intermediate+and+senior+phase)+degree&#x00026;journal=Read.+Writ.&#x00026;volume=6&#x00026;pages=1-11" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref34" id="ref34"></a>M&#x000E1;rquez, H., D&#x000ED;az, C., Mu&#x000F1;oz, R., and Fuentes, R. (2016). Evaluaci&#x000F3;n de los niveles de comprensi&#x000F3;n lectora en estudiantes universitarios pertenecientes a las carreras de Kinesiolog&#x000ED;a y Nutrici&#x000F3;n y Diet&#x000E9;tica de la Universidad Andr&#x000E9;s Bello, Concepci&#x000F3;n. <i>Revista de Educaci&#x000F3;n en Ciencias de la Salud</i> 13, 154&#x2013;160.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=H.+M&#x000E1;rquez&#x00026;author=C.+D&#x000ED;az&#x00026;author=R.+Mu&#x000F1;oz&#x00026;author=R.+Fuentes&#x00026;publication_year=2016&#x00026;title=Evaluaci&#x000F3;n+de+los+niveles+de+comprensi&#x000F3;n+lectora+en+estudiantes+universitarios+pertenecientes+a+las+carreras+de+Kinesiolog&#x000ED;a+y+Nutrici&#x000F3;n+y+Diet&#x000E9;tica+de+la+Universidad+Andr&#x000E9;s+Bello+Concepci&#x000F3;n&#x00026;journal=Revista+de+Educaci&#x000F3;n+en+Ciencias+de+la+Salud&#x00026;volume=13&#x00026;pages=154-160" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref35" id="ref35"></a>Mayer, R. E. (ed.) (2009). &#x201C;Modality principle,&#x201D; in <i>Multimedia Learning.</i> United States: Cambridge University Press, 200&#x2013;2020.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?publication_year=2009&#x00026;title=Modality+principle&#x00026;journal=Multimedia+Learning.&#x00026;pages=200-2020" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref36" id="ref36"></a>McNamara, D. S., and Kintsch, W. (1996). Learning from texts: effects of prior knowledge and text coherence. <i>Discourse Process</i> 22, 247&#x2013;288. doi: 10.1080/01638539609544975</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/01638539609544975" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+S.+McNamara&#x00026;author=W.+Kintsch&#x00026;publication_year=1996&#x00026;title=Learning+from+texts:+effects+of+prior+knowledge+and+text+coherence&#x00026;journal=Discourse+Process&#x00026;volume=22&#x00026;pages=247-288" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref37" id="ref37"></a>McNamara, D. S., and Magliano, J. (2009). &#x201C;Toward a comprehensive model of comprehension,&#x201D; in <i>The psychology of learning and motivation.</i> ed. E. B. Ross (New York: Elsevier), 297&#x2013;384.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=D.+S.+McNamara&#x00026;author=J.+Magliano&#x00026;publication_year=2009&#x00026;title=Toward+a+comprehensive+model+of+comprehension&#x00026;journal=The+psychology+of+learning+and+motivation.&#x00026;pages=297-384" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref38" id="ref38"></a>Moher, D., Shamseer, L., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M., et al. (2015). Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. <i>Syst. Rev.</i> 4:1. doi: 10.1186/2046-4053-4-1 </p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25554246" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/2046-4053-4-1" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Moher&#x00026;author=L.+Shamseer&#x00026;author=M.+Clarke&#x00026;author=D.+Ghersi&#x00026;author=A.+Liberati&#x00026;author=M.+Petticrew&#x00026;publication_year=2015&#x00026;title=Preferred+reporting+items+for+systematic+review+and+meta-analysis+protocols+(PRISMA-P)+2015+statement&#x00026;journal=Syst.+Rev.&#x00026;volume=4&#x00026;pages=1" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref39" id="ref39"></a>Ntereke, B. B., and Ramoroka, B. T. (2017). Reading competency of first-year undergraduate students at the University of Botswana: a case study. <i>Read. Writ.</i> 8:a123. doi: 10.4102/rw.v8i1.123</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.4102/rw.v8i1.123" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+B.+Ntereke&#x00026;author=B.+T.+Ramoroka&#x00026;publication_year=2017&#x00026;title=Reading+competency+of+first-year+undergraduate+students+at+the+University+of+Botswana:+a+case+study&#x00026;journal=Read.+Writ.&#x00026;volume=8&#x00026;pages=a123" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref40" id="ref40"></a>Oakhill, J. (1982). Constructive processes in skilled and less skilled comprehenders&#x2019; memory for sentences. <i>Br. J. Psychol.</i> 73, 13&#x2013;20. doi: 10.1111/j.2044-8295.1982.tb01785.x </p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/7059748" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.2044-8295.1982.tb01785.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Oakhill&#x00026;publication_year=1982&#x00026;title=Constructive+processes+in+skilled+and+less+skilled+comprehenders&#x2019;+memory+for+sentences&#x00026;journal=Br.+J.+Psychol.&#x00026;volume=73&#x00026;pages=13-20" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref41" id="ref41"></a>Parr, C., and Woloshyn, V. (2013). Reading comprehension strategy instruction in a first-year course: an instructor&#x2019;s self-study. <i>Can. J. Scholarship Teach. Learn.</i> 4:3. doi: 10.5206/cjsotl-rcacea.2013.2.3</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.5206/cjsotl-rcacea.2013.2.3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Parr&#x00026;author=V.+Woloshyn&#x00026;publication_year=2013&#x00026;title=Reading+comprehension+strategy+instruction+in+a+first-year+course:+an+instructor&#x2019;s+self-study&#x00026;journal=Can.+J.+Scholarship+Teach.+Learn.&#x00026;volume=4&#x00026;pages=3" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref42" id="ref42"></a>Perfetti, C. A., Beck, I., Bell, L. C., and Hughes, C. (1987). Phonemic knowledge and learning to read are reciprocal: a longitudinal study of first-grade children. <i>Merrill-Palmer Q.</i> 33, 283&#x2013;319.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=C.+A.+Perfetti&#x00026;author=I.+Beck&#x00026;author=L.+C.+Bell&#x00026;author=C.+Hughes&#x00026;publication_year=1987&#x00026;title=Phonemic+knowledge+and+learning+to+read+are+reciprocal:+a+longitudinal+study+of+first-grade+children&#x00026;journal=Merrill-Palmer+Q.&#x00026;volume=33&#x00026;pages=283-319" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref43" id="ref43"></a>Pike, G. R. (1996). Limitations of using students&#x2019; self-reports of academic development as proxies for traditional achievement measures. <i>Res. High. Educ.</i> 37, 89&#x2013;114. doi: 10.1007/BF01680043</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1007/BF01680043" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+R.+Pike&#x00026;publication_year=1996&#x00026;title=Limitations+of+using+students&#x2019;+self-reports+of+academic+development+as+proxies+for+traditional+achievement+measures&#x00026;journal=Res.+High.+Educ.&#x00026;volume=37&#x00026;pages=89-114" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref44" id="ref44"></a>Pyle, N., Vasquez, A. C., Lignugaris, B., Gillam, S. L., Reutzel, D. R., Olszewski, A., et al. (2017). Effects of expository text structure interventions on comprehension: a meta-analysis. <i>Read. Res. Q.</i> 52, 469&#x2013;501. doi: 10.1002/rrq.179</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1002/rrq.179" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=N.+Pyle&#x00026;author=A.+C.+Vasquez&#x00026;author=B.+Lignugaris&#x00026;author=S.+L.+Gillam&#x00026;author=D.+R.+Reutzel&#x00026;author=A.+Olszewski&#x00026;publication_year=2017&#x00026;title=Effects+of+expository+text+structure+interventions+on+comprehension:+a+meta-analysis&#x00026;journal=Read.+Res.+Q.&#x00026;volume=52&#x00026;pages=469-501" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref45" id="ref45"></a>Rahmani, M. (2011). Effects of note-taking training on reading comprehension and recall. <i>Reading Matrix: An Int. Online J.</i> 11, 116&#x2013;126.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+Rahmani&#x00026;publication_year=2011&#x00026;title=Effects+of+note-taking+training+on+reading+comprehension+and+recall&#x00026;journal=Reading+Matrix:+An+Int.+Online+J.&#x00026;volume=11&#x00026;pages=116-126" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref46" id="ref46"></a>Reznitskaya, A., Anderson, R., and Kuo, L. J. (2007). Teaching and learning argumentation. <i>Elem. Sch. J.</i> 107, 449&#x2013;472. doi: 10.1086/518623</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1086/518623" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Reznitskaya&#x00026;author=R.+Anderson&#x00026;author=L.+J.+Kuo&#x00026;publication_year=2007&#x00026;title=Teaching+and+learning+argumentation&#x00026;journal=Elem.+Sch.+J.&#x00026;volume=107&#x00026;pages=449-472" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref47" id="ref47"></a>S&#x000E1;ez S&#x000E1;nchez, B. K. (2018). La comprensi&#x000F3;n lectora en j&#x000F3;venes universitarios de una escuela formadora de docentes. <i>Revista Electr&#x000F3;nica Cient&#x000ED;fica de Investigaci&#x000F3;n Educativa</i> 4, 609&#x2013;618.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=B.+K.+S&#x000E1;ez+S&#x000E1;nchez&#x00026;publication_year=2018&#x00026;title=La+comprensi&#x000F3;n+lectora+en+j&#x000F3;venes+universitarios+de+una+escuela+formadora+de+docentes&#x00026;journal=Revista+Electr&#x000F3;nica+Cient&#x000ED;fica+de+Investigaci&#x000F3;n+Educativa&#x00026;volume=4&#x00026;pages=609-618" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref48" id="ref48"></a>Sanabria Mantilla, T. R. (2018). <i>Relaci&#x000F3;n entre comprensi&#x000F3;n lectora y rendimiento acad&#x000E9;mico en estudiantes de primer a&#x000F1;o de Psicolog&#x000ED;a de la Universidad Pontificia Bolivariana.</i> (Trabajo de grado, Universidad Pontificia Bolivariana). Repositorio Institucional UPB. Available at: <a href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/5443/digital_36863.pdf?sequence=1andisAllowed=y">https://repository.upb.edu.co/bitstream/handle/20.500.11912/5443/digital_36863.pdf?sequence=1andisAllowed=y</a> (Accessed February 15, 2021).</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=T.+R.+Sanabria+Mantilla&#x00026;publication_year=2018&#x00026;journal=Relaci&#x000F3;n+entre+comprensi&#x000F3;n+lectora+y+rendimiento+acad&#x000E9;mico+en+estudiantes+de+primer+a&#x000F1;o+de+Psicolog&#x000ED;a+de+la+Universidad+Pontificia+Bolivariana.&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref49" id="ref49"></a>Saracaloglu, A. S., and Karasakaloglu, N. (2011). An investigation of prospective teachers&#x2019; reading comprehension levels and study and learning strategies related to some variables. <i>Egit. ve Bilim</i> 36, 98&#x2013;115.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=A.+S.+Saracaloglu&#x00026;author=N.+Karasakaloglu&#x00026;publication_year=2011&#x00026;title=An+investigation+of+prospective+teachers&#x2019;+reading+comprehension+levels+and+study+and+learning+strategies+related+to+some+variables&#x00026;journal=Egit.+ve+Bilim&#x00026;volume=36&#x00026;pages=98-115" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref50" id="ref50"></a>Smagorinsky, P. (2001). If meaning is constructed, what is it made from? Toward a cultural theory of reading. <i>Rev. Educ. Res.</i> 71, 133&#x2013;169. doi: 10.3102/00346543071001133</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.3102/00346543071001133" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+Smagorinsky&#x00026;publication_year=2001&#x00026;title=If+meaning+is+constructed+what+is+it+made+from?+Toward+a+cultural+theory+of+reading&#x00026;journal=Rev.+Educ.+Res.&#x00026;volume=71&#x00026;pages=133-169" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref51" id="ref51"></a>Spencer, C. (2006). Research on learners&#x2019; preferences for reading from a printed text or a computer screen. <i>J. Dist. Educ.</i> 21, 33&#x2013;50.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=C.+Spencer&#x00026;publication_year=2006&#x00026;title=Research+on+learners&#x2019;+preferences+for+reading+from+a+printed+text+or+a+computer+screen&#x00026;journal=J.+Dist.+Educ.&#x00026;volume=21&#x00026;pages=33-50" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref52" id="ref52"></a>Trakhman, L. M. S., Alexander, P., and Berkowitz, L. E. (2019). Effects of processing time on comprehension and calibration in print and digital mediums. <i>J. Exp. Educ.</i> 87, 101&#x2013;115. doi: 10.1080/00220973.2017.1411877</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/00220973.2017.1411877" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+M.+S.+Trakhman&#x00026;author=P.+Alexander&#x00026;author=L.+E.+Berkowitz&#x00026;publication_year=2019&#x00026;title=Effects+of+processing+time+on+comprehension+and+calibration+in+print+and+digital+mediums&#x00026;journal=J.+Exp.+Educ.&#x00026;volume=87&#x00026;pages=101-115" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref53" id="ref53"></a>Tuncer, M., and Bhadir, F. (2014). Effect of screen reading and reading from printed out material on student success and permanency in introduction to computer lesson. <i>Turk. Online J. Educ. Technol.</i> 13, 41&#x2013;49.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+Tuncer&#x00026;author=F.+Bhadir&#x00026;publication_year=2014&#x00026;title=Effect+of+screen+reading+and+reading+from+printed+out+material+on+student+success+and+permanency+in+introduction+to+computer+lesson&#x00026;journal=Turk.+Online+J.+Educ.+Technol.&#x00026;volume=13&#x00026;pages=41-49" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref54" id="ref54"></a>Ulum, O. G. (2016). A descriptive content analysis of the extent of Bloom&#x2019;s taxonomy in the reading comprehension questions of the course book Q: skills for success 4 reading and writing. <i>Qual. Rep.</i> 21, 1674&#x2013;1683.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=O.+G.+Ulum&#x00026;publication_year=2016&#x00026;title=A+descriptive+content+analysis+of+the+extent+of+Bloom&#x2019;s+taxonomy+in+the+reading+comprehension+questions+of+the+course+book+Q:+skills+for+success+4+reading+and+writing&#x00026;journal=Qual.+Rep.&#x00026;volume=21&#x00026;pages=1674-1683" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref55" id="ref55"></a>UNESCO (2009). <i>&#x201C;Conferencia mundial sobre la Educaci&#x000F3;n Superior &#x2013; 2009.&#x201D; La nueva din&#x000E1;mica de la educaci&#x000F3;n superior y la investigaci&#x000F3;n para el cambio social y el desarrollo;</i> July 5-8, 2009; Paris.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?publication_year=2009&#x00026;journal=&#x201C;Conferencia+mundial+sobre+la+Educaci&#x000F3;n+Superior+&#x2013;+2009.&#x201D;+La+nueva+din&#x000E1;mica+de+la+educaci&#x000F3;n+superior+y+la+investigaci&#x000F3;n+para+el+cambio+social+y+el+desarrollo;&#x00026;" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref56" id="ref56"></a>van den Broek, P., and Espin, C. A. (2012). Connecting cognitive theory and assessment: measuring individual differences in reading comprehension. <i>Sch. Psychol. Rev.</i> 43, 315&#x2013;325. doi: 10.1080/02796015.2012.12087512</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1080/02796015.2012.12087512" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+van+den+Broek&#x00026;author=C.+A.+Espin&#x00026;publication_year=2012&#x00026;title=Connecting+cognitive+theory+and+assessment:+measuring+individual+differences+in+reading+comprehension&#x00026;journal=Sch.+Psychol.+Rev.&#x00026;volume=43&#x00026;pages=315-325" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref57" id="ref57"></a>van den Broek, P., Mouw, J. M., and Kraal, A. (2016). &#x201C;Individual differences in reading comprehension,&#x201D; in <i>Handbook of Individual Differences in Reading: Reader, Text, and Context.</i> ed. E. P. Afflerbach (New York: Routledge), 138&#x2013;150.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=P.+van+den+Broek&#x00026;author=J.+M.+Mouw&#x00026;author=A.+Kraal&#x00026;publication_year=2016&#x00026;title=Individual+differences+in+reading+comprehension&#x00026;journal=Handbook+of+Individual+Differences+in+Reading:+Reader+Text+and+Context.&#x00026;pages=138-150" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref58" id="ref58"></a>Wolfe, M. B. W., and Woodwyk, J. M. (2010). Processing and memory of information presented in narrative or expository texts. <i>Br. J. Educ. Psychol.</i> 80, 341&#x2013;362. doi: 10.1348/000709910X485700 </p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20128958" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1348/000709910X485700" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+B.+W.+Wolfe&#x00026;author=J.+M.+Woodwyk&#x00026;publication_year=2010&#x00026;title=Processing+and+memory+of+information+presented+in+narrative+or+expository+texts&#x00026;journal=Br.+J.+Educ.+Psychol.&#x00026;volume=80&#x00026;pages=341-362" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref59" id="ref59"></a>Xu, Y., Wong, R., He, S., Veldre, A., and Andrews, S. (2020). Is it smart to read on your phone? The impact of reading format and culture on the continued influence of misinformation. <i>Mem. Cogn.</i> 48, 1112&#x2013;1127. doi: 10.3758/s13421-020-01046-0 </p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/32430888" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3758/s13421-020-01046-0" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Xu&#x00026;author=R.+Wong&#x00026;author=S.+He&#x00026;author=A.+Veldre&#x00026;author=S.+Andrews&#x00026;publication_year=2020&#x00026;title=Is+it+smart+to+read+on+your+phone?+The+impact+of+reading+format+and+culture+on+the+continued+influence+of+misinformation&#x00026;journal=Mem.+Cogn.&#x00026;volume=48&#x00026;pages=1112-1127" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref60" id="ref60"></a>Y&#x000E1;&#x000F1;ez Botello, C. R. (2013). Caracterizaci&#x000F3;n de los procesos cognoscitivos y competencias involucrados en los niveles de comprensi&#x000F3;n lectora en Estudiantes Universitarios. <i>Cuadernos Hispanoamericanos de Psicolog&#x000ED;a</i> 13, 75&#x2013;90. doi: 10.18270/chps.v13i2.1350</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.18270/chps.v13i2.1350" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+R.+Y&#x000E1;&#x000F1;ez+Botello&#x00026;publication_year=2013&#x00026;title=Caracterizaci&#x000F3;n+de+los+procesos+cognoscitivos+y+competencias+involucrados+en+los+niveles+de+comprensi&#x000F3;n+lectora+en+Estudiantes+Universitarios&#x00026;journal=Cuadernos+Hispanoamericanos+de+Psicolog&#x000ED;a&#x00026;volume=13&#x00026;pages=75-90" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref61" id="ref61"></a>Yussof, Y. M., Jamian, A. R., Hamzah, Z. A. Z., and Roslan, A. (2013). Students&#x2019; reading comprehension performance with emotional. <i>Int. J. Edu. Literacy Stud.</i> 1, 82&#x2013;88. doi: 10.7575/aiac.ijels.v.1n.1p.82</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.7575/aiac.ijels.v.1n.1p.82" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+M.+Yussof&#x00026;author=A.+R.+Jamian&#x00026;author=Z.+A.+Z.+Hamzah&#x00026;author=A.+Roslan&#x00026;publication_year=2013&#x00026;title=Students&#x2019;+reading+comprehension+performance+with+emotional&#x00026;journal=Int.+J.+Edu.+Literacy+Stud.&#x00026;volume=1&#x00026;pages=82-88" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="ref62" id="ref62"></a>Zheng, Y., Cheng, L., and Klinger, D. A. (2007). Do test format in reading comprehension affect second-language students&#x2019; test performance differently? <i>TESL Can. J.</i> 25, 65&#x2013;78. doi: 10.18806/tesl.v25i1.108</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.18806/tesl.v25i1.108" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Zheng&#x00026;author=L.+Cheng&#x00026;author=D.+A.+Klinger&#x00026;publication_year=2007&#x00026;title=Do+test+format+in+reading+comprehension+affect+second-language+students&#x2019;+test+performance+differently?&#x00026;journal=TESL+Can.+J.&#x00026;volume=25&#x00026;pages=65-78" target="_blank">Google Scholar</a></p></div>
+</div> <div class="thinLineM20"></div> <div class="AbstractSummary">
+<p><span>Keywords:</span> reading comprehension, higher education, university students, systematic review, meta-analysis</p>
+<p><span>Citation:</span> de-la-Pe&#x000F1;a C and Luque-Rojas MJ (2021) Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis. <i>Front. Psychol</i>. 12:712901. doi: 10.3389/fpsyg.2021.712901</p>
+<p class="timestamps"><span>Received:</span> 21 May 2021; <span>Accepted:</span> 07 July 2021;<br> <span>Published:</span> 04 August 2021.</p> <div>
+<p>Edited by:</p> <a href="https://loop.frontiersin.org/people/120999/overview">Eduardo Blanco Calvo</a>, University of Malaga, Spain</div> <div>
+<p>Reviewed by:</p> <a href="https://loop.frontiersin.org/people/1351680/overview">Manuel M&#x00E1;rquez Cruz</a>, Complutense University of Madrid, Spain<br> <a href="https://loop.frontiersin.org/people/1256647/overview">Clara Molinero Caparr&#x00F3;s</a>, Universidad Francisco de Vitoria, Spain</div>
+<p><span>Copyright</span> &#x000A9; 2021 de-la-Pe&#x000F1;a and Luque-Rojas. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>&#x0002A;Correspondence:</span> Cristina de-la-Pe&#x000F1;a, <a href="mailto:cristina.delapena@unir.net">cristina.delapena@unir.net</a></p> <div class="clear"></div> </div>    <div class="research-topic-container" style="display: none;">
+        <a href="/research-topics/19825#articles" data-test-id="relatedRT-link">
+            <div class="research-topic-data">
+                <h5 class="topic-title">
+                    <span>This article is part of the Research Topic</span>
+                </h5>
+                <p style="margin-bottom:0;">
+
+                    Neuroscience, Learning and Educational Psychology
+                </p>
+                    <div class="topic-link-trim" data-event="rt-link-click">
+                        View all
+15                        Articles <span style="position: relative;top: 1px;"></span>
+                    </div>
+
+
+            </div>
+        </a>
+    </div>
+
+
+<!-- TODO:BEGIN IS PART OF RT-->
+<script type="text/javascript">
+      
+            const isPartOfRTElements = document.getElementsByClassName('research-topic-container');
+
+            if (isPartOfRTElements.length > 0) {
+                const headerBar3Container = document.getElementsByClassName('header-bar-three-container');
+
+                if (headerBar3Container.length > 0) {
+                    const container = headerBar3Container[0];
+                    container.appendChild(isPartOfRTElements[0]);
+                    isPartOfRTElements[0].style.display = 'block';
+                }
+            }
+       
+</script>
+<!-- TODO:END IS PART OF RT-->
+
+                <div class="thin-line-dark"></div>
+
+            </div>
+        </div>
+    </div>
+</main>
+            </div>
+
+                <div class="side-article-subjects only-devices  widget-listing people-also-looked-at hidden">
+                    <h5 class="like-h4">People also looked at</h5>
+                </div>
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true"
+     style="display: none; padding-right: 17px;">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal"  aria-label="Close"><span data-event="supplementaryclose-icon-click" aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message" style="display: none;">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper" id="loader" style="display: none;">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading..">
+                </div>
+                <br>
+                <div class="table-responsive" id="localFiles">
+
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br>
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>" data-event="supplementarydownload-button-click">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" data-event="supplementarydownload-button-click" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel" id="notify_me_popup">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+</div>
+
+    </div>
+        <a id="floating-download-pdf-btn" class="floating-button" data-event="downloadfloating-button-click" href="/articles/10.3389/fpsyg.2021.712901/pdf">
+            <span class="floating-button-text" data-event="downloadfloating-button-click">Download</span>
+        </a>
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                document.onload = observerDowloadFloatingBtn();
+            });
+            function downloadButtonVisibilityChange(entries) {
+                const btn = entries[0];
+                const floatingBtn = document.querySelector("#floating-download-pdf-btn");
+                if (!btn.isIntersecting) {
+                    floatingBtn.classList.add("floating-button--show");
+                } else {
+                    floatingBtn.classList.remove("floating-button--show");
+                }
+            }
+
+            function observerDowloadFloatingBtn() {
+                const options = {
+                    root: document.getElementsByName('body')[0],
+                    rootMargin: '0px',
+                    threshold: 1.0
+                }
+
+                const observer = new IntersectionObserver(downloadButtonVisibilityChange, options);
+                const target = document.querySelector('[data-test-id="download-button"]');
+                observer.observe(target);
+            }
+        </script>
+    <frontiers-footer main-domain="frontiersin.org"></frontiers-footer>
+
+    <script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+ 
+    <script src=" https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script>
+ 
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=O9-mxZHGMRH9UWcWq5BW6IczDmW5Nz2Fjt5wgZmuXZA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '712901',
+                DOI:'10.3389/fpsyg.2021.712901',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '69',
+                SpecialityId: '346',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000',
+                ProvisionallyAcceptedText: 'The final, formatted version of the article will be published soon.',
+                NotifyMeButtonText: 'Notify me',
+                NotifyMeButtonSecondaryText: 'We&#39;ll notify you',
+                IsSimilarArticleVisible: FRSafe.boolean('True'),
+                JournalId: '36',
+                SectionId: '56',
+                JournalName: 'Psychology',
+                SectionName: 'Educational Psychology',
+                ArticleTitle: 'Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis',
+                AcceptedDate: '20210707',
+                PublishedDate: '20210804',
+                ContentType: 'Published',
+                ResearchTopicId: '19825',
+                IsImpactMetricsVisible: FRSafe.boolean('True')
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '712901',
+                ownerId: '1018046',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '27',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script>
+        function setBodyOverflow(dropdownElement) {
+            if (!dropdownElement) return;
+            const windowWidth = window.innerWidth;
+            if (windowWidth <= 1024) {
+                const body = document.querySelector("body");
+                if (dropdownElement.classList.contains("open")) {
+                    body.style.overflow = "hidden";
+                } else {
+                    body.style.overflow = "auto";
+                }
+            }
+        }
+        $(document).ready(function () {
+            $(document).on('click', '.dropdown-menu-wrapper', function (e) {
+                e.stopPropagation();
+            });
+
+            $(document).on('click', '[data-toggle="dropdown"]', function (e) {
+                const dropdownElement = e.target.closest(".dropdown")
+                if (dropdownElement) {
+                    setBodyOverflow(dropdownElement);
+                }
+            });
+        });
+
+        function supplementalDataToggle() {
+            const el = document.getElementById("supplementaryFilesModal");
+            if (el) {
+                el.classList.toggle("in");
+                if (el.classList.contains("in")) {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+            }
+        }
+
+        function initToggleSupplementalData() {
+            const btn = document.getElementsByClassName("btn-open-supplemental")[0];
+            const btn2 = document.getElementsByClassName("btn-open-supplemental")[1];
+            const closeButtons = document.getElementById("supplementaryFilesModal").querySelectorAll("[data-dismiss='modal']");
+
+            if (btn) { btn.onclick = supplementalDataToggle; }
+            if (btn2) { btn2.onclick = supplementalDataToggle; }
+            if (closeButtons) { closeButtons.forEach(b => b.onclick = supplementalDataToggle); }
+        }
+
+
+        initToggleSupplementalData();
+    </script>
+
+    <script type="text/plain" class="optanon-category-C0002">
+        function trackUserViewItemGA4() {
+            const dataLayer = (window).dataLayer;
+            if (dataLayer) {
+                dataLayer.push({
+                    'event': 'view_article',
+                    'content_type': 'Published',
+                    'article_title': 'Levels of Reading Comprehension in Higher Education: Systematic Review and Meta-Analysis',
+                    'journal_title': 'Psychology',
+                    'research_topic_title': 'Neuroscience, Learning and Educational Psychology',
+                    'section_title': "Educational Psychology",
+                    'published_date': '20210804',
+                    'accepted_date': '20210707',
+                    'article_id': '712901',
+                    'journal_id': '36',
+                    'research_topic_id': '19825',
+                    'section_id' :'56',
+                    'article_type': 'SYSTEMATIC REVIEW article'
+                });
+            }
+        }
+
+            trackUserViewItemGA4();
+
+    </script>
+
+        <script type="text/javascript">
+            dataLayer.push({
+                'loopId': undefined,
+            });
+        </script>
+    <script type="text/javascript">
+        var FRTitles = (function () {
+            return {
+                ResearchTopicTitle: 'Neuroscience, Learning and Educational Psychology',
+                ArticleTypeName: 'SYSTEMATIC REVIEW article'
+            };
+    })();
+    </script>
+    <!-- BEGIN TODO UXD-1800: Inconsistent sizing of equations -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          CommonHTML: {
+            scale: 80
+          },
+          PreviewHTML: {
+            scale: 80
+          }
+        });
+    </script>
+    <!-- END TODO UXD-1800: Inconsistent sizing of equations -->
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+    
+    <script src="https://static.frontiersin.org/areas/articles/js/app?v=FqC08Dhm0brey5SIgVI2XAwK7bdHJ7l20qYimnBrqi01"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/webcomponents?v=10ZwhKhNgH_pj31INEOwCEvN4hA3MyJdkY4rkLyap2s1"></script>
+
+
+    <script type="text/plain" class="optanon-category-C0004" src="https://widgets.figshare.com/static/figshare.js">
+    </script>
+
+</body>
+</html>

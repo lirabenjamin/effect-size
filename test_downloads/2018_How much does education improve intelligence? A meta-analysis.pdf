@@ -1,0 +1,2094 @@
+
+    
+<!DOCTYPE html>
+
+
+
+
+<html lang="en" >
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile properties -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/pmc/static/CACHE/css/output.1c31f4d4c46e.css" type="text/css">
+  
+  <link rel="stylesheet" href="/pmc/static/CACHE/css/output.3c558ec9f8de.css" type="text/css"><link rel="stylesheet" href="/pmc/static/CACHE/css/output.5c2920216256.css" type="text/css"><link rel="stylesheet" href="/pmc/static/CACHE/css/output.3766d7ad0d2d.css" type="text/css"><link rel="stylesheet" href="/pmc/static/CACHE/css/output.e3c3c2c84eb3.css" type="text/css">
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  
+<link type="text/css" href="/pmc/static/bundles/base/base.6539a0a78536cfdc1fa6.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/corehtml/pmc/css/fonts/stix/stixfonts.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/3.18/pmcrefs1.min.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/pmc2020_1.1/ncbi_web.min.css?_=a" type="text/css" /><style type="text/css">.pmc-wm {background:transparent repeat-y top left;background-image:url(/corehtml/pmc/pmcgifs/wm-psychsci.gif);background-size: auto, contain}</style><style type="text/css">.print-view{display:block}</style>
+
+    <link type="text/css" href="/pmc/static/bundles/article/article.e622fd8870cb011febf1.css" rel="stylesheet" />
+    <link type="text/css" href="/pmc/static/django_pmc_cite_box/lib/cite-box.css" rel="stylesheet" />
+
+
+    <title>How Much Does Education Improve Intelligence? A
+Meta-Analysis - PMC</title>
+
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" type="image/ico" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.png" />
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-192.png" />
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon-144.png">
+
+
+
+    
+        <!-- Logging params: Pinger defaults -->
+
+<meta name="ncbi_app" content="pmc-frontend" />
+
+<meta name="ncbi_db" content="pmc" />
+
+<meta name="ncbi_phid" content="D0BD568A678924B500005FE8840F2974.1.m_2" />
+
+
+        <!-- Logging params: Pinger custom -->
+
+<meta name="ncbi_pdid" content="article" />
+
+<meta name="ncbi_op" content="retrieved" />
+
+<meta name="ncbi_app_version" content="1.4.0.post1+1040be0" />
+
+<meta name="ncbi_domain" content="psychsci" />
+
+<meta name="ncbi_type" content="fulltext" />
+
+<meta name="ncbi_pcid" content="/articles/PMC6088505/?ref=circle-magazine-health-wellness-genetics-blog" />
+
+
+    
+
+
+        <script>
+            
+            var useOfficialGovtHeader = true;
+        </script>
+
+
+    <meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE" /><link rel="canonical" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6088505/" /><link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="citation_journal_title" content="Psychological Science" /><meta name="citation_title" content="How Much Does Education Improve Intelligence? A&#10;Meta-Analysis" /><meta name="citation_author" content="Stuart J. Ritchie" /><meta name="citation_author_institution" content="Department of Psychology, The University of Edinburgh" /><meta name="citation_author_institution" content="Centre for Cognitive Ageing and Cognitive Epidemiology, The University of Edinburgh" /><meta name="citation_author" content="Elliot M. Tucker-Drob" /><meta name="citation_author_institution" content="Department of Psychology, University of Texas at Austin" /><meta name="citation_author_institution" content="Population Research Center, University of Texas at Austin" /><meta name="citation_publication_date" content="2018/08" /><meta name="citation_issue" content="8" /><meta name="citation_volume" content="29" /><meta name="citation_firstpage" content="1358" /><meta name="citation_doi" content="10.1177/0956797618774253" /><meta name="citation_abstract_html_url" content="/pmc/articles/PMC6088505/?report=abstract" /><meta name="citation_fulltext_html_url" content="/pmc/articles/PMC6088505/" /><meta name="citation_pmid" content="29911926" /><meta name="DC.Title" content="How Much Does Education Improve Intelligence? A&#10;Meta-Analysis" /><meta name="DC.Type" content="Text" /><meta name="DC.Publisher" content="SAGE Publications" /><meta name="DC.Contributor" content="Stuart J. Ritchie" /><meta name="DC.Contributor" content="Elliot M. Tucker-Drob" /><meta name="DC.Date" content="2018 Aug" /><meta name="DC.Identifier" content="10.1177/0956797618774253" /><meta name="DC.Language" content="en" /><meta property="og:title" content="How Much Does Education Improve Intelligence? A&#10;Meta-Analysis" /><meta property="og:type" content="article" /><meta property="og:description" content="Intelligence test scores and educational duration are positively correlated. This&#10;correlation could be interpreted in two ways: Students with greater propensity&#10;for intelligence go on to complete more education, or a longer education&#10;increases intelligence. ..." /><meta property="og:url" content="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6088505/" /><meta property="og:site_name" content="PubMed Central (PMC)" /><meta property="og:image" content="https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/pmc-card-share.jpg?_=0" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@ncbi" /><meta name="ncbi_feature" content="associated_data" />
+
+
+</head>
+<body >
+
+   
+    
+    
+
+
+    
+        <section class="pmc-alerts">
+
+</section>
+    
+
+    
+        <button
+          class="back-to-top back-to-top--bottom"
+          data-ga-category="pagination"
+          data-ga-action="back_to_top">
+          Back to Top
+        </button>
+    
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+    <!-- ========== BEGIN HEADER ========== -->
+<section class="usa-banner" style="display: none;">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner">
+        <img src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png" alt="U.S. flag" />
+        <p>An official website of the United States government</p>
+        <button
+          class="usa-accordion-button usa-banner-button"
+          aria-expanded="false"
+          aria-controls="gov-banner-top"
+        >
+          <span class="usa-banner-button-text">Here's how you know</span>
+        </button>
+      </div>
+    </header>
+    <div
+      class="usa-banner-content usa-grid usa-accordion-content"
+      id="gov-banner-top"
+    >
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img
+          class="usa-banner-icon usa-media_block-img"
+          src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg"
+          alt="Dot gov"
+        />
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br />
+            Federal government websites often end in .gov or .mil. Before
+            sharing sensitive information, make sure you’re on a federal
+            government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img
+          class="usa-banner-icon usa-media_block-img"
+          src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg"
+          alt="Https"
+        />
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br />
+            The <strong>https://</strong> ensures that you are connecting to the
+            official website and that any information you provide is encrypted
+            and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="usa-overlay"></div>
+<header class="ncbi-header" role="banner" data-section="Header">
+
+	<div class="usa-grid">
+		<div class="usa-width-one-whole">
+
+            <div class="ncbi-header__logo">
+                <a href="https://www.ncbi.nlm.nih.gov/" class="logo" aria-label="NCBI Logo" data-ga-action="click_image" data-ga-label="NIH NLM Logo">
+                  <img src="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg" alt="NIH NLM Logo" />
+                </a>
+            </div>
+
+			<div class="ncbi-header__account">
+				<a id="account_login" href="https://account.ncbi.nlm.nih.gov" class="usa-button header-button" style="display:none" data-ga-action="open_menu" data-ga-label="account_menu">Log in</a>
+				<button id="account_info" class="header-button" style="display:none"
+						aria-controls="account_popup">
+					<span class="fa fa-user" aria-hidden="true"></span>
+					<span class="username desktop-only" aria-hidden="true" id="uname_short"></span>
+					<span class="sr-only">Show account info</span>
+				</button>
+			</div>
+
+			<div class="ncbi-popup-anchor">
+				<div class="ncbi-popup account-popup" id="account_popup" aria-hidden="true">
+					<div class="ncbi-popup-head">
+						<button class="ncbi-close-button" data-ga-action="close_menu" data-ga-label="account_menu"><span class="fa fa-times"></span><span class="usa-sr-only">Close</span></button>
+						<h4>Account</h4>
+					</div>
+					<div class="account-user-info">
+						Logged in as:<br/>
+						<b><span class="username" id="uname_long">username</span></b>
+					</div>
+					<div class="account-links">
+						<ul class="usa-unstyled-list">
+							<li><a id="account_myncbi" href="/myncbi/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_myncbi">Dashboard</a></li>
+							<li><a id="account_pubs" href="/myncbi/collections/bibliography/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_pubs">Publications</a></li>
+							<li><a id="account_settings" href="/account/settings/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_settings">Account settings</a></li>
+							<li><a id="account_logout" href="/account/signout/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_logout">Log out</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</header>
+<div role="navigation" aria-label="access keys">
+<a id="nws_header_accesskey_0" href="https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys" class="usa-sr-only" accesskey="0" tabindex="-1">Access keys</a>
+<a id="nws_header_accesskey_1" href="https://www.ncbi.nlm.nih.gov" class="usa-sr-only" accesskey="1" tabindex="-1">NCBI Homepage</a>
+<a id="nws_header_accesskey_2" href="/myncbi/" class="set-base-url usa-sr-only" accesskey="2" tabindex="-1">MyNCBI Homepage</a>
+<a id="nws_header_accesskey_3" href="#maincontent" class="usa-sr-only" accesskey="3" tabindex="-1">Main Content</a>
+<a id="nws_header_accesskey_4" href="#" class="usa-sr-only" accesskey="4" tabindex="-1">Main Navigation</a>
+</div>
+<section data-section="Alerts">
+	<div class="ncbi-alerts-placeholder"></div>
+</section>
+<!-- ========== END HEADER ========== -->
+
+    
+    
+        
+        <header class="pmc-header usa-header-extended" role="banner">
+    <div class="pmc-header__bar">
+        <div class="pmc-header__control usa-accordion">
+            
+                <button class="usa-menu-btn pmc-header--button pmc-header--left">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </button>
+            
+
+            <div class="usa-logo pmc-header__logo pmc-header--stretch
+                
+               " id="extended-mega-logo">
+                <div class="usa-logo-text">
+                    <a href="/pmc/" title="Home" aria-label="Home" ></a>
+                </div>
+            </div>
+            <button class="usa-accordion-button pmc-header--right pmc-header--button pmc-header__search--control pmc-header--right" aria-expanded="false" aria-controls="a1">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="pmc-header__search usa-accordion-content" id="a1">
+            <div role="search"  class="pmc-header--stretch"  >
+    <form class="usa-search " autocomplete="off">
+        <div>
+              <label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+              <span class="clearable">
+                <input
+                  required="required"
+                  autocomplete-url="/pmc/autocomplete/pmc/"
+                  placeholder="Search PMC Full-Text Archive"
+                  id="pmc-search" type="search" name="term"/>
+                  <i class="clear-btn" ></i>
+              </span>
+              <button type="submit" formaction="/pmc/">
+                <span class="usa-search-submit-text">Search in PMC</span>
+              </button>
+        </div>
+    </form>
+</div>
+
+
+            <ul class="usa-unstyled-list usa-nav-secondary-links pmc-header--offset-two">
+                    <li>
+                        <a href="https://www.ncbi.nlm.nih.gov/pmc/advanced" data-ga-action="featured_link" data-ga-label="advanced_search">
+                            Advanced Search
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="/pmc/about/userguide/" data-ga-action="featured_link"
+                        data-ga-label="user guide">
+                            User Guide
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+     <nav role="navigation" class="usa-nav ">
+        <button class="usa-nav-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+        <div class="usa-breadcrumb usa-breadcrumb--wrap usa-breadcrumb--hack">
+             
+    <ul class="usa-breadcrumb__list">
+            
+                <li class="usa-breadcrumb__list-item"
+                    >
+                    <a href="/pmc/journals/" class="navlink">Journal List</a>
+                </li>
+            
+                <li class="usa-breadcrumb__list-item"
+                    >
+                    <a href="/pmc/?term=%22Psychol Sci%22" class="navlink">Psychol Sci</a>
+                </li>
+            
+                <li class="usa-breadcrumb__list-item"
+                     aria-current="page" >
+                    PMC6088505
+                </li>
+            
+    </ul>
+ 
+
+        </div>
+        
+        
+            <div class="pmc-sidebar pmc-sidebar-hack">
+                
+
+<div class="scroller">
+
+    
+        <section>
+                <h6>Other Formats</h6>
+                <ul class="pmc-sidebar__formats">
+                  <li class="pubreader-link other_item"><a href="/pmc/articles/PMC6088505/?report=reader" class="sidefm-pmclink">PubReader</a></li>
+<li class="pdf-link other_item"><a href="/pmc/articles/PMC6088505/pdf/10.1177_0956797618774253.pdf" class="int-view">PDF (1.1M)</a></li>
+                </ul>
+        </section>
+    
+    <section>
+        <h6>Actions</h6>
+        <ul class="pmc-sidebar__actions">
+            <li>
+                <button role="button" class="citation-button citation-dialog-trigger ctxp"
+                        aria-label="Open dialog with citation text in different styles" data-ga-category="save_share" data-ga-action="cite" data-ga-label="open"
+                        data-all-citations-url="/pmc/resources/citations/6088505/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/pmc/resources/citations/6088505/export/"
+                >
+                    <span class="button-label">Cite</span>
+                </button>
+            </li>
+            <li>
+                
+                    
+
+<div class="collections-button-container" data-article-id="6088505" data-article-db="pmc">
+  <button class="collections-button collections-dialog-trigger"
+          aria-label="Save article in MyNCBI collections."
+          data-ga-category="collections_button"
+          data-ga-action="click"
+          data-ga-label="collections_button"
+          data-collections-open-dialog-enabled="false"
+          data-collections-open-dialog-url="https://www.ncbi.nlm.nih.gov/account?back_url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC6088505%2F%3Fref%3Dcircle-magazine-health-wellness-genetics-blog%23open-collections-dialog"
+          data-in-collections="false">
+      <span class="button-label">Collections</span>
+  </button>
+  <div class="overlay" role="dialog">
+  <div id="collections-action-dialog"
+       class="dialog collections-dialog"
+       aria-hidden="true">
+    <div class="title">Add to Collections</div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/pmc/list-existing-collections/"
+      data-add-to-existing-collection-url="/pmc/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/pmc/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+  <input type="hidden" name="csrfmiddlewaretoken" value="tDyLqgM3TF0EAvMKSf3iaEemiVRjET7tGGGy803JGzJpMn2ScLJJo7EaE1bo77dx">
+
+  
+
+  <div class="choice-group" role="radiogroup">
+    <ul class="radio-group-items">
+      <li>
+        <input type="radio"
+               id="collections-action-dialog-new-header "
+               class="collections-new"
+               name="collections"
+               value="new"
+               data-ga-category="collections_button"
+               data-ga-action="click"
+               data-ga-label="collections_radio_new">
+        <label for="collections-action-dialog-new-header ">Create a new collection</label>
+      </li>
+      <li>
+        <input type="radio"
+               id="collections-action-dialog-existing-header "
+               class="collections-existing"
+               name="collections"
+               value="existing"
+               checked="true"
+               data-ga-category="collections_button"
+               data-ga-action="click"
+               data-ga-label="collections_radio_existing">
+        <label for="collections-action-dialog-existing-header ">Add to an existing collection</label>
+      </li>
+    </ul>
+  </div>
+
+  <div class="controls-wrapper">
+    <div class="action-panel-control-wrap new-collections-controls">
+      <label for="collections-action-dialog-add-to-new" class="action-panel-label required-field-asterisk">
+        Name your collection:
+      </label>
+      <input
+        type="text"
+        name="add-to-new-collection"
+        id="collections-action-dialog-add-to-new"
+        class="collections-action-add-to-new"
+        pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+        maxlength=""
+        data-ga-category="collections_button"
+        data-ga-action="create_collection"
+        data-ga-label="non_favorties_collection">
+      <div class="collections-new-name-too-long usa-input-error-message selection-validation-message">
+        Name must be less than  characters
+      </div>
+    </div>
+    <div class="action-panel-control-wrap existing-collections-controls">
+      <label for="collections-action-dialog-add-to-existing" class="action-panel-label">
+        Choose a collection:
+      </label>
+      <select id="collections-action-dialog-add-to-existing"
+              class="action-panel-selector collections-action-add-to-existing"
+              data-ga-category="collections_button"
+              data-ga-action="select_collection"
+              data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+      </select>
+      <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+        Unable to load your collection due to an error<br>
+        <a href="#">Please try again</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="action-panel-actions">
+    <button class="action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+      Add
+    </button>
+    <button class="action-panel-cancel"
+            aria-label="Close 'Add to Collections' panel"
+            ref="linksrc=close_collections_panel"
+            aria-controls="collections-action-panel"
+            aria-expanded="false"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="cancel">
+      Cancel
+    </button>
+  </div>
+</form>
+    </div>
+  </div>
+</div>
+</div>
+                
+            </li>
+
+        </ul>
+    </section>
+    
+        <section class="social-sharing">
+            <h6>Share</h6>
+            <ul class="pmc-sidebar__share">
+                <li><a class="fa-stack fa-lg" target="_blank" rel="noopener noreferrer" role="button" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC6088505%2F&amp;text=How%20Much%20Does%20Education%20Improve%20Intelligence%3F%20A%0AMeta-Analysis" alt="Share on Twitter"><i class="fa fa-twitter fa-stack-1x">&#160;</i></a></li> 
+<li><a class="fa-stack fa-lg" target="_blank" rel="noopener noreferrer" role="button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC6088505%2F" alt="Share on Facebook"><i class="fa fa-facebook fa-stack-1x">&#160;</i></a></li>
+                <li>
+                    <div class="share-permalink">
+                        <button class="trigger"  alt="Show article permalink" aria-expanded="false" aria-haspopup="true">
+                            <i class="fa-stack fa-lg" >
+                                <i class="fa fa-link fa-stack-1x">&nbsp;</i>
+                            </i>
+                        </button>
+                        <div class="dropdown dropdown-container" hidden>
+                              <div class="title">
+                                Permalink
+                              </div>
+                              <div class="content">
+                                  <input type="text" class="permalink-text" value="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6088505/?ref=circle-magazine-health-wellness-genetics-blog" aria-label="Article permalink"><button class="permalink-copy-button usa-button-primary" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                                      <span class="button-title">Copy</span>
+                                  </button>
+                              </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    
+    <section>
+        <h6>RESOURCES</h6>
+        <ul class="pmc-sidebar__resources">
+        
+            <li>
+                <div class="usa-accordion">
+                    <button
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_similar_articles"
+                            data-ga-label="/pmc/articles/PMC6088505/"
+                            class="usa-accordion-button"
+                            aria-controls="similar-articles-accordion-header"
+                            aria-expanded="false"
+                            data-action-open="open_similar_articles"
+                            data-action-close="close_similar_articles"
+                    >
+                        Similar articles
+                    </button>
+                    <div
+                            
+                                data-source-url="/pmc/resources/similar-article-links/29911926/"
+                            
+
+                         class="usa-accordion-content pmc-sidebar__resources--citations" id="similar-articles-accordion-header" aria-hidden="true">
+                        
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="usa-accordion">
+                    <button
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_cited_by"
+                            data-ga-label="/pmc/articles/PMC6088505/"
+                            class="usa-accordion-button"
+                            aria-controls="cited-by-accordion-header"
+                            aria-expanded="false"
+                            data-action-open="open_cited_by"
+                            data-action-close="close_cited_by"
+                    >
+                        Cited by other articles
+                    </button>
+                    <div
+                            
+                                data-source-url="/pmc/resources/cited-by-links/29911926/"
+                            
+                            class="usa-accordion-content pmc-sidebar__resources--citations"
+                            id="cited-by-accordion-header"
+                            aria-hidden="true"
+                    >
+                        
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="usa-accordion">
+                    <button
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/pmc/articles/PMC6088505/"
+                            class="usa-accordion-button"
+                            aria-controls="links-accordion-header"
+                            aria-expanded="false"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                    >
+                        Links to NCBI Databases
+                    </button>
+                    <div data-source-url="/pmc/resources/db-links/6088505/" class="usa-accordion-content" id="links-accordion-header" aria-hidden="true"></div>
+                </div>
+            </li>
+
+            
+        
+        </ul>
+    </section>
+
+ </div>
+            </div>
+        
+
+    </nav>
+
+</header>
+
+    
+    
+
+    <div class="usa-overlay"></div>
+    
+<main id="main-content" class="usa-grid usa-layout-docs pmc-main">
+    <article class="usa-width-three-fourths usa-layout-docs-main_content pmc-article">
+        <section class="usa-breadcrumb usa-breadcrumb--wrap">
+         
+    <ul class="usa-breadcrumb__list">
+            
+                <li class="usa-breadcrumb__list-item"
+                    >
+                    <a href="/pmc/journals/" class="navlink">Journal List</a>
+                </li>
+            
+                <li class="usa-breadcrumb__list-item"
+                    >
+                    <a href="/pmc/?term=%22Psychol Sci%22" class="navlink">Psychol Sci</a>
+                </li>
+            
+                <li class="usa-breadcrumb__list-item"
+                     aria-current="page" >
+                    PMC6088505
+                </li>
+            
+    </ul>
+ 
+
+        </section>
+        
+  <div class="pmc-article__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+    <a data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/pmc/about/disclaimer/">
+        Learn more about our disclaimer.
+    </a>
+</div>
+
+        <section class="pmc-page-banner" role="banner">
+            
+                
+                    <div><img src="/corehtml/pmc/pmcgifs/logo-psychsci.gif" alt="Logo of psychsci" usemap="#logo-imagemap" /><map id="logo-imagemap" name="logo-imagemap"><area alt="Link to Publisher's site" title="Link to Publisher's site" shape="default" coords="0,0,499,74" href="http://journals.sagepub.com/home/pss" target="_blank" rel="noopener noreferrer" ref="reftype=publisher&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBanner&amp;TO=Publisher%7COther%7CN/A" /></map></div> 
+                
+            
+        </section>
+        <section  role="document">
+            
+                <div id="mc" class=" article lit-style content pmc-wm slang-all page-box"><!--main-content--><div class="jig-ncbiinpagenav" data-jigconfig="smoothScroll: false, allHeadingLevels: ['h2'], headingExclude: ':hidden,.nomenu'"><div class="fm-sec half_rhythm no_top_margin"><div class="fm-flexbox"><div class="fm-citation"><div class="citation-default"><div class="part1"><span id="pmcmata">Psychol Sci.</span> 2018 Aug; 29(8): 1358–1369. </div><div class="part2"><span class="fm-vol-iss-date">Published online 2018 Jun 18. </span>  <span class="doi"><span>doi: </span><a href="//doi.org/10.1177%2F0956797618774253" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CFront%20Matter&amp;TO=Content%20Provider%7CCrosslink%7CDOI">10.1177/0956797618774253</a></span></div></div></div><div class="fm-ids"><div class="fm-citation-pmcid"><span class="fm-citation-ids-label">PMCID: </span><span>PMC6088505</span></div><div class="fm-citation-pmid">PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/29911926">29911926</a></div></div></div><h1 class="content-title">How Much Does Education Improve Intelligence? A
+Meta-Analysis</h1><div class="half_rhythm"><div class="contrib-group fm-author"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ritchie%20SJ%5BAuthor%5D" class="affpopup" co-rid="_co_idm140569763713152" co-class="co-affbox">Stuart J. Ritchie</a><sup>1,</sup><sup>2</sup><sup></sup> and  <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Tucker-Drob%20EM%5BAuthor%5D" class="affpopup" co-rid="_co_idm140569763711296" co-class="co-affbox">Elliot M. Tucker-Drob</a><sup>3,</sup><sup>4</sup></div><div style="display:none" class="contrib-group aff-tip"><div id="_co_idm140569763713152"><h3 class="no_margin">Stuart J. Ritchie</h3><p><sup>1</sup>Department of Psychology, The University
+of Edinburgh</p><p><sup>2</sup>Centre for Cognitive Ageing and
+Cognitive Epidemiology, The University of Edinburgh</p><div>Find articles by <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ritchie%20SJ%5BAuthor%5D">Stuart J. Ritchie</a></div></div><div id="_co_idm140569763711296"><h3 class="no_margin">Elliot M. Tucker-Drob</h3><p><sup>3</sup>Department of Psychology, University of
+Texas at Austin</p><p><sup>4</sup>Population Research Center, University
+of Texas at Austin</p><div>Find articles by <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Tucker-Drob%20EM%5BAuthor%5D">Elliot M. Tucker-Drob</a></div></div></div></div><div class="half_rhythm"><div class="togglers fm-copyright-license"><a href="#" class="pmctoggle" rid="idm140569724543536_ai">Author information</a> <a href="#" class="pmctoggle" rid="idm140569724543536_an">Article notes</a> <a href="#" class="pmctoggle" rid="idm140569724543536_cpl">Copyright and License information</a> <a href="/pmc/about/disclaimer/" style="margin-left: 1em">Disclaimer</a></div><div class="fm-authors-info hide half_rhythm" id="idm140569724543536_ai" style="display:none"><div class="fm-affl" id="aff1-0956797618774253"><sup>1</sup>Department of Psychology, The University
+of Edinburgh</div><div class="fm-affl" id="aff2-0956797618774253"><sup>2</sup>Centre for Cognitive Ageing and
+Cognitive Epidemiology, The University of Edinburgh</div><div class="fm-affl" id="aff3-0956797618774253"><sup>3</sup>Department of Psychology, University of
+Texas at Austin</div><div class="fm-affl" id="aff4-0956797618774253"><sup>4</sup>Population Research Center, University
+of Texas at Austin</div><div id="corresp1-0956797618774253">Stuart J. Ritchie, Department of Psychology,
+The University of Edinburgh, Edinburgh, EH8 9JZ, United Kingdom E-mail:
+<a href="mailto:dev@null" data-email="ku.ca.de@eihctir.trauts" class="oemail">ku.ca.de@eihctir.trauts</a></div></div><div class="fm-article-notes hide half_rhythm" id="idm140569724543536_an" style="display:none"><div class="fm-pubdate half_rhythm">Received 2017 Nov 9; Accepted 2018 Mar 8.</div></div><div class="permissions half_rhythm hide" id="idm140569724543536_cpl" style="display:none"><div class="fm-copyright half_rhythm"><a href="/pmc/about/copyright/">Copyright</a> &#x000a9; The Author(s) 2018</div></div></div><div id="pmclinksbox" class="links-box whole_rhythm hidden" role="complementary" aria-label="Related or updated information about this article."></div></div><div class="sec"></div><div id="ass-data" class="tsec fm-sec whole_rhythm" data-section="Featured_PMC_Datacitation"><h2 class="nomenu">Associated Data</h2><dl data-count="2" class="box-data-suppmats whole_rhythm no_bottom_margin"><dt><a href="#" rid="data-suppmats" data-ga-action="click_feat_toggler" data-ga-label="Supplementary Materials" class="pmctoggle">Supplementary Materials</a></dt><dd id="data-suppmats" style="display: none;"><div class="half_rhythm"><div class="caption half_rhythm no_bottom_margin">RitchieOpenPracticesDisclosure &#x02013; Supplemental material for How Much Does
+Education Improve Intelligence? A Meta-Analysis</div><div><a href="/pmc/articles/PMC6088505/bin/Ritchie_Open_Practices_Disclosure.pdf" data-ga-action="click_feat_suppl">Ritchie_Open_Practices_Disclosure.pdf</a><span style="color:gray"> (2.4M)</span></div><div class="small guid">GUID: D7C45260-98E0-476D-AAA0-E46E7DFC0008</div><p>Supplemental material, RitchieOpenPracticesDisclosure for How Much Does Education
+Improve Intelligence? A Meta-Analysis by Stuart J. Ritchie and Elliot M.
+Tucker-Drob in Psychological Science</p></div><div class="half_rhythm"><div class="caption half_rhythm no_bottom_margin">RitchieSupplementalMaterial &#x02013; Supplemental material for How Much Does
+Education Improve Intelligence? A Meta-Analysis</div><div><a href="/pmc/articles/PMC6088505/bin/Ritchie_Supplemental_Material.pdf" data-ga-action="click_feat_suppl">Ritchie_Supplemental_Material.pdf</a><span style="color:gray"> (1.2M)</span></div><div class="small guid">GUID: 45D2BFB0-DE63-4C82-9EBE-E9477C0B0F7A</div><p>Supplemental material, RitchieSupplementalMaterial for How Much Does Education
+Improve Intelligence? A Meta-Analysis by Stuart J. Ritchie and Elliot M.
+Tucker-Drob in Psychological Science</p></div></dd></dl></div><div id="abstract-1" lang="en" class="tsec sec"><h2 class="head no_bottom_margin" id="abstract-1title">Abstract</h2><!--article-meta--><div><p class="p p-first-last">Intelligence test scores and educational duration are positively correlated. This
+correlation could be interpreted in two ways: Students with greater propensity
+for intelligence go on to complete more education, or a longer education
+increases intelligence. We meta-analyzed three categories of quasiexperimental
+studies of educational effects on intelligence: those estimating
+education-intelligence associations after controlling for earlier intelligence,
+those using compulsory schooling policy changes as instrumental variables, and
+those using regression-discontinuity designs on school-entry age cutoffs. Across
+142 effect sizes from 42 data sets involving over 600,000 participants, we found
+consistent evidence for beneficial effects of education on cognitive abilities
+of approximately 1 to 5 IQ points for an additional year of education. Moderator
+analyses indicated that the effects persisted across the life span and were
+present on all broad categories of cognitive ability studied. Education appears
+to be the most consistent, robust, and durable method yet to be identified for
+raising intelligence.</p></div><div class="sec"><strong class="kwd-title">Keywords: </strong><span class="kwd-text">intelligence, education, meta-analysis, quasiexperimental, open data</span></div></div><div id="body-1" class="tsec sec"><h2 class="headless nomenu"></h2><p class="p p-first">There is considerable interest in environmental factors that might improve the cognitive
+skills measured by intelligence tests, and for good reason: These skills are linked not
+just to higher educational attainment but to superior performance at work (<a href="#bibr23-0956797618774253" rid="bibr23-0956797618774253" class=" bibr popnode">Kuncel &#x00026; Hezlett, 2010</a>;
+<a href="#bibr32-0956797618774253" rid="bibr32-0956797618774253" class=" bibr popnode">Schmidt, Oh, &#x00026; Shaffer,
+2016</a>), better physical and mental health (<a href="#bibr18-0956797618774253" rid="bibr18-0956797618774253" class=" bibr popnode">Gale et al., 2012</a>; <a href="#bibr41-0956797618774253" rid="bibr41-0956797618774253" class=" bibr popnode">Wrulich et al., 2014</a>), and greater longevity
+(<a href="#bibr8-0956797618774253" rid="bibr8-0956797618774253" class=" bibr popnode">Calvin et al., 2017</a>). The
+current meta-analysis focused on a potential intelligence-boosting factor that is
+routinely experienced by children and young adults throughout the world: education. We
+addressed the question of whether increases in normal-range educational duration after
+early childhood have positive effects on a student&#x02019;s later intelligence.</p><p>On its face, the positive correlation between intelligence test scores and years of
+completed education (<a href="#bibr38-0956797618774253" rid="bibr38-0956797618774253" class=" bibr popnode">Strenze,
+2007</a>) might suggest that the experience of prolonged education has a
+beneficial effect on intelligence. However, the association could also result from a
+selection process, whereby more intelligent children progress further in education
+(<a href="#bibr14-0956797618774253" rid="bibr14-0956797618774253" class=" bibr popnode">Deary &#x00026; Johnson,
+2010</a>). Indeed, there is ample evidence that pervasive selection processes
+operate in the intelligence-education association: Longitudinal studies demonstrate the
+predictive power of early intelligence test scores for later educational attainment
+(<a href="#bibr15-0956797618774253" rid="bibr15-0956797618774253" class=" bibr popnode">Deary, Strand, Smith, &#x00026;
+Fernandes, 2007</a>; <a href="#bibr31-0956797618774253" rid="bibr31-0956797618774253" class=" bibr popnode">Roth et
+al., 2015</a>). The existence of selection processes does not necessarily gainsay
+any causal effects of education, but it does create an endogeneity problem that renders
+causal hypotheses difficult to test in observational data. In recent years, however,
+researchers have increasingly capitalized on a number of sophisticated study designs
+that circumvent the endogeneity problem, testing the causal hypothesis that more
+education leads to higher intelligence. This unique class of studies serves as the basis
+for the current meta-analysis.</p><p>In a seminal review of the effects of educational duration on intelligence, <a href="#bibr9-0956797618774253" rid="bibr9-0956797618774253" class=" bibr popnode">Ceci (1991)</a> adduced evidence
+from a wide variety of research designs, including studies of intermittent school
+attendance, studies of the &#x0201c;summer slide&#x0201d; (the drop in children&#x02019;s cognitive performance
+during summer vacation), and studies using <em>regression-discontinuity</em>
+methods to separate schooling effects from age effects. Ceci&#x02019;s conclusion was that
+&#x0201c;schooling emerges as an extremely important source of variance&#x0201d; in intelligence test
+scores (p. 719). However, this and several newer reviews (<a href="#bibr14-0956797618774253" rid="bibr14-0956797618774253" class=" bibr popnode">Deary &#x00026; Johnson, 2010</a>; <a href="#bibr19-0956797618774253" rid="bibr19-0956797618774253" class=" bibr popnode">Gustaffson, 2001</a>; <a href="#bibr34-0956797618774253" rid="bibr34-0956797618774253" class=" bibr popnode">Snow, 1996</a>; <a href="#bibr40-0956797618774253" rid="bibr40-0956797618774253" class=" bibr popnode">Winship &#x00026; Korenman, 1997</a>)
+are all exclusively narrative. In recent years, several high-quality studies
+investigating educational effects on intelligence have been published, but there
+continues to be no overall quantitative synthesis of this work. We report the first such
+synthesis.</p><p>We analyzed results from the three most prominent quasiexperimental methods for testing
+the effects of education on intelligence. We defined intelligence as the score on a
+cognitive test; see below for consideration of how the test scores might relate to the
+underlying psychological processes. Each method implements a different approach to
+minimize effects stemming from selection processes. Full meta-analytic inclusion
+criteria are reported below, but first we describe each of the three designs, providing
+a canonical example of each.</p><p>The first research design, which we label <em>control prior intelligence</em>, is
+a longitudinal study in which cognitive testing data are collected before and after
+variation in the duration of education. This allows the relation between education and
+the second test to be adjusted for by each participant&#x02019;s earlier ability level. An
+example of this design is the study by <a href="#bibr12-0956797618774253" rid="bibr12-0956797618774253" class=" bibr popnode">Clouston et al. (2012)</a>, who analyzed data from
+three large U.S. and UK cohort studies, all of which had both an adolescent and a
+midlife cognitive test. Results indicated that completing a university education was
+linked to higher midlife cognitive ability, above and beyond adolescent
+intelligence.</p><p>The second design, <em>policy change</em>, relies on changes in educational
+duration that are, by all accounts, exogenous to the characteristics of the individuals.
+An example of this design is the study by <a href="#bibr6-0956797618774253" rid="bibr6-0956797618774253" class=" bibr popnode">Brinch and Galloway (2012)</a>, who used large-scale
+data from a 1960s educational reform in Norway. This reform increased compulsory
+education by 2 years; critically, it was staggered across municipalities in the country.
+This allowed the researchers to estimate the effect of an additional year of school on a
+later intelligence test, taken by males at entry to military service as part of Norway&#x02019;s
+universal military draft. Under the assumption that the policy change affected
+intelligence only via increasing years of schooling, the authors used an
+instrumental-variables analysis to estimate the effect of 1 year of schooling on
+intelligence at approximately 3.7 points on a standard IQ scale (<em>M</em> =
+100, <em>SD</em> = 15 in the population).</p><p>The third design takes advantage of a <em>school-age cutoff</em>. These studies
+use regression-discontinuity analysis to leverage the fact that school districts
+implement a date-of-birth cutoff for school entry. The first study to use this method
+was by <a href="#bibr4-0956797618774253" rid="bibr4-0956797618774253" class=" bibr popnode">Baltes and Reinert
+(1969)</a>, but the most highly cited example is by <a href="#bibr7-0956797618774253" rid="bibr7-0956797618774253" class=" bibr popnode">Cahan and Cohen (1989)</a>, who, in a sample of over
+12,000 children across three grades of the Israeli school system (between the ages of
+approximately 10&#x02013;12 years), found that schooling exerted positive effects on all of 12
+tests covering a variety of cognitive domains. These educational effects were around
+twice the effect of a year of age. The strict assumptions of this method are sometimes
+not fully met (<a href="#bibr11-0956797618774253" rid="bibr11-0956797618774253" class=" bibr popnode">Cliffordson,
+2010</a>); methodological issues are discussed in more detail below.</p><p class="p">After synthesizing the evidence within and across these three research designs, we
+addressed two further questions. First, which factors moderate the effect of education
+on intelligence? Perhaps most important, we examined the moderator of age at the outcome
+test, thus asking whether any educational effects are subject to decline or &#x0201c;fadeout&#x0201d;
+with increasing age. Second, to what extent is there publication bias in this
+literature, such that the meta-analytic effects might be biased by a disproportionate
+number of positive results?</p></div><div id="section1-0956797618774253" class="tsec sec"><h2 class="head no_bottom_margin" id="section1-0956797618774253title">Method</h2><div id="section2-0956797618774253" class="sec sec-first"><h3 id="section2-0956797618774253title">Inclusion criteria, literature search, and quality control</h3><p class="p p-first">We included data from published articles as well as books, preprint articles,
+working papers, dissertations, and theses, as long as they met the meta-analytic
+inclusion criteria. The criteria were as follows. First, the outcome cognitive
+measures had to be objective (not, e.g., subjective teacher ratings) and
+continuous (not, e.g., categorical indicators such as the presence of mild
+cognitive impairment). Second, variation in education had to be after age 6
+(i.e., the meta-analysis was not focused on interventions such as preschool but
+instead on variation later in the educational process). Third, the population
+under study had to be generally healthy and neurotypical. We thus did not
+include studies that focused specifically on samples of patients with dementia,
+individuals with neurodevelopmental disorders, or other such selected
+groups.</p><p>Fourth, studies had to fit into one of the three study design types described
+above. That is, they had to (a) use earlier cognitive test scores as a control
+variable in a model predicting cognitive test scores after some variation in
+educational duration (control prior intelligence), (b) use data from a natural
+experiment that specifically affected educational duration prior to the outcome
+cognitive test or tests (policy change), or (c) use a regression-discontinuity
+design to analyze cognitive test scores from individuals born on either side of
+a cutoff date for school entry (school-age cutoff).</p><p>We began by searching Google Scholar for articles that had cited <a href="#bibr9-0956797618774253" rid="bibr9-0956797618774253" class=" bibr popnode">Ceci&#x02019;s (1991)</a> review on
+the effects of education on intelligence, and then searching through the
+references within each of those studies. Next, we ran searches of APA PsycINFO,
+Google Scholar, and the ProQuest Dissertations and Theses online database, using
+search terms related to the three study design types in our inclusion criteria.
+These terms included combinations of general terms related to the broad
+topic&#x02014;&#x0201c;intelligence,&#x0201d; &#x0201c;cognitive ability,&#x0201d; &#x0201c;cognition,&#x0201d; &#x0201c;mental ability,&#x0201d; &#x0201c;IQ,&#x0201d;
+&#x0201c;achievement,&#x0201d; &#x0201c;ability,&#x0201d; &#x0201c;reasoning,&#x0201d; &#x0201c;fluid intelligence,&#x0201d; &#x0201c;general
+intelligence,&#x0201d; &#x0201c;education,&#x0201d; &#x0201c;educational,&#x0201d; &#x0201c;school,&#x0201d; &#x0201c;schooling&#x0201d;&#x02014;with specific
+terms related to the study designs, such as &#x0201c;return to education/school,&#x0201d;
+&#x0201c;influence/effect of education/school,&#x0201d; &#x0201c;regression discontinuity,&#x0201d;
+&#x0201c;instrumental variables,&#x0201d; &#x0201c;two-stage least squares,&#x0201d; &#x0201c;difference-in-difference,&#x0201d;
+&#x0201c;natural experiment,&#x0201d; and &#x0201c;quasi-experiment.&#x0201d; Having selected the relevant
+studies from these searches and removed duplicates, we then searched the
+references within each report to find any additional studies of interest.
+Finally, we e-mailed authors of multiple studies to request any unpublished
+preprint articles or working papers that we had not already found. A flow
+diagram of the overall literature search process is shown in <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Figure S1 in the Supplemental Material</a> available online.</p><p>After arriving at a set of studies that fit the inclusion criteria, we closely
+examined each report and removed any studies that we deemed did not fit our
+quality criterion. No studies were excluded for the control-prior-intelligence
+design. One study was excluded for the policy-change design as we judged it to
+have a potentially confounded instrument. See <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Table S1 in the Supplemental Material</a> for a brief description of
+the design of each included policy-change study, along with other relevant
+details. For the school-age-cutoff design, we excluded five studies because they
+did not explicitly report dealing with threats to the validity of the
+regression-discontinuity analysis related to selection or noncompliance with the
+cutoff age. We detail the inclusion criteria and quality control for the
+school-age-cutoff design in the <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Supplemental Material</a>.</p><p>We also produced one new analysis for inclusion in the meta-analysis, using data
+from a large longitudinal study to which we had access (the British Cohort
+Study; <a href="#bibr17-0956797618774253" rid="bibr17-0956797618774253" class=" bibr popnode">Elliot &#x00026;
+Shepherd, 2006</a>), where the critical control-prior-intelligence
+analysis had not&#x02014;to our knowledge&#x02014;previously been performed. Full details of
+this analysis are available in the <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Supplemental Material</a>.</p><p class="p p-last">When multiple results were available for a single data set, we coded all relevant
+cognitive outcomes. However, where multiple estimates from different analyses of
+the same cognitive outcomes within a data set were available, we used the
+following criteria to select the estimate for meta-analysis. First, for articles
+using an instrumental-variables approach in which an alternative ordinary least
+squares regression analysis was also available, we always took the estimates
+from the instrumental-variables analysis (although we also recorded the ordinary
+least squares regression estimates in our data spreadsheet). Second, to reduce
+heterogeneity due to between-study differences in what covariates were included,
+we took the analysis that adjusted for the fewest number of covariates. Of the
+effect sizes that remained after fulfilling the first two criteria, we took the
+estimate that involved the largest sample size. The precise sources (table,
+section, or paragraph) for each estimate are described in notes in the master
+data spreadsheet, available on the Open Science Framework page for this study
+(<a href="https://osf.io/r8a24/" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">https://osf.io/r8a24/</a>). Note that for two of the studies (<a href="#bibr29-0956797618774253" rid="bibr29-0956797618774253" class=" bibr popnode">Ritchie et al., 2013</a>;
+<a href="#bibr28-0956797618774253" rid="bibr28-0956797618774253" class=" bibr popnode">Ritchie, Bates, &#x00026;
+Deary, 2015</a>), we had the data from the cohorts available and
+recalculated the estimates to remove one of the covariates (see the data
+spreadsheet). For comparison, we also provide an estimate where maximal
+covariates were included. A full list of all studies included in the final
+meta-analysis is shown in <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Table S4 in the Supplemental Material</a>.</p></div><div id="section3-0956797618774253" class="sec sec-last"><h3 id="section3-0956797618774253title">Statistical analysis</h3><div id="section4-0956797618774253" class="sec sec-first"><p></p><h4 id="section4-0956797618774253title" class="inline">Calculating effect sizes </h4><p class="p p-first-last">We rescaled each effect size into the number of IQ point units, on the
+standard IQ scale (<em>M</em> = 100, <em>SD</em> = 15),
+associated with 1 additional year of education. We also made the
+corresponding correction to the standard error associated with each rescaled
+effect size. For example, we multiplied <em>z</em>-scored per-year
+effect sizes by 15, and we divided unstandardized per-year effect sizes by
+the associated standard deviation of the cognitive test before multiplying
+them by 15 (effect-size calculations are described in the master data
+spreadsheet). For two studies, we recalculated the effect size using
+structural equation modeling of the correlation matrix provided in the
+report (see the <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Supplemental Material</a>). Where effect-size recalculation was
+not possible from the data provided in the original reports&#x02014;for example,
+because of missing standard errors or the effect size being in units other
+than years of education&#x02014;we contacted the authors to request further
+information.</p></div><div id="section5-0956797618774253" class="sec"><p></p><h4 id="section5-0956797618774253title" class="inline">Meta-analytic structural equation models </h4><p class="p p-first">To produce the main estimates, we used random-effects meta-analytic
+structural equation modeling, as described by <a href="#bibr10-0956797618774253" rid="bibr10-0956797618774253" class=" bibr popnode">Cheung (2008)</a>. This approach is
+mathematically equivalent to conventional random-effects meta-analytic
+approaches but has the added advantage of being able to capitalize on
+special features of structural equation modeling software, such as the
+correction of standard errors for nonindependence of observations.</p><p class="p p-last">Many studies reported effect sizes for more than one cognitive test outcome.
+For instance, they might have reported effects on a test of memory and a
+test of executive function. Instead of producing a per-study average of
+these estimates, we included them all individually, weighting each estimate
+by the reciprocal of the number of effect sizes provided from each study. In
+addition, using the TYPE = COMPLEX and the CLUSTER functions in Mplus
+(Version 7.3; <a href="#bibr25-0956797618774253" rid="bibr25-0956797618774253" class=" bibr popnode">Muth&#x000e9;n
+&#x00026; Muth&#x000e9;n, 2014</a>), we employed a sandwich estimator to correct
+standard errors for dependencies associated with the clustering of effect
+sizes within studies.</p></div><div id="section6-0956797618774253" class="sec"><p></p><h4 id="section6-0956797618774253title" class="inline">Moderators </h4><p class="p p-first">We used the tau (&#x003c4;) statistic, an estimate of the standard deviation of the
+true meta-analytic effect, as an index of heterogeneity. To attempt to
+explain any heterogeneity, we tested a somewhat different set of moderators
+for each of the three study designs, as appropriate given their
+methodological differences. For all three designs, we tested the moderators
+of the age at the outcome test and the outcome test category (classified in
+two different ways, as described below). For both the
+control-prior-intelligence and the policy-change designs, we tested the
+moderators of participant age at the early (control) test or at the policy
+change (for the control-prior-intelligence design, we also tested the
+moderator of the gap between the two tests, though this was heavily related
+to the age at outcome test) and of whether the study was male only or mixed
+sex (several studies in these designs relied on military draft data and were
+thus restricted to male participants; note that this variable is confounded
+with the representativeness of the study because, aside from their
+single-sex nature, military draft studies will tend to include a more
+representative sample of the population than others). Where we combined all
+three study designs, we tested whether design was a moderator.</p><p class="p p-last">We classified outcome tests in two ways. The first was into the broad
+intelligence subtype: fluid tests (tests that assessed skills such as
+reasoning, memory, processing speed, and other tasks that could be completed
+without outside knowledge from the world), crystallized tests (tests that
+assessed skills such as vocabulary and general knowledge), and composite
+tests (tests that assessed a mixture of fluid and crystallized skills; in
+one instance, this composite was formally estimated as a latent factor with
+fluid and crystallized indicators). The second classification method was to
+highlight tests that might be considered achievement measures. To do this,
+we classified every test that would likely have involved content that was
+directly taught at school (including reading, arithmetic, and science tests)
+as &#x0201c;achievement,&#x0201d; and the remaining tests, which generally involved IQ-type
+measures (ranging from processing speed to reasoning to vocabulary), as
+&#x0201c;other&#x0201d; tests.</p></div><div id="section7-0956797618774253" class="sec sec-last"><p></p><h4 id="section7-0956797618774253title" class="inline">Publication-bias tests </h4><p class="p p-first">We used four separate methods to assess the degree of publication bias in the
+data set. First, we tested whether the effect sizes were larger in
+peer-reviewed, published studies versus unpublished studies (for example,
+PhD dissertations or non-peer-reviewed books). If unpublished studies have
+significantly smaller effect sizes, this may indicate publication bias.</p><p>Second, we produced funnel plots, visually inspecting them and testing their
+symmetry using Egger&#x02019;s test. Significant funnel plot asymmetry (where, for
+example, low-precision studies with small effects were systematically
+missing) was taken as a potential indication of publication bias in the
+data.</p><p>Third, we used <em>p</em>-curve (<a href="#bibr33-0956797618774253" rid="bibr33-0956797618774253" class=" bibr popnode">Simonsohn, Simmons, &#x00026; Nelson,
+2015</a>) to assess the evidential value of the data set using just
+the significant <em>p</em> values. A left-skewed
+<em>p</em>-curve (with more <em>p</em> values near the alpha
+level, in this case .05) indicates possible publication bias or so-called
+<em>p</em>-hacking (use of questionable research practices, such
+as the ad hoc exclusion of participants or inclusion of covariates, in order
+to turn a nonsignificant result into a significant one) in the data set.
+Conversely, a right-skewed <em>p</em>-curve indicates evidential
+value. The shape of the curve is tested using both a binomial test (for the
+proportion of values where <em>p</em> &#x0003c; .025) and a continuous
+test, which produces &#x0201c;<em>pp</em> values&#x0201d; (the probability of
+finding a <em>p</em> value as extreme as or more extreme than the
+observed <em>p</em> value under the null hypothesis), and combines
+them to produce a <em>z</em> score using Stouffer&#x02019;s method. We used
+the online <em>p</em>-curve app (<a href="http://www.p-curve.com/" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">http://www.p-curve.com/</a>)
+to compute the analyses.</p><p class="p p-last">Fourth, we used the Precision Effect Test&#x02013;Precision Effect Estimate with
+Standard Errors technique (PET-PEESE; <a href="#bibr35-0956797618774253" rid="bibr35-0956797618774253" class=" bibr popnode">Stanley &#x00026; Doucouliagos, 2014</a>).
+The method first uses a weighted metaregression of the effect sizes on the
+standard errors, using the intercept of this regression&#x02014;which estimates a
+hypothetical &#x0201c;perfect&#x0201d; study with full precision, and thus a standard error
+of zero&#x02014;as the corrected &#x0201c;true&#x0201d; meta-analytic estimate (called the PET
+estimate). However, <a href="#bibr35-0956797618774253" rid="bibr35-0956797618774253" class=" bibr popnode">Stanley and Doucouliagos (2014)</a> advised that, where the PET
+estimate was significantly different from zero, a less biased estimate can
+be produced by using the variance instead of the standard errors. The
+intercept of this regression is the PEESE estimate. We followed this
+conditional logic in our PET-PEESE analysis. References for all of the
+analysis software are provided in the <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Supplemental Material</a>.</p></div></div></div><div id="section8-0956797618774253" class="tsec sec"><h2 class="head no_bottom_margin" id="section8-0956797618774253title">Results</h2><p class="p p-first">The selection process resulted in a final meta-analytic data set including 142 effect
+sizes from 42 data sets, analyzed in 28 studies. The total sample size across all
+three designs was 615,812. See <a href="/pmc/articles/PMC6088505/table/table1-0956797618774253/" target="table" class="fig-table-link figpopup" rid-figpopup="table1-0956797618774253" rid-ob="ob-table1-0956797618774253" co-legend-rid=""><span>Table 1</span></a> for a breakdown of study characteristics by study design.
+<a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Figure S2</a> shows forest plots for each design.</p><!--table ft1--><!--table-wrap mode="anchored" t5--><div class="table-wrap anchored whole_rhythm" id="table1-0956797618774253"><h3>Table 1.</h3><!--caption a7--><div class="caption"><p>Descriptive Statistics for Each Study Design</p></div><div class="xtable"><table frame="hsides" rules="groups" class="rendered small default_table"><thead><tr><th align="left" rowspan="1" colspan="1">Design</th><th align="center" rowspan="1" colspan="1">Control prior intelligence</th><th align="center" rowspan="1" colspan="1">Policy change</th><th align="center" rowspan="1" colspan="1">School age cutoff</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><em>k</em> studies</td><td rowspan="1" colspan="1">7</td><td rowspan="1" colspan="1">11</td><td rowspan="1" colspan="1">10</td></tr><tr><td rowspan="1" colspan="1"><em>k</em> data sets</td><td rowspan="1" colspan="1">10</td><td rowspan="1" colspan="1">12</td><td rowspan="1" colspan="1">20</td></tr><tr><td rowspan="1" colspan="1"><em>k</em> effect sizes</td><td rowspan="1" colspan="1">26</td><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">86</td></tr><tr><td rowspan="1" colspan="1"><em>N</em> participants</td><td rowspan="1" colspan="1">51,645</td><td rowspan="1" colspan="1">456,963</td><td rowspan="1" colspan="1">107,204</td></tr><tr><td rowspan="1" colspan="1">Mean age at early test in years (<em>SD</em>)</td><td rowspan="1" colspan="1">12.35 (2.90)</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">Mean time lag between tests in years (<em>SD</em>)</td><td rowspan="1" colspan="1">53.17 (15.47)</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">Mean age at policy change in years (<em>SD</em>)</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">14.80 (2.59)</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">Mean age at outcome test in years (<em>SD</em>)</td><td rowspan="1" colspan="1">63.48 (18.80)</td><td rowspan="1" colspan="1">47.92 (19.39)</td><td rowspan="1" colspan="1">10.36 (1.60)</td></tr><tr><td rowspan="1" colspan="1"><em>n</em> outcome test category
+(composite:fluid:crystallized)</td><td rowspan="1" colspan="1">5:20:1</td><td rowspan="1" colspan="1">2:23:5</td><td rowspan="1" colspan="1">3:67:16</td></tr><tr><td rowspan="1" colspan="1"><em>n</em> achievement tests (achievement:other)</td><td rowspan="1" colspan="1">1:25</td><td rowspan="1" colspan="1">7:23</td><td rowspan="1" colspan="1">38:48</td></tr><tr><td rowspan="1" colspan="1">Male-only estimates (male only:mixed sex)</td><td rowspan="1" colspan="1">2:24</td><td rowspan="1" colspan="1">8:22</td><td rowspan="1" colspan="1">0:86</td></tr><tr><td rowspan="1" colspan="1">Publication status (published:unpublished)</td><td rowspan="1" colspan="1">22:4</td><td rowspan="1" colspan="1">21:9</td><td rowspan="1" colspan="1">64:22</td></tr></tbody></table></div><div class="largeobj-link align_right" id="largeobj_idm140569710480560"><a target="object" rel="noopener" href="/pmc/articles/PMC6088505/table/table1-0956797618774253/?report=objectonly">Open in a separate window</a></div><div class="tblwrap-foot"><div id="table-fn1-0956797618774253"><p class="p p-first-last">Note: To estimate <em>N</em> from studies with multiple effect
+sizes with different <em>n</em>s, we averaged sample sizes
+across effect sizes within each data set and rounded to the nearest
+integer. &#x0201c;Unpublished&#x0201d; refers to any study not published in a
+peer-reviewed journal.</p></div></div></div><div id="section9-0956797618774253" class="sec"><h3 id="section9-0956797618774253title">Overall meta-analytic estimates</h3><p class="p p-first">In three separate unconditional random-effects meta-analytic models (one for each
+study design), we estimated the effect of 1 additional year of education on
+cognitive outcomes. For all three study designs, there was a significant effect
+of 1 additional year of education. For control prior intelligence, the effect
+was 1.197 IQ points (<em>SE</em> = 0.203, <em>p</em> =
+3.84&#x000d7;10<sup>&#x02212;09</sup>); for policy change, it was 2.056 IQ points
+(<em>SE</em> = 0.583, <em>p</em> = 4.23&#x000d7;10<sup>&#x02212;04</sup>);
+and for school-age cutoff, it was 5.229 IQ points (<em>SE</em> = 0.530,
+<em>p</em> = 6.33&#x000d7;10<sup>&#x02212;23</sup>). An overall model including all
+estimates from all three designs found an average effect size of 3.394 IQ points
+for 1 year of education (<em>SE</em> = 0.503, <em>p</em> =
+1.55&#x000d7;10<sup>&#x02212;11</sup>).</p><p>The overall model, considering all study designs simultaneously and including
+study design as a nominal moderator variable, found that the estimate for
+school-age cutoff was significantly larger than that for control prior
+intelligence (<em>SE</em> = 0.564, <em>p</em> =
+1.98&#x000d7;10<sup>&#x02212;13</sup>) and for policy change (<em>SE</em> = 0.790,
+<em>p</em> = 5.34&#x000d7;10<sup>&#x02212;05</sup>). There was no significant
+difference between the estimates for control prior intelligence and policy
+change (<em>SE</em> = 0.608, <em>p</em> = .116).</p><p class="p p-last">The estimates above had minimal covariates included; for 27 of the 142 effect
+sizes, it was possible to extract an estimate that included a larger number of
+covariates (see data spreadsheet). This maximal-covariate analysis yielded
+reduced, though similar and still significant, effect-size estimates for the
+control-prior-intelligence design (0.903 IQ points, <em>SE</em> = 0.372,
+<em>p</em> = .015), and for the quasiexperimental design (1.852 IQ
+points, <em>SE</em> = 0.508, <em>p</em> =
+2.71&#x000d7;10<sup>&#x02212;04</sup>). There were no additional covariates to include for the
+school-age-cutoff design.</p></div><div id="section10-0956797618774253" class="sec"><h3 id="section10-0956797618774253title">Heterogeneity and moderator analyses</h3><p class="p p-first">There was significant heterogeneity in the unconditional meta-analyses from all
+three designs (control prior intelligence: &#x003c4; = 0.721, <em>SE</em> =
+0.250, <em>p</em> = .004; policy change: &#x003c4; = 1.552, <em>SE</em>
+= 0.144, <em>p</em> = 3.40&#x000d7;10<sup>&#x02212;27</sup>; school-age cutoff: &#x003c4; =
+1.896, <em>SE</em> = 0.226, <em>p</em> = 5.38&#x000d7;10<sup>&#x02212;17</sup>).
+This was also the case for the overall model including all the data, which
+included study design as a nominal moderator (&#x003c4; = 2.353, <em>SE</em> =
+0.272, <em>p</em> = 5.72&#x000d7;10<sup>&#x02212;18</sup>). We explored which moderators
+might explain the heterogeneity within each of the three study designs.
+Descriptive statistics for each moderator are shown in <a href="/pmc/articles/PMC6088505/table/table1-0956797618774253/" target="table" class="fig-table-link figpopup" rid-figpopup="table1-0956797618774253" rid-ob="ob-table1-0956797618774253" co-legend-rid=""><span>Table 1</span></a>.</p><div id="section11-0956797618774253" class="sec"><p></p><h4 id="section11-0956797618774253title" class="inline">Age at early test and time lag between tests </h4><p class="p p-first-last">For the control-prior-intelligence design, we tested whether the age at which
+the participants had taken the initial (control) cognitive test, or the gap
+between this early test and the outcome test, moderated the effect size. The
+age at the early test, which did not vary substantially (see <a href="/pmc/articles/PMC6088505/table/table1-0956797618774253/" target="table" class="fig-table-link figpopup" rid-figpopup="table1-0956797618774253" rid-ob="ob-table1-0956797618774253" co-legend-rid=""><span>Table 1</span></a>), was not
+significantly related to the effect size (&#x02212;0.024 IQ points per year,
+<em>SE</em> = 0.064, <em>p</em> = .706). For the
+youngest early-test age (10 years), the metaregression model indicated that
+the effect size of 1 additional year of education was 1.243 IQ points; for
+the oldest (16 years), the effect size was 1.099 IQ points. Conversely, the
+time lag between the tests was a significant moderator of the effect size
+(&#x02212;0.031 IQ points per year, <em>SE</em> = 0.015, <em>p</em>
+= .033). This metaregression indicated that at the smallest age gap (5
+years), the effect size was 2.398 IQ points, whereas for the largest age gap
+(72.44 years), the effect size was a substantially smaller 0.317 IQ points.
+Note that this age gap is almost fully confounded with the age at the
+outcome test (<em>r</em> = .988), assessed as a moderator below.</p></div><div id="section12-0956797618774253" class="sec"><p></p><h4 id="section12-0956797618774253title" class="inline">Age at intervention </h4><p class="p p-first-last">For the policy-change design, we tested whether the age at which the
+educational policy change produced an increment in compulsory schooling
+moderated the intervention effect. This was not the case: The effect size
+increased by a nonsignificant 0.038 IQ points per year of age at the
+intervention (<em>SE</em> = 0.228, <em>p</em> = .867). The
+metaregression model implied that at the youngest intervention age (7.5
+years), the effect size was 1.765 IQ points, and at the oldest (19 years) it
+was 2.204 IQ points.</p></div><div id="section13-0956797618774253" class="sec"><p></p><h4 id="section13-0956797618774253title" class="inline">Age at outcome test </h4><p class="p p-first"><a href="/pmc/articles/PMC6088505/figure/fig1-0956797618774253/" target="figure" class="fig-table-link figpopup" rid-figpopup="fig1-0956797618774253" rid-ob="ob-fig1-0956797618774253" co-legend-rid="lgnd_fig1-0956797618774253"><span>Figure 1</span></a> shows the
+effect sizes in the first two study designs as a function of the
+participants&#x02019; mean age at the outcome test. For the
+control-prior-intelligence studies, outcome age was a significant moderator:
+The effect size of education declined by &#x02212;0.026 IQ points per year of age
+(<em>SE</em> = 0.012, <em>p</em> = .029). At the
+youngest age (18 years) the effect size of having had an additional year of
+education was 2.154 IQ points, whereas at the oldest age (83 years) the
+effect size was 0.485 IQ points. This effect was smaller but still
+significant if the largest effect size (&#x0003e; 3 IQ points for an additional
+year) was excluded (&#x02212;0.011 IQ points per year of age, <em>SE</em> =
+0.005, <em>p</em> = .018). There was no significant moderating
+effect of age at outcome for the policy-change studies (0.014 IQ points per
+year, <em>SE</em> = 0.022, <em>p</em> = .543): The effect at
+the youngest age (18 years; 1.690 IQ points) was not significantly different
+from the effect at the oldest age (71 years; 2.413 IQ points). There was
+comparatively little variation in the age at the outcome test for the
+school-age-cutoff design (<em>SD</em> = 1.6 years; see <a href="/pmc/articles/PMC6088505/table/table1-0956797618774253/" target="table" class="fig-table-link figpopup" rid-figpopup="table1-0956797618774253" rid-ob="ob-table1-0956797618774253" co-legend-rid=""><span>Table 1</span></a>); there
+was no significant age moderation effect (&#x02212;0.027 points per year,
+<em>SE</em> = 0.399, <em>p</em> = .947).</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm" id="fig1-0956797618774253" co-legend-rid="lgnd_fig1-0956797618774253"><a href="/pmc/articles/PMC6088505/figure/fig1-0956797618774253/" target="figure" rid-figpopup="fig1-0956797618774253" rid-ob="ob-fig1-0956797618774253"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div class="figure" data-largeobj="" data-largeobj-link-rid="largeobj_idm140569711521408"><a class="inline_block ts_canvas" href="/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=6088505_10.1177_0956797618774253-fig1.jpg" target="tileshopwindow" rel="noopener"><div class="ts_bar small" title="Click on image to zoom"></div><img loading="lazy" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 10.1177_0956797618774253-fig1.jpg" title="Click on image to zoom" class="tileshop" src="/pmc/articles/PMC6088505/bin/10.1177_0956797618774253-fig1.jpg" /></a></div><div class="largeobj-link align_right" id="largeobj_idm140569711521408"><a target="object" rel="noopener" href="/pmc/articles/PMC6088505/figure/fig1-0956797618774253/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_fig1-0956797618774253"><div><a class="figpopup" href="/pmc/articles/PMC6088505/figure/fig1-0956797618774253/" target="figure" rid-figpopup="fig1-0956797618774253" rid-ob="ob-fig1-0956797618774253">Fig. 1.</a></div><!--caption a7--><div class="caption"><p>Effect of 1 additional year of education as a function of age at the
+outcome test, separately for control-prior-intelligence and
+policy-change study designs. Bubble size is proportional to the
+inverse variance for each estimate (larger bubbles = more precise
+studies). Estimates in these illustrations differ slightly from the
+final metaregression estimate, which accounted for clustering. The
+shaded area around the regression line represents the 95% confidence
+interval.</p></div></div></div></div><div id="section14-0956797618774253" class="sec"><p></p><h4 id="section14-0956797618774253title" class="inline">Outcome test category </h4><p class="p p-first">Splitting the outcome cognitive tests into three broad categories&#x02014;composite,
+fluid, and crystallized tests&#x02014;we tested whether the category moderated
+effect sizes. For the control-prior-intelligence design, there were stronger
+educational impacts on composite tests (1.876 IQ points, <em>SE</em>
+= 0.467, <em>p</em> = 5.94&#x000d7;10<sup>&#x02212;05</sup>) than on fluid tests
+(0.836 points, <em>SE</em> = 0.097, <em>p</em> = .152), and
+the difference between composite and fluid was significant (1.039 points,
+<em>SE</em> = 0.496, <em>p</em> = .036). There was only
+one crystallized outcome test for the control-prior-intelligence design
+(1.893 points, <em>SE</em> = 0.348, <em>p</em> =
+5.34&#x000d7;10<sup>&#x02212;08</sup>), so we did not include it in the moderator
+comparison here. For the policy-change design, there were significant
+effects for both composite (2.314 IQ points, <em>SE</em> = 0.869,
+<em>p</em> = .008) and fluid (2.272 points, <em>SE</em>
+= 0.765, <em>p</em> = .003) but not crystallized (1.012 points,
+<em>SE</em> = 1.125, <em>p</em> = .368) tests; however,
+the effects on the three different categories were not significantly
+different from one another (all difference <em>p</em> values &#x0003e;
+.35). Finally, for the school-age-cutoff design, there were significant
+effects of a year of education on composite (6.534 points,
+<em>SE</em> = 2.433, <em>p</em> = .007), fluid (5.104
+points, <em>SE</em> = 0.621, <em>p</em> =
+2.05&#x000d7;10<sup>&#x02212;16</sup>), and crystallized (5.428 points,
+<em>SE</em> = 0.170, <em>p</em> =
+1.04&#x000d7;10<sup>&#x02212;223</sup>) tests; there were, however, no significant
+differences between effect sizes across outcome types (difference
+<em>p</em> values &#x0003e; .5).</p><p class="p p-last">We then split the outcome tests into &#x0201c;achievement&#x0201d; tests versus &#x0201c;other&#x0201d;
+tests. There was only one achievement test in the control-prior-intelligence
+design, so we did not run this analysis. For policy change, there was no
+significant difference in the educational effect on the 7 achievement tests
+(2.760 IQ points, <em>SE</em> = 0.968, <em>p</em> = .004)
+versus the 23 other tests (1.784 points, <em>SE</em> = 0.553,
+<em>p</em> = .001; difference <em>SE</em> = 1.011,
+<em>p</em> = .334). However, for school-age cutoff, which had
+the largest proportion of achievement tests (38 of the 86 tests were classed
+as achievement tests), achievement tests showed a substantially and
+significantly larger educational effect (6.231 points, <em>SE</em> =
+0.339, <em>p</em> = 2.85&#x000d7;10<sup>&#x02212;75</sup>) than other tests (3.839
+points, <em>SE</em> = 0.412, <em>p</em> =
+1.11&#x000d7;10<sup>&#x02212;20</sup>; difference <em>SE</em> = 0.371,
+<em>p</em> = 1.19&#x000d7;10<sup>&#x02212;10</sup>).</p></div><div id="section15-0956797618774253" class="sec"><p></p><h4 id="section15-0956797618774253title" class="inline">Male-only studies </h4><p class="p p-first-last">We tested whether studies that included only male participants showed a
+differential educational effect. This was not the case for control prior
+intelligence (effect for the 2 male-only estimates: 2.261 IQ points,
+<em>SE</em> = 0.897, <em>p</em> = .012; effect for 24
+mixed-sex estimates: 1.027 IQ points, <em>SE</em> = 0.110,
+<em>p</em> = 6.79&#x000d7;10<sup>&#x02212;21</sup>; difference
+<em>SE</em> = 0.905, <em>p</em> = .173), or for policy
+change (effect for the 8 male-only estimates: 1.683 IQ points,
+<em>SE</em> = 0.507, <em>p</em> = .001; effect for 22
+mixed-sex estimates: 2.215 IQ points, <em>SE</em> = 0.788,
+<em>p</em> = .005; difference <em>SE</em> = 0.941,
+<em>p</em> = .572). There were no male-only school-age-cutoff
+studies.</p></div><div id="section16-0956797618774253" class="sec sec-last"><p></p><h4 id="section16-0956797618774253title" class="inline">Multiple moderators </h4><p class="p p-first"><a href="/pmc/articles/PMC6088505/table/table2-0956797618774253/" target="table" class="fig-table-link figpopup" rid-figpopup="table2-0956797618774253" rid-ob="ob-table2-0956797618774253" co-legend-rid=""><span>Table 2</span></a> shows the
+results from each study design after the inclusion of multiple moderators.
+We included as many moderators as possible for each design, though we chose
+to include the &#x0201c;achievement&#x0201d; categorization of the outcome test for the
+school-age-cutoff design (instead of the alternative categorization
+involving composite, fluid, and crystallized tests, which we used for the
+other designs) because it had such a substantial effect in the
+single-moderator model. Including multiple moderators reduced the &#x003c4;
+statistic&#x02014;to a larger degree for the control-prior-intelligence design than
+for the others&#x02014;though significant heterogeneity remained in all cases. The
+moderators that were individually significant (e.g., age in the
+control-prior-intelligence design or achievement tests in the
+school-age-cutoff design) were also significant in the multiple-moderator
+model, indicating that their effects were incremental of the other
+moderators that we included.</p><!--table ft1--><!--table-wrap mode="anchored" t5--><div class="table-wrap anchored whole_rhythm" id="table2-0956797618774253"><h3>Table 2.</h3><!--caption a7--><div class="caption"><p>Simultaneous Multiple-Moderator Analyses for Each Study Design</p></div><div class="xtable"><table frame="hsides" rules="groups" class="rendered small default_table"><thead><tr><th align="left" rowspan="1" colspan="1">Design</th><th align="center" rowspan="1" colspan="1">Control prior intelligence</th><th align="center" rowspan="1" colspan="1">Policy change</th><th align="center" rowspan="1" colspan="1">School age cutoff</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Intercept</td><td rowspan="1" colspan="1">2.079 (0.665)<sup>**</sup></td><td rowspan="1" colspan="1">&#x02212;1.068 (4.429)</td><td rowspan="1" colspan="1">2.603 (4.426)</td></tr><tr><td rowspan="1" colspan="1">Early test age</td><td rowspan="1" colspan="1">&#x02212;0.011 (0.026)</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">Age at intervention</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">0.137 (0.220)</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">Outcome test age</td><td rowspan="1" colspan="1">&#x02212;0.020 (0.005)<sup>***</sup></td><td rowspan="1" colspan="1">0.023 (0.048)</td><td rowspan="1" colspan="1">0.111 (0.416)</td></tr><tr><td rowspan="1" colspan="1">Outcome test category (composite vs.
+fluid/crystallized)</td><td rowspan="1" colspan="1">&#x02212;0.689 (0.234)<sup>***</sup></td><td rowspan="1" colspan="1">&#x02212;1.479 (1.045)</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">Outcome test category (achievement vs. other)</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">2.471 (0.524)<sup>***</sup></td></tr><tr><td rowspan="1" colspan="1">Male only</td><td rowspan="1" colspan="1">0.874 (0.258)<sup>**</sup></td><td rowspan="1" colspan="1">&#x02212;0.644 (1.766)</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">&#x003c4;</td><td rowspan="1" colspan="1">0.305 (0.056)<sup>***</sup></td><td rowspan="1" colspan="1">1.454 (0.206)<sup>***</sup></td><td rowspan="1" colspan="1">1.740 (0.310)<sup>***</sup></td></tr><tr><td rowspan="1" colspan="1">Change in &#x003c4;</td><td rowspan="1" colspan="1">0.416</td><td rowspan="1" colspan="1">0.098</td><td rowspan="1" colspan="1">0.156</td></tr></tbody></table></div><div class="largeobj-link align_right" id="largeobj_idm140569723753504"><a target="object" rel="noopener" href="/pmc/articles/PMC6088505/table/table2-0956797618774253/?report=objectonly">Open in a separate window</a></div><div class="tblwrap-foot"><div id="table-fn2-0956797618774253"><p class="p p-first-last">Note: Values are estimates (in IQ point units); standard errors
+are in parentheses. The change in the &#x003c4; statistic refers to that
+from the unconditional models, as reported in the row above.</p></div><div id="table-fn3-0956797618774253"><sup>**</sup><em>p</em> &#x0003c; .01. ***<em>p</em> &#x0003c; .001.</div></div></div></div></div><div id="section17-0956797618774253" class="sec sec-last"><h3 id="section17-0956797618774253title">Publication-bias tests</h3><div id="section18-0956797618774253" class="sec sec-first"><p></p><h4 id="section18-0956797618774253title" class="inline">Publication status </h4><p class="p p-first-last">As an initial test of publication bias, we tested whether the effect sizes
+were larger in studies published in peer-reviewed journals compared with
+those that were either unpublished or published elsewhere. For control prior
+intelligence, there were 4 published versus 22 unpublished estimates; there
+was no significant difference in their effect sizes (the effect was 0.036
+points larger in published studies, <em>SE</em> = 0.343,
+<em>p</em> = .915). For policy-change studies, for which there
+were 21 published and 9 unpublished estimates, the effect size was
+significantly larger in unpublished studies, though there were still
+significant effects within each set of studies (published effect = 1.635
+points, <em>SE</em> = 0.575, <em>p</em> = .004; unpublished
+effect = 3.469 points, <em>SE</em> = 0.388, <em>p</em> =
+4.11&#x000d7;10<sup>&#x02212;19</sup>; difference <em>SE</em> = 0.710,
+<em>p</em> = .010). For school-age-cutoff studies, there was no
+significant difference between published and unpublished studies (for which
+there were 64 and 22 estimates, respectively; difference = 0.509 points
+higher in published studies, <em>SE</em> = 0.689, <em>p</em>
+= .460).</p></div><div id="section19-0956797618774253" class="sec"><p></p><h4 id="section19-0956797618774253title" class="inline">Funnel plots </h4><p class="p p-first">Funnel plots for the three study designs are shown in <a href="/pmc/articles/PMC6088505/figure/fig2-0956797618774253/" target="figure" class="fig-table-link figpopup" rid-figpopup="fig2-0956797618774253" rid-ob="ob-fig2-0956797618774253" co-legend-rid="lgnd_fig2-0956797618774253"><span>Figure 2</span></a>. Note that, for the
+school-age-cutoff design, 42 of the 86 standard errors were reported as
+approximate or as averages; because they were inexact, we used them in the
+estimates of the meta-analytic effects above but did not use them to
+estimate the funnel plots (or for the PET-PEESE analysis below). Egger&#x02019;s
+test found no evidence of funnel plot asymmetry for any of the designs
+(control prior intelligence: <em>z</em> = &#x02212;1.378, <em>p</em>
+= .168; policy change: <em>z</em> = &#x02212;0.486, <em>p</em> =
+.627; school-age cutoff: <em>z</em> = 0.941, <em>p</em> =
+.347). However, only the funnel for control prior intelligence displayed an
+approximately funnel-like shape. See <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Figure S3 in the Supplemental Material</a> for funnel plots
+including studies from all three designs, one using the raw effect sizes and
+using effect sizes residualized for the moderators shown in <a href="/pmc/articles/PMC6088505/table/table2-0956797618774253/" target="table" class="fig-table-link figpopup" rid-figpopup="table2-0956797618774253" rid-ob="ob-table2-0956797618774253" co-legend-rid=""><span>Table 2</span></a>.</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm" id="fig2-0956797618774253" co-legend-rid="lgnd_fig2-0956797618774253"><a href="/pmc/articles/PMC6088505/figure/fig2-0956797618774253/" target="figure" rid-figpopup="fig2-0956797618774253" rid-ob="ob-fig2-0956797618774253"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div class="figure" data-largeobj="" data-largeobj-link-rid="largeobj_idm140569728246272"><a class="inline_block ts_canvas" href="/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=6088505_10.1177_0956797618774253-fig2.jpg" target="tileshopwindow" rel="noopener"><div class="ts_bar small" title="Click on image to zoom"></div><img loading="lazy" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 10.1177_0956797618774253-fig2.jpg" title="Click on image to zoom" class="tileshop" src="/pmc/articles/PMC6088505/bin/10.1177_0956797618774253-fig2.jpg" /></a></div><div class="largeobj-link align_right" id="largeobj_idm140569728246272"><a target="object" rel="noopener" href="/pmc/articles/PMC6088505/figure/fig2-0956797618774253/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_fig2-0956797618774253"><div><a class="figpopup" href="/pmc/articles/PMC6088505/figure/fig2-0956797618774253/" target="figure" rid-figpopup="fig2-0956797618774253" rid-ob="ob-fig2-0956797618774253">Fig. 2.</a></div><!--caption a7--><div class="caption"><p>Funnel plots showing standard error as a function of effect size,
+separately for each of the three study designs. The dotted lines
+form a triangular region (with a central vertical line showing the
+mean effect size) where 95% of estimates should lie in the case of
+zero within-group heterogeneity in population effect sizes. Note
+that 42 of the total 86 standard errors reported as approximate or
+as averages in the original studies were not included for the
+school-age-cutoff design.</p></div></div></div></div><div id="section20-0956797618774253" class="sec"><p></p><h4 id="section20-0956797618774253title" class="inline">p-curve </h4><p class="p p-first">Next, we used <em>p</em>-curve to examine the distribution of study
+<em>p</em> values. The <em>p</em>-curves are shown in
+<a href="/pmc/articles/PMC6088505/figure/fig3-0956797618774253/" target="figure" class="fig-table-link figpopup" rid-figpopup="fig3-0956797618774253" rid-ob="ob-fig3-0956797618774253" co-legend-rid="lgnd_fig3-0956797618774253"><span>Figure 3</span></a>. For
+the control-prior-intelligence design, the binomial test for a right-skewed
+<em>p</em>-curve was significant, indicating evidential value
+(<em>p</em> = .0007); this was also the case for the continuous
+test (full <em>p</em>-curve: <em>z</em> = &#x02212;18.50,
+<em>p</em> = 2.06&#x000d7;10<sup>&#x02212;76</sup>; half
+<em>p</em>-curve: <em>z</em> = &#x02212;19.19, <em>p</em> =
+4.49&#x000d7;10<sup>&#x02212;82</sup>). For the quasiexperimental design, the binomial
+test was significant (<em>p</em> = .0461), as was the continuous
+test (full <em>p</em>-curve: <em>z</em> = &#x02212;15.59,
+<em>p</em> = 8.51&#x000d7;10<sup>&#x02212;55</sup>; half
+<em>p</em>-curve: <em>z</em> = &#x02212;17.64, <em>p</em> =
+1.21&#x000d7;10<sup>&#x02212;69</sup>). For school-age-cutoff studies, all three tests
+were significant (binomial test <em>p</em> &#x0003c; .0001; continuous
+test full <em>p</em>-curve: <em>z</em> = &#x02212;43.72,
+<em>p</em> &#x02248; .00; half <em>p</em>-curve: z = &#x02212;42.61,
+<em>p</em> &#x02248; .00). For all three designs,
+<em>p</em>-curve estimated that the statistical power of the tests
+included was 99%. Thus, overall, <em>p</em>-curve indicated that all
+three designs provided evidential value, and there was no evidence for
+publication bias or <em>p</em>-hacking in the studies with
+statistically significant results (full output from the
+<em>p</em>-curve app is available on the Open Science Framework page
+for the present study).</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm" id="fig3-0956797618774253" co-legend-rid="lgnd_fig3-0956797618774253"><a href="/pmc/articles/PMC6088505/figure/fig3-0956797618774253/" target="figure" rid-figpopup="fig3-0956797618774253" rid-ob="ob-fig3-0956797618774253"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div class="figure" data-largeobj="" data-largeobj-link-rid="largeobj_idm140569761936672"><a class="inline_block ts_canvas" href="/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=6088505_10.1177_0956797618774253-fig3.jpg" target="tileshopwindow" rel="noopener"><div class="ts_bar small" title="Click on image to zoom"></div><img loading="lazy" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 10.1177_0956797618774253-fig3.jpg" title="Click on image to zoom" class="tileshop" src="/pmc/articles/PMC6088505/bin/10.1177_0956797618774253-fig3.jpg" /></a></div><div class="largeobj-link align_right" id="largeobj_idm140569761936672"><a target="object" rel="noopener" href="/pmc/articles/PMC6088505/figure/fig3-0956797618774253/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_fig3-0956797618774253"><div><a class="figpopup" href="/pmc/articles/PMC6088505/figure/fig3-0956797618774253/" target="figure" rid-figpopup="fig3-0956797618774253" rid-ob="ob-fig3-0956797618774253">Fig. 3.</a></div><!--caption a7--><div class="caption"><p><em>p</em>-curves illustrating the distribution of
+significant <em>p</em> values for each of the three study
+designs.</p></div></div></div></div><div id="section21-0956797618774253" class="sec sec-last"><p></p><h4 id="section21-0956797618774253title" class="inline">PET-PEESE </h4><p class="p p-first">Finally, we used PET-PEESE to obtain an estimate of the effect size for each
+study design in a hypothetical study with perfect precision. For all three
+designs, the PET estimate (intercept) was significant, so we went on to use
+the PEESE estimate of the intercept, which represents the predicted effect
+sizes under a counterfactual of no publication bias (control prior
+intelligence: PET estimate = 1.034 IQ points per year, <em>SE</em> =
+0.153, <em>p</em> = 5.45&#x000d7;10<sup>&#x02212;07</sup>; PEESE estimate = 1.091
+points, <em>SE</em> = 0.117, <em>p</em> =
+1.76&#x000d7;10<sup>&#x02212;09</sup>; policy change: PET estimate = 1.286 points,
+<em>SE</em> = 0.153, <em>p</em> = 3.69&#x000d7;10<sup>&#x02212;09</sup>;
+PEESE estimate = 1.371 IQ points, <em>SE</em> = 0.142,
+<em>p</em> = 2.08&#x000d7;10<sup>&#x02212;10</sup>; school-age cutoff: PET
+estimate = 3.299 IQ points, <em>SE</em> = 1.166, <em>p</em>
+= .007; PEESE estimate = 4.244 IQ points, <em>SE</em> = 0.718,
+<em>p</em> = 5.26&#x000d7;10<sup>&#x02212;07</sup>). Note that only the exact
+standard errors (i.e., not those reported as approximate or averages, as
+noted for the funnel plots above) were used for the PET-PEESE analysis. For
+all three designs, the PEESE test indicated effect sizes that were slightly
+smaller than in the original estimate but still statistically significant.
+Graphs of the PET-PEESE estimates for each design are shown in <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">Figure S4 in the Supplemental Material</a>.</p><p class="p p-last">Overall, four different publication-bias tests broadly indicated minimal
+systematic bias in the results: Where there was an unexpected
+result&#x02014;unpublished studies producing larger estimates for the policy-change
+design&#x02014;this was in the opposite direction to what would be expected under
+publication bias.</p></div></div></div><div id="section22-0956797618774253" class="tsec sec"><h2 class="head no_bottom_margin" id="section22-0956797618774253title">Discussion</h2><p class="p p-first">In a meta-analysis of three quasiexperimental research designs, we found highly
+consistent evidence that longer educational duration is associated with increased
+intelligence test scores. Each of the designs implemented a different approach for
+limiting endogeneity confounds resulting from selection processes, where individuals
+with a propensity toward higher intelligence tend to complete more years of
+education. Thus, the results support the hypothesis that education has a causal
+effect on intelligence test scores. The effect of 1 additional year of
+education&#x02014;contingent on study design, inclusion of moderators, and publication-bias
+correction&#x02014;was estimated at approximately 1 to 5 standardized IQ points.</p><p>Each research design had its own strengths and weaknesses. The
+control-prior-intelligence design produced precise, long-range estimates of the
+educational effect, taking into account the full range of educational variation.
+However, this approach did not employ a specific instrument for introducing
+differences in educational duration, instead capitalizing on naturally occurring
+variation, which is itself multidetermined. Moreover, because the early and outcome
+tests were rarely identical (and because the early ability tests likely contained
+measurement error), the control for preexisting ability levels was likely only
+partial.</p><p>The policy-change design produced causal estimates across large, population-based
+data sets. However, estimates from this approach were relatively imprecise, as is
+typical of instrumental-variable analyses. Furthermore, because the policies used as
+instruments typically increased educational duration only for the subset of
+individuals who would otherwise have attended school at the preexisting minimum
+compulsory level, this design should be interpreted as producing a &#x0201c;local average
+treatment effect&#x0201d; that might not generalize across the full educational range (<a href="#bibr24-0956797618774253" rid="bibr24-0956797618774253" class=" bibr popnode">Morgan &#x00026; Winship, 2015</a>,
+p. 305).</p><p>The school-age-cutoff design produced the largest number of estimates across a wide
+range of cognitive abilities, but it was restricted to comparisons across adjacent
+school years. In this design, the critical causal estimate is based on comparing
+test scores in a given grade with a counterfactual formed by extrapolating
+within-grade age trends beyond the cutoff dates. This approach is powerful, but the
+key assumption&#x02014;that the age trend extrapolates&#x02014;is difficult to test. Moreover,
+although this approach produced large effect-size estimates, we did not identify any
+studies that tested whether these effects persisted into adulthood. These estimates
+should thus be regarded with caution.</p><p>The finding of educational effects on intelligence raises a number of important
+questions that we could not fully address with our data. First, are the effects on
+intelligence additive across multiple years of education? We might expect the
+marginal cognitive benefits of education to diminish with increasing educational
+duration, such that the education-intelligence function eventually reaches a
+plateau. Unfortunately, we are not aware of any studies that have directly addressed
+this question using a rigorous quasiexperimental method.</p><p>Second, are there individual differences in the magnitude of the educational effect?
+One possibility is the <em>Matthew effect</em> (<a href="#bibr36-0956797618774253" rid="bibr36-0956797618774253" class=" bibr popnode">Stanovich, 1986</a>), whereby children at
+greater initial cognitive (or socioeconomic) advantage benefit more from additional
+education than those at lower advantage. Another possibility is that education acts
+as an equalizer, such that children at lower levels of initial advantage benefit
+most (<a href="#bibr16-0956797618774253" rid="bibr16-0956797618774253" class=" bibr popnode">Downey, von Hippel, &#x00026;
+Broh, 2004</a>). Indeed, some evidence of an equalizing effect was reported
+in a single study by <a href="#bibr20-0956797618774253" rid="bibr20-0956797618774253" class=" bibr popnode">Hansen,
+Heckman, and Mullen (2004)</a>.</p><p>Third, why were the effects obtained from the control-prior-intelligence and
+policy-change designs&#x02014;which generally came from increases in educational duration
+that were not explicitly targeted cognitive interventions&#x02014;still apparent in later
+life, when effects from targeted educational interventions, such as preschool, have
+tended to show fade-out into early adulthood (<a href="#bibr3-0956797618774253" rid="bibr3-0956797618774253" class=" bibr popnode">Bailey, Duncan, Odgers, &#x00026; Yu, 2017</a>;
+<a href="#bibr26-0956797618774253" rid="bibr26-0956797618774253" class=" bibr popnode">Protzko, 2015</a>)? Even
+in the control-prior-intelligence design, where the effects showed a decline across
+time (<a href="/pmc/articles/PMC6088505/figure/fig1-0956797618774253/" target="figure" class="fig-table-link figpopup" rid-figpopup="fig1-0956797618774253" rid-ob="ob-fig1-0956797618774253" co-legend-rid="lgnd_fig1-0956797618774253"><span>Fig. 1</span></a>), estimates
+remained statistically significant into the eighth and ninth decades of life. One
+intriguing possibility is that, unlike targeted interventions, increases in
+educational attainment have lasting influences on a range of downstream social
+processes, for instance occupational complexity (<a href="#bibr22-0956797618774253" rid="bibr22-0956797618774253" class=" bibr popnode">Kohn &#x00026; Schooler, 1973</a>) that help to
+maintain the initial cognitive benefits.</p><p>Fourth, which cognitive abilities were impacted? It is important to consider whether
+specific skills&#x02014;those described as &#x0201c;malleable but peripheral&#x0201d; by <a href="#bibr3-0956797618774253" rid="bibr3-0956797618774253" class=" bibr popnode">Bailey et al. (2017</a>, p.
+15)&#x02014;or general abilities&#x02014;such as the general <em>g</em> factor of
+intelligence&#x02014;have been improved (<a href="#bibr21-0956797618774253" rid="bibr21-0956797618774253" class=" bibr popnode">Jensen, 1989</a>; <a href="#bibr27-0956797618774253" rid="bibr27-0956797618774253" class=" bibr popnode">Protzko, 2016</a>). The vast majority of the studies in our meta-analysis
+considered specific tests and not a latent <em>g</em> factor, so we could
+not reliably address this question. However, it is of important theoretical and
+practical interest whether the more superficial test scores or the true underlying
+cognitive mechanisms are subject to the education effect. In our analyses with test
+category as a moderator, we generally found educational effects on all broad
+categories measured (we did observe some differences between the test categories,
+but it should be noted that differential reliability of the tests might have driven
+some of these differences). However, further studies are needed to assess
+educational effects on both specific and general cognitive variables, directly
+comparing between the two (e.g., <a href="#bibr28-0956797618774253" rid="bibr28-0956797618774253" class=" bibr popnode">Ritchie, Bates, &#x00026; Deary, 2015</a>).</p><p>Fifth, how important are these effects? There is strong evidence from industrial and
+organizational psychology and cognitive epidemiology studies that IQ is associated
+with occupational, health, and other outcomes (e.g., <a href="#bibr8-0956797618774253" rid="bibr8-0956797618774253" class=" bibr popnode">Calvin et al., 2017</a>), but to our knowledge,
+no studies have explicitly tested whether the additional IQ points gained as a
+result of education themselves go on to improve these outcomes (see <a href="#bibr1-0956797618774253" rid="bibr1-0956797618774253" class=" bibr popnode">Ackerman, 2017</a>, for
+discussion of this criterion problem in intelligence research). A quasiexperimental
+study by <a href="#bibr13-0956797618774253" rid="bibr13-0956797618774253" class=" bibr popnode">Davies, Dickson, Davey
+Smith, van den Berg, and Windmeijer (2018)</a> found that raising the
+school-leaving age improved not only IQ but also a variety of indicators of health
+and well-being. It is possible that the educational benefits to the upstream
+variables were partly mediated via the IQ increases (or vice versa), but this would
+need explicitly to be investigated.</p><p>Finally, what are the underlying psychological mechanisms of the educational effect
+on intelligence? <a href="#bibr9-0956797618774253" rid="bibr9-0956797618774253" class=" bibr popnode">Ceci
+(1991)</a> outlined a number of promising pathways, including the teaching of
+material directly relevant to the tests, the training of thinking styles such as
+abstract reasoning, and the instilling of concentration and self-control. Studies
+that attempt to pin down the proximal educational processes that might, in part,
+drive the effect (such as reading; <a href="#bibr30-0956797618774253" rid="bibr30-0956797618774253" class=" bibr popnode">Ritchie, Bates, &#x00026; Plomin, 2015</a>; <a href="#bibr37-0956797618774253" rid="bibr37-0956797618774253" class=" bibr popnode">Stanovich, 1993</a>; though see
+<a href="#bibr39-0956797618774253" rid="bibr39-0956797618774253" class=" bibr popnode">Watkins &#x00026; Styck,
+2017</a>); those that focus on the differences between the educational effect
+on specific subtests (e.g., <a href="#bibr29-0956797618774253" rid="bibr29-0956797618774253" class=" bibr popnode">Ritchie et al., 2013</a>), and those that address effects of variation in
+the quality, not just the quantity, of education (e.g., <a href="#bibr2-0956797618774253" rid="bibr2-0956797618774253" class=" bibr popnode">Allensworth, Moore, Sartain, &#x00026; de la Torre,
+2017</a>; <a href="#bibr5-0956797618774253" rid="bibr5-0956797618774253" class=" bibr popnode">Becker, L&#x000fc;dtke,
+Trautwein, K&#x000f6;ller, &#x00026; Baumert, 2012</a>; <a href="#bibr19-0956797618774253" rid="bibr19-0956797618774253" class=" bibr popnode">Gustaffson, 2001</a>) are all promising ways to
+progress toward clarifying a mechanism.</p><p class="p p-last">The results reported here indicate strong, consistent evidence for effects of
+education on intelligence. Although the effects&#x02014;on the order of a few IQ points for
+a year of education&#x02014;might be considered small, at the societal level they are
+potentially of great consequence. A crucial next step will be to uncover the
+mechanisms of these educational effects on intelligence in order to inform
+educational policy and practice.</p></div><div id="section23-0956797618774253" class="tsec sec"><a id="supplementary-material-sec"></a><h2 class="head no_bottom_margin" id="section23-0956797618774253title">Supplemental Material</h2><!--/article/body/sec/--><div class="sec suppmat" id="suppl1-0956797618774253"><!--caption a9--><strong>RitchieOpenPracticesDisclosure &#x02013; Supplemental material for How Much Does
+Education Improve Intelligence? A Meta-Analysis:</strong><div class="sup-box half_rhythm" id="media-1"><a href="/pmc/articles/PMC6088505/bin/Ritchie_Open_Practices_Disclosure.pdf" data-ga-action="click_feat_suppl">Click here for additional data file.</a><sup>(2.4M, pdf)</sup></div><p>Supplemental material, RitchieOpenPracticesDisclosure for How Much Does Education
+Improve Intelligence? A Meta-Analysis by Stuart J. Ritchie and Elliot M.
+Tucker-Drob in Psychological Science</p></div></div><div id="section24-0956797618774253" class="tsec sec"><h2 class="head no_bottom_margin" id="section24-0956797618774253title">Supplemental Material</h2><!--/article/body/sec/--><div class="sec suppmat" id="suppl2-0956797618774253"><!--caption a9--><strong>RitchieSupplementalMaterial &#x02013; Supplemental material for How Much Does
+Education Improve Intelligence? A Meta-Analysis:</strong><div class="sup-box half_rhythm" id="media-2"><a href="/pmc/articles/PMC6088505/bin/Ritchie_Supplemental_Material.pdf" data-ga-action="click_feat_suppl">Click here for additional data file.</a><sup>(1.2M, pdf)</sup></div><p>Supplemental material, RitchieSupplementalMaterial for How Much Does Education
+Improve Intelligence? A Meta-Analysis by Stuart J. Ritchie and Elliot M.
+Tucker-Drob in Psychological Science</p></div></div><div id="ack-1" class="tsec sec"><h2 class="head no_bottom_margin" id="ack-1title">Acknowledgments</h2><div class="sec"><p>We are grateful to Sorel Cahan, Sean Clouston, Neil Davies, James Gambrell, Emma
+Gorman, Dua Jabr, Daniel K&#x000e4;mhofer, Ben Southwood, and Tengfei Wang for their
+assistance in finding manuscripts, locating effect-size estimates, and providing
+additional information on relevant data sets. We thank the Centre for Longitudinal
+Studies, Institute of Education, and the UK Data Service for the British Cohort
+Study data. These bodies are not responsible for our analysis or interpretation.</p></div></div><div id="fn-group-1" class="tsec sec"><h2 class="head no_bottom_margin" id="fn-group-1title">Footnotes</h2><!--back/fn-group--><div class="fm-sec half_rhythm small"><p class="fn sec" id="fn-4"><p class="p p-first-last"><strong>Action Editor:</strong> Brent W. Roberts served as action editor for this article.</p></p><div>Contributed by <p class="p p-first-last"><strong>Author Contributions:</strong> Both authors developed the study concept. S. J. Ritchie performed the literature
+search and the initial data coding, then both authors performed quality control
+on the studies to be included in the meta-analysis and agreed on the final data
+set. E. M. Tucker-Drob developed the framework for the Mplus syntax and wrote
+the baseline Mplus scripts (for the meta-analytic models), which were adapted
+for these analyses by S. J. Ritchie. S. J. Ritchie wrote the R analysis scripts
+(for the publication-bias tests and figures), which were adapted for the
+multimoderator figure by E. M. Tucker-Drob. Both authors interpreted the
+analyses, drafted the manuscript, and approved the final manuscript for
+submission.</p></div><p class="fn sec" id="fn-6"><p class="p p-first-last"><strong>Declaration of Conflicting Interests:</strong> The author(s) declared that there were no conflicts of interest with respect to
+the authorship or the publication of this article.</p></p><p class="fn sec" id="fn-7"><p class="p p-first-last"><strong>Funding:</strong> E. M. Tucker-Drob&#x02019;s contribution to this study was supported by National
+Institutes of Health (NIH) Research Grant R01HD083613. The Population Research
+Center at the University of Texas at Austin is supported by NIH Grant
+R24HD042849.</p></p><p class="fn sec" id="fn-8"><p class="p p-first-last"><strong>Supplemental Material:</strong> Additional supporting information can be found at <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253</a></p></p><p class="fn sec" id="fn-9"><p class="p p-first"><strong>Open Practices:</strong>
+<img loading="lazy" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 10.1177_0956797618774253-img1.jpg" src="/pmc/articles/PMC6088505/bin/10.1177_0956797618774253-img1.jpg" />
+</p><p class="p p-last">All meta-analytic data and all codebooks and analysis scripts (for Mplus and R)
+are publicly available at the study&#x02019;s associated page on the Open Science
+Framework (<a href="https://osf.io/r8a24/" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">https://osf.io/r8a24/</a>). These data and scripts are described in
+the Supplemental Material. The study was not formally preregistered. The
+complete Open Practices Disclosure for this article can be found at <a href="http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">http://journals.sagepub.com/doi/suppl/10.1177/0956797618774253</a>.
+This article has received the badge for Open Data. More information about the
+Open Practices badges can be found at <a href="http://www.psychologicalscience.org/publications/badges" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">http://www.psychologicalscience.org/publications/badges</a>.</p></p></div></div><div id="ref-list-1" class="tsec sec"><h2 class="head no_bottom_margin" id="ref-list-1title">References</h2><div class="ref-list-sec sec" id="reference-list"><ul class="back-ref-list" style="list-style-type:decimal;"><li id="bibr1-0956797618774253"><span class="mixed-citation">
+Ackerman P. L. (2017). <span class="ref-title">Adult intelligence: The
+construct and the criterion problem</span>. <span class="ref-journal">Perspectives on
+Psychological Science</span>, <span class="ref-vol">12</span>,
+987&#x02013;998. [<a href="https://pubmed.ncbi.nlm.nih.gov/28820952" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Perspectives+on&#10;Psychological+Science&amp;title=Adult+intelligence:+The&#10;construct+and+the+criterion+problem&amp;author=P.+L.+Ackerman&amp;volume=12&amp;publication_year=2017&amp;pages=987-998&amp;pmid=28820952&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr2-0956797618774253"><span class="mixed-citation">
+Allensworth E. M., Moore P. T., Sartain L., de la Torre M. (2017). <span class="ref-title">The educational benefits of
+attending higher performing schools: Evidence from Chicago high
+schools</span>. <span class="ref-journal">Educational Evaluation and Policy
+Analysis</span>, <span class="ref-vol">39</span>,
+175&#x02013;197. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Educational+Evaluation+and+Policy&#10;Analysis&amp;title=The+educational+benefits+of&#10;attending+higher+performing+schools:+Evidence+from+Chicago+high&#10;schools&amp;author=E.+M.+Allensworth&amp;author=P.+T.+Moore&amp;author=L.+Sartain&amp;author=M.+de+la+Torre&amp;volume=39&amp;publication_year=2017&amp;pages=175-197&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr3-0956797618774253"><span class="mixed-citation">
+Bailey D., Duncan G. J., Odgers C. L., Yu W. (2017). <span class="ref-title">Persistence and fadeout in
+the impacts of child and adolescent interventions</span>.
+<span class="ref-journal">Journal of Research on Educational Effectiveness</span>,
+<span class="ref-vol">10</span>, 7&#x02013;39. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC5779101/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/29371909" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Journal+of+Research+on+Educational+Effectiveness&amp;title=Persistence+and+fadeout+in&#10;the+impacts+of+child+and+adolescent+interventions&amp;author=D.+Bailey&amp;author=G.+J.+Duncan&amp;author=C.+L.+Odgers&amp;author=W.+Yu&amp;volume=10&amp;publication_year=2017&amp;pages=7-39&amp;pmid=29371909&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr4-0956797618774253"><span class="mixed-citation">
+Baltes P. B., Reinert G. (1969). <span class="ref-title">Cohort effects in cognitive
+development of children as revealed by cross-sectional
+sequences</span>. <span class="ref-journal">Developmental Psychology</span>,
+<span class="ref-vol">1</span>, 169&#x02013;177. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Developmental+Psychology&amp;title=Cohort+effects+in+cognitive&#10;development+of+children+as+revealed+by+cross-sectional&#10;sequences&amp;author=P.+B.+Baltes&amp;author=G.+Reinert&amp;volume=1&amp;publication_year=1969&amp;pages=169-177&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr5-0956797618774253"><span class="mixed-citation">
+Becker M., L&#x000fc;dtke O., Trautwein U., K&#x000f6;ller O., Baumert J. (2012). <span class="ref-title">The differential effects of
+school tracking on psychometric intelligence: Do academic-track schools make
+students smarter?</span>
+<span class="ref-journal">Journal of Educational Psychology</span>, <span class="ref-vol">104</span>,
+682&#x02013;699. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Journal+of+Educational+Psychology&amp;title=The+differential+effects+of&#10;school+tracking+on+psychometric+intelligence:+Do+academic-track+schools+make&#10;students+smarter?&amp;author=M.+Becker&amp;author=O.+L&#x000fc;dtke&amp;author=U.+Trautwein&amp;author=O.+K&#x000f6;ller&amp;author=J.+Baumert&amp;volume=104&amp;publication_year=2012&amp;pages=682-699&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr6-0956797618774253"><span class="mixed-citation">
+Brinch C. N., Galloway T. A. (2012). <span class="ref-title">Schooling in adolescence
+raises IQ scores</span>. <span class="ref-journal">Proceedings of the National
+Academy of Sciences, USA</span>, <span class="ref-vol">109</span>,
+425&#x02013;430. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC3258640/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/22203952" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings+of+the+National&#10;Academy+of+Sciences,+USA&amp;title=Schooling+in+adolescence&#10;raises+IQ+scores&amp;author=C.+N.+Brinch&amp;author=T.+A.+Galloway&amp;volume=109&amp;publication_year=2012&amp;pages=425-430&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr7-0956797618774253"><span class="mixed-citation">
+Cahan S., Cohen N. (1989). <span class="ref-title">Age versus schooling effects
+on intelligence development</span>. <span class="ref-journal">Child
+Development</span>, <span class="ref-vol">60</span>,
+1239&#x02013;1249. [<a href="https://pubmed.ncbi.nlm.nih.gov/2805901" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Child&#10;Development&amp;title=Age+versus+schooling+effects&#10;on+intelligence+development&amp;author=S.+Cahan&amp;author=N.+Cohen&amp;volume=60&amp;publication_year=1989&amp;pages=1239-1249&amp;pmid=2805901&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr8-0956797618774253"><span class="mixed-citation">
+Calvin C. M., Batty G. D., Der G., Brett C. E., Taylor A., Pattie A., . . . Deary I. J. (2017). <span class="ref-title">Childhood intelligence in
+relation to major causes of death in 68 year follow-up: Prospective
+population study</span>. <span class="ref-journal">British Medical Journal,
+357</span>, Article j2708. doi: 10.1136/bmj.j2708 <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC5485432/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/28659274" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//doi.org/10.1136%2Fbmj.j2708" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=British+Medical+Journal,&#10;357&amp;title=Childhood+intelligence+in&#10;relation+to+major+causes+of+death+in+68+year+follow-up:+Prospective&#10;population+study&amp;author=C.+M.+Calvin&amp;author=G.+D.+Batty&amp;author=G.+Der&amp;author=C.+E.+Brett&amp;author=A.+Taylor&amp;publication_year=2017&amp;doi=10.1136/bmj.j2708&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr9-0956797618774253"><span class="mixed-citation">
+Ceci S. J. (1991). <span class="ref-title">How much does schooling
+influence general intelligence and its cognitive components? A reassessment
+of the evidence</span>. <span class="ref-journal">Developmental Psychology</span>,
+<span class="ref-vol">27</span>, 703&#x02013;722. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Developmental+Psychology&amp;title=How+much+does+schooling&#10;influence+general+intelligence+and+its+cognitive+components?+A+reassessment&#10;of+the+evidence&amp;author=S.+J.+Ceci&amp;volume=27&amp;publication_year=1991&amp;pages=703-722&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr10-0956797618774253"><span class="mixed-citation">
+Cheung M. W.-L. (2008). <span class="ref-title">A model for integrating
+fixed-, random-, and mixed-effects meta-analyses into structural equation
+modeling</span>. <span class="ref-journal">Psychological Methods</span>,
+<span class="ref-vol">13</span>, 182&#x02013;202. [<a href="https://pubmed.ncbi.nlm.nih.gov/18778151" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Psychological+Methods&amp;title=A+model+for+integrating&#10;fixed-,+random-,+and+mixed-effects+meta-analyses+into+structural+equation&#10;modeling&amp;author=M.+W.-L.+Cheung&amp;volume=13&amp;publication_year=2008&amp;pages=182-202&amp;pmid=18778151&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr11-0956797618774253"><span class="mixed-citation">
+Cliffordson C. (2010). <span class="ref-title">Methodological issues in
+investigations of the relative effects of schooling and age on school
+performance: The between-grade regression discontinuity design applied to
+Swedish TIMSS 1995 data</span>. <span class="ref-journal">Educational Research and
+Evaluation</span>, <span class="ref-vol">16</span>,
+39&#x02013;52. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Educational+Research+and&#10;Evaluation&amp;title=Methodological+issues+in&#10;investigations+of+the+relative+effects+of+schooling+and+age+on+school&#10;performance:+The+between-grade+regression+discontinuity+design+applied+to&#10;Swedish+TIMSS+1995+data&amp;author=C.+Cliffordson&amp;volume=16&amp;publication_year=2010&amp;pages=39-52&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr12-0956797618774253"><span class="mixed-citation">
+Clouston S. A., Kuh D., Herd P., Elliott J., Richards M., Hofer S. M. (2012). <span class="ref-title">Benefits of educational
+attainment on adult fluid cognition: International evidence from three birth
+cohorts</span>. <span class="ref-journal">International Journal of
+Epidemiology</span>, <span class="ref-vol">41</span>,
+1729&#x02013;1736. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC3535750/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/23108707" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=International+Journal+of&#10;Epidemiology&amp;title=Benefits+of+educational&#10;attainment+on+adult+fluid+cognition:+International+evidence+from+three+birth&#10;cohorts&amp;author=S.+A.+Clouston&amp;author=D.+Kuh&amp;author=P.+Herd&amp;author=J.+Elliott&amp;author=M.+Richards&amp;volume=41&amp;publication_year=2012&amp;pages=1729-1736&amp;pmid=23108707&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr13-0956797618774253"><span class="mixed-citation">
+Davies N. M., Dickson M., Davey Smith G., van den Berg G. J., Windmeijer F. (2018). <span class="ref-title">The causal effects of
+education on health outcomes in the UK Biobank</span>.
+<span class="ref-journal">Nature Human Behaviour</span>, <span class="ref-vol">2</span>,
+117&#x02013;125. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC6217998/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/30406209" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Nature+Human+Behaviour&amp;title=The+causal+effects+of&#10;education+on+health+outcomes+in+the+UK+Biobank&amp;author=N.+M.+Davies&amp;author=M.+Dickson&amp;author=G.+Davey+Smith&amp;author=G.+J.+van+den+Berg&amp;author=F.+Windmeijer&amp;volume=2&amp;publication_year=2018&amp;pages=117-125&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr14-0956797618774253"><span class="mixed-citation">
+Deary I. J., Johnson W. (2010). <span class="ref-title">Intelligence and education:
+Causal perceptions drive analytic processes and therefore
+conclusions</span>. <span class="ref-journal">International Journal of
+Epidemiology</span>, <span class="ref-vol">39</span>,
+1362&#x02013;1369. [<a href="https://pubmed.ncbi.nlm.nih.gov/20504860" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=International+Journal+of&#10;Epidemiology&amp;title=Intelligence+and+education:&#10;Causal+perceptions+drive+analytic+processes+and+therefore&#10;conclusions&amp;author=I.+J.+Deary&amp;author=W.+Johnson&amp;volume=39&amp;publication_year=2010&amp;pages=1362-1369&amp;pmid=20504860&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr15-0956797618774253"><span class="mixed-citation">
+Deary I. J., Strand S., Smith P., Fernandes C. (2007). <span class="ref-title">Intelligence and educational
+achievement</span>. <span class="ref-journal">Intelligence</span>,
+<span class="ref-vol">35</span>, 13&#x02013;21. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Intelligence&amp;title=Intelligence+and+educational&#10;achievement&amp;author=I.+J.+Deary&amp;author=S.+Strand&amp;author=P.+Smith&amp;author=C.+Fernandes&amp;volume=35&amp;publication_year=2007&amp;pages=13-21&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr16-0956797618774253"><span class="mixed-citation">
+Downey D. B., von Hippel P. T., Broh B. A. (2004). <span class="ref-title">Are schools the great
+equalizer? School and non-school sources of inequality in cognitive
+skills</span>. <span class="ref-journal">American Sociological Review</span>,
+<span class="ref-vol">69</span>, 613&#x02013;635. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=American+Sociological+Review&amp;title=Are+schools+the+great&#10;equalizer?+School+and+non-school+sources+of+inequality+in+cognitive&#10;skills&amp;author=D.+B.+Downey&amp;author=P.+T.+von+Hippel&amp;author=B.+A.+Broh&amp;volume=69&amp;publication_year=2004&amp;pages=613-635&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr17-0956797618774253"><span class="mixed-citation">
+Elliott J., Shepherd P. (2006). <span class="ref-title">Cohort profile: 1970 British
+Birth Cohort (BCS70)</span>. <span class="ref-journal">International Journal of
+Epidemiology</span>, <span class="ref-vol">35</span>,
+836&#x02013;843. [<a href="https://pubmed.ncbi.nlm.nih.gov/16931528" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=International+Journal+of&#10;Epidemiology&amp;title=Cohort+profile:+1970+British&#10;Birth+Cohort+(BCS70)&amp;author=J.+Elliott&amp;author=P.+Shepherd&amp;volume=35&amp;publication_year=2006&amp;pages=836-843&amp;pmid=16931528&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr18-0956797618774253"><span class="mixed-citation">
+Gale C. R., Batty G. D., Osborn D. P., Tynelius P., Whitley E., Rasmussen F. (2012). <span class="ref-title">Association of mental
+disorders in early adulthood and later psychiatric hospital admissions and
+mortality in a cohort study of more than 1 million men</span>.
+<span class="ref-journal">Archives of General Psychiatry</span>, <span class="ref-vol">69</span>,
+823&#x02013;831. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC4170756/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/22868936" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Archives+of+General+Psychiatry&amp;title=Association+of+mental&#10;disorders+in+early+adulthood+and+later+psychiatric+hospital+admissions+and&#10;mortality+in+a+cohort+study+of+more+than+1+million+men&amp;author=C.+R.+Gale&amp;author=G.+D.+Batty&amp;author=D.+P.+Osborn&amp;author=P.+Tynelius&amp;author=E.+Whitley&amp;volume=69&amp;publication_year=2012&amp;pages=823-831&amp;pmid=22868936&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr19-0956797618774253"><span class="mixed-citation">
+Gustaffson J.-E. (2001). <span class="ref-title">Schooling and intelligence:
+Effects of track of study on level and profile of cognitive
+abilities</span>. <span class="ref-journal">International Education Journal</span>,
+<span class="ref-vol">2</span>, 166&#x02013;186. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=International+Education+Journal&amp;title=Schooling+and+intelligence:&#10;Effects+of+track+of+study+on+level+and+profile+of+cognitive&#10;abilities&amp;author=J.-E.+Gustaffson&amp;volume=2&amp;publication_year=2001&amp;pages=166-186&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr20-0956797618774253"><span class="mixed-citation">
+Hansen K. T., Heckman J. J., Mullen K. J. (2004). <span class="ref-title">The effect of schooling and
+ability on achievement test scores</span>. <span class="ref-journal">Journal of
+Econometrics</span>, <span class="ref-vol">121</span>,
+39&#x02013;98. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Journal+of&#10;Econometrics&amp;title=The+effect+of+schooling+and&#10;ability+on+achievement+test+scores&amp;author=K.+T.+Hansen&amp;author=J.+J.+Heckman&amp;author=K.+J.+Mullen&amp;volume=121&amp;publication_year=2004&amp;pages=39-98&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr21-0956797618774253"><span class="mixed-citation">
+Jensen A. R. (1989). <span class="ref-title">Raising IQ without
+increasing</span>
+<span class="ref-journal">g</span>
+? A review of The Milwaukee Project:
+Preventing mental retardation in children at
+risk; 
+<span class="ref-journal">Developmental Review</span>,
+<span class="ref-vol">9</span>, 234&#x02013;258. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?title=g&amp;title=Developmental+Review&amp;author=A.+R.+Jensen&amp;publication_year=1989&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr22-0956797618774253"><span class="mixed-citation">
+Kohn M. L., Schooler C. (1973). <span class="ref-title">Occupational experience and
+psychological functioning: An assessment of reciprocal
+effects</span>. <span class="ref-journal">American Sociological Review</span>,
+<span class="ref-vol">38</span>, 97&#x02013;118. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=American+Sociological+Review&amp;title=Occupational+experience+and&#10;psychological+functioning:+An+assessment+of+reciprocal&#10;effects&amp;author=M.+L.+Kohn&amp;author=C.+Schooler&amp;volume=38&amp;publication_year=1973&amp;pages=97-118&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr23-0956797618774253"><span class="mixed-citation">
+Kuncel N. R., Hezlett S. A. (2010). <span class="ref-title">Fact and fiction in
+cognitive ability testing for admissions and hiring
+decisions</span>. <span class="ref-journal">Current Directions in Psychological
+Science</span>, <span class="ref-vol">19</span>,
+339&#x02013;345. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Current+Directions+in+Psychological&#10;Science&amp;title=Fact+and+fiction+in&#10;cognitive+ability+testing+for+admissions+and+hiring&#10;decisions&amp;author=N.+R.+Kuncel&amp;author=S.+A.+Hezlett&amp;volume=19&amp;publication_year=2010&amp;pages=339-345&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr24-0956797618774253"><span class="mixed-citation">
+Morgan S. L., Winship C. (2015). <span class="ref-journal">Counterfactuals and causal
+inference</span> (2nd ed.). Cambridge,
+England: Cambridge University
+Press. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?title=Counterfactuals+and+causal&#10;inference&amp;author=S.+L.+Morgan&amp;author=C.+Winship&amp;publication_year=2015&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr25-0956797618774253"><span class="mixed-citation">
+Muth&#x000e9;n L. K., Muth&#x000e9;n B. O. (2014). <span class="ref-journal">Mplus user&#x02019;s guide</span>
+(7th ed). Los Angeles,
+CA: Author. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?title=Mplus+user&#x02019;s+guide&amp;author=L.+K.+Muth&#x000e9;n&amp;author=B.+O.+Muth&#x000e9;n&amp;publication_year=2014&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr26-0956797618774253"><span class="mixed-citation">
+Protzko J. (2015). <span class="ref-title">The environment in raising
+early intelligence: A meta-analysis of the fadeout effect</span>.
+<span class="ref-journal">Intelligence</span>, <span class="ref-vol">53</span>,
+202&#x02013;210. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Intelligence&amp;title=The+environment+in+raising&#10;early+intelligence:+A+meta-analysis+of+the+fadeout+effect&amp;author=J.+Protzko&amp;volume=53&amp;publication_year=2015&amp;pages=202-210&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr27-0956797618774253"><span class="mixed-citation">
+Protzko J. (2016). <span class="ref-title">Does the raising IQ-raising
+<em>g</em> distinction explain the fadeout
+effect?</span>
+<span class="ref-journal">Intelligence</span>, <span class="ref-vol">56</span>,
+65&#x02013;71. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Intelligence&amp;title=Does+the+raising+IQ-raising&#10;g+distinction+explain+the+fadeout&#10;effect?&amp;author=J.+Protzko&amp;volume=56&amp;publication_year=2016&amp;pages=65-71&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr28-0956797618774253"><span class="mixed-citation">
+Ritchie S. J., Bates T. C., Deary I. J. (2015). <span class="ref-title">Is education associated with
+improvements in general cognitive ability, or in specific
+skills?</span>
+<span class="ref-journal">Developmental Psychology</span>, <span class="ref-vol">51</span>,
+573&#x02013;582. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC4445388/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/25775112" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Developmental+Psychology&amp;title=Is+education+associated+with&#10;improvements+in+general+cognitive+ability,+or+in+specific&#10;skills?&amp;author=S.+J.+Ritchie&amp;author=T.+C.+Bates&amp;author=I.+J.+Deary&amp;volume=51&amp;publication_year=2015&amp;pages=573-582&amp;pmid=25775112&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr29-0956797618774253"><span class="mixed-citation">
+Ritchie S. J., Bates T. C., Der G., Starr J. M., Deary I. J. (2013). <span class="ref-title">Education is associated with
+higher later life IQ scores, but not with faster cognitive processing
+speed</span>. <span class="ref-journal">Psychology and Aging</span>,
+<span class="ref-vol">28</span>, 515&#x02013;521. [<a href="https://pubmed.ncbi.nlm.nih.gov/23276218" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Psychology+and+Aging&amp;title=Education+is+associated+with&#10;higher+later+life+IQ+scores,+but+not+with+faster+cognitive+processing&#10;speed&amp;author=S.+J.+Ritchie&amp;author=T.+C.+Bates&amp;author=G.+Der&amp;author=J.+M.+Starr&amp;author=I.+J.+Deary&amp;volume=28&amp;publication_year=2013&amp;pages=515-521&amp;pmid=23276218&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr30-0956797618774253"><span class="mixed-citation">
+Ritchie S. J., Bates T. C., Plomin R. (2015). <span class="ref-title">Does learning to read
+improve intelligence? A longitudinal multivariate analysis in identical
+twins from age 7 to 16</span>. <span class="ref-journal">Child Development</span>,
+<span class="ref-vol">86</span>, 23&#x02013;36. <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC4354297/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/25056688" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Child+Development&amp;title=Does+learning+to+read&#10;improve+intelligence?+A+longitudinal+multivariate+analysis+in+identical&#10;twins+from+age+7+to+16&amp;author=S.+J.+Ritchie&amp;author=T.+C.+Bates&amp;author=R.+Plomin&amp;volume=86&amp;publication_year=2015&amp;pages=23-36&amp;pmid=25056688&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr31-0956797618774253"><span class="mixed-citation">
+Roth B., Becker N., Romeyke S., Sch&#x000e4;fer S., Domnick F., Spinath F. M. (2015). <span class="ref-title">Intelligence and school
+grades: A meta-analysis</span>. <span class="ref-journal">Intelligence</span>,
+<span class="ref-vol">53</span>, 118&#x02013;137. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Intelligence&amp;title=Intelligence+and+school&#10;grades:+A+meta-analysis&amp;author=B.+Roth&amp;author=N.+Becker&amp;author=S.+Romeyke&amp;author=S.+Sch&#x000e4;fer&amp;author=F.+Domnick&amp;volume=53&amp;publication_year=2015&amp;pages=118-137&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr32-0956797618774253"><span class="mixed-citation">
+Schmidt F. L., Oh I.-S, Shaffer J. A. (2016). <span class="ref-title"><em>The validity and
+utility of selection methods in personnel psychology: Practical and
+theoretical implications of 100 years of research findings</em> (Fox
+School of Business Research Paper)</span>. Retrieved from <a href="https://ssrn.com/abstract=2853669" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=External%7CLink%7CURI" target="_blank">https://ssrn.com/abstract=2853669</a></span></li><li id="bibr33-0956797618774253"><span class="mixed-citation">
+Simonsohn U., Simmons J. P., Nelson L. D. (2015). <span class="ref-title">Better
+<em>P</em>-curves: Making <em>P</em>-curve analysis more
+robust to errors, fraud, and ambitious <em>P</em>-hacking, a reply
+to Ulrich and Miller (2015)</span>. <span class="ref-journal">Journal of Experimental
+Psychology: General</span>, <span class="ref-vol">144</span>,
+1146&#x02013;1152. [<a href="https://pubmed.ncbi.nlm.nih.gov/26595842" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Journal+of+Experimental&#10;Psychology:+General&amp;title=Better&#10;P-curves:+Making+P-curve+analysis+more&#10;robust+to+errors,+fraud,+and+ambitious+P-hacking,+a+reply&#10;to+Ulrich+and+Miller+(2015)&amp;author=U.+Simonsohn&amp;author=J.+P.+Simmons&amp;author=L.+D.+Nelson&amp;volume=144&amp;publication_year=2015&amp;pages=1146-1152&amp;pmid=26595842&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr34-0956797618774253"><span class="mixed-citation">
+Snow R. E. (1996). <span class="ref-title">Aptitude development and
+education</span>. <span class="ref-journal">Psychology, Public Policy, and
+Law</span>, <span class="ref-vol">2</span>,
+536&#x02013;560. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Psychology,+Public+Policy,+and&#10;Law&amp;title=Aptitude+development+and&#10;education&amp;author=R.+E.+Snow&amp;volume=2&amp;publication_year=1996&amp;pages=536-560&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr35-0956797618774253"><span class="mixed-citation">
+Stanley T. D., Doucouliagos H. (2014). <span class="ref-title">Meta-regression
+approximations to reduce publication selection bias</span>.
+<span class="ref-journal">Research Synthesis Methods</span>, <span class="ref-vol">5</span>,
+60&#x02013;78. [<a href="https://pubmed.ncbi.nlm.nih.gov/26054026" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Research+Synthesis+Methods&amp;title=Meta-regression&#10;approximations+to+reduce+publication+selection+bias&amp;author=T.+D.+Stanley&amp;author=H.+Doucouliagos&amp;volume=5&amp;publication_year=2014&amp;pages=60-78&amp;pmid=26054026&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr36-0956797618774253"><span class="mixed-citation">
+Stanovich K. E. (1986). <span class="ref-title">Matthew effects in reading:
+Some consequences of individual differences in the acquisition of
+literacy</span>. <span class="ref-journal">Reading Research Quarterly</span>,
+<span class="ref-vol">21</span>, 360&#x02013;407. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Reading+Research+Quarterly&amp;title=Matthew+effects+in+reading:&#10;Some+consequences+of+individual+differences+in+the+acquisition+of&#10;literacy&amp;author=K.+E.+Stanovich&amp;volume=21&amp;publication_year=1986&amp;pages=360-407&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr37-0956797618774253"><span class="mixed-citation">
+Stanovich K. E. (1993). <span class="ref-title">Does reading make you
+smarter? Literacy and the development of verbal
+intelligence</span>. <span class="ref-journal">Advances in Child Development and
+Behavior</span>, <span class="ref-vol">24</span>,
+133&#x02013;180. [<a href="https://pubmed.ncbi.nlm.nih.gov/8447247" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Advances+in+Child+Development+and&#10;Behavior&amp;title=Does+reading+make+you&#10;smarter?+Literacy+and+the+development+of+verbal&#10;intelligence&amp;author=K.+E.+Stanovich&amp;volume=24&amp;publication_year=1993&amp;pages=133-180&amp;pmid=8447247&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr38-0956797618774253"><span class="mixed-citation">
+Strenze T. (2007). <span class="ref-title">Intelligence and
+socioeconomic success: A meta-analytic review of longitudinal
+research</span>. <span class="ref-journal">Intelligence</span>,
+<span class="ref-vol">35</span>, 401&#x02013;426. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Intelligence&amp;title=Intelligence+and&#10;socioeconomic+success:+A+meta-analytic+review+of+longitudinal&#10;research&amp;author=T.+Strenze&amp;volume=35&amp;publication_year=2007&amp;pages=401-426&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr39-0956797618774253"><span class="mixed-citation">
+Watkins M. W., Styck K. M. (2017). <span class="ref-title">A cross-lagged panel
+analysis of psychometric intelligence and achievement in reading and
+math</span>. <span class="ref-journal">Journal of Intelligence</span>,
+<span class="ref-vol">5</span>(<span class="ref-iss">3</span>), Article 31. doi: 10.3390/jintelligence5030031 <span class="nowrap">[<a class="int-reflink" href="/pmc/articles/PMC6526451/">PMC free article</a>]</span> [<a href="https://pubmed.ncbi.nlm.nih.gov/31162422" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//doi.org/10.3390%2Fjintelligence5030031" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Journal+of+Intelligence&amp;title=A+cross-lagged+panel&#10;analysis+of+psychometric+intelligence+and+achievement+in+reading+and&#10;math&amp;author=M.+W.+Watkins&amp;author=K.+M.+Styck&amp;volume=5&amp;issue=3&amp;publication_year=2017&amp;doi=10.3390/jintelligence5030031&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr40-0956797618774253"><span class="mixed-citation">
+Winship C., Korenman S. (1997). <span class="ref-title">Does staying in school make
+you smarter? The effect of education on IQ in the bell
+curve</span>. In Devlin B., Fienberg S. E., Resnick D. P., Roeder K. (Eds.), <span class="ref-journal">Intelligence, genes, and success</span> (pp.
+215&#x02013;234). New York,
+NY:
+Springer. <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?title=Intelligence,+genes,+and+success&amp;author=C.+Winship&amp;author=S.+Korenman&amp;publication_year=1997&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="bibr41-0956797618774253"><span class="mixed-citation">
+Wrulich M., Brunner M., Stadler G., Schalke D., Keller U., Martin R. (2014). <span class="ref-title">Forty years on: Childhood
+intelligence predicts health in middle adulthood</span>.
+<span class="ref-journal">Health Psychology</span>, <span class="ref-vol">33</span>,
+292&#x02013;296. [<a href="https://pubmed.ncbi.nlm.nih.gov/23205542" ref="reftype=pubmed&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Health+Psychology&amp;title=Forty+years+on:+Childhood&#10;intelligence+predicts+health+in+middle+adulthood&amp;author=M.+Wrulich&amp;author=M.+Brunner&amp;author=G.+Stadler&amp;author=D.+Schalke&amp;author=U.+Keller&amp;volume=33&amp;publication_year=2014&amp;pages=292-296&amp;pmid=23205542&amp;" target="_blank" rel="noopener noreferrer" ref="reftype=other&amp;article-id=6088505&amp;issue-id=318695&amp;journal-id=3355&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li></ul></div></div></div><!--post-content--><div class="courtesy-note whole_rhythm small"><hr /><div class="half_rhythm">Articles from <span class="acknowledgment-journal-title">Psychological Science</span> are provided here courtesy of <strong>SAGE Publications</strong></div><hr /></div><div id="body-link-poppers"><span></span></div></div>
+            
+        </section>
+    </article>
+    <aside class="usa-width-one-fourth usa-layout-docs-sidenav pmc-sidebar">
+         
+  
+
+<div class="scroller">
+
+    
+        <section>
+                <h6>Other Formats</h6>
+                <ul class="pmc-sidebar__formats">
+                  <li class="pubreader-link other_item"><a href="/pmc/articles/PMC6088505/?report=reader" class="sidefm-pmclink">PubReader</a></li>
+<li class="pdf-link other_item"><a href="/pmc/articles/PMC6088505/pdf/10.1177_0956797618774253.pdf" class="int-view">PDF (1.1M)</a></li>
+                </ul>
+        </section>
+    
+    <section>
+        <h6>Actions</h6>
+        <ul class="pmc-sidebar__actions">
+            <li>
+                <button role="button" class="citation-button citation-dialog-trigger ctxp"
+                        aria-label="Open dialog with citation text in different styles" data-ga-category="save_share" data-ga-action="cite" data-ga-label="open"
+                        data-all-citations-url="/pmc/resources/citations/6088505/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/pmc/resources/citations/6088505/export/"
+                >
+                    <span class="button-label">Cite</span>
+                </button>
+            </li>
+            <li>
+                
+                    
+
+<div class="collections-button-container" data-article-id="6088505" data-article-db="pmc">
+  <button class="collections-button collections-dialog-trigger"
+          aria-label="Save article in MyNCBI collections."
+          data-ga-category="collections_button"
+          data-ga-action="click"
+          data-ga-label="collections_button"
+          data-collections-open-dialog-enabled="false"
+          data-collections-open-dialog-url="https://www.ncbi.nlm.nih.gov/account?back_url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC6088505%2F%3Fref%3Dcircle-magazine-health-wellness-genetics-blog%23open-collections-dialog"
+          data-in-collections="false">
+      <span class="button-label">Collections</span>
+  </button>
+  <div class="overlay" role="dialog">
+  <div id="collections-action-dialog"
+       class="dialog collections-dialog"
+       aria-hidden="true">
+    <div class="title">Add to Collections</div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/pmc/list-existing-collections/"
+      data-add-to-existing-collection-url="/pmc/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/pmc/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+  <input type="hidden" name="csrfmiddlewaretoken" value="tDyLqgM3TF0EAvMKSf3iaEemiVRjET7tGGGy803JGzJpMn2ScLJJo7EaE1bo77dx">
+
+  
+
+  <div class="choice-group" role="radiogroup">
+    <ul class="radio-group-items">
+      <li>
+        <input type="radio"
+               id="collections-action-dialog-new-aside "
+               class="collections-new"
+               name="collections"
+               value="new"
+               data-ga-category="collections_button"
+               data-ga-action="click"
+               data-ga-label="collections_radio_new">
+        <label for="collections-action-dialog-new-aside ">Create a new collection</label>
+      </li>
+      <li>
+        <input type="radio"
+               id="collections-action-dialog-existing-aside "
+               class="collections-existing"
+               name="collections"
+               value="existing"
+               checked="true"
+               data-ga-category="collections_button"
+               data-ga-action="click"
+               data-ga-label="collections_radio_existing">
+        <label for="collections-action-dialog-existing-aside ">Add to an existing collection</label>
+      </li>
+    </ul>
+  </div>
+
+  <div class="controls-wrapper">
+    <div class="action-panel-control-wrap new-collections-controls">
+      <label for="collections-action-dialog-add-to-new" class="action-panel-label required-field-asterisk">
+        Name your collection:
+      </label>
+      <input
+        type="text"
+        name="add-to-new-collection"
+        id="collections-action-dialog-add-to-new"
+        class="collections-action-add-to-new"
+        pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+        maxlength=""
+        data-ga-category="collections_button"
+        data-ga-action="create_collection"
+        data-ga-label="non_favorties_collection">
+      <div class="collections-new-name-too-long usa-input-error-message selection-validation-message">
+        Name must be less than  characters
+      </div>
+    </div>
+    <div class="action-panel-control-wrap existing-collections-controls">
+      <label for="collections-action-dialog-add-to-existing" class="action-panel-label">
+        Choose a collection:
+      </label>
+      <select id="collections-action-dialog-add-to-existing"
+              class="action-panel-selector collections-action-add-to-existing"
+              data-ga-category="collections_button"
+              data-ga-action="select_collection"
+              data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+      </select>
+      <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+        Unable to load your collection due to an error<br>
+        <a href="#">Please try again</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="action-panel-actions">
+    <button class="action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+      Add
+    </button>
+    <button class="action-panel-cancel"
+            aria-label="Close 'Add to Collections' panel"
+            ref="linksrc=close_collections_panel"
+            aria-controls="collections-action-panel"
+            aria-expanded="false"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="cancel">
+      Cancel
+    </button>
+  </div>
+</form>
+    </div>
+  </div>
+</div>
+</div>
+                
+            </li>
+
+        </ul>
+    </section>
+    
+        <section class="social-sharing">
+            <h6>Share</h6>
+            <ul class="pmc-sidebar__share">
+                <li><a class="fa-stack fa-lg" target="_blank" rel="noopener noreferrer" role="button" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC6088505%2F&amp;text=How%20Much%20Does%20Education%20Improve%20Intelligence%3F%20A%0AMeta-Analysis" alt="Share on Twitter"><i class="fa fa-twitter fa-stack-1x">&#160;</i></a></li> 
+<li><a class="fa-stack fa-lg" target="_blank" rel="noopener noreferrer" role="button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC6088505%2F" alt="Share on Facebook"><i class="fa fa-facebook fa-stack-1x">&#160;</i></a></li>
+                <li>
+                    <div class="share-permalink">
+                        <button class="trigger"  alt="Show article permalink" aria-expanded="false" aria-haspopup="true">
+                            <i class="fa-stack fa-lg" >
+                                <i class="fa fa-link fa-stack-1x">&nbsp;</i>
+                            </i>
+                        </button>
+                        <div class="dropdown dropdown-container" hidden>
+                              <div class="title">
+                                Permalink
+                              </div>
+                              <div class="content">
+                                  <input type="text" class="permalink-text" value="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6088505/?ref=circle-magazine-health-wellness-genetics-blog" aria-label="Article permalink"><button class="permalink-copy-button usa-button-primary" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                                      <span class="button-title">Copy</span>
+                                  </button>
+                              </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    
+    <section>
+        <h6>RESOURCES</h6>
+        <ul class="pmc-sidebar__resources">
+        
+            <li>
+                <div class="usa-accordion">
+                    <button
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_similar_articles"
+                            data-ga-label="/pmc/articles/PMC6088505/"
+                            class="usa-accordion-button"
+                            aria-controls="similar-articles-accordion-aside"
+                            aria-expanded="false"
+                            data-action-open="open_similar_articles"
+                            data-action-close="close_similar_articles"
+                    >
+                        Similar articles
+                    </button>
+                    <div
+                            
+                                data-source-url="/pmc/resources/similar-article-links/29911926/"
+                            
+
+                         class="usa-accordion-content pmc-sidebar__resources--citations" id="similar-articles-accordion-aside" aria-hidden="true">
+                        
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="usa-accordion">
+                    <button
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_cited_by"
+                            data-ga-label="/pmc/articles/PMC6088505/"
+                            class="usa-accordion-button"
+                            aria-controls="cited-by-accordion-aside"
+                            aria-expanded="false"
+                            data-action-open="open_cited_by"
+                            data-action-close="close_cited_by"
+                    >
+                        Cited by other articles
+                    </button>
+                    <div
+                            
+                                data-source-url="/pmc/resources/cited-by-links/29911926/"
+                            
+                            class="usa-accordion-content pmc-sidebar__resources--citations"
+                            id="cited-by-accordion-aside"
+                            aria-hidden="true"
+                    >
+                        
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="usa-accordion">
+                    <button
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/pmc/articles/PMC6088505/"
+                            class="usa-accordion-button"
+                            aria-controls="links-accordion-aside"
+                            aria-expanded="false"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                    >
+                        Links to NCBI Databases
+                    </button>
+                    <div data-source-url="/pmc/resources/db-links/6088505/" class="usa-accordion-content" id="links-accordion-aside" aria-hidden="true"></div>
+                </div>
+            </li>
+
+            
+        
+        </ul>
+    </section>
+
+ </div>
+
+    </aside>
+</main>
+
+    <div class="overlay" role="dialog" aria-label="Citation Dialog">
+  <div class="dialog citation-dialog">
+    <button class="close-overlay" tabindex="1">[x]</button>
+    <div class="title">Cite</div>
+    <div class="citation-text-block">
+  <div class="citation-text"></div>
+  <div class="citation-actions">
+    <button
+      class="copy-button dialog-focus"
+      data-ga-category="save_share"
+      data-ga-action="cite"
+      data-ga-label="copy"
+      tabindex="2">
+      Copy
+    </button>
+
+      <a href="#"
+              class="export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+          <span class="title">Download .nbib</span>
+          <span class="title-mobile">.nbib</span>
+      </a>
+
+
+    
+
+<div class="citation-style-selector-wrapper">
+  <label class="selector-label">Format:</label>
+  <select aria-label="Format" class="citation-style-selector" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+     <!-- ========== BEGIN FOOTER ========== -->
+ <footer>
+      <section class="icon-section">
+        <div id="icon-section-header" class="icon-section_header">Follow NCBI</div>
+        <div class="grid-container container">
+          <div class="icon-section_container">
+            <a class="footer-icon" id="footer_twitter" href="https://twitter.com/ncbi" aria-label="Twitter"><svg
+                data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                <defs>
+                  <style>
+                    .cls-11 {
+                      fill: #737373;
+                    }
+                  </style>
+                </defs>
+                <title>Twitter</title>
+                <path class="cls-11"
+                  d="M250.11,105.48c-7,3.14-13,3.25-19.27.14,8.12-4.86,8.49-8.27,11.43-17.46a78.8,78.8,0,0,1-25,9.55,39.35,39.35,0,0,0-67,35.85,111.6,111.6,0,0,1-81-41.08A39.37,39.37,0,0,0,81.47,145a39.08,39.08,0,0,1-17.8-4.92c0,.17,0,.33,0,.5a39.32,39.32,0,0,0,31.53,38.54,39.26,39.26,0,0,1-17.75.68,39.37,39.37,0,0,0,36.72,27.3A79.07,79.07,0,0,1,56,223.34,111.31,111.31,0,0,0,116.22,241c72.3,0,111.83-59.9,111.83-111.84,0-1.71,0-3.4-.1-5.09C235.62,118.54,244.84,113.37,250.11,105.48Z">
+                </path>
+              </svg></a>
+            <a class="footer-icon" id="footer_facebook" href="https://www.facebook.com/ncbi.nlm" aria-label="Facebook"><svg
+                data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                <title>Facebook</title>
+                <path class="cls-11"
+                  d="M210.5,115.12H171.74V97.82c0-8.14,5.39-10,9.19-10h27.14V52l-39.32-.12c-35.66,0-42.42,26.68-42.42,43.77v19.48H99.09v36.32h27.24v109h45.41v-109h35Z">
+                </path>
+              </svg></a>
+            <a class="footer-icon" id="footer_linkedin"
+              href="https://www.linkedin.com/company/ncbinlm"
+              aria-label="LinkedIn"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                <title>LinkedIn</title>
+                <path class="cls-11"
+                  d="M101.64,243.37H57.79v-114h43.85Zm-22-131.54h-.26c-13.25,0-21.82-10.36-21.82-21.76,0-11.65,8.84-21.15,22.33-21.15S101.7,78.72,102,90.38C102,101.77,93.4,111.83,79.63,111.83Zm100.93,52.61A17.54,17.54,0,0,0,163,182v61.39H119.18s.51-105.23,0-114H163v13a54.33,54.33,0,0,1,34.54-12.66c26,0,44.39,18.8,44.39,55.29v58.35H198.1V182A17.54,17.54,0,0,0,180.56,164.44Z">
+                </path>
+              </svg></a>
+            <a class="footer-icon" id="footer_github" href="https://github.com/ncbi" aria-label="GitHub"><svg
+                data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                <defs>
+                  <style>
+                    .cls-11,
+                    .cls-12 {
+                      fill: #737373;
+                    }
+
+                    .cls-11 {
+                      fill-rule: evenodd;
+                    }
+                  </style>
+                </defs>
+                <title>GitHub</title>
+                <path class="cls-11"
+                  d="M151.36,47.28a105.76,105.76,0,0,0-33.43,206.1c5.28,1,7.22-2.3,7.22-5.09,0-2.52-.09-10.85-.14-19.69-29.42,6.4-35.63-12.48-35.63-12.48-4.81-12.22-11.74-15.47-11.74-15.47-9.59-6.56.73-6.43.73-6.43,10.61.75,16.21,10.9,16.21,10.9,9.43,16.17,24.73,11.49,30.77,8.79,1-6.83,3.69-11.5,6.71-14.14C108.57,197.1,83.88,188,83.88,147.51a40.92,40.92,0,0,1,10.9-28.39c-1.1-2.66-4.72-13.42,1-28,0,0,8.88-2.84,29.09,10.84a100.26,100.26,0,0,1,53,0C198,88.3,206.9,91.14,206.9,91.14c5.76,14.56,2.14,25.32,1,28a40.87,40.87,0,0,1,10.89,28.39c0,40.62-24.74,49.56-48.29,52.18,3.79,3.28,7.17,9.71,7.17,19.58,0,14.15-.12,25.54-.12,29,0,2.82,1.9,6.11,7.26,5.07A105.76,105.76,0,0,0,151.36,47.28Z">
+                </path>
+                <path class="cls-12"
+                  d="M85.66,199.12c-.23.52-1.06.68-1.81.32s-1.2-1.06-.95-1.59,1.06-.69,1.82-.33,1.21,1.07.94,1.6Zm-1.3-1">
+                </path>
+                <path class="cls-12"
+                  d="M90,203.89c-.51.47-1.49.25-2.16-.49a1.61,1.61,0,0,1-.31-2.19c.52-.47,1.47-.25,2.17.49s.82,1.72.3,2.19Zm-1-1.08">
+                </path>
+                <path class="cls-12"
+                  d="M94.12,210c-.65.46-1.71,0-2.37-.91s-.64-2.07,0-2.52,1.7,0,2.36.89.65,2.08,0,2.54Zm0,0"></path>
+                <path class="cls-12"
+                  d="M99.83,215.87c-.58.64-1.82.47-2.72-.41s-1.18-2.06-.6-2.7,1.83-.46,2.74.41,1.2,2.07.58,2.7Zm0,0">
+                </path>
+                <path class="cls-12"
+                  d="M107.71,219.29c-.26.82-1.45,1.2-2.64.85s-2-1.34-1.74-2.17,1.44-1.23,2.65-.85,2,1.32,1.73,2.17Zm0,0">
+                </path>
+                <path class="cls-12"
+                  d="M116.36,219.92c0,.87-1,1.59-2.24,1.61s-2.29-.68-2.3-1.54,1-1.59,2.26-1.61,2.28.67,2.28,1.54Zm0,0">
+                </path>
+                <path class="cls-12"
+                  d="M124.42,218.55c.15.85-.73,1.72-2,1.95s-2.37-.3-2.52-1.14.73-1.75,2-2,2.37.29,2.53,1.16Zm0,0"></path>
+              </svg></a>
+            <a class="footer-icon" id="footer_blog" href="https://ncbiinsights.ncbi.nlm.nih.gov/" aria-label="Blog">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><style>.cls-1{fill:#737373;}</style></defs><path class="cls-1" d="M14,30a4,4,0,1,1-4-4,4,4,0,0,1,4,4Zm11,3A19,19,0,0,0,7.05,15a1,1,0,0,0-1,1v3a1,1,0,0,0,.93,1A14,14,0,0,1,20,33.07,1,1,0,0,0,21,34h3a1,1,0,0,0,1-1Zm9,0A28,28,0,0,0,7,6,1,1,0,0,0,6,7v3a1,1,0,0,0,1,1A23,23,0,0,1,29,33a1,1,0,0,0,1,1h3A1,1,0,0,0,34,33Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid bg-primary">
+        <div class="container pt-5">
+          <div class="row mt-3">
+            <div class="col-lg-3 col-12">
+              <p><a class="text-white" href="https://www.nlm.nih.gov/socialmedia/index.html">Connect with NLM</a></p>
+              <ul class="list-inline social_media">
+                <li class="list-inline-item"><a href="https://twitter.com/NLM_NIH" aria-label="Twitter"
+                    target="_blank" rel="noopener noreferrer"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 249 249"
+                      style="enable-background:new 0 0 249 249;" xml:space="preserve">
+                      <style type="text/css">
+                        .st20 {
+                          fill: #FFFFFF;
+                        }
+
+                        .st30 {
+                          fill: none;
+                          stroke: #FFFFFF;
+                          stroke-width: 8;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <title>SM-Twitter</title>
+                      <g>
+                        <g>
+                          <g>
+                            <path class="st20" d="M192.9,88.1c-5,2.2-9.2,2.3-13.6,0.1c5.7-3.4,6-5.8,8.1-12.3c-5.4,3.2-11.4,5.5-17.6,6.7
+                                                c-10.5-11.2-28.1-11.7-39.2-1.2c-7.2,6.8-10.2,16.9-8,26.5c-22.3-1.1-43.1-11.7-57.2-29C58,91.6,61.8,107.9,74,116
+                                                c-4.4-0.1-8.7-1.3-12.6-3.4c0,0.1,0,0.2,0,0.4c0,13.2,9.3,24.6,22.3,27.2c-4.1,1.1-8.4,1.3-12.5,0.5c3.6,11.3,14,19,25.9,19.3
+                                                c-11.6,9.1-26.4,13.2-41.1,11.5c12.7,8.1,27.4,12.5,42.5,12.5c51,0,78.9-42.2,78.9-78.9c0-1.2,0-2.4-0.1-3.6
+                                                C182.7,97.4,189.2,93.7,192.9,88.1z"></path>
+                          </g>
+                        </g>
+                        <circle class="st30" cx="124.4" cy="128.8" r="108.2"></circle>
+                      </g>
+                    </svg></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/nationallibraryofmedicine"
+                    aria-label="Facebook" rel="noopener noreferrer" target="_blank">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                      y="0px" viewBox="0 0 249 249" style="enable-background:new 0 0 249 249;" xml:space="preserve">
+                      <style type="text/css">
+                        .st10 {
+                          fill: #FFFFFF;
+                        }
+
+                        .st110 {
+                          fill: none;
+                          stroke: #FFFFFF;
+                          stroke-width: 8;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <title>SM-Facebook</title>
+                      <g>
+                        <g>
+                          <path class="st10" d="M159,99.1h-24V88.4c0-5,3.3-6.2,5.7-6.2h16.8V60l-24.4-0.1c-22.1,0-26.2,16.5-26.2,27.1v12.1H90v22.5h16.9
+                                                      v67.5H135v-67.5h21.7L159,99.1z"></path>
+                        </g>
+                      </g>
+                      <circle class="st110" cx="123.6" cy="123.2" r="108.2"></circle>
+                    </svg>
+                  </a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/user/NLMNIH" aria-label="Youtube"
+                    target="_blank" rel="noopener noreferrer"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 249 249"
+                      style="enable-background:new 0 0 249 249;" xml:space="preserve">
+                      <title>SM-Youtube</title>
+                      <style type="text/css">
+                        .st4 {
+                          fill: none;
+                          stroke: #FFFFFF;
+                          stroke-width: 8;
+                          stroke-miterlimit: 10;
+                        }
+
+                        .st5 {
+                          fill: #FFFFFF;
+                        }
+                      </style>
+                      <circle class="st4" cx="124.2" cy="123.4" r="108.2"></circle>
+                      <g transform="translate(0,-952.36218)">
+                        <path class="st5"
+                          d="M88.4,1037.4c-10.4,0-18.7,8.3-18.7,18.7v40.1c0,10.4,8.3,18.7,18.7,18.7h72.1c10.4,0,18.7-8.3,18.7-18.7
+                                            v-40.1c0-10.4-8.3-18.7-18.7-18.7H88.4z M115.2,1058.8l29.4,17.4l-29.4,17.4V1058.8z"></path>
+                      </g>
+                    </svg></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-12">
+              <p class="address_footer text-white">National Library of Medicine<br>
+                <a href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323"
+                  class="text-white" target="_blank" rel="noopener noreferrer">8600 Rockville Pike<br>
+                  Bethesda, MD 20894</a></p>
+            </div>
+            <div class="col-lg-3 col-12 centered-lg">
+              <p><a href="https://www.nlm.nih.gov/web_policies.html" class="text-white">Web Policies</a><br>
+                <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office"
+                  class="text-white">FOIA</a><br>
+                <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="text-white" id="vdp">HHS Vulnerability Disclosure</a></p>
+            </div>
+            <div class="col-lg-3 col-12 centered-lg">
+              <p><a class="supportLink text-white" href="https://support.nlm.nih.gov/">Help</a><br>
+                <a href="https://www.nlm.nih.gov/accessibility.html" class="text-white">Accessibility</a><br>
+                <a href="https://www.nlm.nih.gov/careers/careers.html" class="text-white">Careers</a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 centered-lg">
+              <nav class="bottom-links">
+                <ul class="mt-3">
+                  <li>
+                    <a class="text-white" href="//www.nlm.nih.gov/">NLM</a>
+                  </li>
+                  <li>
+                    <a class="text-white"
+                  href="https://www.nih.gov/">NIH</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="https://www.hhs.gov/">HHS</a>
+                  </li>
+                  <li>
+                    <a
+                  class="text-white" href="https://www.usa.gov/">USA.gov</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+ <!-- ========== END FOOTER ========== -->
+  <!-- javascript to inject NWDS meta tags. Note: value of nwds_version is updated by "npm version" command -->
+ 
+  <script type="text/javascript">
+    var nwds_version = "1.1.9-2";
+
+    var meta_nwds_ver = document.createElement('meta');
+    meta_nwds_ver.name = 'ncbi_nwds_ver';
+    meta_nwds_ver.content = nwds_version;
+    document.getElementsByTagName('head')[0].appendChild(meta_nwds_ver);
+
+    var meta_nwds = document.createElement('meta');
+    meta_nwds.name = 'ncbi_nwds';
+    meta_nwds.content = 'yes';
+    document.getElementsByTagName('head')[0].appendChild(meta_nwds);
+
+	var alertsUrl = "/core/alerts/alerts.js";
+	if (typeof ncbiBaseUrl !== 'undefined') {
+		alertsUrl = ncbiBaseUrl + alertsUrl;
+	}
+  </script>
+
+
+
+  
+    <!-- JavaScript -->
+    <script src="/pmc/static/CACHE/js/output.0f72d6a64937.js"></script>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+          integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+          crossorigin="anonymous">
+    </script>
+    <script>
+        var fallbackJquery = "/pmc/static/base/js/jquery-3.5.0.min.js";
+        window.jQuery || document.write("<script src=" + fallbackJquery + ">\x3C/script>")
+    </script>
+  
+
+  <script src="/pmc/static/CACHE/js/output.a212a9fcf845.js"></script>
+<script src="/pmc/static/CACHE/js/output.7999321d1aac.js"></script>
+<script src="/pmc/static/CACHE/js/output.7ca436b2ea51.js"></script>
+<script src="/pmc/static/CACHE/js/output.f8422046fbe0.js"></script>
+<script src="/pmc/static/CACHE/js/output.ff40c7d85ff8.js"></script>
+<script src="/pmc/static/CACHE/js/output.a6a84a0ad361.js"></script>
+
+<script type="text/javascript" src="/pmc/static/bundles/base/base.54110350c77632754ed7.js" ></script>
+
+    <script type="text/javascript">
+        if(typeof jQuery !=='undefined') {
+            jQuery.migrateMute = true;
+        }
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.js"></script>
+    <script type="text/javascript" src="/core/jig/1.15.2/js/jig.nojquery.min.js">//</script><script type="text/javascript" src="/corehtml/pmc/js/common.min.js?_=3.18">//</script><script type="text/javascript" src="/corehtml/pmc/js/NcbiTagServer.min.js?_=3.18">//</script><script type="text/javascript" src="/corehtml/pmc/js/crb.min.js?_=3.18">//</script><script type="text/javascript" src="/corehtml/pmc/js/jactions.min.js?_=3.18">//</script><meta name="citationexporter" content="backend:'https://api.ncbi.nlm.nih.gov/lit/ctxp/v1/pmc/'" /><script type="text/javascript" src="https://www.ncbi.nlm.nih.gov/corehtml/pmc/ctxp/jquery.citationexporter.min.js">//</script><link rel="stylesheet" href="https://www.ncbi.nlm.nih.gov/corehtml/pmc/ctxp/citationexporter.css" type="text/css" /><script type="text/javascript">window.name="mainwindow";</script>
+
+    <script type="text/javascript">var exports = {};</script>
+    <script src="/pmc/static/CACHE/js/output.340a3b9cce7f.js"></script>
+<script src="/pmc/static/CACHE/js/output.586993420cfd.js"></script>
+    <script type="text/javascript" src="/pmc/static/bundles/article/article.bf4d0b9d90eb88f67344.js" ></script>
+    <script type="text/javascript">
+        window.ncbi.pmc.articlePage.init({ pageURL: '/pmc/articles/PMC6088505/', citeCookieName: 'pmc-cf'});
+    </script>
+
+
+  
+  
+  <script  type="text/javascript" src="https://www.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+  
+      
+  
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+---
+title: "Small effects are a big deal"
+output: html
+bibliography: references.bib
+csl: apa-numeric-superscript.csl
+---
+
+
+<button onclick="location.href='https://docs.google.com/document/d/101GgASJL0igyeBxg-fp-h2wF8i0VCUt8rKH1Po67kcE/edit'" type="button" style="background-color: #273ec2; color: white; padding: 10px 20px;border-radius: 12px;  border: none;">
+Google Doc
+</button>
+
+<button onclick="location.href='https://lirabenjamin.github.io/effect-size/proposal/index.html'" type="button" style="background-color: #273ec2; color: white; padding: 10px 20px;border-radius: 12px;  border: none;
+">
+Proposal for third year paper
+</button>
+
+<br>
+This is a working document on a potential research project about the true distribution of effect size in psychology and its determinants.
+
+There are three possibilities:
+
+1.  There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.
+2.  There is a potential contribution of a review/essay/perspective paper. We would synthesize the literature on effect size in psychology and discuss the implications of the findings.
+3.  We will conclude that there is no value in pursuing this project.
+
+For now, we will focus on the **empirical** option, which is our working hypothesis.
+
+# Motivation
+
+There is a lot that has been said about effect sizes in psychology. (1) There are a bunch of essays that argue that effect sizes are smaller than Cohen's traditional cutoffs, and are still important (e.g., @götz2022 @funder2019). (2) There are some meta-analyses for particular subdisciplines, or areas of research (e.g., cognitive neuroscience @szucs2017, nudges @dellavigna2022, applied psychology @bosco2015). (3) Close to what we want to achieve, there is an estimation of the magnitude of the file drawer effect @polanin2016. (4) The many labs replication is also relevant, in that it showed that across 100 published experiments, their average published effect size was *r* = .40, whereas the well-powered replication effect sizes were roughly half of this @opensciencecollaboration2015. (5) There are also empirical studies demonstrating that even with plenty of data and sophisticated methods life outcomes are really hard to predict @salganik2020. (A similar in principle simulation study @ahadi1989).
+
+Despite all this, there is no definitive answer for a scientist planning a study and trying to answer the question of what effect size should I expect? How should I plan to power my study? Our vision is that our study would be able to model effect sizes such that I could know that the median effect size in psychology is, say, *r* = .15. If I know that we are dealing with a social psychology effect, where the predictor and the outcome do not share common method variance (e.g., open ended text correlating with behavior), and the predictor and outcome are separated by 4 years, then, I can expect my effect size to shrink to *r* = .06.
+
+Aside from the contribution towards sample size planning and power calculations, we also hope to show how miscalibrated researchers are in terms of what effect sizes can be expected, and how we should evaluate them when reading, reviewing, and conducting research.
+
+# Research questions
+
+-   What is the distribution of effect sizes in psychology?
+-   How does this distribution change for different types of studies?
+    -   Published vs. unpublished
+    -   Lab studies vs. field studies
+    -   Experimental vs. correlational studies
+    -   Social vs. cognitive
+    -   Within person vs. between person
+    -   Concurrent vs. time-lagged
+    -   Common method vs multi-method
+-   How miscalibrated are scientists to true effect sizes. For what kinds of research are they more likely to overestimate effect sizes? What causes this miscalibration?
+
+# Approach
+
+-   We will use meta-analyses as our unit of analysis. We will use the meta-analytic effect size as our dependent variable.
+-   We could download all meta-analyses published in Psychological Bulletin and code them for the above variables.
+
+# Open questions
+
+-   Is this a tractable problem?
+-   If it were possible, would it be a useful contribution?
+-   We expect to have a missing data problem with some of the moderators of effect size. How big of a problem would this be?
+-   Given what already is out there, is it true that this is a case of "go big or go home"?
+-   Would it be useful to also use metaBUS for this?
+
+# Appendix
+I ran a search on gscholar and got 1K results. It seems like there is still more, which I'm getting year by year.
+
+
+```{r}
+library(tidyverse)
+library(glue)
+library(gt)
+
+df <- read_csv("data/scholar.csv")
+
+# unique journals
+df %>% 
+  mutate(Source = tolower(Source)) %>% count(Source) %>% arrange(desc(n))  %>% head(20) %>% gt::gt()
+
+median_cite = median(df$Cites, na.rm = TRUE)
+# cites
+df %>% 
+  ggplot(aes(Cites)) + 
+  geom_histogram() +
+  # add a vertical line at the mean
+  geom_vline(aes(xintercept = median(Cites, na.rm = TRUE)),
+             color = "red", linetype = "dashed", size = 1)+
+  annotate("text",x = median_cite, y = 200, label = glue("Median = {median_cite}"), color = "red", hjust = -.1)+
+  labs(y = NULL)
+
+
+library("httr")
+download = function(url, filename){
+  GET(url, write_disk(filename, overwrite = TRUE))
+}
+
+df %>% 
+  select(matches("URL")) %>% 
+  head() %>%
+  gt()
+
+df %>% 
+  select(Authors, Title, Year, url = FullTextURL) %>%
+  mutate(Title = str_replace(Title, "\\/", "-")) %>%
+  filter(!is.na(url)) %>% 
+  mutate(filename = glue("test_downloads/{Year}_{Title}.pdf")) %>% 
+  mutate(download = map2(url, filename, download))
+```
+
+
+<!-- # Extra notes from Literature review
+
+Dalton et al @dalton2012 suggests that there is **no** publication bias or file drawer inflation bias in perosonnel psychology. - I don't believe that!
+
+# Notes from Meetings
+
+- Dolores thinks that just using Psych Bulletin data is not gonna fly in Psych Bulletin. It could work for PNAS or some other journal she said.
+- An interesting point from Dolores was to use the estimated distribution to try to uncover insights from psychology. To interesting examples: (1) Are effects larger for younger samples? Are kids more malleable? (2) Are effects larger the closer you get to behavior.
+- Drew
+  - Small effect sizes in SPSP, is there a recording?
+  - Stanford machine learning Eichstadedetststedt at SPSP talked about this in a panel - How do we feel about small fx
+
+ -->
+

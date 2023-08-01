@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <title>DSpace</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta http-equiv="cache-control" content="no-store">
+<link rel="stylesheet" href="styles.e382c7dd35ca1222.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.e382c7dd35ca1222.css"></noscript></head>
+
+<body>
+  <ds-app></ds-app>
+<script src="runtime.50370a4fbb3c85f8.js" type="module"></script><script src="polyfills.1cded4d53dfa4781.js" type="module"></script><script src="main.3fe2d810dd5c23bb.js" type="module"></script>
+
+
+
+
+</body><!-- do not include client bundle, it is injected with Zone already loaded --></html>

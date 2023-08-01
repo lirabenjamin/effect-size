@@ -1,0 +1,1352 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=NsJH3Ts1-89I8lZURwQYmw&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TFKV632');
+    </script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=jfKETtlWamfZ4l02YiFCQw&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N279F7B');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    <!--Snowplow Tag-->
+
+        <script type="text/javascript">
+            (function (p, l, o, w, i, n, g) {
+                if (!p[i]) {
+                    p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                    p.GlobalSnowplowNamespace.push(i); p[i] = function () { (p[i].q = p[i].q || []).push(arguments) }; p[i].q = p[i].q || [];
+                    n = l.createElement(o); g = l.getElementsByTagName(o)[0]; n.async = 1; n.src = w;
+                    g.parentNode.insertBefore(n, g)
+                }
+            }(window, document, "script", "https://cdnjs.cloudflare.com/ajax/libs/snowplow/2.18.2/sp.min.js", "snowplow"));
+
+            snowplow('newTracker', 'spTracker-inline-live', 'sp-live-collector.cdp.frontiersin.io', {
+                appId: '1',
+                eventMethod: 'post',
+                anonymousTracking: true,
+                stateStorageStrategy: 'none',
+                contexts: {
+                    webPage: true
+                }
+            });
+            snowplow('enableActivityTracking', 30, 10);
+            window.snowplow('trackPageView');
+            snowplow('enableAnonymousTracking', { withServerAnonymisation: true });
+            snowplow('clearUserData');
+            snowplow('setUserId', '0');
+        </script>
+    <!--End Snowplow Tag-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"598a124f17","applicationID":"3007887","transactionName":"MQcDMkECCkNSW0YMWghNLDBwTCVCR1FRCVAlDQ8SQQwIXFZKHSNACg41A0sXJkl3d3s=","queueTime":1,"applicationTime":320,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgUHUl5WGwAAVFZaDwY=",licenseKey:"598a124f17",applicationID:"3007887"};;/*! For license information please see nr-loader-full-1.237.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,r={5763:(e,t,r)=>{r.d(t,{P_:()=>f,Mt:()=>g,C5:()=>s,DL:()=>m,OP:()=>T,lF:()=>j,Yu:()=>y,Dg:()=>h,CX:()=>c,GE:()=>b,sU:()=>_});var n=r(8632),i=r(9567);const a={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,n.Qy)(e,o[e],"info")}var d=r(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function h(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,n.Qy)(e,l[e],"config")}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=f(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const p={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,p),(0,n.Qy)(e,v[e],"loader_config")}const y=(0,n.mF)().o;var w=r(385),x=r(6818);const A={buildEnv:x.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:x.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:x.q4,denyList:void 0},E={};function T(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,A),(0,n.Qy)(e,E[e],"runtime")}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{r.d(t,{Re:()=>i,gF:()=>a,q4:()=>n});const n="1.237.0",i="PROD",a="CDN"},385:(e,t,r)=>{r.d(t,{FN:()=>o,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>a,il:()=>n,pL:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=""+a?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(n&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,r)=>{r.d(t,{w:()=>a});var n=r(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{r.d(t,{L:()=>u,R:()=>c});var n=r(2177),i=r(1284),a=r(4322),o=r(3325);const s={};function c(e,t){const r={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const r=[...s[e]];function o(t){const r=e?n.ee.get(e):n.ee,o=a.X.handlers;if(r.backlog&&o){var s=r.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete o[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;o(t)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],a=e[3],o=e[2];i.apply(a,o)}}))}},2177:(e,t,r)=>{r.d(t,{ee:()=>d});var n=r(8632),i=r(2210),a=r(1284),o=r(5763),s="nr@context";let c=(0,n.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,r){var n={},c={},h={},g=!1;try{g=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var p={on:b,addEventListener:b,removeEventListener:y,emit:m,get:x,listeners:w,context:v,buffer:A,abort:f,aborted:!1,isBuffering:E,debugId:r,backlog:g?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,a){if(!1!==a&&(a=!0),!d.aborted||i){t&&a&&t.emit(e,r,n);for(var o=v(n),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(o,r);var f=T()[c[e]];return f&&f.push([p,e,r,o]),o}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function x(t){return h[t]=h[t]||e(p,t)}function A(e,t){var r=T();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function E(e){return!!T()[c[e]]}function T(){return p.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,r)=>{r.d(t,{E:()=>n,p:()=>i});var n=r(2177).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{r.d(t,{X:()=>a});var n=r(5546);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.E,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.E);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},3239:(e,t,r)=>{r.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var n=r(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(r,n))}},4402:(e,t,r)=>{r.d(t,{Ht:()=>d,M:()=>c,Rl:()=>o,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++r).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(r,++i).toString(16));return o.join("")}function c(){return s(16)}function d(){return s(32)}},7056:(e,t,r)=>{r.d(t,{Bq:()=>n,Hb:()=>a,oD:()=>i});const n="NRBA",i=144e5,a=18e5},7894:(e,t,r)=>{function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{r.d(t,{e:()=>a});var n=r(385),i={};function a(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};let t;var r=n._A?.location,a={};if(n.il)t=document.createElement("a"),t.href=e;else try{t=new URL(e,r.href)}catch(e){return a}a.port=t.port;var o=t.href.split("://");!a.port&&o[1]&&(a.port=o[1].split("/")[0].split("@").pop().split(":")[1]),a.port&&"0"!==a.port||(a.port="https"===o[0]?"443":"80"),a.hostname=t.hostname||r.hostname,a.pathname=t.pathname,a.protocol=o[0],"/"!==a.pathname.charAt(0)&&(a.pathname="/"+a.pathname);var s=!t.protocol||":"===t.protocol||t.protocol===r.protocol,c=t.hostname===r.hostname&&t.port===r.port;return a.sameOrigin=s&&(!t.hostname||c),"/"===a.pathname&&(i[e]=a),a}},50:(e,t,r)=>{function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2587:(e,t,r)=>{r.d(t,{N:()=>c,T:()=>d});var n=r(2177),i=r(5546),a=r(8e3),o=r(3325);const s={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]};function c(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,n]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),d[t]=Boolean(n))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),d[e]=!1)})),(0,a.L)(t,o.D.pageViewEvent))}const d={}},2210:(e,t,r)=>{r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{r.d(t,{P:()=>a});var n=r(2177);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{r.d(t,{K:()=>o,b:()=>a});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.bP)("load",e,t)}function o(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{r.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var n=r(7894),i=r(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[r]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,r)=>{r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{r.d(t,{em:()=>m,u5:()=>D,QU:()=>P,Kf:()=>z});var n=r(2177);const i="nr@original";var a=Object.prototype.hasOwnProperty,o=!1;function s(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,a){n||(n="");var o,s,c,d="-"===n.charAt(0);for(c=0;c<t.length;c++)u(o=e[s=t[c]])||(e[s]=r(o,d?s+n:n,i,s,a))},r.flag=i,r;function r(t,r,n,o,s){return u(t)?t:(r||(r=""),nrWrapper[i]=t,d(t,nrWrapper,e),nrWrapper);function nrWrapper(){var i,d,u,l;try{d=this,i=[...arguments],u="function"==typeof n?n(i,d):n||{}}catch(t){c([t,"",[i,d,o],u],e)}a(r+"start",[i,d,o],u,s);try{return l=t.apply(d,i)}catch(e){throw a(r+"err",[i,d,e],u,s),e}finally{a(r+"end",[i,d,l],u,s)}}}function a(r,n,i,a){if(!o||t){var s=o;o=!0;try{e.emit(r,n,i,t,a)}catch(t){c([t,r,n,i],e)}o=s}}}function c(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){c([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n]);return t}function u(e){return!(e&&e instanceof Function&&e.apply&&!e[i])}var l=r(2210),f=r(385);const h={},g=XMLHttpRequest,p="addEventListener",v="removeEventListener";function m(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=s(t,!0);function i(e){r.inPlace(e,[p,v],"-",a)}function a(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&b(document,i),b(f._A,i),b(g.prototype,i)),t.on(p+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(v+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function b(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,p);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),a=2;a<n;a++)i[a-2]=arguments[a];r&&t(r,...i)}var y="fetch-",w=y+"body-",x=["arrayBuffer","blob","json","text","formData"],A=f._A.Request,E=f._A.Response,T="prototype",_="nr@context";const j={};function D(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(A&&E&&f._A.fetch))return t;if(j[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(n+"before-start",[r],a),a[_]&&a[_].dt&&(e=a[_].dt);var o=i.apply(this,r);return t.emit(n+"start",[r,e],o),o.then((function(e){return t.emit(n+"end",[null,e],o),e}),(function(e){throw t.emit(n+"end",[e],o),e}))})}return j[t.debugId]=1,x.forEach((e=>{r(A[T],e,w),r(E[T],e,w)})),r(f._A,"fetch",y),t.on(y+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(y+"done",[null,r],n)}else t.emit(y+"done",[e],n)})),t}const C={},S=["pushState","replaceState"];function P(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||C[t.debugId]++||(C[t.debugId]=1,s(t).inPlace(window.history,S,"-")),t}var O=r(3239);var R=r(5763);var I=r(50);const N={},k=["open","send"];function z(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(N[r.debugId]++)return r;N[r.debugId]=1,m(t);var i=s(r),a=R.Yu.XHR,o=R.Yu.MO,c=R.Yu.PR,d=R.Yu.SI,u="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],g=f._A.XMLHttpRequest.listeners,p=f._A.XMLHttpRequest=function(e){var t=new a(e);function n(){try{r.emit("new-xhr",[t],t),t.addEventListener(u,b,(0,O.m$)(!1))}catch(e){(0,I.Z)("An error occured while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}}return this.listeners=g?[...g,n]:[n],this.listeners.forEach((e=>e())),t};function v(e,t){i.inPlace(t,["onreadystatechange"],"fn-",E)}function b(){var e=this,t=r.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",E)}if(function(e,t){for(var r in e)t[r]=e[r]}(a,p),p.prototype=a.prototype,i.inPlace(p.prototype,k,"-xhr-",E),r.on("send-xhr-start",(function(e,t){v(e,t),function(e){h.push(e),o&&(y?y.then(A):d?d(A):(w=-w,x.data=w))}(t)})),r.on("open-xhr-start",v),o){var y=c&&c.resolve();if(!d&&!c){var w=1,x=document.createTextNode(w);new o(A).observe(x,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===u||A()}));function A(){for(var e=0;e<h.length;e++)v(0,h[e]);h.length&&(h=[])}function E(e,t){return t}return r}},7825:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{r.d(t,{gF:()=>a,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>o});const n=r(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{r.d(t,{Dz:()=>i,OJ:()=>o,qw:()=>a,t9:()=>n});const n=r(3325).D.pageViewEvent,i="firstbyte",a="domcontent",o="windowload"},9251:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},3614:(e,t,r)=>{r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>d,FN_START:()=>c,PUSH_STATE:()=>u,RESOURCE:()=>a,START:()=>o});const n=r(3325).D.sessionTrace,i="bstResource",a="resource",o="-start",s="-end",c="fn"+o,d="fn"+s,u="pushState"},5938:(e,t,r)=>{r.d(t,{W:()=>a});var n=r(5763),i=r(2177);class a{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1}}},9144:(e,t,r)=>{r.d(t,{j:()=>v});var n=r(3325),i=r(5763),a=r(5546),o=r(2177),s=r(7894),c=r(8e3),d=r(3960),u=r(385),l=r(50),f=r(3081),h=r(8632);function g(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...n))})),a.length>1?a:a[0]}(t,...n)}}))}var p=r(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:x={loaderType:v},exposed:A=!0}=t;const E=(0,h.gG)();y||(b=E.init,y=E.info,w=E.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),x.denyList=b.ajax?.block_internal?(b.ajax.deny_list||[]).concat(y.beacon,y.errorBeacon):b.ajax?.deny_list,(0,i.sU)(e,x),g();const T=function(e,t){t||(0,c.R)(e,"api");const h={};var g=o.ee.get(e),p=g.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,a){const o=(0,i.C5)(e);return null===r?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:r}}),x(v,n,!0,a||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>h[e]=x(v,e,!0,"api"))),h.addPageAction=x(v,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=x(v,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,x(v,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,g),function(){if(p.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){throw p.emit("fn-err",[arguments,this,e],r),e}finally{p.emit("fn-end",[(0,s.z)()],r)}}}};function x(e,t,r,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,g),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,g),r?void 0:this}}function A(){r.e(439).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=x(m,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,g),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,g)},u.il?(0,d.b)((()=>A()),!0):A(),h}(e,m);return(0,h.Qy)(e,T,"api"),(0,h.Qy)(e,A,"exposed"),(0,h.EZ)("activatedFeatures",p.T),T}},3325:(e,t,r)=>{r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"636893b0",147:"0d982f48",193:"a490ad60",242:"22036a2b",317:"f8100d3b",348:"d72a908a",412:"d2774909",439:"eaff3276",538:"643cfeda",590:"948ed12b",646:"a8872fbe",675:"772ac1fe",786:"e765729e",860:"50b8f759",873:"495db083",898:"629e6d59"}[e]+"-1.237.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=58,i.p="https://js-agent.newrelic.com/",(()=>{var e={58:0,521:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,d=0;if(o.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var a={};(()=>{i.r(a);var e=i(50);class t{addPageAction(t,r){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,r){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,r,n){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,r){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,r){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var r=i(3325),n=i(5763);const o=Object.values(r.D);function s(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var c=i(9144);var d=i(5546),u=i(385),l=i(8e3),f=i(5938),h=i(3960);class g extends f.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler,this.featAggregate,this.onAggregateImported,n&&(0,l.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const r=u.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let n;try{if(r){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,l.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(412).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),a(!1)}};u.il?(0,h.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var p=i(7633),v=i(7894);class m extends g{static featureName=p.t9;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.Tt)&&"undefined"!=typeof PerformanceTiming){const t=(0,n.OP)(e);t[p.Dz]=Math.max(Date.now()-t.offset,0),(0,h.K)((()=>t[p.qw]=Math.max((0,v.z)()-t[p.Dz],0))),(0,h.b)((()=>{const e=(0,v.z)();t[p.OJ]=Math.max(e-t[p.Dz],0),(0,d.p)("timing",["load",e],void 0,r.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(1117),y=i(1284);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var a=this.getBucket(e,t,r,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,r){t[e]=x(r,t[e])})),t}(n,a.metrics),a}merge(e,t,r,n,i){var a=this.getBucket(e,t,n,i);if(a.metrics){var o=a.metrics;o.count+=r.count,(0,y.D)(r,(function(e,t){if("count"!==e){var n=o[e],i=r[e];i&&!i.c?o[e]=x(i.t,n):o[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=x(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=E(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function E(e){return"object"!=typeof e?[]:(0,y.D)(e,T)}function T(e,t){return t}var _=i(8632),j=i(4402),D=i(4351);var C=i(7956),S=i(3239),P=i(9251);class O extends g{static featureName=P.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,r),u.il&&((0,n.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,C.N)((()=>(0,d.p)("docHidden",[(0,v.z)()],void 0,P.t,this.ee)),!0),(0,S.bP)("pagehide",(()=>(0,d.p)("winPagehide",[(0,v.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var R=i(3081);class I extends g{static featureName=R.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t9,r),this.importAggregator()}}var N=i(6660);class k{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class z extends g{static featureName=N.t;#e=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#e.has(n)&&(this.#e.add(n),(0,d.p)("err",[this.#t(n),(0,v.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,d.p)("ierr",[this.#t(e),(0,v.z)(),!0],void 0,r.D.jserrors,this.ee)})),u._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,d.p)("err",[this.#r(e),(0,v.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,S.m$)(!1,this.removeOnAbort?.signal)),u._A.addEventListener("error",(e=>{this.abortHandler&&(this.#e.has(e.error)?this.#e.delete(e.error):(0,d.p)("err",[this.#n(e),(0,v.z)()],void 0,r.D.jserrors,this.ee))}),(0,S.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.#e.clear(),this.abortHandler=void 0}#t(e){return e instanceof Error?e:void 0!==e?.message?new k(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new k("string"==typeof e?e:(0,D.P)(e))}#r(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new k(t);const r=this.#t(e.reason);return r.message=t+r.message,r}#n(e){return e.error instanceof Error?e.error:new k(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let L=1;const M="nr@id";function B(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===u._A?0:(0,H.X)(e,M,(function(){return L++}))}function U(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,D.P)(e).length}catch(e){return}}}var q=i(1214),F=i(7243);class Z{constructor(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,a=(t.trustKey||"").toString()||null;if(!r||!i)return null;var o=(0,j.M)(),s=(0,j.Ht)(),c=Date.now(),d={spanId:o,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(o,s),d.traceContextStateHeader=this.generateTraceContextStateHeader(o,c,r,i,a)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(o,s,c,r,i,a)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,a){if(!("function"==typeof u._A?.btoa))return null;var o={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return a&&n!==a&&(o.d.tk=a),btoa((0,D.P)(o))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var a=(0,F.e)(r.allowed_origins[i]);if(e.hostname===a.hostname&&e.protocol===a.protocol&&e.port===a.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var G=i(7825),V=["load","error","abort","timeout"],X=V.length,W=n.Yu.REQ,Q=u._A.XMLHttpRequest;class K extends g{static featureName=G.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,G.t,i),(0,n.OP)(e).xhrWrappable&&(this.dt=new Z(e),this.handler=(e,t,r,n)=>(0,d.p)(e,t,r,n,this.ee),(0,q.u5)(this.ee),(0,q.Kf)(this.ee),function(e,t,i,a){function o(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=E,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){_(t,e)}),(0,S.m$)(!1)),u.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,S.m$)(!1))}function s(e){this.params={method:e[0]},T(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var o=a.generateTracePayload(this.parsedOrigin);if(o){var s=!1;o.newrelicHeader&&(r.setRequestHeader("newrelic",o.newrelicHeader),s=!0),o.traceContextParentHeader&&(r.setRequestHeader("traceparent",o.traceContextParentHeader),o.traceContextStateHeader&&r.setRequestHeader("tracestate",o.traceContextStateHeader),s=!0),s&&(this.dt=o)}}function d(e,r){var n=this.metrics,i=e[0],a=this;if(n&&i){var o=U(i);o&&(n.txSize=o)}this.startTime=(0,v.z)(),this.listener=function(e){try{"abort"!==e.type||a.loadCaptureCalled||(a.params.aborted=!0),("load"!==e.type||a.called===a.totalCbs&&(a.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof a.end)&&a.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<X;s++)r.addEventListener(V[s],this.listener,(0,S.m$)(!1))}function l(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+B(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+B(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function g(){this.endTime=(0,v.z)()}function p(e,r){r instanceof Q&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof Q&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function b(e,t,r){t instanceof Q&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,v.z)()))}function y(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,v.z)()-this.xhrCbStart,this.onload,r],r)}function w(e){var t,r=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:u._A?.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,F.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=a.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if("string"==typeof e[0]||u._A?.URL&&e[0]&&e[0]instanceof URL){var i={};for(var o in r)i[o]=r[o];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}else e[0]&&e[0].headers&&s(e[0].headers,n)&&(this.dt=n);function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function x(e,t){this.params={},this.metrics={},this.startTime=(0,v.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:u._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),T(this,r);var a=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=a,this.txSize=U(n.body)||0}function A(e,t){var n;this.endTime=(0,v.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var a={txSize:this.txSize,rxSize:n,duration:(0,v.z)()-this.startTime};i("xhr",[this.params,a,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function E(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var a=0;a<X;a++)e.removeEventListener(V[a],this.listener,!1);t.aborted||(n.duration=(0,v.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):_(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function T(e,t){var r=(0,F.e)(t),n=e.params;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}function _(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?U(e.response):"text"===r||""===r||void 0===r?U(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",o),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",d),t.on("xhr-cb-time",l),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",g),t.on("addEventListener-end",p),t.on("removeEventListener-end",m),t.on("fn-end",y),t.on("fetch-before-start",w),t.on("fetch-start",x),t.on("fn-start",b),t.on("fetch-done",A)}(e,this.ee,this.handler,this.dt),this.importAggregator())}}var Y=i(3614);const{BST_RESOURCE:$,RESOURCE:J,START:ee,END:te,FEATURE_NAME:re,FN_END:ne,FN_START:ie,PUSH_STATE:ae}=Y;var oe=i(4649);class se extends g{static featureName=oe.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,oe.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);super(),u._A?(this.agentIdentifier=r,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,c.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=s(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>n[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(r){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",r);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[m,O,class extends g{static featureName=re;constructor(e,t){if(super(e,t,re,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!u.il)return;const n=this.ee;let i;(0,q.QU)(n),this.eventsEE=(0,q.em)(n),this.eventsEE.on(ie,(function(e,t){this.bstStart=(0,v.z)()})),this.eventsEE.on(ne,(function(e,t){(0,d.p)("bst",[e[0],t,this.bstStart,(0,v.z)()],void 0,r.D.sessionTrace,n)})),n.on(ae+ee,(function(e){this.time=(0,v.z)(),this.startPath=location.pathname+location.hash})),n.on(ae+te,(function(e){(0,d.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,d.p)($,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:J,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},K,I,se,z],loaderType:"pro"})})(),window.NRBA=a})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials" />
+    <meta property="og:description" name="Description" content="Background: This systematic review aims to answer three questions. First, how much do mindfulness-based interventions (MBIs) affect peripheral brain-derived neurotrophic factor (BDNF)? Second, do mindfulness exercise–based interventions (exercise-MBIs) and mindfulness meditation–based interventions (meditation-MBIs) affect peripheral BDNF differently? Third, does the age of participants and the accumulative hours of MBI practice affect peripheral BDNF?Methods: We included randomized controlled trials comparing MBI and no intervention in adults (age &gt;18 years) who reported peripheral BDNF. Database searches included PubMed, CINAHL, CENTRAL, PsyInfo, and Scopus. Two reviewers independently selected the studies and assessed the trial quality. We used the standardized mean difference (SMD) as the effect size index and conducted moderator analyses.Results: Eleven studies are included in this systematic review. Five studies applying exercise-MBI and three studies applying meditation-MBI are included in the meta-analysis (N = 479). The pooled effect size shows a significantly greater increase of peripheral BDNF in MBI groups compared to the control groups (k = 8, N = 479, SMD = 0.72, 95% CI 0.31–1.14, I2= 78%). Significantly more increases of BDNF in the MBI groups are found in both subgroups of exercise-MBI and meditation-MBI. The effect sizes of both subgroups are not significantly different between subgroups (χ2 = 0.02, p = 0.88). We find no significant correlation between the..." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/articles/10.3389/fpsyg.2020.02209/full" />
+
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/531955/531955_Thumb_400.jpg" />
+            <meta name="citation_volume" content="11" />
+        <meta name="citation_journal_title" content="Frontiers in Psychology" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Psychol." />
+        <meta name="citation_issn" content="1664-1078" />
+        <meta name="citation_doi" content="10.3389/fpsyg.2020.02209" />
+        <meta name="citation_firstpage" content="531955" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials" />
+        <meta name="citation_keywords" content="Brain-Derived Neurotrophic Factor; BDNF.; mindfulness; Meditation; neuroplasticity" />
+        <meta name="citation_abstract" content="Background: This systematic review aimed to answer three questions. First, how much do Mindfulness-Based Interventions (MBI) affect peripheral Brain-Derived Neurotrophic Factor (BDNF)? Second, do mindfulness exercise-based interventions (exercise-MBI) and mindfulness meditation-based interventions (meditation-MBI) affect peripheral BDNF differently? Third, does the age of MBI and the accumulative hours of MBI practice affect peripheral BDNF? Methods: We included randomized controlled trials in adults (age &gt;18-year-old) comparing MBI and no intervention that reported the peripheral BDNF. Database searches included PubMed, CINAHL, CENTRAL, PsyInfo, and Scopus. Two reviewers independently selected the studies and assessed the trial quality. We used the standardized mean difference (SMD) as the effect size index and conducted moderator analyses. Results: Eleven studies were included in this systematic review. Five and three studies applying exercise-MBI and meditation-MBI were included in the meta-analysis (N=479). The pooled effect size showed a significantly greater increase of peripheral BDNF in MBI groups compared to the control groups (k=8, N=479, SMD = 0.72, 95%CI 0.31 to 1.14, I2=78%). Significant more increases of BDNF in the MBI groups were found in both subgroups of Exercise-MBI and Meditation-MBI. The effect sizes of both subgroups were not significantly different between subgroups (2=0.02, p=0.88). We found no significant correlation between the effect sizes and participants’ age (r=-0.0095, p =0.45) or accumulative hours of practice (r=0.0021, p =0.57). Conclusion: The heterogeneous data of this small sample-size meta-analysis suggests that Mindfulness-Based Interventions can increase peripheral Brain-Derived Neurotrophic Factor. Either Mindfulness Exercise or Mindfulness meditation-based Interventions can increase peripheral Brain-Derived Neurotrophic Factor." />
+        <meta name="description" content="Background: This systematic review aimed to answer three questions. First, how much do Mindfulness-Based Interventions (MBI) affect peripheral Brain-Derived Neurotrophic Factor (BDNF)? Second, do mindfulness exercise-based interventions (exercise-MBI) and mindfulness meditation-based interventions (meditation-MBI) affect peripheral BDNF differently? Third, does the age of MBI and the accumulative hours of MBI practice affect peripheral BDNF? Methods: We included randomized controlled trials in adults (age &gt;18-year-old) comparing MBI and no intervention that reported the peripheral BDNF. Database searches included PubMed, CINAHL, CENTRAL, PsyInfo, and Scopus. Two reviewers independently selected the studies and assessed the trial quality. We used the standardized mean difference (SMD) as the effect size index and conducted moderator analyses. Results: Eleven studies were included in this systematic review. Five and three studies applying exercise-MBI and meditation-MBI were included in the meta-analysis (N=479). The pooled effect size showed a significantly greater increase of peripheral BDNF in MBI groups compared to the control groups (k=8, N=479, SMD = 0.72, 95%CI 0.31 to 1.14, I2=78%). Significant more increases of BDNF in the MBI groups were found in both subgroups of Exercise-MBI and Meditation-MBI. The effect sizes of both subgroups were not significantly different between subgroups (2=0.02, p=0.88). We found no significant correlation between the effect sizes and participants’ age (r=-0.0095, p =0.45) or accumulative hours of practice (r=0.0021, p =0.57). Conclusion: The heterogeneous data of this small sample-size meta-analysis suggests that Mindfulness-Based Interventions can increase peripheral Brain-Derived Neurotrophic Factor. Either Mindfulness Exercise or Mindfulness meditation-based Interventions can increase peripheral Brain-Derived Neurotrophic Factor." />
+        <meta name="citation_online_date" content="2020/08/06" />
+        <meta name="citation_publication_date" content="2020/09/15" />
+        <meta name="citation_author" content="Gomutbutra, Patama" />
+        <meta name="citation_author_institution" content="Department of Family Medicine, Faculty of Medicine, Chiang Mai University, Thailand" />
+        <meta name="citation_author_institution" content="The Northern Neuroscience Center, Faculty of Medicine Chiang Mai University, Thailand" />
+        <meta name="citation_author" content="Yingchankul, Nalinee" />
+        <meta name="citation_author_institution" content="Department of Family Medicine, Faculty of Medicine, Chiang Mai University, Thailand" />
+        <meta name="citation_author" content="Chattipakorn, Nipon" />
+        <meta name="citation_author_institution" content="Center of Excellence in Cardiac Electrophysiology Research, Faculty of Medicine, Chiang Mai University, Thailand" />
+        <meta name="citation_author" content="Chattipakorn, Siriporn" />
+        <meta name="citation_author_institution" content="Center of Excellence in Cardiac Electrophysiology Research, Faculty of Medicine, Chiang Mai University, Thailand" />
+        <meta name="citation_author_institution" content="Department of Oral Biology and Diagnostic Sciences, Faculty of Dentistry, Chiang Mai University, Thailand" />
+        <meta name="citation_author" content="Srisurapanont, Manit" />
+        <meta name="citation_author_institution" content="Department of Psychiatry, Faculty of Medicine Chiang Mai University, Thailand" />
+    <meta name="Keywords" content="Brain-Derived Neurotrophic Factor, BDNF., mindfulness, Meditation, neuroplasticity" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fpsyg.2020.02209">
+        <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function () {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview: 'False',
+                TenantName: 'Frontiers'
+            }
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"article_accepteddate":"Accepted: ","article_analyticstooltip":"In May 2023, Frontiers adopted a new reporting platform to be Counter 5 compliant, in line with industry standards.","article_analyticsviewimpact":"View article impact","article_bibtex":"BibTex","article_copyrighttext":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","article_downloadarticle":"Download Article","article_downloadpdf":"Download PDF","article_downloadprovisionalarticle":"Download Provisional Article","article_endnote":"EndNote","article_epub":"EPUB","article_exportcitation":"Export Citation","article_jats":"JATS","article_nlm":"XML (NLM)","article_pdf":"PDF","article_provisionalpdf":"Provisional PDF","article_publisheddate":"Published online: ","article_readfulltext":"Read Full Text","article_receiveddate":"Received: ","article_referencemanager":"Reference Manager","article_shareon":"SHARE ON","article_simpletextfile":"Simple TEXT file","article_supplementaldata":"SUPPLEMENTAL DATA","article_tableofcontent":"TABLE OF CONTENTS","article_viewenhancedpdf":"ReadCube","article_xml":"XML","browserwarningtext":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","impact_backtoarticle":"Back to article","people_also_lookedat":"People also looked at","article_analyticstotalviews":"total views","ART_FRONTIERS":"Frontiers","Article_AnalyticsTotalViews":"total views","Article_ArchiveLinkText":"Articles","Article_Citation":"Citation:","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright:","Article_Correspondence":"* Correspondence:","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by:","Article_Keywords":"Keywords:","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published:","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","article_lastmodifieddate":"Last modified: "};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '36',
+                SectionId: '42'
+            };
+    })();
+
+    var FRArticleDetails = (function () {
+
+            return {
+                ArticleId: '531955',
+                SectionTitle: 'Cognitive Science',
+                DisclaimerText: 'All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.',
+                IsHTMLPublished:'True',
+                IsPreview: 'False',
+                LinkedArticles: null,
+                DisplayRelatedArticlesBox: 'True',
+                DisplayTitlePillLabels: 'False',
+                IsOriginalArticle: 'False',
+                IsArticleIdsToHideRelatedArticleBox: 'False'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=Fp4H7kLloN90qq2u8knCdlhXA6aGuosX8WE_xkzfWjc1" rel="stylesheet"/>
+
+    <style type="text/css"> .journal-psychology {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+background-size: 49%;
+}
+
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+ background-size: 39%;
+ }}
+
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+ background-size: 46%;
+ }}
+
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 0px;
+background-size: 46%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { 
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% -10px;
+background-size: 42%;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 17px;
+background-size: 58%;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) { 
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 33px;
+background-size: 66%;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-psychology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-psychology.png') no-repeat 100% 115px;
+background-size: 64%;
+ }} </style>
+    
+</head>
+<body class="journal-psychology section-cognitive-science">
+
+    
+    <a href="#main-content" class="bypassBlock-wrapper" id="bypass">
+        <span class="bypassBlock-button">Skip to main content</span>
+    </a>
+    <script type="text/javascript">
+
+        const container = document.getElementById("bypass");
+
+        //eventListeners
+        container.addEventListener('focus', function () {
+            document.documentElement.setAttribute("bypass-focus", "true");
+        }, true);
+
+        container.addEventListener('blur', function () {
+            document.documentElement.setAttribute("bypass-focus", "false");
+        }, true);
+
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFKV632&gtm_auth=NsJH3Ts1-89I8lZURwQYmw&gtm_preview=env-1&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N279F7B&gtm_auth=jfKETtlWamfZ4l02YiFCQw&gtm_preview=env-1&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=vbc13dTGr7qL7XerHFDUYx5a5aMhnEvReT2oPGkMwm81"></script>
+
+
+
+    <frontiers-ibar main-domain="frontiersin.org" is-frontiers="true" tenant-name="FRONTIERS"  loop-url="https://loop.frontiersin.org" journal-id="36"></frontiers-ibar>
+    <div class="page-container sidemenu-collapsed" id="main-content">
+        
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+        <div class="row" id="similar-articles">
+            <div class="new-wrapper">
+                
+
+
+<style>
+    .disabled-supplementary-btn {
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: .65;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+</style>
+<aside class="right-container">
+
+        <div class="side-article-download clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <button data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon-label" data-event="download-button-click">Download Article</span>
+                        </button>
+
+                        <div class="dropdown-menu-wrapper">
+                            <div class="dropdown-menu-mobile-title">
+                                Download Article
+                            </div>
+                            <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a class="download-files-pdf action-link" href="/articles/10.3389/fpsyg.2020.02209/pdf" data-test-id="article-downloadpdf" data-event="downloadpdf-button-click" id="download_article​">
+                                            Download PDF
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fpsyg.2020.02209" data-test-id="article-viewenhancedpdf" data-event="downloadreadcube-button-click" id="download_article​">
+                                            ReadCube
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-epub" href="/articles/10.3389/fpsyg.2020.02209/epub" data-test-id="article-epub" data-event="downloadepub-button-click" id="download_article​">
+                                            EPUB
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="download-files-nlm" href="/articles/10.3389/fpsyg.2020.02209/xml/nlm" data-test-id="article-nlm" data-event="downloadnlm-button-click" id="download_article​">
+                                            XML (NLM)
+                                        </a>
+                                    </li>
+                                                                    <li>
+
+                                        <a data-test-id="supplementary-button"
+                                           class="supplemental-data-disabled"
+                                           data-event="supplementary-button-click"
+                                           id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                    </li>
+
+                            </ul>
+                            <button class="dropdown-menu-mobile-close-button" aria-label="Close" data-toggle="dropdown"></button>
+                        </div>
+                    </li>
+                                    <li>
+                        <button class="btn btn-open-supplemental" data-event="supplementary-button-click" id="supplementary_view">Supplemental data</button>
+                    </li>
+                <li class="dropdown">
+                </li>
+
+                <li class="dropdown">
+                    <button type="button" class="navbar-toggle navbar-citations" data-event="citation-button-click" data-toggle="dropdown" data-target="#" aria-expanded="false">
+                    </button>
+                    <div class="dropdown-menu-wrapper">
+                        <div class="dropdown-menu-mobile-title">
+                            Export citation
+                        </div>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a data-test-id="article-endnote" href="/articles/10.3389/fpsyg.2020.02209/endNote" data-event="endnotedownload-button-click">
+                                        EndNote
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-referencemanager" href="/articles/10.3389/fpsyg.2020.02209/reference" data-event="referencemanagerdownload-button-click">
+                                        Reference Manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-simpletextfile" href="/articles/10.3389/fpsyg.2020.02209/text" data-event="simpletextfiledownload-button-click">
+                                        Simple TEXT file
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-bibtex" href="/articles/10.3389/fpsyg.2020.02209/bibTex" data-event="bibtexdownload-button-click">
+                                        BibTex
+                                    </a>
+                                </li>
+                        </ul>
+                        <button class="dropdown-menu-mobile-close-button"
+                                aria-label="Close"
+                                data-toggle="dropdown"></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+    <div class="stats-container">
+        <div class="divide-container">
+            <div class="flex-container-metrics">
+                <ul class="nav">
+                        <li class="impact-data" id="views-section" style="display:none">
+                            <span class="views-count" id="views-count"></span>
+                            <span class="title-views">Total views</span>
+                        </li>
+                        <li class="impact-data" id="downloads-section" style="display:none">
+                            <span class="views-count" id="downloads-count"></span>
+                            <span class="title-views">Downloads</span>
+                        </li>
+                        <li class="impact-data" id="citations-section" style="display:none">
+                            <span class="views-count" id="citations-count"></span>
+                            <span class="title-views">Citations</span>
+                        </li>
+                </ul>
+                    <div class="infoPopover" id="infoPopover" style="display:none">
+                        <div role="button" class="infoPopover__trigger"></div>
+                        <div class="infoPopover__content">
+                            <p>
+                                In May 2023, Frontiers adopted a new reporting platform to be Counter 5 compliant, in line with industry standards.
+                            </p>
+                                <a href="https://blog.frontiersin.org/2023/05/16/open-access-publisher-frontiers-moves-to-a-new-article-metric-platform-counter/" target="_blank">Read more</a>
+                            <div role="button" class="infoPopover__close"></div>
+                        </div>
+                    </div>
+            </div>
+                <div class="articleImpact" id="article-impact">
+                    <span class="borderLine"></span>
+                        <a class="articleImpact--url"
+                           data-test-id="view-article-impact"
+                           data-event="impact-button-click"
+                           href="http://loop-impact.frontiersin.org/impact/article/531955#views"
+                           target="_blank">View article impact</a>
+                </div>
+        </div>
+        <div class="side-article-impact">
+            <ul class="nav">
+                <li class="altmetric-wrapper">
+                    <div class='altmetric-embed' data-badge-type='donut' data-event="altmetric-button-click" data-badge-popover="bottom" data-doi='10.3389/fpsyg.2020.02209' data-condensed="true" data-link-target="new"></div>
+                    <a class="altmetricScore_url" href="https://www.altmetric.com/details/doi/10.3389/fpsyg.2020.02209" target="_blank">View altmetric score</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+        <aside id="anchors" class="pull-left table-of-contents side-article">
+            <div class="side-people hidden-sm hidden-xs">
+                    <section class="side-article-editors">
+                                <header><h5 class="like-h4">Edited by</h5></header>
+                                <a class="authors" href="https://loop.frontiersin.org/people/660310/overview" target="_blank">
+                                    <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/660310/24"></img>
+                                    <h6 class="author-link-aside">Paul D. Loprinzi</h6>
+                                </a>
+                                <div class="clearfix"></div>
+                                <p><span class="notes">University of Mississippi, United States</span></p>
+                                                        <header><h5 class="like-h4"> Reviewed by</h5></header>
+                                    <a class="authors" href="https://loop.frontiersin.org/people/102700/overview" target="_blank">
+                                        <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/102700/24"></img>
+                                        <h6 class="author-link-aside">Zhen Yuan</h6>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <p><span class="notes">University of Macau, China</span></p>
+                                    <a class="authors" href="https://loop.frontiersin.org/people/947487/overview" target="_blank">
+                                        <img alt=" " class="pr5 pull-left" onerror="this.src = &#39;/Areas/Articles/Images/Frontiers/Common/Profile/default-loop-profile.jpg&#39;" src="https://loop.frontiersin.org/images/profile/947487/24"></img>
+                                        <h6 class="author-link-aside">Aaron T. Piepmeier</h6>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <p><span class="notes">Elon University, United States</span></p>
+                                            </section>
+            </div>
+
+        <nav>
+                <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+                <ul class="nav nav-list list-unstyled contents" data-event="toc-link-click">
+                    <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Abstract</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Results</a></li>
+<li><a href="#h5">Discussion</a></li>
+<li><a href="#h6">Conclusions</a></li>
+<li><a href="#h7">Data Availability Statement</a></li>
+<li><a href="#h8">Ethics Statement</a></li>
+<li><a href="#h9">Author Contributions</a></li>
+<li><a href="#h10">Funding</a></li>
+<li><a href="#h11">Conflict of Interest</a></li>
+<li><a href="#h12">Acknowledgments</a></li>
+<li><a href="#h13">Supplementary Material</a></li>
+<li><a href="#h14">References</a></li>
+</ul>                    </li>
+                </ul>
+        </nav>
+    </aside>
+
+
+    <div class="clearfix"></div>
+
+        <div class="side-article-download side-export clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li>
+                        <button class="btn btn-open-supplemental" data-event="supplementary-button-click" id="supplementary_view">Open supplemental data</button>
+                    </li>
+                                    <li class="dropdown text-center citation">
+                        <button data-target="#" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon-label" data-event="citation-button-click">Export citation</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a data-test-id="article-endnote" id="export_citation" href="/articles/10.3389/fpsyg.2020.02209/endNote" data-event="endnotedownload-button-click">
+                                        EndNote
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-referencemanager" id="export_citation" href="/articles/10.3389/fpsyg.2020.02209/reference" data-event="referencemanagerdownload-button-click">
+                                        Reference Manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-simpletextfile" id="export_citation" href="/articles/10.3389/fpsyg.2020.02209/text" data-event="simpletextfiledownload-button-click">
+                                        Simple TEXT file
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-test-id="article-bibtex" id="export_citation" href="/articles/10.3389/fpsyg.2020.02209/bibTex" data-event="bibtexdownload-button-click">
+                                        BibTex
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="side-crossmark">
+            <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+            <a data-target="crossmark" class="crossmark">
+                <figure>
+                    <img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_square_no_text.svg" title="" alt="">
+                </figure>
+                <div id="crossmark-icon">Check for updates</div>
+            </a>
+
+        </div>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+
+            <h5 class="like-h4" data-event="peoplelookedat-link-click">People also looked at</h5>
+        </article>
+
+
+</aside>
+
+                
+<main class="">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                   
+                    <!-- End CrossMark Snippet -->
+
+                        <div class="header-bar-one">
+                            <h2>
+                                SYSTEMATIC REVIEW article
+                            </h2>
+                        </div>
+                    <div class="header-bar-three-container">
+                        <div class="header-bar-three">
+                            Front. Psychol., 15 September 2020<br>Sec. Cognitive Science
+
+                            <br />
+                                <span class="volumeInfo"> Volume 11 - 2020 | </span>
+
+
+
+                                    <a href="https://doi.org/10.3389/fpsyg.2020.02209">https://doi.org/10.3389/fpsyg.2020.02209</a>
+                        </div>
+                    </div>
+                </div>
+
+<div class="JournalAbstract">
+<a id="h1" name="h1"></a><h1>The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials</h1>
+<div class="authors">
+<a href="https://www.frontiersin.org/people/u/900537" class="user-id-900537"><img class="pr5" src="https://loop.frontiersin.org/images/profile/900537/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'">Patama Gomutbutra</a><sup>1,2</sup><sup>&#x0002A;</sup>  <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg">Nalinee Yingchankul<sup>1</sup>  <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg">Nipon Chattipakorn<sup>3</sup>  <a href="https://www.frontiersin.org/people/u/523999" class="user-id-523999"><img class="pr5" src="https://loop.frontiersin.org/images/profile/523999/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'">Siriporn Chattipakorn</a><sup>3,4</sup> <a href="https://www.frontiersin.org/people/u/129946" class="user-id-129946"><img class="pr5" src="https://loop.frontiersin.org/images/profile/129946/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'">Manit Srisurapanont</a><sup>5</sup></div>
+<ul class="notes">
+<li><span><sup>1</sup></span>Department of Family Medicine, Faculty of Medicine, Chiang Mai University, Chiang Mai, Thailand</li>
+<li><span><sup>2</sup></span>The Northern Neuroscience Center, Faculty of Medicine Chiang Mai University, Chiang Mai, Thailand</li>
+<li><span><sup>3</sup></span>Center of Excellence in Cardiac Electrophysiology Research, Faculty of Medicine, Chiang Mai University, Chiang Mai, Thailand</li>
+<li><span><sup>4</sup></span>Department of Oral Biology and Diagnostic Sciences, Faculty of Dentistry, Chiang Mai University, Chiang Mai, Thailand</li>
+<li><span><sup>5</sup></span>Department of Psychiatry, Faculty of Medicine Chiang Mai University, Chiang Mai, Thailand</li>
+</ul>
+<p class="mb15"><strong>Background:</strong> This systematic review aims to answer three questions. First, how much do mindfulness-based interventions (MBIs) affect peripheral brain-derived neurotrophic factor (BDNF)? Second, do mindfulness exercise&#x02013;based interventions (exercise-MBIs) and mindfulness meditation&#x02013;based interventions (meditation-MBIs) affect peripheral BDNF differently? Third, does the age of participants and the accumulative hours of MBI practice affect peripheral BDNF?</p>
+<p class="mb15"><strong>Methods:</strong> We included randomized controlled trials comparing MBI and no intervention in adults (age &#x0003E;18 years) who reported peripheral BDNF. Database searches included PubMed, CINAHL, CENTRAL, PsyInfo, and Scopus. Two reviewers independently selected the studies and assessed the trial quality. We used the standardized mean difference (SMD) as the effect size index and conducted moderator analyses.</p>
+<p class="mb15"><strong>Results:</strong> Eleven studies are included in this systematic review. Five studies applying exercise-MBI and three studies applying meditation-MBI are included in the meta-analysis (<i>N</i> = 479). The pooled effect size shows a significantly greater increase of peripheral BDNF in MBI groups compared to the control groups (k = 8, N = 479, SMD = 0.72, 95% CI 0.31&#x02013;1.14, <i>I</i><sup>2</sup>= 78%). Significantly more increases of BDNF in the MBI groups are found in both subgroups of exercise-MBI and meditation-MBI. The effect sizes of both subgroups are not significantly different between subgroups (&#x003C7;<sup>2</sup> = 0.02, <i>p</i> = 0.88). We find no significant correlation between the effect sizes and the age of participants (<i>r</i> = &#x02212;0.0095, <i>p</i> = 0.45) or accumulative hours of MBI practice (<i>r</i> = 0.0021, <i>p</i> = 0.57).</p>
+<p class="mb0"><strong>Conclusion:</strong> The heterogeneous data of this small sample-size meta-analysis suggests that MBI can increase peripheral BDNF. Either exercise-MBI or meditation-MBI can increase peripheral BDNF.</p>
+<div class="clear"></div>
+</div>
+<div class="JournalFullText">
+<a id="h2" name="h2"></a><h2>Introduction</h2>
+<p class="mb15">It is well-established that brain-derived neurotrophic factor (BDNF), a neuronal growth factor, affects neuronal survival and regeneration, called &#x0201C;neuronal plasticity&#x0201D; (<a href="#B22">Lu et al., 2014</a>). Hence, there is increasing interest in the potential therapeutic effect of interventions that increase BDNF (<a href="#B3">Bathina and Das, 2015</a>). BDNF is produced in both the central nervous system and peripheral tissues. The BDNF measured from blood, either from serum, plasma, or saliva, is called peripheral BDNF. Previous studies show peripheral BDNF is related to numerous brain disorders. A recent meta-analysis finds that lower levels of peripheral BDNF are associated with an increased risk of depression (<a href="#B5">Brunoni et al., 2008</a>), Alzheimer&#x00027;s disease (<a href="#B2">Balietti et al., 2018</a>), Parkinson&#x00027;s disease (<a href="#B33">Rahmani et al., 2019</a>), and strokes with an unfavorable outcome (<a href="#B42">Xu et al., 2018</a>). There have been attempts to provide external BDNF, but this has not been successful (<a href="#B15">Houlton et al., 2019</a>) due to poor blood&#x02013;brain barrier permeability and short therapeutic half-life (<a href="#B31">Poduslo and Curran, 1996</a>). Some studies claim that acetylcholinesterase inhibitors and antidepressants may increase peripheral BDNF (<a href="#B38">Str&#x000F6;hle et al., 2015</a>); however, the evidence still needs to be evaluated (<a href="#B44">Zhou et al., 2017</a>). Currently, it would be safer and more feasible to promote lifestyle modification that increases BDNF.</p>
+<p class="mb15">Mindfulness, in a focused-attention practice, has been developed to be a health intervention. Mindfulness has been defined as &#x0201C;paying attention in a particular way, on purpose, in the present moment, and non-judgmentally&#x0201D; (<a href="#B17">Kabat-Zinn, 2003</a>). Mindfulness-based interventions (MBIs) are practices that employ a variety of techniques designed to facilitate mindfulness to affect bodily function and symptoms. Regarding this definition, MBI can be divided into (1) mindfulness-based exercise, which emphasizes body movement, such as yoga, tai chi, and qi gong, and (2) meditation and its derivatives, which emphasize mentality training, such as mindfulness breathing, compassionate body scan, and working with emotions through imagination. This latter type of MBI also includes secular therapy like mindfulness-based stress relaxation (MBSR) and mindfulness-based cognitive therapy (MBCT) (<a href="#B12">Goldberg et al., 2018</a>).</p>
+<p class="mb15">Numerous studies show that practicing MBI affects brain structure and function. In a meta-analysis of 21 studies, Fox and colleagues applied diffuse tensor imaging and voxel-based morphology imaging MRI to 300 meditation-na&#x000EF;ve participants. They find brain changes, namely a moderate increase in brain size, in eight regions. These brain regions are the hippocampus, anterior and midcingulate gyrus, frontopolar cortex, sensory cortices and insula, orbitofrontal cortex, superior longitudinal fasciculus, and corpus callosum (<a href="#B10">Fox et al., 2014</a>). Another meta-analysis of 18 studies of MBSR and MBCT also finds the improvement of working memory, autobiography memory, and cognitive flexibility after practicing MBI (<a href="#B19">Lao et al., 2016</a>).</p>
+<p class="mb15">Similar to other interventions affecting brain function, MBIs have been assessed regarding their effects on the brain using the measure of peripheral BDNF. A recent meta-analysis finds that physical exercise, including mindfulness-based exercise (e.g., yoga, tai chi) increased peripheral BDNF (<a href="#B8">Dinoff et al., 2016</a>). Because mindfulness-based exercise comprises light-to-moderate exercise and mindfulness meditation, it is not yet known if mindfulness meditation plays any role in such an increment (<a href="#B1">Ainsworth et al., 2000</a>). Another study examining the effect of yoga on peripheral BDNF also reports that the increased peripheral BDNF is negatively correlated with age (r = &#x02212;0.446) (<a href="#B28">Pal et al., 2014</a>). In addition, a meta-analysis reports that cumulative hours of physical exercise is an effect modifier of peripheral BNDF increment (<a href="#B7">Dinoff et al., 2017</a>).</p>
+<p class="mb0">The evidence mentioned above suggests that the effect of MBIs, especially the meditation part, on peripheral BDNF remains inconclusive. This systematic review and meta-analysis aims to answer three questions. First, how much does MBI affect peripheral BDNF? Second, do mindfulness exercise-based interventions (exercise-MBIs) and mindfulness meditation-based interventions (meditation-MBIs) affect peripheral BDNF differently? Third, does the age of MBI practitioners and the accumulative hours of MBI practice affect peripheral BDNF?</p>
+<a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+<p class="mb0">The protocol of this systematic review (CRD42018093786) is registered at PROSPERO (International Prospective Register of Systematic Reviews). This present report follows the format of the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-analyses) Statement.</p>
+<h3>Inclusion Criteria of Studies</h3>
+<p class="mb15">Studies that are included meet the following criteria: (i) a parallel or crossover randomized, controlled trial (RCT) in adults (age &#x0003E; 18 years); (ii) the experimental group receiving any type of MBI; (iii) the comparator group receiving no treatment, treatment as usual, or being on the waitlist; and (iv) the changes in plasma or serum BDNF after receiving MBI being reported or calculable.</p>
+<p class="mb0">Our meta-analysis does not include non-controlled (single-arm) trials due to the presence of confounding factors. One of the important confounders is called the &#x0201C;vacation effect.&#x0201D; This effect is reported in some studies that show the non-intervention group also had peripheral BDNF changes during follow-up (<a href="#B9">Epel et al., 2016</a>; <a href="#B18">Kwak et al., 2019</a>). The BDNF changes suggesting a vacation effect, refers to the temporary improvements in health and psychological well-being after taking a vacation, which soon fade after work resumption (<a href="#B12">Goldberg et al., 2018</a>). However, improved reliability should result from the balance of confounders in the comparison groups of RCTs. For this reason, it was decided to include only RCTs in our meta-analysis.</p>
+<h3>Data Sources and Searches</h3>
+<p class="mb0">Searches were conducted on PubMed, EMBASE, The Cochrane Central Register of Controlled Trials (CENTRAL), and CINAHL (nursing and allied health professions), and PsyInfo from inception (2008) up to June 2020. For all full-text articles that passed the screening, their reference lists were examined to identify additional relevant studies (&#x0201C;snowball&#x0201D; method).</p>
+<h3>Study Selection and Quality Assessment</h3>
+<p class="mb15">Two reviewers (PG and NY) independently selected the searched records, extracted the data, selected the studies, and assessed the trial quality. If any discrepancy existed, other investigators would additionally review and discuss with the first two reviewers to form a consensus.</p>
+<p class="mb0">After the completion of study selection, the data was extracted as recommended by the Center for Reviews and Dissemination. Each trial was evaluated using the Cochrane Collaboration four criteria for assessing the risk of bias. Those include (i) adequate generation of allocation sequence, (ii) concealment of allocation, (iii) prevention of knowledge of the allocated intervention, (iv) dealing with an incomplete data set, (v) selective report, and (vi) other bias.</p>
+<h3>Data Extraction</h3>
+<p class="mb15">Apart from demographic and clinical characteristics, the changes in peripheral BNDF are the outcome of interest. In comparison to the endpoint peripheral BDNF, the mean changes are preferred because the included studies are likely to have small sample sizes. We declined to use the endpoints of peripheral BDNF because baseline data of paired groups enrolled in a small study might not be comparable although the randomization was applied.</p>
+<p class="mb0">The mean changes and standard deviations (SDs) of peripheral BDNF were extracted. If the study in which the means and SDs of BDNF level changes were not available, the means and SDs at baseline and endpoints were used to calculate the means and SDs of BDNF level changes. To estimate the SD of mean change of BDNF level changes, the baseline and postintervention correlation coefficient (<i>r</i>) were needed. If such <i>r</i> was not available, <i>r</i> was defined as 0.5 for the treatment group and 0.05 for the control group. This estimation was obtained from <a href="#B20">Ledreux et al. (2019)</a>, which is the only study that clearly reports the Pearson <i>r</i> for mindfulness practice = 0.439 and Pearson <i>r</i> = 0.037 for the control group.</p>
+<h3>Meta-Analysis</h3>
+<p class="mb15">Because peripheral BDNF can be measured by various laboratory kits and reported in many unit systems, the standardized mean difference (SMD) is used as the effect size index. The present SMD is defined as the difference between the mean change of peripheral BDNF obtained from the experimental group and that obtained from the control groups. This, in turn, is divided by the pooled within-group SD. This is an appropriate index when the subjects are randomly assigned to the comparison groups with the assumption that both groups are equivalent at baseline (<a href="#B34">Rubio-Aparicio et al., 2018</a>).</p>
+<p class="mb0">Heterogeneity is estimated using the <i>I</i><sup>2</sup> statistic. If the heterogeneity of data is significantly high (<i>I</i><sup>2</sup> &#x0003E; 50%), effect sizes are pooled using a random-effect model. The effect sizes are interpreted as Cohen&#x00027;s recommendations: 0&#x02013;0.19 = negligible effect, 0.20&#x02013;0.49 = small effect, 0.50&#x02013;0.79 = moderate effect, 0.80 or more = large effect (<a href="#B36">Sch&#x000E4;fer and Schwarz, 2019</a>). The publication bias is assessed visually using the funnel plot as in <a href="#F1">Figure 1</a>. The number of trials expected to be able to be included in the meta-analysis is &#x0003C;10. Begg&#x00027;s test for funnel plot symmetrical also applies (<a href="#B4">Begg and Mazumdar, 1994</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g001.jpg" name="figure1" target="_blank">
+<img id="F1" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g001.jpg"></a>
+<p><strong>Figure 1</strong>. Algorithm of study selection following PRISMA guideline.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Moderator Analyses</h3>
+<p class="mb0">A subgroup analysis was conducted by separating the included studies into three subgroups based on the types of MBI. These included (i) exercise-MBI (e.g., yoga, tai chi), (ii) meditation-MBI, and (iii) other MBI practices (e.g., MBI added on other programs). Two meta-regression analyses were performed by computing the correlation coefficients (<i>r</i>s) between (i) the effect sizes and the average ages of participants and (ii) the effect sizes and the accumulated hours of MBI practice. The accumulated hours of MBI practice of each study were computed by multiplying the practice hours per week with the number of study weeks.</p>
+<h3>Software</h3>
+<p class="mb0">All analyses and most of Figures were conducted using R 4.0 (<a href="#B32">R Core Team, 2016</a>) and Figure 2 was produced by Robvis (<a href="#B23">McGuinness and Higgins, 2020</a>).</p>
+<a id="h4" name="h4"></a><h2>Results</h2>
+<h3 class="pt0">Study Characteristics and Quality</h3>
+<p class="mb0">The searches retrieved 522 records in total (see <a href="#F1">Figure 1</a>). After the removal of duplicated records, record screening, and assessment of full-text articles, 11 studies met the inclusion criteria and are included in this systematic review. All studies were conducted in adults with a median age of 48 (range 31&#x02013;84) years, slightly predominantly female with common diagnoses of psychiatric problems and low burdens of physical health. The median accumulative intervention exposure was 28 h (range 8&#x02013;158 h). <a href="#T1">Table 1</a> shows other characteristics of the included studies. The included studies pose a low-to-moderate risk of bias. The common risk is that no study could blind interventions. <a href="#F2">Figure 2</a> shows other issues of methodological quality in the included studies.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-t001.jpg" name="Table1" target="_blank">
+<img id="T1" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-t001.jpg">
+</a>
+<p><strong>Table 1</strong>. The included studies for systematic review (<sup>&#x0002A;</sup>Not included studies in the meta-analysis).</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine mb15"></div>
+<div class="Imageheaders">FIGURE 2</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g002.jpg" name="figure2" target="_blank">
+<img id="F2" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g002.jpg"></a>
+<p><strong>Figure 2</strong>. The quality of research.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">Of 11 included studies, five (<a href="#B16">Ikai et al., 2014</a>; <a href="#B25">Naveen et al., 2016</a>, <a href="#B40">Tolahunase et al., 2017</a>; <a href="#B39">Sungkarat et al., 2018</a>) and three (<a href="#B10">Fox et al., 2014</a>; <a href="#B11">Gagrani et al., 2018</a>; <a href="#B26">Nery et al., 2019</a>) studies are parallel RCTs applying exercise-MBI and meditation-MBI, respectively. These eight studies had a follow-up duration between 8 and 36 weeks. Due to their similarities, these eight studies are included in the meta-analysis (<i>N</i> = 479).</p>
+<p class="mb0">The three following studies (<a href="#B13">H&#x000E5;kansson et al., 2016</a>; <a href="#B24">Montero-Marin et al., 2019</a>; <a href="#B27">Ng et al., 2020</a>) are very dissimilar in character of intervention and control group to the first eight studies. They are included in the qualitative analysis only. H&#x000E5;kansson et al. conducts a crossover study in 19 healthy elders. However, this study was excluded because it applied only active interventions of cognitive training and physical exercise in the control arms. All participants went through different training commercial applications for 35 min each. The study measured the peripheral BDNF within 0, 20, and 60 min after finishing each intervention. They find peripheral BDNF in those receiving physical exercise is significantly increased from a baseline although mindfulness and cognitive training show no significant change. There were two studies related to disease-specific mindfulness programs compared to active interventions. Montero-Martin et al. conducted a parallel RCT in patients with fibromyalgia. They compare attachment-based compassion therapy (ABCT), a fibromyalgia-specific mindfulness-based program with relaxation therapy. The study shows the ABCT group had a significantly greater improved quality of life concurrent with a greater reduction of BDNF. Siang Ng et al. conducted a parallel RCT in elders with mild cognitive impairment. The intervention was a modified MBSR program for the cognitively impaired person called mindful-awareness practice (MAP). The control arm received a lifestyle modification health education program. The study resulted in BDNF in both MAP and control groups reduced from baseline at 3 and 9 months of the program.</p>
+<h3>Meta-Analysis</h3>
+<p class="mb0"><a href="#F3">Figure 3</a> shows the meta-analysis of the eight included studies using a random effect model. The pooled effect size shows a significantly greater increase of peripheral BDNF in MBI groups compared to the control groups (k = 8, <i>N</i> = 479, SMD = 0.72, 95% CI 0.31&#x02013;1.14, <i>I</i><sup>2</sup>=78%). Regarding the publication bias, the funnel plot of effect sizes against their standard errors shows a relative symmetry of plots. The Begg&#x00027;s rank test of funnel plot asymmetry indicates no significant asymmetry of effect-size plots (k = 8, z = 0.72, <i>p</i> = 0.45) in <a href="#F4">Figure 4</a>.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 3</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g003.jpg" name="figure3" target="_blank">
+<img id="F3" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g003.jpg"></a>
+<p><strong>Figure 3</strong>. The forest plot of included studies (K = 8).</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine mb15"></div>
+<div class="Imageheaders">FIGURE 4</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g004.jpg" name="figure4" target="_blank">
+<img id="F4" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g004.jpg"></a>
+<p><strong>Figure 4</strong>. The funnel plot. K = 8, The Egger&#x00027;s test for publication bias: <i>t</i> = 1.7856, df = 6, <i>p</i> = 0.1244.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Moderator Analyses</h3>
+<p class="mb15"><a href="#F3">Figure 3</a> shows the subgroup analysis comparing the pooled effect sizes of BDNF changes between the exercise-MBI and control groups and between the meditation-MBI and control groups. In the MBI groups, significantly greater increases in peripheral BDNF are found in both subgroups (k = 5, N = 242, SMD = 070, 95% CI = 0.12&#x02013;1.29, <i>I</i><sup>2</sup> = 78%) and meditation-MBI (k = 3, N = 237, SMD = 077, 95% CI = 0.07&#x02013;1.48, <i>I</i><sup>2</sup> = 85%). The effect sizes of both subgroups are not significantly different between subgroups (&#x003C7;<sup>2</sup> = 0.02, <i>p</i> = 0.88).</p>
+<p class="mb0">The meta-regression analyses shows no significant correlation between the effect sizes and participants&#x00027; age (<i>r</i> = &#x02212;0.0095, <i>p</i> = 0.45) or accumulative hours of practice (<i>r</i> = 0.0021, <i>p</i> = 0.57) (see the bubble plot in <a href="#F5">Figure 5</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 5</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g005.jpg" name="figure5" target="_blank">
+<img id="F5" alt="www.frontiersin.org" class="lazy" data-src="https://www.frontiersin.org/files/Articles/531955/fpsyg-11-02209-HTML/image_m/fpsyg-11-02209-g005.jpg"></a>
+<p><strong>Figure 5</strong>. The bubble plots of met regression analysis of <strong>(A)</strong> participants&#x00027; age and <strong>(B)</strong> accumulated hours of practice.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<a id="h5" name="h5"></a><h2>Discussion</h2>
+<p class="mb15">Our meta-analysis examines the effect of MBI on peripheral BDNF by including eight RCTs (<i>N</i> = 479). Based on the heterogeneous data, it is found that MBIs can increase peripheral BDNF. The increases in peripheral BDNF are not different between those practicing exercise-MBI and meditation-MBI.</p>
+<p class="mb15">The practitioners&#x00027; age or the accumulative hours of MBI practice do not appear to be effect modifiers on peripheral BDNF affected by MBIs.</p>
+<p class="mb15">The present evidence supports previous findings and extends our knowledge in this area. The present meta-analytic results are in line with the report that mild-to-moderate exercise incorporated in MBI (e.g., yoga, tai chi) can increase peripheral BDNF. However, our subgroup analytic results extend current knowledge that not only exercise-MBI but also meditation-MBI can increase BDNF. This new knowledge suggests that, for exercise-MBI, both components of exercise and meditation contribute to the increase of peripheral BDNF.</p>
+<p class="mb15">Our meta-regression analytic results suggest that effect modifiers of peripheral BDNF changes affected by physical exercise may not be applicable for MBI. Previous studies report that practitioners&#x00027; age and hours of practice are associated with the changes in peripheral BDNF related to yoga or exercise practice (<a href="#B8">Dinoff et al., 2016</a>; <a href="#B19">Lao et al., 2016</a>). However, our meta-analyses does not show the association of those effect modifiers in MBI practitioners. It is possible that the inclusion of three meditation studies, which are non-exercise-based interventions, may reduce the strength of such association. In addition, the small sample sizes of the included studies might cause a type II error, which results in the discovery of false-negative findings.</p>
+<p class="mb15"><a href="#B13">H&#x000E5;kansson et al. (2016)</a> shows that a short bout of mindfulness does not change peripheral BDNF. He hypothesizes that physical exercise and mindfulness meditation may increase blood BDNF via a different mechanism. This may imply the relatively delayed effect of mindfulness on peripheral BDNF. One possibility is that blood BDNF increases from BDNF efflux from the brain. However, this hypothesis has a counter-argument; because BDNF has a relatively short half-life (around 45 min), it may disappear before getting through the blood&#x02013;brain barrier (<a href="#B31">Poduslo and Curran, 1996</a>; <a href="#B29">Pan et al., 1998</a>). Another possible explanation is that mindfulness can reduce systemic inflammation and free radicals, which help reduce BDNF eradication (<a href="#B43">Yang et al., 2017</a>). This is supported by a previous meta-analysis, in which MBI, both exercise-MBI and meditation-MBI, show a significant correlation with clinical improvement. Concurrently, there is also a significant correlation with reduced inflammatory biomarkers, specifically salivary levels of interleukin 6 and tumor necrosis factor-alpha in depression and generalized anxiety disorder (<a href="#B14">Hofmann et al., 2010</a>; <a href="#B35">Sanada et al., 2020</a>).</p>
+<p class="mb15">There might be a unique interaction between MBI and chronic pain. A study in patients with fibromyalgia (<a href="#B24">Montero-Marin et al., 2019</a>) shows participants had decreased BDNF concurrent with improving pain symptoms after the intervention and active intervention control. The author refers to a result supported by clinical observations that, in patients with central sensitivity pain syndrome, during the active symptoms, peripheral BDNF is higher than when symptoms are improving (<a href="#B6">Deitos et al., 2015</a>). Preclinical studies find that BDNF might be involved in maladaptive mechanisms in neuropathic pain, spasticity, and convulsive activity (<a href="#B37">Smith, 2014</a>). Hence, more studies on the effect of MBI on BDNF in chronic pain syndrome are warranted.</p>
+<p class="mb15">The low adherence to mindfulness practice can mask the effectiveness of MBI for BDNF. Ng et al. report decreased BDNF in both intervention and control groups after 9-months follow-up. The author discusses that low compliance to homework mindfulness practice in mild cognitive impairment might influence the result. This is supported by a meta-analysis that finds adherence to home practice significantly impacts the effectiveness of MBI (<a href="#B30">Parsons et al., 2017</a>). This lesson highlights the need to explore the optimum dose response for mindfulness practice to balance between achieving desired outcomes and being suitable for the participant&#x00027;s feasibility.</p>
+<p class="mb15">There are some limitations to this current systematic review. First, our review includes a smaller number of RCTs and participants compared to previous systematic reviews that include all trials examining the changes of peripheral BDNF affected by some interventions, e.g., physical exercise (<a href="#B8">Dinoff et al., 2016</a>). This limitation may cause some type II errors in our statistical analyses, e.g., meta-regression analyses. As mentioned in the present method section, for the studies in this area, the data as well as the meta-analyses obtained from RCTs would be more reliable. However, second, the majority of participants in our meta-analysis are mentally ill and have a low burden of physical health problems. The generalizability of the present results to other groups of patients may be limited. Third, there is a lack of detailed information about factors that may affect peripheral BDNF across each study discussed before; such as the intervals between the last session of intervention and blood obtainment, the proportion of participants with chronic pain syndrome, and adherence to the mindfulness program. Last, the exclusion of non-English articles might raise the risk of publication bias.</p>
+<p class="mb15">More studies in this area remain needed. These include head-to-head RCTs comparing the effects of exercise-MBI and meditation-MBI on peripheral BDNF. Because BDNF activities are also related to physical illnesses, studies of metabolic syndrome as well as patients with chronic pain syndrome should be also carried out.</p>
+<p class="mb0">Despite the above limitations, the present findings are still helpful for clinical practice, in particular, the patients with a physical disability. Increased BNDF may decrease emotional problems. Meanwhile, more exploration is needed on the influence of chronic pain syndrome and the aging brain on the effect of MBI on BDNF. Many people may wish to increase their BDNF. For an individual without a physical disability, he/she can practice physical exercise to increase his/her BDNF. However, those who have a physical disability may choose to practice meditation-MBI to increase their BDNF.</p>
+<a id="h6" name="h6"></a><h2>Conclusions</h2>
+<p class="mb0">The heterogeneous data of this small sample size meta-analysis suggest that MBI can increase peripheral BDNF. Either mindfulness exercise or mindfulness meditation-based intervention can increase peripheral BDNF. Patients with a physical disability may choose to practice MBI to increase their BDNF. More studies in this area are warranted.</p>
+<a id="h7" name="h7"></a><h2>Data Availability Statement</h2>
+<p class="mb0">The original contributions presented in the study are included in the article/<a href="#h13">Supplementary files</a>, further inquiries can be directed to the corresponding author.</p>
+<a id="h8" name="h8"></a><h2>Ethics Statement</h2>
+<p class="mb0">This study meets the criteria of Chiang Mai University for ethical approval and consent exemption (Exemption number 2561-05447).</p>
+<a id="h9" name="h9"></a><h2>Author Contributions</h2>
+<p class="mb0">PG and MS designed the study. PG and NY conducted the research. PG and MS conducted the meta-analysis. PG wrote the first draft of the manuscript. NC, SC, and MS participated in the revision of the subsequent draft. All authors read and approved the final manuscript.</p>
+<a id="h10" name="h10"></a><h2>Funding</h2>
+<p class="mb0">This work was supported by The Faculty of Medicine Research Grant (028-2562) and the Thailand Research Fund&#x00027;s Mid Career Researcher Grant (MRG 6280192).</p>
+<a id="h11" name="h11"></a><h2>Conflict of Interest</h2>
+<p class="mb0">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<a id="h12" name="h12"></a><h2>Acknowledgments</h2>
+<p class="mb0">We are gratefully acknowledge Ms. Chompunuch Saravudeecha for her searching assistance, Ms. Kamonchanok Masangta for her plagiarism check, and Dr. Elisabeth Young for her medical writing assistance.</p>
+<a id="h13" name="h13"></a><h2>Supplementary Material</h2>
+<p class="mb0" id="SM1">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2020.02209/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fpsyg.2020.02209/full#supplementary-material</a></p>
+<a id="h14" name="h14"></a><h2>References</h2>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B1" id="B1"></a> Ainsworth, B. E., Haskell, W. L., Whitt, M. C., Irwin, M. L., Swartz, A. M., Strath, S. J., et al. (2000). Compendium of physical activities: an update of activity codes and MET intensities: <i>Med Sci Sports Exerc</i>. 32 (Suppl.), S498&#x02013;516. doi: 10.1097/00005768-200009001-00009</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/10993420" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1097/00005768-200009001-00009" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+E.+Ainsworth&#x00026;author=W.+L.+Haskell&#x00026;author=M.+C.+Whitt&#x00026;author=M.+L.+Irwin&#x00026;author=A.+M.+Swartz&#x00026;author=S.+J.+Strath+&#x00026;publication_year=2000&#x00026;title=Compendium+of+physical+activities%3A+an+update+of+activity+codes+and+MET+intensities&#x00026;journal=Med+Sci+Sports+Exerc&#x00026;volume=32&#x00026;pages=S498-516" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B2" id="B2"></a> Balietti, M., Giuli, C., and Conti, F. (2018). Peripheral blood brain-derived neurotrophic factor as a biomarker of alzheimer&#x00027;s disease: are there methodological biases? <i>Mol. Neurobiol</i>. 55, 6661&#x02013;6672. doi: 10.1007/s12035-017-0866-y</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29330839" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s12035-017-0866-y" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Balietti&#x00026;author=C.+Giuli&#x00026;author=F.+Conti+&#x00026;publication_year=2018&#x00026;title=Peripheral+blood+brain-derived+neurotrophic+factor+as+a+biomarker+of+alzheimer&#x00027;s+disease%3A+are+there+methodological+biases%3F&#x00026;journal=Mol.+Neurobiol&#x00026;volume=55&#x00026;pages=6661-6672" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B3" id="B3"></a> Bathina, S., and Das, U. N. (2015). Brain-derived neurotrophic factor and its clinical implications. <i>Arch. Med. Sci</i>. 6, 1164&#x02013;1178. doi: 10.5114/aoms.2015.56342</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26788077" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.5114/aoms.2015.56342" target="_blank">CrossRef Full Text</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B4" id="B4"></a> Begg, C. B., and Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. <i>Biometrics</i> 50, 1088&#x02013;1101. doi: 10.2307/2533446</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/7786990" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.2307/2533446" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+B.+Begg&#x00026;author=M.+Mazumdar+&#x00026;publication_year=1994&#x00026;title=Operating+characteristics+of+a+rank+correlation+test+for+publication+bias&#x00026;journal=Biometrics&#x00026;volume=50&#x00026;pages=1088-1101" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B5" id="B5"></a> Brunoni, A. R., Lopes, M., and Fregni, F. (2008). A systematic review and meta-analysis of clinical studies on major depression and BDNF levels: implications for the role of neuroplasticity in depression. <i>Int. J. Neuropsychopharmacol.</i> 11, 1169&#x02013;1180. doi: 10.1017/S1461145708009309</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18752720" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1017/S1461145708009309" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+R.+Brunoni&#x00026;author=M.+Lopes&#x00026;author=F.+Fregni+&#x00026;publication_year=2008&#x00026;title=A+systematic+review+and+meta-analysis+of+clinical+studies+on+major+depression+and+BDNF+levels%3A+implications+for+the+role+of+neuroplasticity+in+depression&#x00026;journal=Int.+J.+Neuropsychopharmacol.&#x00026;volume=11&#x00026;pages=1169-1180" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B6" id="B6"></a> Deitos, A., Duss&#x000E1;n-Sarria, J. A., de Souza, A., Medeiros, L., da Gra&#x000E7;a Tarrag&#x000F4;, M, Sehn, F., et al. (2015). Clinical value of serum neuroplasticity mediators in identifying the central sensitivity syndrome in patients with chronic pain with and without structural pathology: <i>Clin. J. Pain.</i> 31, 959&#x02013;967. doi: 10.1097/AJP.0000000000000194</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25551477" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1097/AJP.0000000000000194" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Deitos&#x00026;author=J.+A.+Duss&#x000E1;n-Sarria&#x00026;author=A.+de+Souza&#x00026;author=L.+Medeiros&#x00026;author=M+da+Gra&#x000E7;a+Tarrag&#x000F4;&#x00026;author=F.+Sehn+&#x00026;publication_year=2015&#x00026;title=Clinical+value+of+serum+neuroplasticity+mediators+in+identifying+the+central+sensitivity+syndrome+in+patients+with+chronic+pain+with+and+without+structural+pathology&#x00026;journal=Clin.+J.+Pain.&#x00026;volume=31&#x00026;pages=959-967" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B7" id="B7"></a> Dinoff, A., Herrmann, N., Swardfager, W., and Lanct&#x000F4;t, K. L. (2017). The effect of acute exercise on blood concentrations of brain-derived neurotrophic factor in healthy adults: a meta-analysis. <i>Eur. J. Neurosci</i>. 46, 1635&#x02013;1646. doi: 10.1111/ejn.13603</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28493624" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/ejn.13603" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Dinoff&#x00026;author=N.+Herrmann&#x00026;author=W.+Swardfager&#x00026;author=K.+L.+Lanct&#x000F4;t+&#x00026;publication_year=2017&#x00026;title=The+effect+of+acute+exercise+on+blood+concentrations+of+brain-derived+neurotrophic+factor+in+healthy+adults%3A+a+meta-analysis&#x00026;journal=Eur.+J.+Neurosci&#x00026;volume=46&#x00026;pages=1635-1646" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B8" id="B8"></a> Dinoff, A., Herrmann, N., Swardfager, W., Liu, C. S., Sherman, C., Chan, S., et al. (2016). The effect of exercise training on resting concentrations of peripheral brain-derived neurotrophic factor (BDNF): a meta-analysis. <i>PLoS ONE</i>. 11:e0163037. doi: 10.1371/journal.pone.0163037</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27658238" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pone.0163037" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Dinoff&#x00026;author=N.+Herrmann&#x00026;author=W.+Swardfager&#x00026;author=C.+S.+Liu&#x00026;author=C.+Sherman&#x00026;author=S.+Chan+&#x00026;publication_year=2016&#x00026;title=The+effect+of+exercise+training+on+resting+concentrations+of+peripheral+brain-derived+neurotrophic+factor+(BDNF)%3A+a+meta-analysis&#x00026;journal=PLoS+ONE&#x00026;volume=11&#x00026;pages=e0163037" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B9" id="B9"></a> Epel, E. S., Puterman, E., Lin, J., Blackburn, E. H., Lum, P. Y., Beckmann, N. D., et al. (2016). Meditation and vacation effects have an impact on disease-associated molecular phenotypes. <i>Transl. Psychiatry</i>. 6:e880. doi: 10.1038/tp.2016.164</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27576169" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/tp.2016.164" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=E.+S.+Epel&#x00026;author=E.+Puterman&#x00026;author=J.+Lin&#x00026;author=E.+H.+Blackburn&#x00026;author=P.+Y.+Lum&#x00026;author=N.+D.+Beckmann+&#x00026;publication_year=2016&#x00026;title=Meditation+and+vacation+effects+have+an+impact+on+disease-associated+molecular+phenotypes&#x00026;journal=Transl.+Psychiatry&#x00026;volume=6&#x00026;pages=e880" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B10" id="B10"></a> Fox, K. C. R., Nijeboer, S., Dixon, M. L., Floman, J. L., Ellamil, M., Rumak, S. P., et al. (2014). Is meditation associated with altered brain structure? A systematic review and meta-analysis of morphometric neuroimaging in meditation practitioners. <i>Neurosci. Biobehav. Rev</i>. 43, 48&#x02013;73. doi: 10.1016/j.neubiorev.2014.03.016</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24705269" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.neubiorev.2014.03.016" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+C.+R.+Fox&#x00026;author=S.+Nijeboer&#x00026;author=M.+L.+Dixon&#x00026;author=J.+L.+Floman&#x00026;author=M.+Ellamil&#x00026;author=S.+P.+Rumak+&#x00026;publication_year=2014&#x00026;title=Is+meditation+associated+with+altered+brain+structure%3F+A+systematic+review+and+meta-analysis+of+morphometric+neuroimaging+in+meditation+practitioners&#x00026;journal=Neurosci.+Biobehav.+Rev&#x00026;volume=43&#x00026;pages=48-73" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B11" id="B11"></a> Gagrani, M., Faiq, M. A., Sidhu, T., Dada, R., Yadav, R. K., Sihota, R., et al. (2018). Meditation enhances brain oxygenation, upregulates BDNF and improves quality of life in patients with primary open angle glaucoma: a randomized controlled trial. <i>Restor. Neurol. Neurosci</i>. 36, 741&#x02013;753. doi: 10.3233/RNN-180857</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30400122" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3233/RNN-180857" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Gagrani&#x00026;author=M.+A.+Faiq&#x00026;author=T.+Sidhu&#x00026;author=R.+Dada&#x00026;author=R.+K.+Yadav&#x00026;author=R.+Sihota+&#x00026;publication_year=2018&#x00026;title=Meditation+enhances+brain+oxygenation,+upregulates+BDNF+and+improves+quality+of+life+in+patients+with+primary+open+angle+glaucoma%3A+a+randomized+controlled+trial&#x00026;journal=Restor.+Neurol.+Neurosci&#x00026;volume=36&#x00026;pages=741-753" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B12" id="B12"></a> Goldberg, S. B., Tucker, R. P., Greene, P. A., Davidson, R. J., Wampold, B. E., Kearney, D. J., et al. (2018). Mindfulness-based interventions for psychiatric disorders: a systematic review and meta-analysis. <i>Clin. Psychol. Rev</i>. 59:52&#x02013;60. doi: 10.1016/j.cpr.2017.10.011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29126747" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.cpr.2017.10.011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+B.+Goldberg&#x00026;author=R.+P.+Tucker&#x00026;author=P.+A.+Greene&#x00026;author=R.+J.+Davidson&#x00026;author=B.+E.+Wampold&#x00026;author=D.+J.+Kearney+&#x00026;publication_year=2018&#x00026;title=Mindfulness-based+interventions+for+psychiatric+disorders%3A+a+systematic+review+and+meta-analysis&#x00026;journal=Clin.+Psychol.+Rev&#x00026;volume=59&#x00026;pages=52-60" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B13" id="B13"></a> H&#x000E5;kansson, K., Ledreux, A., Daffner, K., Terjestam, Y., Bergman, P., Carlsson, R., et al. (2016). BDNF Responses in healthy older persons to 35 minutes of physical exercise, cognitive training, and mindfulness: associations with working memory function. <i>J. Alzheimers Dis</i>. 55, 645&#x02013;657. doi: 10.3233/JAD-160593</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27716670" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3233/JAD-160593" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+H&#x000E5;kansson&#x00026;author=A.+Ledreux&#x00026;author=K.+Daffner&#x00026;author=Y.+Terjestam&#x00026;author=P.+Bergman&#x00026;author=R.+Carlsson+&#x00026;publication_year=2016&#x00026;title=BDNF+Responses+in+healthy+older+persons+to+35+minutes+of+physical+exercise,+cognitive+training,+and+mindfulness%3A+associations+with+working+memory+function&#x00026;journal=J.+Alzheimers+Dis&#x00026;volume=55&#x00026;pages=645-657" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B14" id="B14"></a> Hofmann, S. G., Sawyer, A. T., Witt, A. A., and Oh, D. (2010). The effect of mindfulness-based therapy on anxiety and depression: A meta-analytic review. <i>J. Consult. Clin. Psychol</i>. 78, 169&#x02013;183. doi: 10.1037/a0018555</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20350028" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1037/a0018555" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+G.+Hofmann&#x00026;author=A.+T.+Sawyer&#x00026;author=A.+A.+Witt&#x00026;author=D.+Oh+&#x00026;publication_year=2010&#x00026;title=The+effect+of+mindfulness-based+therapy+on+anxiety+and+depression%3A+A+meta-analytic+review&#x00026;journal=J.+Consult.+Clin.+Psychol&#x00026;volume=78&#x00026;pages=169-183" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B15" id="B15"></a> Houlton, J., Abumaria, N., Hinkley, S. F. R., and Clarkson, A. N. (2019). Therapeutic potential of neurotrophins for repair after brain injury: a helping hand from biomaterials. <i>Front. Neurosci.</i> (2020). 13:790. doi: 10.3389/fnins.2019.00790</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31427916" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3389/fnins.2019.00790" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Houlton&#x00026;author=N.+Abumaria&#x00026;author=S.+F.+R.+Hinkley&#x00026;author=A.+N.+Clarkson+&#x00026;publication_year=2019&#x00026;title=Therapeutic+potential+of+neurotrophins+for+repair+after+brain+injury%3A+a+helping+hand+from+biomaterials&#x00026;journal=Front.+Neurosci.&#x00026;volume=13&#x00026;pages=790" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B16" id="B16"></a> Ikai, S., Suzuki, T., Uchida, H., Saruta, J., Tsukinoki, K., Fujii, Y., et al. (2014). Effects of weekly one-hour hatha yoga therapy on resilience and stress levels in patients with schizophrenia-spectrum disorders: an eight-week randomized controlled trial. <i>J. Altern. Complement. Med</i>. 20, 823&#x02013;830. doi: 10.1089/acm.2014.0205</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25364946" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1089/acm.2014.0205" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Ikai&#x00026;author=T.+Suzuki&#x00026;author=H.+Uchida&#x00026;author=J.+Saruta&#x00026;author=K.+Tsukinoki&#x00026;author=Y.+Fujii+&#x00026;publication_year=2014&#x00026;title=Effects+of+weekly+one-hour+hatha+yoga+therapy+on+resilience+and+stress+levels+in+patients+with+schizophrenia-spectrum+disorders%3A+an+eight-week+randomized+controlled+trial&#x00026;journal=J.+Altern.+Complement.+Med&#x00026;volume=20&#x00026;pages=823-830" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B17" id="B17"></a> Kabat-Zinn, J. (2003). Mindfulness-based interventions in context: past, present, and future. <i>Clin. Psychol. Sci. Pract</i>. 10, 144&#x02013;156. doi: 10.1093/clipsy.bpg016</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1093/clipsy.bpg016" target="_blank">CrossRef Full Text</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B18" id="B18"></a> Kwak, S., Lee, T. Y., Jung, W. H., Hur, J.-W., Bae, D., Hwang, W. J., et al. (2019). The immediate and sustained positive effects of meditation on resilience are mediated by changes in the resting brain. <i>Front. Hum. Neurosci</i>. 13:101. doi: 10.3389/fnhum.2019.00101</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30983980" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3389/fnhum.2019.00101" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Kwak&#x00026;author=T.+Y.+Lee&#x00026;author=W.+H.+Jung&#x00026;author=J.+-W.+Hur&#x00026;author=D.+Bae&#x00026;author=W.+J.+Hwang+&#x00026;publication_year=2019&#x00026;title=The+immediate+and+sustained+positive+effects+of+meditation+on+resilience+are+mediated+by+changes+in+the+resting+brain&#x00026;journal=Front.+Hum.+Neurosci&#x00026;volume=13&#x00026;pages=101" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B19" id="B19"></a> Lao, S.-A., Kissane, D., and Meadows, G. (2016). Cognitive effects of MBSR/MBCT: a systematic review of neuropsychological outcomes. <i>Conscious Cogn.</i> 45, 109&#x02013;123. doi: 10.1016/j.concog.2016.08.017</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27580462" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.concog.2016.08.017" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+-A.+Lao&#x00026;author=D.+Kissane&#x00026;author=G.+Meadows+&#x00026;publication_year=2016&#x00026;title=Cognitive+effects+of+MBSR%2FMBCT%3A+a+systematic+review+of+neuropsychological+outcomes&#x00026;journal=Conscious+Cogn.&#x00026;volume=45&#x00026;pages=109-123" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B20" id="B20"></a> Ledreux, A., H&#x000E5;kansson, K., Carlsson, R., Kidane, M., Columbo, L., Terjestam, Y., et al. (2019). Differential effects of physical exercise, cognitive training, and mindfulness practice on serum BDNF levels in healthy older adults: a randomized controlled intervention study. <i>J. Alzheimers Dis.</i> 71, 1245&#x02013;1261. doi: 10.3233/JAD-190756</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31498125" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3233/JAD-190756" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Ledreux&#x00026;author=K.+H&#x000E5;kansson&#x00026;author=R.+Carlsson&#x00026;author=M.+Kidane&#x00026;author=L.+Columbo&#x00026;author=Y.+Terjestam+&#x00026;publication_year=2019&#x00026;title=Differential+effects+of+physical+exercise,+cognitive+training,+and+mindfulness+practice+on+serum+BDNF+levels+in+healthy+older+adults%3A+a+randomized+controlled+intervention+study&#x00026;journal=J.+Alzheimers+Dis.&#x00026;volume=71&#x00026;pages=1245-1261" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B21" id="B21"></a> Lee, M., Moon, W., and Kim, J. (2014). Effect of yoga on pain, brain-derived neurotrophic factor, and serotonin in premenopausal women with chronic low Back Pain. <i>Evid. Based Complement. Alternat. Med.</i> 2014, 1&#x02013;7. doi: 10.1155/2014/203173</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25120574" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1155/2014/203173" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Lee&#x00026;author=W.+Moon&#x00026;author=J.+Kim+&#x00026;publication_year=2014&#x00026;title=Effect+of+yoga+on+pain,+brain-derived+neurotrophic+factor,+and+serotonin+in+premenopausal+women+with+chronic+low+Back+Pain&#x00026;journal=Evid.+Based+Complement.+Alternat.+Med.&#x00026;volume=2014&#x00026;pages=1-7" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B22" id="B22"></a> Lu, B., Nagappan, G., and Lu, Y. (2014). &#x0201C;BDNF and synaptic plasticity, cognitive function, and dysfunction,&#x0201D; in: <i>Neurotrophic Factors</i>, eds G. R. Lewin and B. D. Carter (Berlin; Heidelberg: Springer) 223&#x02013;250. doi: 10.1007/978-3-642-45106-5_9</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1007/978-3-642-45106-5_9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+Lu&#x00026;author=G.+Nagappan&#x00026;author=Y.+Lu+&#x00026;publication_year=2014&#x00026;title=&#x0201C;BDNF+and+synaptic+plasticity,+cognitive+function,+and+dysfunction,&#x0201D;&#x00026;journal=Neurotrophic+Factors&#x00026;pages=223-250" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B23" id="B23"></a> McGuinness, LA, and Higgins, JPT. (2020). Risk-of-bias VISualization (robvis): An R package and Shiny web app for visualizing risk-of-bias assessments. <i>Res Syn Meth.</i> 1&#x02013;7. doi: 10.1002/jrsm.1411</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/32336025" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/jrsm.1411" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=LA+McGuinness&#x00026;author=JPT+Higgins+&#x00026;publication_year=2020&#x00026;title=Risk-of-bias+VISualization+(robvis)%3A+An+R+package+and+Shiny+web+app+for+visualizing+risk-of-bias+assessments&#x00026;journal=Res+Syn+Meth.&#x00026;pages=1-7" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B24" id="B24"></a> Montero-Marin, J., Andr&#x000E9;s-Rodr&#x000ED;guez, L., Tops, M., Luciano, J. V., Navarro-Gil, M., Feliu-Soler, A., et al. (2019). Effects of attachment-based compassion therapy (ABCT) on brain-derived neurotrophic factor and low-grade inflammation among fibromyalgia patients: a randomized controlled trial. <i>Sci. Rep.</i> 9:15639. doi: 10.1038/s41598-019-52260-z</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31666651" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41598-019-52260-z" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Montero-Marin&#x00026;author=L.+Andr&#x000E9;s-Rodr&#x000ED;guez&#x00026;author=M.+Tops&#x00026;author=J.+V.+Luciano&#x00026;author=M.+Navarro-Gil&#x00026;author=A.+Feliu-Soler+&#x00026;publication_year=2019&#x00026;title=Effects+of+attachment-based+compassion+therapy+(ABCT)+on+brain-derived+neurotrophic+factor+and+low-grade+inflammation+among+fibromyalgia+patients%3A+a+randomized+controlled+trial&#x00026;journal=Sci.+Rep.&#x00026;volume=9&#x00026;pages=15639" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B25" id="B25"></a> Naveen, G. H., Varambally, S., Thirthalli, J., Rao, M., Christopher, R., and Gangadhar, B. N. (2016). Serum cortisol and BDNF in patients with major depression&#x02014;effect of yoga. <i>Int. Rev. Psychiatry</i>. 28, 273&#x02013;278. doi: 10.1080/09540261.2016.1175419</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27174729" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1080/09540261.2016.1175419" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+H.+Naveen&#x00026;author=S.+Varambally&#x00026;author=J.+Thirthalli&#x00026;author=M.+Rao&#x00026;author=R.+Christopher&#x00026;author=B.+N.+Gangadhar+&#x00026;publication_year=2016&#x00026;title=Serum+cortisol+and+BDNF+in+patients+with+major+depression&#x02014;effect+of+yoga&#x00026;journal=Int.+Rev.+Psychiatry&#x00026;volume=28&#x00026;pages=273-278" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B26" id="B26"></a> Nery, S. F., Paiva, S. P. C., Vieira, &#x000C9;. L., Barbosa, A. B., Sant&#x00027;Anna, E. M., Casalechi, M., et al. (2019). Mindfulness-based program for stress reduction in infertile women: randomized controlled trial. <i>Stress Health</i>. 35, 49&#x02013;58. doi: 10.1002/smi.2839</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30328241" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/smi.2839" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+F.+Nery&#x00026;author=S.+P.+C.+Paiva&#x00026;author=&#x000C9;.+L.+Vieira&#x00026;author=A.+B.+Barbosa&#x00026;author=E.+M.+Sant&#x00027;Anna&#x00026;author=M.+Casalechi+&#x00026;publication_year=2019&#x00026;title=Mindfulness-based+program+for+stress+reduction+in+infertile+women%3A+randomized+controlled+trial&#x00026;journal=Stress+Health&#x00026;volume=35&#x00026;pages=49-58" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B27" id="B27"></a> Ng, T. K. S., Fam, J., Feng, L., Cheah, I. K.-M., Tan, C. T.-Y., Nur, F., et al. (2020). Mindfulness improves inflammatory biomarker levels in older adults with mild cognitive impairment: a randomized controlled trial. <i>Transl. Psychiatry</i> 10:21. doi: 10.1038/s41398-020-0696-y</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/32066726" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41398-020-0696-y" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+K.+S.+Ng&#x00026;author=J.+Fam&#x00026;author=L.+Feng&#x00026;author=I.+K.+-M.+Cheah&#x00026;author=C.+T.+-Y.+Tan&#x00026;author=F.+Nur+&#x00026;publication_year=2020&#x00026;title=Mindfulness+improves+inflammatory+biomarker+levels+in+older+adults+with+mild+cognitive+impairment%3A+a+randomized+controlled+trial&#x00026;journal=Transl.+Psychiatry&#x00026;volume=10&#x00026;pages=21" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B28" id="B28"></a> Pal, R., Singh, S. N., Chatterjee, A., and Saha, M. (2014). Age-related changes in cardiovascular system, autonomic functions, and levels of BDNF of healthy active males: role of yogic practice. <i>Age</i>. 36:9683. doi: 10.1007/s11357-014-9683-7</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25012275" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s11357-014-9683-7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+Pal&#x00026;author=S.+N.+Singh&#x00026;author=A.+Chatterjee&#x00026;author=M.+Saha+&#x00026;publication_year=2014&#x00026;title=Age-related+changes+in+cardiovascular+system,+autonomic+functions,+and+levels+of+BDNF+of+healthy+active+males%3A+role+of+yogic+practice&#x00026;journal=Age&#x00026;volume=36&#x00026;pages=9683" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B29" id="B29"></a> Pan, W., Banks, W. A., Fasold, M. B., Bluth, J., and Kastin, A. J. (1998). Transport of brain-derived neurotrophic factor across the blood-brain barrier. <i>Neuropharmacology</i> 37, 1553&#x02013;1561. doi: 10.1016/S0028-3908(98)00141-5</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/9886678" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S0028-3908(98)00141-5" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=W.+Pan&#x00026;author=W.+A.+Banks&#x00026;author=M.+B.+Fasold&#x00026;author=J.+Bluth&#x00026;author=A.+J.+Kastin+&#x00026;publication_year=1998&#x00026;title=Transport+of+brain-derived+neurotrophic+factor+across+the+blood-brain+barrier&#x00026;journal=Neuropharmacology&#x00026;volume=37&#x00026;pages=1553-1561" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B30" id="B30"></a> Parsons, C. E., Crane, C., Parsons, L. J., Fjorback, L. O., and Kuyken, W. (2017). Home practice in mindfulness-based cognitive therapy and mindfulness-based stress reduction: a systematic review and meta-analysis of participants&#x00027; mindfulness practice and its association with outcomes. <i>Behav. Res. Ther</i>. 95, 29&#x02013;41. doi: 10.1016/j.brat.2017.05.004</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28527330" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.brat.2017.05.004" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+E.+Parsons&#x00026;author=C.+Crane&#x00026;author=L.+J.+Parsons&#x00026;author=L.+O.+Fjorback&#x00026;author=W.+Kuyken+&#x00026;publication_year=2017&#x00026;title=Home+practice+in+mindfulness-based+cognitive+therapy+and+mindfulness-based+stress+reduction%3A+a+systematic+review+and+meta-analysis+of+participants&#x00027;+mindfulness+practice+and+its+association+with+outcomes&#x00026;journal=Behav.+Res.+Ther&#x00026;volume=95&#x00026;pages=29-41" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B31" id="B31"></a> Poduslo, J. F., and Curran, G. L. (1996). Permeability at the blood-brain and blood-nerve barriers of the neurotrophic factors: NGF, CNTF, NT-3, BDNF. <i>Mol. Brain Res</i>. 36, 280&#x02013;286. doi: 10.1016/0169-328X(95)00250-V</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/8965648" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/0169-328X(95)00250-V" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+F.+Poduslo&#x00026;author=G.+L.+Curran+&#x00026;publication_year=1996&#x00026;title=Permeability+at+the+blood-brain+and+blood-nerve+barriers+of+the+neurotrophic+factors%3A+NGF,+CNTF,+NT-3,+BDNF&#x00026;journal=Mol.+Brain+Res&#x00026;volume=36&#x00026;pages=280-286" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B32" id="B32"></a> R Core Team. (2016). R: A Language and Environment for Statistical Computing [Internet]. Vienna, Austria. Available from: <a href="https://www.R-project.org/">https://www.R-project.org/</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B33" id="B33"></a> Rahmani, F., Saghazadeh, A., Rahmani, M., Teixeira, A. L., Rezaei, N., Aghamollaii, V., et al. (2019). Plasma levels of brain-derived neurotrophic factor in patients with parkinson disease: a systematic review and meta-analysis. <i>Brain Res</i>. 1704, 127&#x02013;136. doi: 10.1016/j.brainres.2018.10.006</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30296429" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.brainres.2018.10.006" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=F.+Rahmani&#x00026;author=A.+Saghazadeh&#x00026;author=M.+Rahmani&#x00026;author=A.+L.+Teixeira&#x00026;author=N.+Rezaei&#x00026;author=V.+Aghamollaii+&#x00026;publication_year=2019&#x00026;title=Plasma+levels+of+brain-derived+neurotrophic+factor+in+patients+with+parkinson+disease%3A+a+systematic+review+and+meta-analysis&#x00026;journal=Brain+Res&#x00026;volume=1704&#x00026;pages=127-136" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B34" id="B34"></a> Rubio-Aparicio, M., Mar&#x000ED;n-Mart&#x000ED;nez, F., S&#x000E1;nchez-Meca, J., and L&#x000F3;pez-L&#x000F3;pez, J. A. (2018). A methodological review of meta-analyses of the effectiveness of clinical psychology treatments. <i>Behav. Res. Methods</i>. 50, 2057&#x02013;2073. doi: 10.3758/s13428-017-0973-8</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29052165" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3758/s13428-017-0973-8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Rubio-Aparicio&#x00026;author=F.+Mar&#x000ED;n-Mart&#x000ED;nez&#x00026;author=J.+S&#x000E1;nchez-Meca&#x00026;author=J.+A.+L&#x000F3;pez-L&#x000F3;pez+&#x00026;publication_year=2018&#x00026;title=A+methodological+review+of+meta-analyses+of+the+effectiveness+of+clinical+psychology+treatments&#x00026;journal=Behav.+Res.+Methods&#x00026;volume=50&#x00026;pages=2057-2073" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B35" id="B35"></a> Sanada, K., Montero-Marin, J., Barcel&#x000F3;-Soler, A., Ikuse, D., Ota, M., Hirata, A., et al. (2020). Effects of mindfulness-based interventions on biomarkers and low-grade inflammation in patients with psychiatric disorders: a meta-analytic review. <i>Int. J. Mol. Sci</i>. 21:2484. doi: 10.3390/ijms21072484</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/32260096" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3390/ijms21072484" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Sanada&#x00026;author=J.+Montero-Marin&#x00026;author=A.+Barcel&#x000F3;-Soler&#x00026;author=D.+Ikuse&#x00026;author=M.+Ota&#x00026;author=A.+Hirata+&#x00026;publication_year=2020&#x00026;title=Effects+of+mindfulness-based+interventions+on+biomarkers+and+low-grade+inflammation+in+patients+with+psychiatric+disorders%3A+a+meta-analytic+review&#x00026;journal=Int.+J.+Mol.+Sci&#x00026;volume=21&#x00026;pages=2484" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B36" id="B36"></a> Sch&#x000E4;fer, T., and Schwarz, M. A. (2019). The meaningfulness of effect sizes in psychological research: differences between sub-disciplines and the impact of potential biases. <i>Front. Psychol.</i> 10:813. doi: 10.3389/fpsyg.2019.00813</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31031679" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3389/fpsyg.2019.00813" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Sch&#x000E4;fer&#x00026;author=M.+A.+Schwarz+&#x00026;publication_year=2019&#x00026;title=The+meaningfulness+of+effect+sizes+in+psychological+research%3A+differences+between+sub-disciplines+and+the+impact+of+potential+biases&#x00026;journal=Front.+Psychol.&#x00026;volume=10&#x00026;pages=813" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B37" id="B37"></a> Smith, P. A. (2014). BDNF: no gain without pain? <i>Neuroscience</i> 283, 107&#x02013;123. doi: 10.1016/j.neuroscience.2014.05.044</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24887639" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.neuroscience.2014.05.044" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+A.+Smith+&#x00026;publication_year=2014&#x00026;title=BDNF%3A+no+gain+without+pain%3F&#x00026;journal=Neuroscience&#x00026;volume=283&#x00026;pages=107-123" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B38" id="B38"></a> Str&#x000F6;hle, A., Schmidt, D. K., Schultz, F., Fricke, N., Staden, T., Hellweg, R., et al. (2015). Drug and exercise treatment of alzheimer disease and mild cognitive impairment: a systematic review and meta-analysis of effects on cognition in randomized controlled trials. <i>Am. J. Geriatr. Psychiatry</i>. 23, 1234&#x02013;1249. doi: 10.1016/j.jagp.2015.07.007</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26601726" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jagp.2015.07.007" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Str&#x000F6;hle&#x00026;author=D.+K.+Schmidt&#x00026;author=F.+Schultz&#x00026;author=N.+Fricke&#x00026;author=T.+Staden&#x00026;author=R.+Hellweg+&#x00026;publication_year=2015&#x00026;title=Drug+and+exercise+treatment+of+alzheimer+disease+and+mild+cognitive+impairment%3A+a+systematic+review+and+meta-analysis+of+effects+on+cognition+in+randomized+controlled+trials&#x00026;journal=Am.+J.+Geriatr.+Psychiatry&#x00026;volume=23&#x00026;pages=1234-1249" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B39" id="B39"></a> Sungkarat, S., Boripuntakul, S., Kumfu, S., Lord, S. R., and Chattipakorn, N. (2018). Tai chi improves cognition and plasma BDNF in older adults with mild cognitive impairment: a randomized controlled trial. <i>Neurorehabil. Neural. Repair</i>. 32, 142&#x02013;149. doi: 10.1177/1545968317753682</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29353543" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1177/1545968317753682" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Sungkarat&#x00026;author=S.+Boripuntakul&#x00026;author=S.+Kumfu&#x00026;author=S.+R.+Lord&#x00026;author=N.+Chattipakorn+&#x00026;publication_year=2018&#x00026;title=Tai+chi+improves+cognition+and+plasma+BDNF+in+older+adults+with+mild+cognitive+impairment%3A+a+randomized+controlled+trial&#x00026;journal=Neurorehabil.+Neural.+Repair&#x00026;volume=32&#x00026;pages=142-149" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B40" id="B40"></a> Tolahunase, M., Sagar, R., and Dada, R. (2017). Impact of yoga and meditation on cellular aging in apparently healthy individuals: a prospective, open-label single-arm exploratory study. <i>Oxid. Med. Cell Longev</i>. 2017, 1&#x02013;9. doi: 10.1155/2017/7928981</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1155/2017/7928981" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Tolahunase&#x00026;author=R.+Sagar&#x00026;author=R.+Dada+&#x00026;publication_year=2017&#x00026;title=Impact+of+yoga+and+meditation+on+cellular+aging+in+apparently+healthy+individuals%3A+a+prospective,+open-label+single-arm+exploratory+study&#x00026;journal=Oxid.+Med.+Cell+Longev&#x00026;volume=2017&#x00026;pages=1-9" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B41" id="B41"></a> Tolahunase, M. R., Sagar, R., Faiq, M., and Dada, R. (2018). Yoga- and meditation-based lifestyle intervention increases neuroplasticity and reduces severity of major depressive disorder: a randomized controlled trial. <i>Restor. Neurol. Neurosci</i>. 36, 423&#x02013;442. doi: 10.3233/RNN-170810</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29614706" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3233/RNN-170810" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+R.+Tolahunase&#x00026;author=R.+Sagar&#x00026;author=M.+Faiq&#x00026;author=R.+Dada+&#x00026;publication_year=2018&#x00026;title=Yoga-+and+meditation-based+lifestyle+intervention+increases+neuroplasticity+and+reduces+severity+of+major+depressive+disorder%3A+a+randomized+controlled+trial&#x00026;journal=Restor.+Neurol.+Neurosci&#x00026;volume=36&#x00026;pages=423-442" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B42" id="B42"></a> Xu, H.-B., Xu, Y.-H., He, Y., Xue, F., Wei, J., Zhang, H., et al. (2018). Decreased serum brain-derived neurotrophic factor may indicate the development of poststroke depression in patients with acute ischemic stroke: a meta-analysis. <i>J. Stroke Cerebrovasc. Dis</i>. 27, 709&#x02013;715. doi: 10.1016/j.jstrokecerebrovasdis.2017.10.003</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29128330" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jstrokecerebrovasdis.2017.10.003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+-B.+Xu&#x00026;author=Y.+-H.+Xu&#x00026;author=Y.+He&#x00026;author=F.+Xue&#x00026;author=J.+Wei&#x00026;author=H.+Zhang+&#x00026;publication_year=2018&#x00026;title=Decreased+serum+brain-derived+neurotrophic+factor+may+indicate+the+development+of+poststroke+depression+in+patients+with+acute+ischemic+stroke%3A+a+meta-analysis&#x00026;journal=J.+Stroke+Cerebrovasc.+Dis&#x00026;volume=27&#x00026;pages=709-715" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B43" id="B43"></a> Yang, B., Ren, Q., Zhang, J., Chen, Q.-X., and Hashimoto, K. (2017). Altered expression of BDNF, BDNF pro-peptide and their precursor proBDNF in brain and liver tissues from psychiatric disorders: rethinking the brain&#x02013;liver axis. <i>Transl. Psychiatry</i> 7:e1128. doi: 10.1038/tp.2017.95</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28509900" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/tp.2017.95" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+Yang&#x00026;author=Q.+Ren&#x00026;author=J.+Zhang&#x00026;author=Q.+-X.+Chen&#x00026;author=K.+Hashimoto+&#x00026;publication_year=2017&#x00026;title=Altered+expression+of+BDNF,+BDNF+pro-peptide+and+their+precursor+proBDNF+in+brain+and+liver+tissues+from+psychiatric+disorders%3A+rethinking+the+brain&#x02013;liver+axis&#x00026;journal=Transl.+Psychiatry&#x00026;volume=7&#x00026;pages=e1128" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B44" id="B44"></a> Zhou, C., Zhong, J., Zou, B., Fang, L., Chen, J., Deng, X., et al. (2017). Meta-analyses of comparative efficacy of antidepressant medications on peripheral BDNF concentration in patients with depression. <i>PLoS ONE</i>. 12:e0172270. doi: 10.1371/journal.pone.0172270</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28241064" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pone.0172270" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Zhou&#x00026;author=J.+Zhong&#x00026;author=B.+Zou&#x00026;author=L.+Fang&#x00026;author=J.+Chen&#x00026;author=X.+Deng+&#x00026;publication_year=2017&#x00026;title=Meta-analyses+of+comparative+efficacy+of+antidepressant+medications+on+peripheral+BDNF+concentration+in+patients+with+depression&#x00026;journal=PLoS+ONE&#x00026;volume=12&#x00026;pages=e0172270" target="_blank">Google Scholar</a></p>
+</div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+<p><span>Keywords:</span> brain-derived neurotrophic factor, BDNF, mindfulness, meditation, neuroplasticity</p>
+<p><span>Citation:</span> Gomutbutra P, Yingchankul N, Chattipakorn N, Chattipakorn S and Srisurapanont M (2020) The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials. <i>Front. Psychol.</i> 11:2209. doi: 10.3389/fpsyg.2020.02209</p>
+<p id="timestamps"><span>Received:</span> 02 February 2020; <span>Accepted:</span> 06 August 2020;<br> <span>Published:</span> 15 September 2020.</p>
+<div><p>Edited by:</p> <a href="https://loop.frontiersin.org/people/660310/overview">Paul D. Loprinzi</a>, University of Mississippi, United States</div>
+<div><p>Reviewed by:</p> <a href="https://loop.frontiersin.org/people/947487/overview">Aaron T. Piepmeier</a>, Elon University, United States<br> <a href="https://loop.frontiersin.org/people/102700/overview">Zhen Yuan</a>, University of Macau, China</div>
+<p><span>Copyright</span> &#x000A9; 2020 Gomutbutra, Yingchankul, Chattipakorn, Chattipakorn and Srisurapanont. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>&#x0002A;Correspondence:</span> Patama Gomutbutra, <a href="mailto:patthama.g&#x00040;cmu.ac.th">patthama.g&#x00040;cmu.ac.th</a></p>
+<div class="clear"></div>
+</div>    <div class="research-topic-container" style="display: none;">
+        <a href="/research-topics/12109#articles" data-test-id="relatedRT-link">
+            <div class="research-topic-data">
+                <h5 class="topic-title">
+                    <span>This article is part of the Research Topic</span>
+                </h5>
+                <p style="margin-bottom:0;">
+
+                    Implications for Lifestyle Behaviors in Cognitive Function
+                </p>
+                    <div class="topic-link-trim" data-event="rt-link-click">
+                        View all
+19                        Articles <span style="position: relative;top: 1px;"></span>
+                    </div>
+
+
+            </div>
+        </a>
+    </div>
+
+
+<!-- TODO:BEGIN IS PART OF RT-->
+<script type="text/javascript">
+      
+            const isPartOfRTElements = document.getElementsByClassName('research-topic-container');
+
+            if (isPartOfRTElements.length > 0) {
+                const headerBar3Container = document.getElementsByClassName('header-bar-three-container');
+
+                if (headerBar3Container.length > 0) {
+                    const container = headerBar3Container[0];
+                    container.appendChild(isPartOfRTElements[0]);
+                    isPartOfRTElements[0].style.display = 'block';
+                }
+            }
+       
+</script>
+<!-- TODO:END IS PART OF RT-->
+
+                <div class="thin-line-dark"></div>
+
+            </div>
+        </div>
+    </div>
+</main>
+            </div>
+
+                <div class="side-article-subjects only-devices  widget-listing people-also-looked-at hidden">
+                    <h5 class="like-h4">People also looked at</h5>
+                </div>
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true"
+     style="display: none; padding-right: 17px;">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal"  aria-label="Close"><span data-event="supplementaryclose-icon-click" aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message" style="display: none;">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper" id="loader" style="display: none;">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading..">
+                </div>
+                <br>
+                <div class="table-responsive" id="localFiles">
+
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br>
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>" data-event="supplementarydownload-button-click">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" data-event="supplementarydownload-button-click" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel" id="notify_me_popup">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+</div>
+
+    </div>
+        <a id="floating-download-pdf-btn" class="floating-button" data-event="downloadfloating-button-click" href="/articles/10.3389/fpsyg.2020.02209/pdf">
+            <span class="floating-button-text" data-event="downloadfloating-button-click">Download</span>
+        </a>
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                document.onload = observerDowloadFloatingBtn();
+            });
+            function downloadButtonVisibilityChange(entries) {
+                const btn = entries[0];
+                const floatingBtn = document.querySelector("#floating-download-pdf-btn");
+                if (!btn.isIntersecting) {
+                    floatingBtn.classList.add("floating-button--show");
+                } else {
+                    floatingBtn.classList.remove("floating-button--show");
+                }
+            }
+
+            function observerDowloadFloatingBtn() {
+                const options = {
+                    root: document.getElementsByName('body')[0],
+                    rootMargin: '0px',
+                    threshold: 1.0
+                }
+
+                const observer = new IntersectionObserver(downloadButtonVisibilityChange, options);
+                const target = document.querySelector('[data-test-id="download-button"]');
+                observer.observe(target);
+            }
+        </script>
+    <frontiers-footer main-domain="frontiersin.org"></frontiers-footer>
+
+    <script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+ 
+    <script src=" https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script>
+ 
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=O9-mxZHGMRH9UWcWq5BW6IczDmW5Nz2Fjt5wgZmuXZA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '531955',
+                DOI:'10.3389/fpsyg.2020.02209',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '69',
+                SpecialityId: '196',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000',
+                ProvisionallyAcceptedText: 'The final, formatted version of the article will be published soon.',
+                NotifyMeButtonText: 'Notify me',
+                NotifyMeButtonSecondaryText: 'We&#39;ll notify you',
+                IsSimilarArticleVisible: FRSafe.boolean('True'),
+                JournalId: '36',
+                SectionId: '42',
+                JournalName: 'Psychology',
+                SectionName: 'Cognitive Science',
+                ArticleTitle: 'The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials',
+                AcceptedDate: '20200806',
+                PublishedDate: '20200915',
+                ContentType: 'Published',
+                ResearchTopicId: '12109',
+                IsImpactMetricsVisible: FRSafe.boolean('True')
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '531955',
+                ownerId: '900537',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '28',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script>
+        function setBodyOverflow(dropdownElement) {
+            if (!dropdownElement) return;
+            const windowWidth = window.innerWidth;
+            if (windowWidth <= 1024) {
+                const body = document.querySelector("body");
+                if (dropdownElement.classList.contains("open")) {
+                    body.style.overflow = "hidden";
+                } else {
+                    body.style.overflow = "auto";
+                }
+            }
+        }
+        $(document).ready(function () {
+            $(document).on('click', '.dropdown-menu-wrapper', function (e) {
+                e.stopPropagation();
+            });
+
+            $(document).on('click', '[data-toggle="dropdown"]', function (e) {
+                const dropdownElement = e.target.closest(".dropdown")
+                if (dropdownElement) {
+                    setBodyOverflow(dropdownElement);
+                }
+            });
+        });
+
+        function supplementalDataToggle() {
+            const el = document.getElementById("supplementaryFilesModal");
+            if (el) {
+                el.classList.toggle("in");
+                if (el.classList.contains("in")) {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+            }
+        }
+
+        function initToggleSupplementalData() {
+            const btn = document.getElementsByClassName("btn-open-supplemental")[0];
+            const btn2 = document.getElementsByClassName("btn-open-supplemental")[1];
+            const closeButtons = document.getElementById("supplementaryFilesModal").querySelectorAll("[data-dismiss='modal']");
+
+            if (btn) { btn.onclick = supplementalDataToggle; }
+            if (btn2) { btn2.onclick = supplementalDataToggle; }
+            if (closeButtons) { closeButtons.forEach(b => b.onclick = supplementalDataToggle); }
+        }
+
+
+        initToggleSupplementalData();
+    </script>
+
+    <script type="text/plain" class="optanon-category-C0002">
+        function trackUserViewItemGA4() {
+            const dataLayer = (window).dataLayer;
+            if (dataLayer) {
+                dataLayer.push({
+                    'event': 'view_article',
+                    'content_type': 'Published',
+                    'article_title': 'The Effect of Mindfulness-Based Intervention on Brain-Derived Neurotrophic Factor (BDNF): A Systematic Review and Meta-Analysis of Controlled Trials',
+                    'journal_title': 'Psychology',
+                    'research_topic_title': 'Implications for Lifestyle Behaviors in Cognitive Function',
+                    'section_title': "Cognitive Science",
+                    'published_date': '20200915',
+                    'accepted_date': '20200806',
+                    'article_id': '531955',
+                    'journal_id': '36',
+                    'research_topic_id': '12109',
+                    'section_id' :'42',
+                    'article_type': 'SYSTEMATIC REVIEW article'
+                });
+            }
+        }
+
+            trackUserViewItemGA4();
+
+    </script>
+
+        <script type="text/javascript">
+            dataLayer.push({
+                'loopId': undefined,
+            });
+        </script>
+    <script type="text/javascript">
+        var FRTitles = (function () {
+            return {
+                ResearchTopicTitle: 'Implications for Lifestyle Behaviors in Cognitive Function',
+                ArticleTypeName: 'SYSTEMATIC REVIEW article'
+            };
+    })();
+    </script>
+    <!-- BEGIN TODO UXD-1800: Inconsistent sizing of equations -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          CommonHTML: {
+            scale: 80
+          },
+          PreviewHTML: {
+            scale: 80
+          }
+        });
+    </script>
+    <!-- END TODO UXD-1800: Inconsistent sizing of equations -->
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+    
+    <script src="https://static.frontiersin.org/areas/articles/js/app?v=FqC08Dhm0brey5SIgVI2XAwK7bdHJ7l20qYimnBrqi01"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/webcomponents?v=10ZwhKhNgH_pj31INEOwCEvN4hA3MyJdkY4rkLyap2s1"></script>
+
+
+    <script type="text/plain" class="optanon-category-C0004" src="https://widgets.figshare.com/static/figshare.js">
+    </script>
+
+</body>
+</html>

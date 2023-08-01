@@ -173,8 +173,9 @@ Proposal for third year paper
 <p>I ran a search on gscholar and got 1K results. It seems like there is still more, which I’m getting year by year.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/scholar.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(glue)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/scholar.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Rows: 1000 Columns: 26
 ── Column specification ────────────────────────────────────────────────────────
@@ -188,26 +189,27 @@ dttm  (1): QueryDate
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># unique journals</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Source =</span> <span class="fu">tolower</span>(Source)) <span class="sc">%&gt;%</span> <span class="fu">count</span>(Source) <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(n))  <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="dv">20</span>) <span class="sc">%&gt;%</span> gt<span class="sc">::</span><span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Source =</span> <span class="fu">tolower</span>(Source)) <span class="sc">%&gt;%</span> <span class="fu">count</span>(Source) <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(n))  <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="dv">20</span>) <span class="sc">%&gt;%</span> gt<span class="sc">::</span><span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 
-<div id="qyjfikrgtc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qyjfikrgtc table {
+<div id="gvyrhgigmo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gvyrhgigmo table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#qyjfikrgtc thead, #qyjfikrgtc tbody, #qyjfikrgtc tfoot, #qyjfikrgtc tr, #qyjfikrgtc td, #qyjfikrgtc th {
+#gvyrhgigmo thead, #gvyrhgigmo tbody, #gvyrhgigmo tfoot, #gvyrhgigmo tr, #gvyrhgigmo td, #gvyrhgigmo th {
   border-style: none;
 }
 
-#qyjfikrgtc p {
+#gvyrhgigmo p {
   margin: 0;
   padding: 0;
 }
 
-#qyjfikrgtc .gt_table {
+#gvyrhgigmo .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -233,12 +235,12 @@ dttm  (1): QueryDate
   border-left-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_caption {
+#gvyrhgigmo .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#qyjfikrgtc .gt_title {
+#gvyrhgigmo .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -250,7 +252,7 @@ dttm  (1): QueryDate
   border-bottom-width: 0;
 }
 
-#qyjfikrgtc .gt_subtitle {
+#gvyrhgigmo .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -262,7 +264,7 @@ dttm  (1): QueryDate
   border-top-width: 0;
 }
 
-#qyjfikrgtc .gt_heading {
+#gvyrhgigmo .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -274,13 +276,13 @@ dttm  (1): QueryDate
   border-right-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_bottom_border {
+#gvyrhgigmo .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_col_headings {
+#gvyrhgigmo .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -295,7 +297,7 @@ dttm  (1): QueryDate
   border-right-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_col_heading {
+#gvyrhgigmo .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -315,7 +317,7 @@ dttm  (1): QueryDate
   overflow-x: hidden;
 }
 
-#qyjfikrgtc .gt_column_spanner_outer {
+#gvyrhgigmo .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -327,15 +329,15 @@ dttm  (1): QueryDate
   padding-right: 4px;
 }
 
-#qyjfikrgtc .gt_column_spanner_outer:first-child {
+#gvyrhgigmo .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#qyjfikrgtc .gt_column_spanner_outer:last-child {
+#gvyrhgigmo .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#qyjfikrgtc .gt_column_spanner {
+#gvyrhgigmo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -347,11 +349,11 @@ dttm  (1): QueryDate
   width: 100%;
 }
 
-#qyjfikrgtc .gt_spanner_row {
+#gvyrhgigmo .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#qyjfikrgtc .gt_group_heading {
+#gvyrhgigmo .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -377,7 +379,7 @@ dttm  (1): QueryDate
   text-align: left;
 }
 
-#qyjfikrgtc .gt_empty_group_heading {
+#gvyrhgigmo .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -392,15 +394,15 @@ dttm  (1): QueryDate
   vertical-align: middle;
 }
 
-#qyjfikrgtc .gt_from_md > :first-child {
+#gvyrhgigmo .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#qyjfikrgtc .gt_from_md > :last-child {
+#gvyrhgigmo .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#qyjfikrgtc .gt_row {
+#gvyrhgigmo .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -419,7 +421,7 @@ dttm  (1): QueryDate
   overflow-x: hidden;
 }
 
-#qyjfikrgtc .gt_stub {
+#gvyrhgigmo .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -432,7 +434,7 @@ dttm  (1): QueryDate
   padding-right: 5px;
 }
 
-#qyjfikrgtc .gt_stub_row_group {
+#gvyrhgigmo .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -446,15 +448,15 @@ dttm  (1): QueryDate
   vertical-align: top;
 }
 
-#qyjfikrgtc .gt_row_group_first td {
+#gvyrhgigmo .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#qyjfikrgtc .gt_row_group_first th {
+#gvyrhgigmo .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#qyjfikrgtc .gt_summary_row {
+#gvyrhgigmo .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -464,16 +466,16 @@ dttm  (1): QueryDate
   padding-right: 5px;
 }
 
-#qyjfikrgtc .gt_first_summary_row {
+#gvyrhgigmo .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_first_summary_row.thick {
+#gvyrhgigmo .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#qyjfikrgtc .gt_last_summary_row {
+#gvyrhgigmo .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -483,7 +485,7 @@ dttm  (1): QueryDate
   border-bottom-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_grand_summary_row {
+#gvyrhgigmo .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -493,7 +495,7 @@ dttm  (1): QueryDate
   padding-right: 5px;
 }
 
-#qyjfikrgtc .gt_first_grand_summary_row {
+#gvyrhgigmo .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -503,7 +505,7 @@ dttm  (1): QueryDate
   border-top-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_last_grand_summary_row_top {
+#gvyrhgigmo .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -513,11 +515,11 @@ dttm  (1): QueryDate
   border-bottom-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_striped {
+#gvyrhgigmo .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#qyjfikrgtc .gt_table_body {
+#gvyrhgigmo .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -526,7 +528,7 @@ dttm  (1): QueryDate
   border-bottom-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_footnotes {
+#gvyrhgigmo .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -540,7 +542,7 @@ dttm  (1): QueryDate
   border-right-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_footnote {
+#gvyrhgigmo .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -549,7 +551,7 @@ dttm  (1): QueryDate
   padding-right: 5px;
 }
 
-#qyjfikrgtc .gt_sourcenotes {
+#gvyrhgigmo .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -563,7 +565,7 @@ dttm  (1): QueryDate
   border-right-color: #D3D3D3;
 }
 
-#qyjfikrgtc .gt_sourcenote {
+#gvyrhgigmo .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -571,63 +573,63 @@ dttm  (1): QueryDate
   padding-right: 5px;
 }
 
-#qyjfikrgtc .gt_left {
+#gvyrhgigmo .gt_left {
   text-align: left;
 }
 
-#qyjfikrgtc .gt_center {
+#gvyrhgigmo .gt_center {
   text-align: center;
 }
 
-#qyjfikrgtc .gt_right {
+#gvyrhgigmo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#qyjfikrgtc .gt_font_normal {
+#gvyrhgigmo .gt_font_normal {
   font-weight: normal;
 }
 
-#qyjfikrgtc .gt_font_bold {
+#gvyrhgigmo .gt_font_bold {
   font-weight: bold;
 }
 
-#qyjfikrgtc .gt_font_italic {
+#gvyrhgigmo .gt_font_italic {
   font-style: italic;
 }
 
-#qyjfikrgtc .gt_super {
+#gvyrhgigmo .gt_super {
   font-size: 65%;
 }
 
-#qyjfikrgtc .gt_footnote_marks {
+#gvyrhgigmo .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#qyjfikrgtc .gt_asterisk {
+#gvyrhgigmo .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#qyjfikrgtc .gt_indent_1 {
+#gvyrhgigmo .gt_indent_1 {
   text-indent: 5px;
 }
 
-#qyjfikrgtc .gt_indent_2 {
+#gvyrhgigmo .gt_indent_2 {
   text-indent: 10px;
 }
 
-#qyjfikrgtc .gt_indent_3 {
+#gvyrhgigmo .gt_indent_3 {
   text-indent: 15px;
 }
 
-#qyjfikrgtc .gt_indent_4 {
+#gvyrhgigmo .gt_indent_4 {
   text-indent: 20px;
 }
 
-#qyjfikrgtc .gt_indent_5 {
+#gvyrhgigmo .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -686,14 +688,16 @@ dttm  (1): QueryDate
 </table>
 </div>
 </div>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># cites</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(Cites)) <span class="sc">+</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>() <span class="sc">+</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># add a vertical line at the mean</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="fu">aes</span>(<span class="at">xintercept =</span> <span class="fu">median</span>(Cites, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)),</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">size =</span> <span class="dv">1</span>)<span class="sc">+</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>,<span class="at">x =</span> <span class="dv">48</span>, <span class="at">y =</span> <span class="dv">200</span>, <span class="at">label =</span> <span class="st">"Median = 48"</span>, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">hjust =</span> <span class="sc">-</span>.<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>median_cite <span class="ot">=</span> <span class="fu">median</span>(df<span class="sc">$</span>Cites, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># cites</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(Cites)) <span class="sc">+</span> </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>() <span class="sc">+</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># add a vertical line at the mean</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="fu">aes</span>(<span class="at">xintercept =</span> <span class="fu">median</span>(Cites, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">size =</span> <span class="dv">1</span>)<span class="sc">+</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>,<span class="at">x =</span> median_cite, <span class="at">y =</span> <span class="dv">200</span>, <span class="at">label =</span> <span class="fu">glue</span>(<span class="st">"Median = {median_cite}"</span>), <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">hjust =</span> <span class="sc">-</span>.<span class="dv">1</span>)<span class="sc">+</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="cn">NULL</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
 ℹ Please use `linewidth` instead.</code></pre>
