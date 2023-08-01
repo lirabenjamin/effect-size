@@ -59,6 +59,28 @@ Aside from the contribution towards sample size planning and power calculations,
 -   Given what already is out there, is it true that this is a case of "go big or go home"?
 -   Would it be useful to also use metaBUS for this?
 
+# Appendix
+I ran a search on gscholar and got 1K results. It seems like there is still more, which I'm getting year by year.
+
+```{r}
+library(tidyverse)
+
+df <- read_csv("data/scholar.csv")
+
+# unique journals
+df %>% mutate(Source = tolower(Source)) %>% count(Source) %>% arrange(desc(n))  %>% head(20) %>% gt::gt()
+
+# cites
+df %>% 
+  ggplot(aes(Cites)) + 
+  geom_histogram() +
+  # add a vertical line at the mean
+  geom_vline(aes(xintercept = median(Cites, na.rm = TRUE)),
+             color = "red", linetype = "dashed", size = 1)+
+  annotate("text",x = 48, y = 200, label = "Median = 48", color = "red", hjust = -.1)
+
+```
+
 <!-- # Extra notes from Literature review
 
 Dalton et al @dalton2012 suggests that there is **no** publication bias or file drawer inflation bias in perosonnel psychology. - I don't believe that!
