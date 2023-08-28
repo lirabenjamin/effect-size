@@ -1,7 +1,9 @@
 library("httr")
 library('gt')
+library(glue)
 
-df <- read_csv("data/scholar.csv")
+df <- read_csv("data/psych_meta_18_23.csv")
+df %>% count(is.na(FullTextURL))
 
 df %>% filter(str_detect(Authors, "Sheeran")) %>% select(Title)
 
@@ -14,11 +16,9 @@ df %>%
   head() %>%
   gt()
 
-download(df$FullTextURL[2], "test.pdf")
-
 df %>% 
   select(Authors, Title, Year, url = FullTextURL) %>%
   mutate(Title = str_replace(Title, "\\/", "-")) %>%
   filter(!is.na(url)) %>% 
-  mutate(filename = glue("downloads/{Year}_{Title}.pdf")) %>% 
+  mutate(filename = glue("data/downloads/{Year}_{Title}.pdf")) %>% 
   mutate(download = map2(url, filename, download))

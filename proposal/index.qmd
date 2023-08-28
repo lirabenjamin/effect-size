@@ -39,29 +39,33 @@ csl: ../apa-numeric-superscript.csl
 
 <!-- # Gap this project would fill -->
 
-There is a lot that has been said about effect sizes in psychology. Since Cohen @cohen_power_1992 published effect size benchmarks of *r* = .10, .30, and .50 for small, medium, and large correlations, respectively, recent inspection of true effect sizes in psychology has revealed that these original guidelines might have been unrealistic. There are four converging sources of evidence that point to this conclusion.
+Effect size is the currency with which psychological research is interpreted. 
+Despite its importance, there is little consensus on what effect size a researcher can expect when conducting a study. 
+Because of publication bias, the effect sizes that are reported in the literature are biased upward, relative to what a researcher should expect a priori. 
+Moreover, traditional effect size benchmarks (e.g., Cohen's *r* = .10, .30, and .50 for small, medium, and large correlations, respectively, @cohen_power_1992) do not take into account the fact that effect sizes can vary widely depending on the type of study. 
+For example, a longitudinal study where an intervention is supposed to change a real life outcome might have far smaller effects than a cross sectional study where self-reported attitudes are correlated with each other. 
+Fadeout @bailey_persistence_2020, common method variance, and study design are just some of the factors that can influence effect size.
 
-A series of influential theory or simulation based papers have argues that small effects are to be expected, and they matter despite not conforming to the original standards. For example, Ahadi @ahadi1989 conducted a simulation study to show that when outcomes are multiply determined (an assumption that likely holds for behavior), the correlation of any one trait predictor is bounded (e.g., at .50 if the behavior is influenced by three traits). Similarly, Funder and Ozer @funder2019 argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Götz @götz2022 argues that if small effect sizes are the norm rather than the exception, psychology can only be a cumulative science if we adjust our expectations regarding effect size.
+To address these limitations, I propose a meta-review of meta-analyses in psychology. 
+Specifically, I plan to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status. 
+Second, I plan to estimate the determinants of effect sizes, such as study design, sample size, and publication status.
+Additionally, I plan to use the results of the meta-review to conduct a survey of researchers to estimate how miscalibrated they are in judging effect sizes, and whether this miscalibration is specific. 
+That is, do researchers uniformly overestimate effect sizes, or do they fail to account for the determinants of effect size?
+Such contribution would allow psychologists to better calibrate their expectations of effect size when planning and reviewing research.
 
-Second, large scale replication projects have shown that published effect sizes are biased upward. The many labs project @opensciencecollaboration2015 showed that the average effect size across 100 published experiments was *r* = .40, whereas the average effect size across 36 replications was *r* = .20. Interestingly, cognitive psychology had higher effect sizes than social psychology.
+What do we know about effect sizes in psychology? First, there is a growing consensus that small effect sizes in psychology should be expected and can still be relevant. Ahadi @ahadi1989 conducted a simulation study to show that when outcomes are multiply determined (an assumption that likely holds for behavior), the correlation of any one trait predictor is bounded (e.g., at .50 if the behavior is influenced by three traits). Similarly, Funder and Ozer @funder2019 argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Götz @götz2022 argues that if small effect sizes are the norm rather than the exception, psychology can only be a cumulative science if we adjust our expectations regarding effect size.
 
-Third, prediction contests suggest that even with plenty of data and sophisticated methods, predicting life outcomes is remarkably difficult. Most notably, Salganik @salganik2020 conducted a prediction contest where participants were asked to predict the outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in the two of the outcomes, and 5% on the other four outcomes. Notably, the best models barely outperformed a simple linear regression model with only four predictors, suggesting that more data or more predictors is not guarenteed to improve prediction.
+Second, original published effect sizes are biased upward, and are roughly twice as large as careful replications. The many labs project @opensciencecollaboration2015 showed that the average effect size across 100 published experiments was *r* = .40, whereas the average effect size across 36 replications was *r* = .20. Similarly, evidence from eleven years of student replication projects, also shows that publsied effect sizes (*r* = .30) are roughly twice the size of replications (*r* = .34) @boyceElevenYearsStudent2023. Consistent with this, unpublished effects are, on average .18 SDs smaller than their published counterparts @polanin2016. 
 
-Finally, evidence from meta-analyses, especially for particular sub-fields, provide some indication of what effect sizes might be expected (see for example summary effect sizes in cognitive neuroscience @szucs2017, nudges @dellavigna2022, individual differences @gignac2016, or applied psychology @bosco2015). 
+Third, even with plenty of data and sophisticated methods, predicting life outcomes is remarkably difficult. Most notably, Salganik @salganik2020 conducted a prediction contest where participants were asked to predict the outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in the two of the outcomes, and 5% on the other four outcomes. Notably, the best models barely outperformed a simple linear regression model with only four predictors, suggesting that more data or more predictors is not guarenteed to improve prediction.
 
-Despite this, there is still ample miscalibration among researchers on what are credible and practically significant effect sizes. What's more, most effect sizes are biased upward due to publication bias. Polanin @polanin2016 conducted a meta-review to estimate the file drawer effect, and found that unpublished effects are, on average .18 SDs smaller than their published counterparts. Contrary to this, Dalton et al @dalton2012 compared unpublished dissertations with journal articles to argue that there is *no* file drawer inflation bias in perosonnel psychology.
-
-Not only are researchers miscalibrated in what effect sizes are to be expected, but also, there is no evidence available to help researchers understand where effect sizes come from. There is reason to believe that longitudinal effects are probably smaller than concurrent ones, because of fadeout @bailey_persistence_2020. Common method variance might also inflate effect sizes. The ecological validity of a study might also affect effect sizes.
-
-We propose a meta-review of effect sizes across psychology to address these limitations. Specifically, we want to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status. We expect great heterogeneity in effect sizes, and thus also plan to explain this heterogeneity: what are the determinants of effect size. Such contribution would allow psychologists to better calibrate their expectations of effect size when planning and reviewing research.
-
-Additionally, we plan to use the results of the meta-review to conduct a survey of researchers to estimate how miscalibrated they are in judging effect sizes, and whether this miscalibration is specific. That is, do researchers uniformly overestimate effect sizes, or do they fail to account for the determinants of effect size?
+Finally, efforts at characterizing median effect sizes have been circumscribed to particular sub-fields. For example, the median effect size has been estimated at *r* = .42 for cognitive neuroscience and psychology @szucs2017, at *r* = .19 for individual differneces @gignac2016, and at *r* = .16 for applied psychology @bosco2015.
+<!-- nudges @dellavigna2022 -->
 
 # Research questions
 
--   What is the distribution of effect sizes in psychology?
--   How does this distribution change for different types of studies?
-    -   Published vs. unpublished
+-   What is the distribution of published and unpublished effect sizes in psychology?
+-   How do the following features of studies relate to effect size?
     -   Lab studies vs. field studies
     -   Experimental vs. correlational studies
     -   Social vs. cognitive
@@ -73,13 +77,19 @@ Additionally, we plan to use the results of the meta-review to conduct a survey 
 # Methods
 
 ## Meta-review
-Our plan is to conduct a meta-review of meta-analyses in psychology. We will use meta-analytic effect sizes as our dependent variable. We plan to obtain a representative sample of meta-analyses in psychology from the past 10 years. We will code for the moderators above, as well as the predictor, the criterion, the average sample size per study, and the average number of studies per meta-analysis, and the average age of participants.
-
-We will use meta-regression to estimate the distribution of effect sizes, and to test for the moderators of effect size.
+ 
+We plan to download all meta-analyses published in the past 5 years in psychological journals. 
+Because not all meta-analyses report published and unpublished effect sizes, we will email researchers request their meta-analytic datasets.
+I will also ask authors to specify the predictor, criterion, and field of their study.
+Then, I will aggregate these meta-analytic datasets, and use meta-regression to estimate the distribution of published and unpublished effect sizes, and to test for the moderators of effect size.
 
 ## Survey
 
 We will conduct a survey of researchers to estimate how miscalibrated they are to true effect sizes. We will use the results of the meta-review to create a set of vignettes that will be used to estimate miscalibration. 
+
+# Progress so far
+
+I have downloaded 5,474 meta-analyses from the past 5 years. Of these, 3,567 have accessible pdfs, from which I am extracting emails. I have created a [survey](https://qfreeaccountssjc1.az1.qualtrics.com/jfe/preview/previewId/cb6934b0-9cf5-4e56-b7ec-b321d1434045/SV_9MQjK2dp8CybTZs?Q_CHL=preview&Q_SurveyVersionID=current) to ask authors to upload their data and categorize their meta-analysis.
 
 # Reading List
 
@@ -88,13 +98,13 @@ We will conduct a survey of researchers to estimate how miscalibrated they are t
 
 ::: {#refs}
 :::
-
+<!-- 
 \newpage
-\normalsize
+\normalsize -->
 
-# SCRAPS
+<!-- # SCRAPS -->
 
-# Open questions
+<!-- # Open questions
 
 -   Is this a tractable problem?
 -   If it were possible, would it be a useful contribution?
@@ -106,3 +116,5 @@ We will conduct a survey of researchers to estimate how miscalibrated they are t
 
 - Dolores thinks that just using Psych Bulletin data is not gonna fly in Psych Bulletin. It could work for PNAS or some other journal she said.
 - An interesting point from Dolores was to use the estimated distribution to try to uncover insights from psychology. To interesting examples: (1) Are effects larger for younger samples? Are kids more malleable? (2) Are effects larger the closer you get to behavior.
+
+Contrary to this, Dalton et al @dalton2012 compared unpublished dissertations with journal articles to argue that there is *no* file drawer inflation bias in perosonnel psychology. -->
