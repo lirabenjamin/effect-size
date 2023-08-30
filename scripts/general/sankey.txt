@@ -1,0 +1,16 @@
+https://sankeymatic.com/build/
+
+// Enter Flows between Nodes, like this:
+//         Source [AMOUNT] Target
+
+Search Results [3567] With Full Text
+Search Results [1907] Without Full Text
+With Full Text [2012] Downloaded
+With Full Text [1555] Fail Download
+Downloaded [2578] With Email
+Downloaded [989] No Email Found
+With Email [1] Replied
+With Email [988] Did not reply
+
+// Use the controls below to customize
+// your diagram's appearance...

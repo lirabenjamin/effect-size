@@ -58,3 +58,7 @@ for _, row in tqdm(df.iterrows(), total=df.shape[0]):
         
 # Save the updated dataframe to a new CSV
 df.to_csv("data/updated_psych_meta_18_23.csv", index=False)
+
+df = pd.read_csv("updated_psych_meta_18_23.csv")
+df.value_counts("downloaded")
+df.emails.isna().value_counts()

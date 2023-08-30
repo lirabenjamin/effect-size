@@ -3,12 +3,12 @@ title: "Small effects are a big deal"
 subtitle: "Third year paper proposal"
 author: "Benjamin Lira"
 css: custom.css
-format: html
-# format: 
-#   pdf:
-#     documentclass: article
-#     classoption: onecolumn
-#     fontfamily: times
+# format: html
+format: 
+  pdf:
+    documentclass: article
+    classoption: onecolumn
+    fontfamily: times
 fig-cap-location: top
 table-cap-location: bottom
 editor: visual
@@ -16,23 +16,23 @@ self-contained: true
 fontsize: 12pt
 # linestretch: 1.6
 link-citations: true
-# keep-tex: false
-# geometry: margin=1in
-# header-includes: |
-#   \usepackage{sectsty}
-#   \usepackage{helvet}
-#   \usepackage{xcolor}
-#   \setlength{\parindent}{1em}
-#   \setlength{\parskip}{1em}
-#   \definecolor{darkblue}{RGB}{0,0,139}
-#   \usepackage{titlesec}
-#   \allsectionsfont{\sffamily\color{darkblue}}
-#   \usepackage{etoolbox}
-#   \usepackage{setspace}
-#   \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
-#   \titlespacing*{\section}{0pt}{0pt}{10pt}
-#   \titlespacing*{\subsection}{0pt}{0pt}{5pt}
-#   \titlespacing*{\subsubsection}{0pt}{0pt}{2pt}
+keep-tex: false
+geometry: margin=1in
+header-includes: |
+  \usepackage{sectsty}
+  \usepackage{helvet}
+  \usepackage{xcolor}
+  \setlength{\parindent}{1em}
+  \setlength{\parskip}{1em}
+  \definecolor{darkblue}{RGB}{0,0,139}
+  \usepackage{titlesec}
+  \allsectionsfont{\sffamily\color{darkblue}}
+  \usepackage{etoolbox}
+  \usepackage{setspace}
+  \patchcmd{\maketitle}{\begingroup}{\begingroup\sffamily\bfseries\color{darkblue}}{}{}
+  \titlespacing*{\section}{0pt}{0pt}{10pt}
+  \titlespacing*{\subsection}{0pt}{0pt}{5pt}
+  \titlespacing*{\subsubsection}{0pt}{0pt}{2pt}
 bibliography: ../references.bib
 csl: ../apa-numeric-superscript.csl
 ---
