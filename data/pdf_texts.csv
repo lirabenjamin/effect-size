@@ -1,0 +1,1999 @@
+file_name,text
+2018.0_Subjective well-being and academic achievement: A meta-analysis.pdf,"Registered Report
+Subjective well-being and academic achievement: A meta-analysis
+Susanne Bückera,⇑, Sevim Nuraydinb, Bianca A. Simonsmeierb, Michael Schneiderb,
+Maike Luhmanna
+aRuhr-University Bochum, Department of Psychology, Universitätsstraße 150, 44801 Bochum, Germany
+bTrier University, Department of Psychology, Universitätsring 15, 54296 Trier, Germany
+article info
+Article history:
+Received 20 October 2017
+Revised 3 February 2018Accepted 11 February 2018Available online 13 February 2018
+Keywords:
+Academic achievementSubjective well-beingLife satisfactionAcademic satisfactionMeta-analysisabstract
+Is the subjective well-being (SWB) of high-achieving students generally higher compared to low achiev-
+ing students? In this meta-analysis, we investigated the association between SWB and academic achieve-ment by synthesizing 151 effect sizes from 47 studies with a total of 38,946 participants. The correlation
+between academic achievement and SWB was small to medium in magnitude and statistically signiﬁcant
+atr= 0.164, 95% CI [0.113, 0.216]. The correlation was stable across various levels of demographic vari-
+ables, different domains of SWB, and was stable across alternative measures of academic achievement or
+SWB. Overall, the results suggest that low-achieving students do not necessarily report low well-being,
+and that high-achieving students do not automatically experience high levels of well-being.
+/C2112018 Elsevier Inc. All rights reserved.
+1. Introduction
+Subjective well-being (SWB) and academic achievement are both
+central indicators of positive psychological functioning ( Suldo, Riley,
+& Shaffner, 2006 ) and both are variables of interest in identifying the
+characteristics of high-performing education systems ( OECD, 2017 ).
+According to the OECD (2017) , successful students not only perform
+well academically but are also satisﬁed at school. Schools as well as
+higher educational environments are not just places where young
+people acquire academic skills, they are also places where people
+connect with others, develop their personality, experience all facets
+of society, all of which might inﬂuence their SWB.
+SWB relates to how people feel and think about their lives
+(Diener, 1984 ). Individuals reporting high SWB are at lower risk
+for a variety of psychological and social problems such as depres-
+sion and maladaptive relationships with others (e.g., Furr &
+Funder, 1998; Lewinsohn, Redner, & Seeley, 1991; Park, 2004 ).
+Among youth, SWB is positively correlated with physical health
+and healthy behaviors such as sensible eating and exercise
+(Frisch, 2000 ) and negatively related to drug use including alcohol,
+marijuana and smoking ( Zullig, Valois, Huebner, Oeltmann, &
+Drane, 2001 ). For the educational context, SWB is important as
+higher SWB is associated with lower teacher ratings of school-discipline problems ( McKnight, Huebner, & Suldo, 2002 ), an inter-
+nal locus of control, high self-esteem and intrinsic motivation
+(Huebner, 1991 ). Additionally, people with a higher educational
+level are more likely to report higher levels of SWB ( Diener, Suh,
+& Oishi, 1997; Nikolaev, 2016 ).
+Traditionally, SWB and academic a chievement have been investi-
+gated in different strands of the literature. Only recently, in investi-
+gating academic achievement, adolescents’ SWB is an increasingly
+explored variable (e.g., Adelman & Taylor, 2006; OECD, 2017;
+Steinmayr, Crede, McElvany, & Wirthwein, 2015 ) .T h e r ea r eaf e w
+cross-sectional studies that su ggest an association between SWB
+and academic achievement (e.g., Crede, Wirthwein, McElvany, &
+Steinmayr, 2015; Kirkcaldy, Furnham, & Siefen, 2004; Suldo,
+Shaffer, & Riley, 2008 ). Some results indicate that higher academic
+functioning leads to higher SWB and lower levels of psychopathology
+(Suldo & Shaffer, 2008 ) and that students’ great point average (GPA)
+positively predicts changes in life satisfaction ( Steinmayr et al.,
+2015 ). However, in other cases, SWB and academic achievement
+were not statistically sign iﬁcantly correlated (e.g., Huebner, 1991;
+Huebner & Alderman, 1993 ). In sum, single studies provide mixed
+evidence on the relationship between SWB and academic achieve-ment. To obtain a more precise estimate of this relationship, we con-
+ducted a comprehensive meta-analysis of studies providing data on
+the correlation between SWB and academic achievement.
+Although our study is the ﬁrst to meta-analytically examine the
+relationship between SWB and academic achievement, a number
+of meta-analyses exist that investigated related constructs. A
+recent meta-analysis by Huang (2015) revealed a weak negative
+https://doi.org/10.1016/j.jrp.2018.02.007
+0092-6566/ /C2112018 Elsevier Inc. All rights reserved.⇑Corresponding author.
+E-mail addresses: susanne.buecker@rub.de (S. Bücker), nuraydin@uni-trier.de (S.
+Nuraydin), simonsm@uni-trier.de (B.A. Simonsmeier), m.schneider@uni-trier.de (M.
+Schneider), maike.luhmann@rub.de (M. Luhmann).Journal of Research in Personality 74 (2018) 83–94
+Contents lists available at ScienceDirect
+Journal of Research in Personality
+journal homepage: www.elsevier.com/locate/jrp
+correlation between academic achievement and subsequent
+depression. However, Huang (2015) focused on studies investigat-
+ing depression as clinically relevant outcome measure, which is
+distinct from SWB. Moreover, most studies included by Huang
+(2015) used clinical samples and therefore cannot be generalized
+to the broader non-clinical population. Ford, Cerasoli, Higgins,
+and Decesare (2011) conducted a meta-analysis on the association
+between psychological well-being (deﬁned here as a broad con-
+struct including fatigue, depression, anxiety or distress, life satis-
+faction, subjective well-being, and symptoms of psychological
+disorders) and job performance and found an average correlation
+ofr= 0.37. Similarly, another large meta-analysis showed that life
+success causes SWB and SWB in turn causes life success in several
+life domains such as work, social relationships, prosocial behavior,
+creativity, and problem solving ( Lyubomirsky, King, & Diener,
+2005 ). However, these meta-analyses focused on adults and did
+not include measures of academic achievement, which is typically
+studied among children, adolescents, and young adults. Academic
+achievement was also not included in other meta-analyses on
+the correlates of SWB (e.g., Bowling, Eschleman, & Wang, 2010;
+Harter, Schmidt, Asplund, Killham, & Agrawal, 2010; Oishi, 2012;
+Pinquart & Sörensen, 2000 ).
+To gain more insight in the relationship between SWB and aca-
+demic achievement and in order to integrate the available empiri-
+cal evidence, we conducted a meta-analysis on the association
+between SWB and academic achievement. We aimed at estimating
+the overall effect size, its statistical signiﬁcance, and moderator
+variables of the relation. The remainder of the introduction is
+divided in three sections. First, we present conceptual deﬁnitions
+of SWB and academic achievement. Second, we state theoretical
+arguments suggesting an overall positive relation between these
+two constructs. Third, we discuss potential moderators that might
+inﬂuence the association between SWB and academic
+achievement.
+1.1. Subjective Well-Being (SWB)
+SWB refers to how people evaluate their lives and is deﬁned as
+an individual’s overall state of subjective wellness ( Diener, 1984 ).
+It is a broad concept commonly divided into two components
+(Busseri & Sadava, 2011; Diener, 1984; Eid & Larsen, 2008 ): Affec-
+tive well-being (AWB) reﬂects the presence of pleasant affect (e.g.,
+feelings of happiness) and the absence of unpleasant affect (e.g.,
+depressed mood). Cognitive well-being (CWB) refers to the cogni-
+tive overall evaluation of life satisfaction (i.e., global life satisfac-
+tion) as well as of speciﬁc life domains (e.g., job satisfaction or
+marital satisfaction) ( Diener, Inglehart, & Tay, 2013 ). Domain-
+speciﬁc levels of SWB can be aggregated to obtain an overallSWB score (e.g., Kahneman, Krueger, Schkade, Schwarz, & Stone,
+2004 ) and allow the assessment of possible bottom-up inﬂuences
+of speciﬁc domains on overall SWB (e.g., does a bad experience
+in a particular life domain affect the overall sense of well-
+being?). It has been suggested that three facets of SWB – life satis-
+faction (LS), positive affect (PA), and negative affect (NA) – should
+be measured separately ( Andrews & Withey, 1976; Lucas, Diener, &
+Suh, 1996 ), because, for example, the presence of PA does not nec-
+essarily comprise the absence of NA. In the current study, we dis-
+tinguished between overall and domain-speciﬁc well-being and
+between affective and cognitive well-being.
+1.2. Academic achievement
+Academic achievement is one performance outcome of instruc-
+tion and is an important factor for shaping a person’s outlook on
+life ( Steinmayr et al., 2015 ). It is associated with lower stress
+(Zajacova, Lynch, & Espenshade, 2005 ), higher self-concept ( Guay,Marsh, & Boivin, 2003 ), higher self-efﬁcacy ( Zajacova et al.,
+2005 ), and positive health behavior and health ( Eide, Showalter,
+& Goldhaber, 2010; Sigfúsdóttir, Kristjánsson, & Allegrante,
+2007 ). Academic achievement is essential for mastering several
+central developmental goals across the life span, especially during
+the school years and young adulthood ( Heckhausen, Wrosch, &
+Schulz, 2010
+). Engagement with educational goals is related to
+more positive developmental outcomes in terms of both SWB
+and educational attainments ( Heckhausen & Chang, 2009 ). In addi-
+tion to its relevance on an individual level, academic achievement
+forms a base for the wealth of a nation ( Steinmayr, Meißner,
+Weidinger, & Wirthwein, 2014 ) and is closely linked to national
+economic growth ( Cheung & Chan, 2008 ).
+Academic achievement can be measured with a wide range of
+indicators ( Steinmayr et al., 2014 ). To ensure comparability across
+studies, we restricted the present meta-analysis to achievement
+measures with a criterion-oriented reference standard such as
+grades or academic achievement tests, and excluded measures
+with an individual reference standard such as performance com-
+pared to other students in class.
+1.3. Relation between SWB and academic achievement
+High subjective well-being and high academic achievement are
+both values that are desirable within our western society. How-
+ever, no existing meta-analysis investigated if and how these two
+often reported indicators of societal prosperity are related to each
+other. SWB and academic achievement could be associated
+because (a) academic achievement has a causal effect on SWB,
+(b) SWB has a causal effect on academic achievement, or (c) both
+SWB and academic achievement are inﬂuenced by common third
+variables. The ﬁrst mechanism is consistent with self-
+determination theory (SDT; Ryan & Deci, 2000 ), which posits that
+three innate psychological needs (competence, relatedness and
+autonomy) are essential for intrinsic motivation, personality
+growth, social development, and personal well-being. Academic
+achievement may therefore lead to SWB through fulﬁlling the need
+for competence (e.g., Neubauer, Lerche, & Voss, 2017 ). The second
+mechanism is consistent with the broaden-and-build theory of
+positive emotions ( Fredrickson, 1998, 2001 ) which posits that the
+experience of positive emotions broadens one’s awareness and
+allows building new skills and resources, which may ultimately
+lead to enhanced academic achievement. Indeed, positive emotions
+are associated with better self-regulated learning, higher motiva-
+tion, and better examination grades ( Mega, Ronconi, & De Beni,
+2014 ) and have a positive effect on memory and attention pro-
+cesses ( Fiedler & Beier, 2014 ). Moreover, experiencing positive
+emotions is associated with adopting goals oriented towardsapproach and mastery rather than goals oriented towards avoid-
+ance ( Linnenbrink & Pintrich, 2002 ). Pursuing mastery-oriented
+goals is in turn associated with positive outcomes (see Anderman
+& Wolters, 2006 , for a review). Mastery-oriented students persist
+longer at academic tasks, are more engaged with their work, use
+more effective cognitive processing strategies, use less self-
+handicapping, and continue to engage with tasks in the future
+when possible ( Tuominen-Soini, Salmela-Aro, & Niemivirta,
+2008 ). Moreover, some studies indicate that negative emotionality
+is negatively related to school achievement ( Gumora & Arsenio,
+2002 ). However, this ﬁnding could not be replicated with different
+measures of affect and emotionality (e.g., Supplee, Shaw,
+Hailstones, & Hartman, 2004 ).
+Finally, the two variables may also be correlated because they
+are inﬂuenced by a common third variable. In the case of SWB
+and academic achievement, potential confounding variables are
+intelligence and socioeconomic status. Intelligence and socioeco-
+nomic status are not only positively related to academic achieve-84 S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94ment (e.g., Deary, Strand, Smith, & Fernandes, 2007; Leeson,
+Ciarrochi, & Heaven, 2008; Sirin, 2005 ), but also to SWB. Meta-
+analytic results show a small positive relation between general
+mental ability and life satisfaction ( Gonzalez-Mulé, Carter, &
+Mount, 2017 ) and a small to medium positive relation between
+socioeconomic status and life satisfaction ( Pinquart & Sörensen,
+2000 ). However, empirical studies indicate that SWB and academic
+achievement are associated even after controlling for these vari-
+ables (e.g., Crede et al., 2015; Ng, Huebner, & Hills, 2015 ). When
+investigating the relationship between academic achievement,
+intellectual giftedness, and SWB in adults, Pollet and Schnell
+(2017) found that being intellectually gifted was associated with
+lower well-being compared to high academic achievers (without
+intellectual giftedness).
+In sum, although different studies make different assumptions
+about the causal direction and the underlying mechanisms of the
+association between academic achievement and SWB, they agree
+that such an association should exist and that it should be positive.
+The strength of this association, however, is less clear and may in
+fact vary as a function of various moderator variables. In the largest
+study on this question to date, Kirkcaldy et al. (2004) examined
+data from 30 countries to determine correlates of SWB and aca-
+demic achievement in youth at the national level. They found that
+countries with high performance in the PISA survey (academic
+achievement in terms of scientiﬁc, mathematical and reading liter-
+acy) also had the highest average SWB scores and the strongest
+association between SWB and reading achievement ( r= 0.63)
+within the country. However, a limitation of the study is that eco-
+nomic or social indicators such as high income or small family size
+were not statistically controlled. Other studies failed to replicate
+the strong correlation found by Kirkcaldy and colleagues. For
+example, in a study of adolescents in the UK, Cheng and
+Furnham (2002) found a smaller but still statistically signiﬁcant
+association between school grades and happiness ( r= 0.25), PA ( r
+= 0.29), and NA ( r=/C00.29), controlling for age and gender.
+One goal of the present meta-analysis is therefore to examine
+how and why the strength of the association between academic
+achievement and SWB varies across samples and studies. For this
+purpose, we examine both demographic and methodological
+moderators.
+1.4. Potential demographic moderators1.4.1. Age and gender
+The strength of the relation between SWB and academic
+achievement may vary as a function of age and gender. The relation
+between reading achievement and subsequent depression was
+found to vary with age (e.g., Topitzes, Godes, Mersky, Ceglarek, &
+Reynolds, 2009 ). This might also be true for the relation between
+academic achievement and SWB. Furthermore, life satisfaction
+decreases during adolescence (e.g., Goldbeck, Schmitz, Besier,
+Herschbach, & Henrich, 2007 ). It is likely that academic achieve-
+ment becomes more important at the age of 17–18 (typical age
+when applying for university) compared to younger age. This
+might lead to a dynamic relationship between SWB and academic
+achievement with a lower association in children and a stronger
+association in adolescents and young adults.
+With respect to gender, girls tend to obtain higher grades in
+school than boys (e.g., Berger, Alcalay, Torretti, & Milicic, 2011 ).
+Despite the better school performance in girls, they also experience
+greater internal distress than boys, evaluate themselves more neg-
+atively than boys, and are more prone than boys to worry about
+their performance at school ( Pomerantz, Altermatt, & Saxon,
+2002 ). This suggests the possibility of a gender difference in the
+relation between SWB and academic achievement. However, there
+also is evidence indicating that gender does not moderate the linkbetween academic achievement and SWB (e.g., Crede et al., 2015;
+Huang, 2015 ; for an exception see Herman, Lambert, Reinke, &
+Ialongo, 2008 ). In sum, both age and gender may moderate the
+association between SWB and academic achievement and were
+therefore included as moderators.
+1.4.2. Country and cultural differences
+People tend to be happier if they have the characteristics that
+are valued in their culture ( Diener, Oishi, & Lucas, 2003; Oishi,
+Diener, Suh, & Lucas, 1999 ). For instance, self-esteem is a stronger
+predictor of life satisfaction in individualistic than in collectivistic
+cultures ( Diener & Diener, 1995 ). The values-as-moderator hypoth-
+esis ( Oishi et al., 1999 ) suggests that domains that are value-
+congruent should be more important for SWB than domains that
+are value-incongruent. Indeed, the strength of the relation betweenlife domains and SWB is moderated by country-level values (e.g.,
+Oishi et al., 1999 ). Because the value of academic achievement
+might differ between different countries and cultures, country
+and cultural differences were examined as moderators of the link
+between SWB and academic achievement.
+1.4.3. Educational level
+The relationship between academic achievement measures and
+SWB may depend on the educational level of the students. For
+instance, Chang, McBride-Chang, Stewart, and Au (2003) found
+that academic test scores obtained from ofﬁcial school records
+(Chinese, English and mathematics) were statistically signiﬁcantly
+correlated with SWB ( r= 0.38) among a sample of 2nd grade stu-
+dents in Hong Kong, but not among a sample of 8th grade students.
+Although educational level and age are highly correlated, they are
+not the same, particularly not on the university level where stu-
+dent populations tend to be heterogeneous with respect to age.
+For example, some studies using university samples report a mean
+age of almost 26 years (e.g., Grunschel, Schwinger, Steinmayr, &
+Fries, 2016 ) whereas others report a mean age of 18 years (e.g.,
+Schmitt, Oswald, Friede, Imus, & Merritt, 2008 ). Therefore, we
+examined not only age, but also education level as a potential mod-
+erator of the association between SWB and academic achievement.
+1.5. Potential methodological moderators1.5.1. Study characteristics
+The studies included in our meta-analyses were conducted dur-
+ing the last four decades. To test if the magnitude of relation
+between SWB and academic achievement changed over the time,
+we examined publication year as potential moderator.
+We included studies using a correlational design (measuring
+both constructs at the same occasion) or a longitudinal design(measuring either SWB or academic achievement ﬁrst). For longi-
+tudinal designs, the time between assessments differed from study
+to study. To examine the stability and directionality of the relation
+between SWB and academic achievement, we investigated the
+measurement order (SWB measured ﬁrst, academic achievement
+ﬁrst, or both measured at the same time) as a moderator of longi-
+tudinal effects.
+1.5.2. Measurement of academic achievement
+The majority of studies used objective or self-reported GPA as
+measures of achievement. Alternative measures include standard-
+ized achievement tests (e.g., TIMSS; Trends in International Math-
+ematics and Science Study). The achievement measurement type is a
+plausible moderator of the relation between SWB and academic
+achievement because despite the strong correlation between self-
+reported and actual GPA ( r= 0.97; Cassady, 2001 ), PA is only
+related to objective but not to self-reported measures of college
+success ( Nickerson, Diener, & Schwarz, 2011 ). In addition, weS. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94 85explored the content of achievement (general, STEM, language,
+social science) as a moderator of the association between SWB
+and academic achievement.
+1.5.3. Measurement of SWB
+To examine differential relations between different types of
+measures of SWB and academic achievement, we considered three
+independent characteristics of SWB measures as moderators: com-
+ponent, life domain, and time frame ( Lischetzke & Eid, 2006 ). With
+respect to component , we distinguished between measures of affec-
+tive well-being and measures of cognitive well-being. With respect
+tolife domain , we distinguished between measures referring to life
+overall, measures referring to academic well-being, and measuresreferring to other life domains ( Daig, Herschbach, Lehmann, Knoll,
+& Decker, 2009; Diener, 1994 ). Academic well-being refers to
+‘‘how students subjectively evaluate and emotionally experience
+their school lives” ( Tian, Yu, & Huebner, 2017 ; p. 2). We expected
+academic well-being to be more strongly related to academic
+achievement than measures tapping into other life domains (e.g.,
+ﬁnancial satisfaction, overall life satisfaction). Finally, we examined
+whether the time frame of the SWB measure (general, momentary,
+precise time frame) moderates the relation between academic
+achievement and SWB. Note that the studies included in this
+meta-analysis did not always report information on all three
+dimensions. For some studies, we only received information about
+the SWB component (e.g., cognitive) and the time frame (e.g., gen-
+eral) but not about the life domains (overall vs. speciﬁc) or even
+only information about one of the three dimensions. Effect sizes
+for which no information on a particular dimension of SWB was
+given were therefore not included in the respective moderator
+analysis.
+1.6. Overview of the present meta-analysis
+In the present meta-analysis, we examined the association
+between SWB and academic achievement and explored demo-
+graphic and methodological moderators of this association. The
+meta-analysis was guided by the following hypotheses:
+Hypothesis 1. SWB is positively associated with academic
+achievement.
+Hypothesis 2. The association between SWB and academic
+achievement differs among achievement measurement types.
+Hypothesis 3. The association between academic achievement
+and academic satisfaction is stronger than the association between
+academic achievement and overall life satisfaction or satisfaction
+with non-academic domains.
+2. Method
+2.1. Literature search and study selection
+We conducted a literature search in the database PsycINFO in
+winter 2016 and in ERIC in winter 2017. The search process is visu-
+alized in Fig. 1 . We restricted the search to studies on human and
+non-disordered populations that had been published in a peer
+reviewed journal in English language. The keyword combination
+with the stated restrictions provided, based on the title, 457 stud-
+ies in total. Additionally, we performed an explorative search via
+cross-references. The exploratory search provided two more arti-
+cles. In total, we screened 459 titles and abstracts for eligibility.
+Our inclusion criteria were the following:1.Quantitative data. Articles that were purely theoretical or that
+reported qualitative data only were excluded.
+2.Mainly non-disordered and non-disabled sample. Only stud-
+ies assessing a non-disordered and non-disabled population
+were included. Studies with samples of, for example, clinically
+depressed or learning-disabled people were excluded.
+3.Measurement of relevant constructs. Only studies were
+included that reported both SWB and academic achievement
+measures.
+4.Unduplicated data. Only one publication per data set and only
+original empirical ﬁndings were included. Priority was given to
+publications reporting (a) more time points, (b) larger sample
+sizes, and (c) more descriptive statistics. Re-analyses of already
+reported ﬁndings or reviews were excluded.
+5.Deﬁnition and measurement of SWB. Studies were included
+that used Diener’s (1984) deﬁnition of SWB or a comparable
+one (see above). Measures of affective well-being were only
+included if they captured the full range of positive or negative
+affect, rather than a sub-dimension. Therefore, studies only
+focusing on speciﬁc emotions (e.g., anxiety or anger) or using
+a different SWB deﬁnition were excluded.
+6.Deﬁnition and measurement of academic achievement. Only
+studies were included that operationalized academic achieve-
+ment according to the deﬁnition by Steinmayr et al. (2014 ;
+see above). Studies reporting only other non-academic perfor-
+mance measures (e.g., job performance measurements) or
+reporting measures such as academic engagement were
+excluded.
+7.Statistical sufﬁciency. Standardized effect sizes had to be
+reported or alternatively one of the following statistics was nec-
+essary to calculate effect sizes: means and standard deviations
+for each time point, the retest correlation of the outcome vari-
+able (e.g., correlation between SWB at T1 and SWB at T2) or a
+zero-order correlation coefﬁcient, a torFstatistic, or the mean
+and standard deviation of the group or pre-post difference vari-
+able. If covariates (such as parents’ education) were reported in
+an ANCOVA or multiple regression analysis, effect sizes could
+only be coded if also a bivariate correlation between SWB and
+academic achievement (e.g., without examining the moderating
+effect of parents’ education) was reported.
+Study eligibility for our meta-analysis was determined in a two-
+step procedure. In a ﬁrst step, the titles and abstracts of the 459
+articles were screened for study-relevant characteristics only by
+two independent coders and inclusion criteria 1–4 were applied.
+In that ﬁrst step, we applied the inclusion criteria rather liberally
+to minimize the chance of falsely excluding a relevant article based
+on title and abstract. A total of 342 publications were excluded dueto failing to meet one or more criteria. Interrater Agreement (IA)
+was assessed as the percentage of agreement between the coders.
+Agreement for the ﬁrst step was high (93%). In a second step, the
+full texts of the remaining 117 articles were screened for inclusion
+or exclusion by the same two independent coders and criteria 5–7
+were applied. Seventy publications were excluded because they
+failed to meet our inclusion criteria, resulting in a total of 47 stud-
+ies included in this meta-analysis. The IA for the second step was
+again high (95%). Disagreements between the coders in step 1
+and step 2 were resolved by discussion and by consulting the orig-
+inal publication.
+2.2. Coding
+Coding of the 47 studies was done independently by the ﬁrst
+and the second author. The coded moderators are listed in Table 1 .
+Before beginning, the coders received detailed coding instructions
+and were trained in using them. The coding results were recorded86 S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94in a standardized coding sheet. Interrater Agreement for the coding
+was 90% on average and ranged from 78% to 100% for the different
+moderating variables (see Table 1 ). In the rare case when relevant
+information for coding was missing or unclear in an article, we
+contacted the authors via email.
+2.3. Preparation of effect sizes
+As all included studies reported a zero-order Pearson correla-
+tion ( r) between SWB and academic achievement, this meta-
+analysis used the correlation coefﬁcient itself as the effect sizeand synthesized all Pearson correlations. Prior to meta-analytic
+aggregation, all effects were recoded so that positive effect sizes
+indicated that higher SWB was associated with higher academic
+achievement. We then transformed all correlations using Fisher’s
+Zr-transformation to approximate a normal sampling distribution
+(Lipsey & Wilson, 2001 ). As correlations can be biased by measure-
+ment error, the effect sizes were corrected for measurement unre-
+liability using Spearman’s correction for attenuation ( Hunter &
+Schmidt, 2004 ) whenever the reliabilities of the measures were
+available. In case of missing reliabilities, the reported correlations
+were not corrected. As the majority of included studies reported
+Fig. 1. Flow chart for the literature search process.S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94 87several relevant effect sizes and we included all of them, the effect
+sizes in our meta-analysis were not statistically independent (cf.
+Hedges, Tipton, & Johnson, 2010 ). Classical ﬁxed-effects or
+random-effects meta-analysis rely on the assumption that all
+included effect sizes are independent. Ignoring the effect size
+dependency in our meta-analysis would lead to an underestima-
+tion of the effect size variance, of the width of the conﬁdence inter-
+vals, and to inﬂated Type I error rates when testing effect sizes
+against zero ( Borenstein, Hedges, Higgins, & Rothstein, 2009 ). We
+accounted for this problem by using robust variance estimation
+(RVE, Hedges et al., 2010; Tanner-Smith & Tipton, 2014; Tanner-
+Smith, Tipton, & Polanin, 2016 ). Using RVE for meta-regression
+permits the inclusion of statistically depended effect size estimates
+without requiring information about the effect size covariance
+structure. RVE mathematically adjusts the standard errors of the
+effect sizes to account for the dependency in a data set of effect
+sizes.2.4. Statistical analyses
+Given the presumed heterogeneity, random-effects statistical
+models were used for all analyses ( Raudenbush, 2009 ). Mean effect
+sizes and meta-regression models using robust variance estimation
+were estimated using a weighted least squares approach (cf.
+Hedges et al., 2010; Tanner-Smith & Tipton, 2014 ). To estimate
+the overall strength of the correlation of SWB and academic
+achievement, we estimated a simple RVE meta-regression model:
+yij¼b0þujþeij
+where yijis the ith correlation effect size in the jth study, b0is the
+average population effect of the correlation, ujis the study level
+random-effect such that Var( uj)=s2is the between-study variance
+component, and eijis the residual for the ith effect size in the jth
+study. To estimate the variability in the effect size due to moderator
+variables, we estimated a mixed-effects RVE meta-regression model
+where each moderator represents a continuous or speciﬁc dummy
+coded level of an included moderator variable (for example aca-
+demic speciﬁc satisfaction or other domain-speciﬁc satisfaction;
+for more details see Tanner-Smith & Tipton, 2014 ). All dummy
+coded moderators were tested against a reference category. The ref-
+erence categories are indicated as ‘‘REF” in Table 2 . We used the
+robumeta package ( Fisher & Tipton, 2014 ) in the R statistical envi-
+ronment ( R Core Team., 2014 ) to perform the meta-analysis.
+Each meta-analysis is at danger of yielding results that are dis-
+torted by a publication bias ( Borenstein, 2005 ). We estimated pub-
+lication bias visually and statistically. First, we conducted visual
+and statistical analyses using funnel plots and Egger’s regression
+test ( Egger, Smith, Schneider, & Minder, 1997 ) available in the
+metafor package ( Viechtbauer, 2010 ) to assess for possible publica-
+tion bias. We are not aware of methods to assess publication bias
+for dependent effect sizes. Therefore, we conducted the analyses
+once for all effect sizes (assuming independence) and once for all
+studies with the study-average effect size. Second, we performed
+PET and PEESE using the metafor package in R. Both approaches
+are meta-regression models for the adjustment of publication bias
+or other forms of small-study effects ( Stanley & Doucouliagos,
+2014 ) using a conditional estimator (referred to as PET-PEESE).
+Depending on the statistical signiﬁcance of the intercept in the
+PET model, one interprets either the intercept from the PET model
+(if the PET intercept p> .05) or from the PEESE model (if the PET
+intercept p< .05) (see Stanley & Doucouliagos, 2014 , for a full
+description of the logic behind the conditional nature of PET-
+PEESE).
+We deliberately did not include unpublished studies or data
+because including unpublished studies may in fact increase publi-
+cation bias, presumably because unpublished research is often not
+representative regarding quality ( Ferguson & Brannick, 2012 ; but
+seeRothstein & Bushman, 2012 ).
+All reported conﬁdence intervals are at the 95% level. The raw
+data and R scripts are available via the Open Science Framework:
+https://osf.io/mazp6/?view_only=55346f7b91ac45b585edac909be
+61cdf .
+3. Results
+3.1. Study characteristics
+The inclusion criteria were met by 47 articles which reported
+results from 49 independent samples with 151 relevant effect sizes
+obtained from 38,946 participants. All included articles were pub-
+lished between 1978 and 2017 with a median publication year of
+2012. Of the included articles, 70% where published in the last
+10 years and 38% in the last three years, indicating that theTable 1
+Summary of coded characteristics, interrater agreement in percent (IA), number ofcoded studies (j), and effect sizes (k).
+Variable and coding options IA jk
+Sample Characteristics
+Age ( M) 0.93 36 125
+Sample size ( N) 0.94 47 151
+Percentage of females 0.88 45 146Predominant ethnicity 0.90
+White/Caucasian 14 63African American 1 3
+Asian 1 2
+Country of education/achievement 0.90
+North America 19 83Europe 11 37Asia 7 9Oceania 6 16
+Educational Level 1.0
+Higher education 25 83
+Secondary School 20 64Primary School 2 4
+Study Characteristics
+Publication Year 1.0 47 151Measurement Order 0.94
+Simultaneous 41 116SWB ﬁrst 6 20
+Academic Achievement ﬁrst 8 15
+Time between assessments (days) 0.84 44 154Design 0.94
+Correlational 40 113Longitudinal 11 37
+Academic Achievement
+Content 0.81
+General 37 100
+Language 7 13
+STEM 6 8Social Science 6 19
+Measurement Type 0.78
+Objective Grades/GPA 25 87Self-reported Grades/GPA 13 30Achievement Test 12 32
+Reliability of Measurement 0.96 47 151
+SWB/Life Satisfaction
+Component 0.84
+Cognitive 21 36Affective 16 55
+Life domains 0.99
+Overall 31 81Domain-speciﬁc - Academic 20 44
+Domain-speciﬁc - Other Domains
+a82 6
+Time Frame of Measure 0.87
+General 26 66Momentary 2 3Precise 9 36
+Reliability of Measurement 0.85 47 151
+aIncluding friends/acquaintances, leisure activities/hobbies, income/ﬁnancial
+security, health, housing/living conditions, occupation/work, family life/children.88 S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94research on the relation between academic achievement and SWB
+is a quickly growing ﬁeld of research. The coded effect sizes ranged
+from r=/C00.47 to r= 0.68. The sample sizes ranged from 62 to
+11,061 with a median of 411.
+Sample mean age ranged from 11 to 26 ( M= 18.5, SD= 3.86). Of
+the included effect sizes, 3% were from primary school, 42% from
+secondary school, and 55% from higher education. The mean
+percentage of females in the included samples was 55.4%
+(SD= 19.63). In most studies, the predominant ethnicity was
+White/Caucasian (30%). However, 66% of the included studies did
+not report the ethnicity of their sample. Regarding the country of
+education, 40.4% of studies were based on samples educated in
+North America, 23.4% in Europe, 12.8% in Australia or New Zealand,
+14.9% in Asia, and 2.1% in South America.
+About 75% of the effects were obtained using a correlational
+study design measuring SWB and academic achievement at onemeasurement point. A longitudinal design was used in about 25%
+of the cases either measuring SWB ﬁrst (14%) or measuring aca-
+demic achievement ﬁrst (9%). The time intervals for the longitudi-
+nal studies varied between 14 days (approximately 2 weeks) and
+420 days (approximately 14 months). However, not every longitu-
+dinal study reported a time interval (16% of information on time
+intervals were missing).
+The measures of academic achievement were objective GPA/-
+grades (67.6%), self-reported GPA/grades (19.9%), and academic
+achievement tests (21.2%). One study used a parent-report of
+GPA as measure (0.6%). For SWB, 36.4% of effect sizes were
+obtained from measures that focused on the affective component
+of SWB (e.g., PANAS; Watson, Clark, & Tellegen, 1988 ), 23.8% from
+measures that focused on the cognitive component of SWB (e.g.,
+SWLS; Diener, Emmons, Larsen, & Grifﬁn, 1985 ), and 39.7% could
+not be assigned deﬁnitely. About 53% of the SWB measures indi-Table 2
+Number of studies (j), number of effect sizes (k), relation between academic achievement and SWB corrected for measurement error (r+), 95% conﬁdence interval, measure of
+heterogeneity s2, signiﬁcance for moderator analyses for all included studies.
+Variable and Coding Options jk r+95% CI s2Moderator
+Overall 47 151 0.164 [0.113, 0.216] 0.027
+Sample Characteristics
+Age in years ( M) 36 125 ns
+Sample size ( N) 47 151 ns
+Percentage of females 45 146 ns
+Predominant ethnicity
+White/Caucasian 14 63 0.125 [0.066, 0.183] 0.015 –
+African American 1 3 – – – –
+Asian 1 2 – – – –
+Country of education/achievement
+North America 19 83 0.171 [0.105, 0.236] 0.025 ns
+Europe 11 37 0.126 [0.083, 0.169] 0.003 ns
+Asia 7 9 0.150 [ /C00.171, 0.442] 0.104 ns
+Oceania 6 16 0.179 [0.018, 0.331] 0.140 REF
+Educational Level
+Higher education 25 83 0.163 [0.095, 0.230] 0.028 ns
+Secondary School 20 64 0.158 [0.063, 0.250] 0.028 ns
+Primary School 2 4 – – – –
+Study Characteristics
+Publication Year 47 151 ns
+Measurement Order
+Both measured simultaneously 41 116 0.145 [0.089, 0.199] 0.278 ns
+SWB ﬁrst 6 20 0.172 [ /C00.046, 0.375] 0.051 ns
+Academic Achievement ﬁrst 8 15 0.198 [0.087, 0.304] 0.012 REF
+Time between Assessments (days) 44 145 ns
+Study Design
+Correlational 40 113 0.141 [0.088, 0.194] 0.026 ns
+Longitudinal 11 37 0.162 [0.061, 0.258] 0.019 ns
+Academic Achievement
+Content
+General 37 100 0.161 [0.099, 0.220] 0.036 ns
+Language 7 13 0.117 [0.347, 0.197] 0.008 ns
+STEM 6 8 0.133 [0.040, 0.224] 0.007 ns
+Social 6 19 0.302 [0.056, 0.515] 0.067 REF
+Measurement Type
+Objective reported Grades/GPA 25 87 0.194 [0.124, 0.261] 0.027 REFSelf-reported Grades/GPA 13 30 0.147 [0.074, 0.217] 0.017 ns
+Achievement Test 12 32 0.152 [0.077, 0.280] 0.011 ns
+Reliability of Measurement 47 151 ns
+SWB/Life Satisfaction
+Component
+Cognitive 21 36 0.196 [0.156, 0.236] 0.006 ns
+Affective 16 55 0.155 [0.076, 0.232] 0.029 ns
+Life Domains
+Overall 31 81 0.166 [0.115, 0.217] 0.018 ns
+Domain-speciﬁc - Academic 20 44 0.180 [0.076, 0.277] 0.036 REF
+Domain-speciﬁc - Other Domains
+a8 26 0.072 [ /C00.024, 0.165] 0.012 ns
+Time Frame of Measure
+General 26 66 0.171 [0.122, 0.220] 0.011 ns
+Momentary 2 3 – – – –Precise 9 36 0.145 [0.033, 0.254] 0.038 ns
+Reliability of Measurement 47 151 ns
+aIncluding friends/acquaintances, leisure activities/hobbies, income/ﬁnancial security, health, housing/living conditions, occupation/wor k, family life/children. REF =
+reference category.S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94 89cated overall well-being, 46.3% were domain-speciﬁc SWB mea-
+sures (29.1% academic speciﬁc measures and 17.2% other
+domain-speciﬁc measures). Most measures used a general time
+frame (43.7%), 23.8% used a precise time frame (e.g., PA during
+the last two months), and 2% assessed momentary SWB
+(moment-to-moment variation of SWB). The remaining 30.5% did
+not report the time frame of measure.
+3.2. Overall effect
+The overall mean effect size and the mean effect sizes for the
+levels of the moderator variables are presented in Table 2 . The
+overall correlation between academic achievement and SWB was
+r= 0.164 with a 95% conﬁdence interval ranging from 0.113 to
+0.216. The overall effect with uncorrected effect sizes differed only
+slightly on the second decimal from the one with corrected effect
+sizes according to Hunter and Schmidt (2004) . We therefore used
+the corrected effect sizes. The measure of heterogeneity I2=
+93.964 ( s2= 0.027) indicates substantial heterogeneity, implying
+that the relation between academic achievement and SWB might
+be moderated by third variables.
+The funnel plots in Fig. 2 do not indicate the presence of a pub-
+lication bias, as the plots resemble symmetrical inverted funnels
+such that effect sizes from smaller studies scatter widely at the
+bottom and effect sizes from larger studies scatter more narrowly
+towards the top ( Sterne & Egger, 2001 ). The absence of a publica-
+tion bias in our data was also conﬁrmed by a test for funnel plot
+asymmetry ( Egger et al., 1997 ) testing the null hypothesis that
+symmetry in the funnel plot exists. The Egger test revealed no indi-
+cation of publication bias on both study level ( z= 0.562 ,p= .574)
+and on effect size level ( z= 0.645, p=.519). Additionally, the true
+effect size estimated using PET-PEESE was statistically signiﬁcant
+and comparable in strength to our originally reported effect size
+(see our online material on OSF). Together, these analyses suggest
+that there is little evidence for a ﬁle-drawer problem in the present
+meta-analysis.
+3.3. Moderator analyses
+The results of moderator analyses are shown in Table 2 . The
+heterogeneity measure s2ranged between 0.006 and 0.278 forthe different moderators. Regarding our Hypotheses 2 and 3, we
+obtained the following results.
+3.3.1. Demographic variables as moderators
+None of the demographic moderators such as age, age squared,
+gender, country of education or level of education had a statisti-
+cally signiﬁcant moderating effect, indicating that the relation
+between SWB and academic achievement was similar in differentage and gender groups.
+3.3.2. Methodological variables as moderators
+Moderator analysis revealed that the magnitude of the associa-
+tion between SWB and academic achievement was not inﬂuenced
+by publication year. The association between the two constructs
+was not statistically signiﬁcantly different when measuring both
+constructs at the same measurement point or when measuring
+SWB or academic achievement ﬁrst. It made no difference how
+much time lay between the assessments or whether the study
+design was correlational or longitudinal.
+None of the three investigated characteristics of measurement
+of academic achievement reached signiﬁcance. The correlation
+between SWB and academic achievement was neither moderated
+by measurement type nor by the reliability of measurement. Thus,
+our second hypothesis assuming that the association between SWB
+and academic achievement differs for different achievement mea-
+surement types could not be conﬁrmed.
+It did not make a difference if well-being was measured focus-
+ing on the cognitive or the affective component of SWB. Addition-
+ally, the correlation between academic speciﬁc well-being
+measures and academic achievement was only descriptively
+slightly higher ( r= 0.180; CI [0.076, 0.277]) than between overall
+SWB ( r= 0.166; CI [0.115, 0.217]) or other domain-speciﬁc well-
+being measures ( r= 0.072; CI [ /C00.024, 0.165]) and academic
+achievement. However, this difference did not reach statistical sig-niﬁcance, which is not concordant with our third hypothesis.
+4. Discussion
+The current meta-analysis synthesized the published ﬁndings on
+the relation between SWB and academic achievement. Across all
+151 effect sizes, the average strength of the association was r=
+Fig. 2. Funnel plots of the 47 studies and the 151 effect sizes by standard error.90 S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–940.164, 95% CI [0.113, 0.216]. According to Gignac and Szodorai
+(2016) , this effect size can be interpreted as relatively small to med-
+ium. This association is slightly lower but still comparable in magni-
+tude to the ones reported between SWB and other success outcome
+measures. For example, the correlation between SWB and job per-
+formance was r= 0.22 ( DeLuga & Mason, 2000 ) and the correlation
+between SWB and income r= 0.20 ( Lucas, Clark, Georgellis, &
+Diener, 2004 ). The relatively small effect for the relation of SWB
+and academic achievement in the present meta-analysis was not
+surprising. Huang (2015) conducted a meta-analysis of longitudinal
+studies on academic achievement and subsequent depression. He
+found a very similar but – because of depression as a negative
+dependent variable – negative overall effect of r=/C00.15 In our
+meta-analysis, the moderator analyses did not provide any statisti-
+cally signiﬁcant effects, which indicates that the correlationbetween SWB and academic achievement is robust across different
+levels of the examined moderators. For some moderators, this ﬁnd-
+ing was in line with other meta-analyses. For example, demographic
+moderators such as age or gender were also not signiﬁcant in
+Huang’s (2015) meta-analysis on academic achievement and
+depression. However, the absence of a signiﬁcant moderator effect
+of the life domain of the SWB measure (academic vs. overall vs. other
+life domains) requires further discussion.
+One explanation for this ﬁnding might be that because children
+and young adults spend a substantial amount of their time at
+school, students’ overall life satisfaction and their academic satis-
+faction might be highly overlapping and not as distinct as we
+expected. Another explanation is that we might not have detected
+a signiﬁcant moderator effect due to low statistical power, as only
+17.2% of the included effect sizes referred to other domain-speciﬁc
+satisfaction measures such as ﬁnancial satisfaction or health
+satisfaction.
+4.1. Implications
+Students’ school experiences are important in inhibiting or
+facilitating successful development over the lifespan (e.g., Schaps
+& Solomon, 2003; Tian et al., 2017 ). School effectiveness research
+has mainly focused on cognitive outcomes, especially on mathe-
+matics, language, or science achievement. However, Noddings
+(2003) stated that ‘‘happiness and education are, properly, inti-
+mately connected. Happiness should be an aim of education, and
+a good education should contribute signiﬁcantly to personal and
+collective happiness” (p. 1). According to the OECD (2015) , ‘‘aca-
+demic achievement that comes at the expense of students’ well-
+being is not a full accomplishment” (p. 4). Correspondingly, cogni-
+tive outcomes such as academic achievement and non-cognitive
+outcomes such as student well-being should be considered as
+two different and distinctive aims of education (cf. Opdenakker &
+Van Damme, 2000 ).
+In our meta-analysis, academic achievement and well-being are
+statistically signiﬁcantly but only relatively weakly related. This
+suggests that low-achieving students do not necessarily report
+low SWB, and high-achieving students do not automatically report
+high SWB. Even if enhancing subjective well-being is discussed as
+an aim of education, it has been demonstrated that educational
+institutions have far more inﬂuence on academic achievement
+than on well-being (cf. Opdenakker & Van Damme, 2000 ). Addi-
+tionally, not necessarily the individual achievement but the char-
+acteristics of classmates such as ability and gender have an
+impact on students’ well-being. For example, a literature review
+on the effect of class composition on secondary school students’
+school well-being and academic self-concept concludes that the
+average achievement level of a class has an additional positive
+effect on students’ well-being when controlling for initial achieve-
+ment of the students ( Belﬁ, Goos, De Fraine, & Van Damme, 2012 ).
+This indicates that being in a class with high-ability classmates isbeneﬁcial for students’ school well-being. However, Belﬁ et al.
+(2012) also mention that ability-grouped classes have a positive
+impact on the school well-being of strong students, while they
+have a rather negative impact on the school well-being of weak
+students. Hence, not only the individual academic achievement
+but also the achievement level in a class seems to be important
+for students’ SWB.
+4.2. Limitations and future directions
+Meta-analyses are always inﬂuenced by the quality of the
+included studies. We discuss the most important constraints and
+unanswered questions of previous research to provide directions
+for future studies on SWB and academic achievement. To test rel-
+evant moderators, a sufﬁcient amount of single studies investigat-
+ing those variables is necessary. Unfortunately, we were not able toexamine an effect for predominant ethnicity since most studies
+had been conducted with predominantly White/Caucasian sam-
+ples. The mean age of the samples included in the present meta-
+analysis ranged between 11 and 26 years ( M= 18.5), which allows
+conclusions for childhood and young adulthood but also implies
+that further research on other age groups is necessary.
+This study did not examine potentially relevant moderators
+such as ability level, intelligence, motives such as need for achieve-
+ment, test anxiety, academic engagement, or socioeconomic status
+because most primary research did not collect or report data for
+these variables. These third variables might not only inﬂuence
+the levels of academic achievement and SWB, but also the strength
+of their relationship. Thus, future research should address the
+question whether the relationship between academic achievement
+and SWB still exists when including relevant third variables and
+whether the association found in the present meta-analysis is
+mediated by other factors. Ng et al. (2015) found that the relation
+between academic achievement and life satisfaction stays statisti-
+cally signiﬁcant even when controlling for socioeconomic status,
+but they did not investigate intelligence. It remains an open task
+for subsequent research to include variables like intelligence or
+socioeconomic status when investigating academic achievement
+and SWB to get a more precise picture of the unique relationship
+between these variables.
+While the measures of academic achievement are largely homo-
+geneous between studies with most of them reporting GPA, there
+is a broad number of different measures for SWB. Some studies
+assessed SWB with a single item whereas others used measures
+with 40 Items (e.g., Multidimensional Students’ Life Satisfaction
+Scale; Huebner, 1994 ). Further research is necessary to clarify
+which SWB measure is most reliable and valid in different age
+groups. Measures are particularly heterogeneous for academic sat-
+isfaction. Some studies apply items originally developed to mea-sure overall life satisfaction (e.g., Satisfaction With Life Scale;
+Diener et al., 1985 ) to university life (e.g., Ocal, 2016 ). Others use
+measures speciﬁcally developed to measure academic satisfaction
+(e.g., Academic Satisfaction Scale; Schmitt et al., 2008 ). Most stud-
+ies used SWB measures that captured either the affective or the
+cognitive component of SWB. Future studies should collect mea-
+sures of SWB that capture both components as well as additional
+measures of well-being such as parents’ or peer reports.
+Only 25% of the effect sizes included in our meta-analyses came
+from longitudinal studies. More longitudinal research using
+designs with three or more measurement points is needed to
+examine (a) how the relationship between the variables changes
+over time, (b) whether the strength of the relationship depends
+on the time lag between the measurements, and (c) the reciprocal
+relationships of these variables over time (cf. Marsh, Byrne, &
+Yeung, 1999 ). To reveal deﬁnite causal effects of SWB on academic
+achievement or academic achievement on SWB, experimental
+designs are needed.S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94 91Finally, Oishi, Diener, and Lucas (2007) showed that people who
+experience levels of happiness slightly below the maximum are the
+most successful in terms of income, education, and political partic-
+ipation, indicating that the relation between SWB and success may
+be non-linear. Applied to academic achievement, this notion
+implies that it is worthwhile to investigate a potential non-linear
+relation between SWB and academic achievement in future
+research.
+To conclude, we outline the following three central recommen-
+dations for future research on the association between SWB and
+academic achievement. Future studies could proﬁt from:
+(1) Examining the relationship between SWB and academic
+achievement longitudinally using large samples to investi-
+gate the reciprocal (causal) relationship between the twoconstructs and its development over the life span.
+(2) Including potential inﬂuencing third variables such as intel-
+ligence or socioeconomic status.
+(3) Considering the possibility that the relation between SWB
+and academic achievement might not be non-linear ( Oishi
+et al., 2007 ).
+5. Conclusion
+The present study provides an overview of the current state of
+research on the relation between SWB and academic achievement.
+We found a relatively small to medium correlation between both
+constructs. However, this effect is nevertheless relevant because
+the accumulating effects of academic success or failure combined
+with other factors can have long-term effects on a person’s well-
+being and, in turn, on health and longevity ( Diener & Chan,
+2011 ). The relatively small overall effect means that high academic
+achievement does not always result in better quality of life for
+learners, and even more importantly that being bad at school does
+not automatically mean someone cannot be happy.
+Acknowledgements
+No funding was used to assist in conducting the study. The
+authors have no conﬂict of interests to declare. MS and SB concep-
+tualized the meta-analysis, SN and SB did the coding, SB prepared
+the data for analysis and performed the analysis, BS gave important
+support for conceptualization and data analysis, SB, MS and ML
+wrote up the manuscript. We note that this meta-analysis wasnot preregistered.
+References
+References marked with an asterisk ( *) indicate studies included in the
+meta-analysis
+Adelman, H. S., & Taylor, L. (2006). School and community collaboration to promote
+a safe learning environment. State Education Standard. Journal of the National
+Association of State Boards of Education, 7 , 38–43 .
+Anderman, E. M., & Wolters, C. A. (2006). Goals, values, and affect: Inﬂuences on
+student motivation. In P. Alexander & P. Winne (Eds.), Handbook of educational
+psychology (pp. 369–389). Mahwah, NJ: Lawrence Erlbaum Associates Inc .
+Andrews, F. M., & Withey, S. B. (1976). Social indicators of well-being: America’s
+perception of life quality . New York: Plenum Press .
+*Antaramian, S. (2015). Assessing psychological symptoms and well-being:
+Application of a dual-factor mental health model to understand college
+student performance. Journal of Psychoeducational Assessment, 33 (5), 419–429 .
+*Bailey, T. H., & Phillips, L. J. (2016). The inﬂuence of motivation and adaptation on
+students’ subjective well-being, meaning in life and academic performance.
+Higher Education Research & Development, 35 (2), 201–216 .
+*Baker, S. R. (2004). Intrinsic, extrinsic, and amotivational orientations: Their role in
+university adjustment, stress, well-being, and subsequent academic
+performance. Current Psychology, 23 (3), 189–202 .*Balkis, M. (2013). Academic procrastination, academic life satisfaction and
+academic achievement: The mediation role of rational beliefs about studying.
+Journal of Cognitive and Behavioral Psychotherapies, 13 (1), 57–74 .
+*Balkis, M., & Duru, E. (2017). Gender differences in the relationship between
+academic procrastination, satisfaction with academic life and academic
+performance. Electronic Journal of Research in Educational Psychology, 15 (1),
+105–125 .
+Belﬁ, B., Goos, M., De Fraine, B., & Van Damme, J. (2012). The effect of class
+composition by gender and ability on secondary school students’ school well-
+being and academic self-concept: A literature review. Educational Research
+Review, 7 (1), 62–74 .
+*Berger, C., Alcalay, L., Torretti, A., & Milicic, N. (2011). Socio-emotional well-being
+and academic achievement: Evidence from a multilevel approach. Psicologia:
+Reﬂexão e Crítica, 24 (2), 344–351 .
+*Bhagat, R. S., & Chassie, M. B. (1978). The role of self-esteem and locus of control in
+the differential prediction of performance, program satisfaction, and life
+satisfaction in an educational organization. Journal of Vocational Behavior, 13
+(3), 317–326 .
+*Bjelica, D. L., & Jovanovic ´, U. D. (2016). It’s up to you: The inﬂuence of sports
+participation, academic performances and demo-behavioral characteristics on
+university students’ life satisfaction. Applied Research in Quality of Life, 11 (1),
+163–179 .
+Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). Multiple
+outcomes or time-points within a study. In M. Borenstein, L. V. Hedges, J. P. T.
+Higgins, & H. R. Rothstein (Eds.), Introduction to meta-analysis (pp. 225–238).
+Chichester, England: John Wiley .
+Borenstein, M. (2005). Software for publication bias. In H. R. Rothstein, A. J. Sutton,
+& M. Borenstein (Eds.), Publication bias in meta-analysis: Prevention, assessment
+and adjustments (pp. 193–220). Chichester, England: John Wiley .
+Bowling, N. A., Eschleman, K. J., & Wang, Q. (2010). A meta-analytic examination of
+the relationship between job satisfaction and subjective well-being. Journal of
+Occupational and Organizational Psychology, 83 , 915–934 .
+*Bulcock, J. W., Whitt, M. E., & Beebe, M. J. (1991). Gender differences, student well-
+being and high school achievement. Alberta Journal of Educational Research, 37
+(3), 209–224 .
+Busseri, M. A., & Sadava, S. W. (2011). A review of the tripartite structure of
+subjective well-being: Implications for conceptualization, operationalization,
+analysis, and synthesis. Personality and Social Psychology Review, 15 , 290–314 .
+Cassady, J. C. (2001). Self-reported GPA and SAT scores. Practical Assessment,
+Research & Evaluation ,7(12). Available online: < http://PAREonline.net/getvn.
+asp?v=7&n=12 >.
+Chang, L., McBride-Chang, C., Stewart, S. M., & Au, E. (2003). Life satisfaction, self-
+concept, and family relations in Chinese adolescents and children. International
+Journal of Behavioral Development, 27 , 182–189 .
+*Chen, S. Y., & Lu, L. (2009). Academic correlates of Taiwanese senior high school
+students’ happiness. Adolescence, 44 (176), 979–992 .
+Cheng, H., & Furnham, A. (2002). Personality, peer relations, and self-conﬁdence as
+predictors of happiness and loneliness. Journal of Adolescence, 25 (3), 327–339 .
+Cheung, H. Y., & Chan, A. W. (2008). Understanding the relationships among PISA
+scores, economic growth and employment in different sectors: A cross-country
+study. Research in Education, 80 (1), 93–106 .
+Cotton, S. J., Dollard, M. F., & De Jonge, J. (2002). Stress and student job design:
+Satisfaction, well-being, and performance in university students. International
+Journal of Stress Management, 9 (3), 147–162. * .
+*Crede, J., Wirthwein, L., McElvany, N., & Steinmayr, R. (2015). Adolescents‘
+academic achievement and life satisfaction: The role of parents’ education.
+Frontiers in Psychology, 6 (52), 1–8 .
+Daig, I., Herschbach, P., Lehmann, A., Knoll, N., & Decker, O. (2009). Gender and age
+differences in domain-speciﬁc life satisfaction and the impact of depressive andanxiety symptoms: A general population survey from Germany. Quality of Life
+Research, 18 (6), 669–678 .
+Deary, I. J., Strand, S., Smith, P., & Fernandes, C. (2007). Intelligence and educational
+achievement. Intelligence, 35 (1), 13–21 .
+DeLuga, R. J., & Mason, S. (2000). Relationship of resident assistant
+conscientiousness, extraversion, and positive affect with rated performance.
+Journal of Research in Personality, 34 , 225–235 .
+Diener, E. (1984). Subjective well-being. Psychological Bulletin, 95 , 542–575 .
+Diener, E. (1994). Assessing subjective well-being: Progress and opportunities.
+Social Indicators Research, 31 , 103–157 .
+Diener, E., & Chan, M. Y. (2011). Happy people live longer: Subjective well-being
+contributes to health and longevity. Applied Psychology: Health and Well-Being, 3
+(1), 1–43 .
+Diener, E., & Diener, M. (1995). Cross-cultural correlates of life satisfaction and self-
+esteem. Journal of Personality and Social Psychology, 68 , 653–663 .
+Diener, E., Emmons, R. A., Larsen, R. J., & Grifﬁn, S. (1985). The satisfaction with life
+scale.
+Journal of Personality Assessment, 49 (1), 71–75 .
+Diener, E., Inglehart, R., & Tay, L. (2013). Theory and validity of life satisfaction
+scales. Social Indicators Research, 112 , 497–527 .
+Diener, E., Oishi, S., & Lucas, R. E. (2003). Personality, culture, and subjective well-
+being: Emotional and cognitive evaluations of life. Annual Review of Psychology,
+54, 403–425 .
+Diener, E., Suh, E., & Oishi, S. (1997). Recent ﬁndings on subjective well-being. Indian
+Journal of Clinical Psychology, 24 , 25–41 .
+*Diseth, Å., Danielsen, A. G., & Samdal, O. (2012). A path analysis of basic need
+support, self-efﬁcacy, achievement goals, life satisfaction and academic92 S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94achievement level among secondary school students. Educational Psychology, 32
+(3), 335–354 .
+*Duru, E., & Balkis, M. (2017). Procrastination, self-esteem, academic performance,
+and well-being: A moderated mediation model. International Journal of
+Educational Psychology, 6 (2), 97–119 .
+*Edgar, F., Geare, A., Halhjem, M., Reese, K., & Thoresen, C. (2015). Well-being and
+performance: Measurement issues for HRM research. The International Journal of
+Human Resource Management, 26 (15), 1983–1994 .
+Egger, M., Smith, G. D., Schneider, M., & Minder, C. (1997). Bias in meta-analysis
+detected by a simple, graphical test. British Medical Journal, 315 , 629–634 .
+Eid, M., & Larsen, R. J. (Eds.). (2008). The science of subjective wellbeing . New York,
+NY: Guilford Press .
+Eide, E. R., Showalter, M. H., & Goldhaber, D. D. (2010). The relation between
+children’s health and academic achievement. Children and Youth Services Review,
+32(2), 231–238 .
+*Eryilmaz, A. (2014). Perceived personality traits and types of teachers and their
+relationship to the subjective well-being and academic achievements of
+adolescents. Educational Sciences: Theory and Practice, 14 (6), 2049–2062 .
+*Felsten, G., & Wilcox, K. (1992). Inﬂuences of stress and situation-speciﬁc mastery
+beliefs and satisfaction with social support on well-being and academic
+performance. Psychological Reports, 70 (1), 291–303 .
+Ferguson, C. J., & Brannick, M. T. (2012). Publication bias in psychological science:
+Prevalence, methods for identifying and controlling, and implications for theuse of meta-analyses. Psychological Methods, 17 (1), 120–128 .
+Fiedler, K., & Beier, S. (2014). Affect and cognitive processes in educational contexts.
+In R. Pekrun, L. Linnenbrink-Garcia, R. Pekrun, & L. Linnenbrink-Garcia (Eds.),
+International handbook of emotions in education (pp. 36–55). New York, NY:
+Routledge/Taylor & Francis Group
+.
+Fisher, Z., & Tipton, E. (2014). Robumeta: Robust variance meta-regression . Retrieved
+from < http://cran.rproject.org/web/packages/robumeta/index.html >.
+*Flett, G. L., Blankstein, K. R., & Hewitt, P. L. (2009). Perfectionism, performance, and
+state positive affect and negative affect after a classroom test. Canadian Journal
+of School Psychology, 24 (1), 4–18 .
+*Fogarty, G. J., Davies, J. E., MacCann, C., & Roberts, R. D. (2014). Self-versus parent-
+ratings of industriousness, affect, and life satisfaction in relation to academicoutcomes. British Journal of Educational Psychology, 84 (2), 281–293 .
+Ford, M. T., Cerasoli, C. P., Higgins, J. A., & Decesare, A. L. (2011). Relationships
+between psychological, physical, and behavioural health and work
+performance: A review and meta-analysis. Work & Stress, 25 (3), 185–204 .
+Fredrickson, B. L. (1998). What good are positive emotions? Review of General
+Psychology, 2 , 300–319 .
+Fredrickson, B. L. (2001). The role of positive emotions in positive psychology: The
+broaden-and-build theory of positive emotions. American Psychologist, 56 ,
+218–226
+.
+Frisch, M. B. (2000). Improving mental and physical health care through quality of
+life therapy and assessment. In Advances in quality of life theory and research
+(pp. 207–241). Dordrecht: Springer, Netherlands .
+Furr, R. M., & Funder, D. C. (1998). A multimodal analysis of personal negativity.
+Journal of Personality and Social Psychology, 74 (6), 1580–1591 .
+Gignac, G. E., & Szodorai, E. T. (2016). Effect size guidelines for individual differences
+researchers. Personality and Individual Differences, 102 , 74–78 .
+*Gilman, R., & Huebner, E. S. (2006). Characteristics of adolescents who report very
+high life satisfaction. Journal of Youth and Adolescence, 35 , 311–319 .
+Goldbeck, L., Schmitz, T. G., Besier, T., Herschbach, P., & Henrich, G. (2007). Life
+satisfaction decreases during adolescence. Quality of Life Research, 16 (6),
+969–979 .
+Gonzalez-Mulé, E., Carter, K. M., & Mount, M. K. (2017). Are smarter people happier?
+Meta-analyses of the relationships between general mental ability and job and
+life satisfaction. Journal of Vocational Behavior, 99 , 146–164 .
+*Grunschel, C., Schwinger, M., Steinmayr, R., & Fries, S. (2016). Effects of using
+motivational regulation strategies on students’ academic procrastination,
+academic performance, and well-being. Learning and Individual Differences, 49 ,
+162–170 .
+Guay, F., Marsh, H. W., & Boivin, M. (2003). Academic self-concept and academic
+achievement: Developmental perspectives on their causal ordering. Journal of
+Educational Psychology, 95 (1), 124–136 .
+Gumora, G., & Arsenio, W. F. (2002). Emotionality, emotion regulation, and school
+performance in middle school children. Journal of School Psychology, 40 (5),
+395–413 .
+Harter, J. K., Schmidt, F. L., Asplund, J. W., Killham, E. A., & Agrawal, S. (2010). Causal
+impact of employee work perceptions on the bottom line of organizations.Perspectives on Psychological Science, 5 (4), 378–389 .
+Heckhausen, J., & Chang, E. S. (2009). Can ambition help overcome social inequality
+in the transition to adulthood? Individual agency and societal opportunities in
+Germany and the United States. Research in Human Development, 6 (4), 235–251 .
+Heckhausen, J., Wrosch, C., & Schulz, R. (2010). A motivational theory of life-span
+development. Psychological Review, 117 (1), 32–60 .
+Hedges, L. V., Tipton, E., & Johnson, M. C. (2010). Robust variance estimation in
+meta-regression with dependent effect size estimates. Research Synthesis
+Methods, 1 , 39–65 .
+*Heffner, A. L., & Antaramian, S. P. (2016). The role of life satisfaction in predicting
+student engagement and achievement. Journal of Happiness Studies, 17 (4),
+1681–1701
+.
+Herman, K. C., Lambert, S. F., Reinke, W. M., & Ialongo, N. S. (2008). Low academic
+competence in ﬁrst grade as a risk factor for depressive cognitions and
+symptoms in middle school. Journal of Counseling Psychology, 55 , 400–410 .*Howell, A. J. (2009). Flourishing: Achievement-related correlates of students’ well-
+being. The Journal of Positive Psychology, 4 (1), 1–13 .
+Huang, C. (2015). Academic achievement and subsequent depression: A meta-
+analysis of longitudinal studies. Journal of Child and Family Studies, 24 (2),
+434–442 .
+Huebner, E. S. (1991). Correlates of life satisfaction in children. School Psychology
+Quarterly, 6 (2), 103–111 .
+Huebner, E. S. (1994). Preliminary development and validation of a
+multidimensional life satisfaction scale for children. Psychological Assessment,
+6, 149–158 .
+Huebner, E. S., & Alderman, G. L. (1993). Convergent and discriminant validation of a
+children’s life satisfaction scale: Its relationship to self and teacher-reported
+psychological problems and school functioning. Social Indicators Research, 30 ,
+71–82 .
+Hunter, J. E., & Schmidt, F. L. (2004). Methods of meta-analysis: Correcting error and
+bias in research ﬁndings (2nd ed.). Thousand Oaks, CA: Sage .
+*_Is/C223gör, _I. Y. (2016). Metacognitive skills, academic success and exam anxiety as the
+predictors of psychological well-being. Journal of Education and Training Studies,
+4(9), 35–42 .
+*Jones, M. C., & Johnston, D. W. (2006). Is the introduction of a student-centred,
+problem-based curriculum associated with improvements in student nurse
+well-being and performance? An observational study of effect. International
+Journal of Nursing Studies, 43 (8), 941–952 .
+Kahneman, D., Krueger, A. B., Schkade, D. A., Schwarz, N., & Stone, A. A. (2004). A
+survey method for characterizing daily life experience: The day reconstruction
+method. Science, 306 (5702), 1776–1780 .
+Kirkcaldy, B., Furnham, A., & Siefen, G. (2004). The relationship between health
+efﬁcacy, educational attainment, and well-being among 30 nations. European
+Psychologist, 9 (2), 107–119 .
+*Korhonen, J., Linnanmäki, K., & Aunio, P. (2014). Learning difﬁculties, academic
+well-being and educational dropout: A person-centred approach. Learning and
+Individual Differences, 31 , 1–10 .
+⁄Kumar, P. (2006). Academic Life Satisfaction Scale (ALSS) and its effectiveness in
+predicting academic success . Online Submission. Retrieved from < http://eric.
+ed.gov/?id=ED491869 >.
+Leeson, P., Ciarrochi, J., & Heaven, P. C. (2008). Cognitive ability, personality, and
+academic performance in adolescence. Personality and Individual Differences, 45
+(7), 630–635 .
+Lewinsohn, P. M., Redner, J., & Seeley, J. R. (1991). The relationship between life
+satisfaction and psychosocial variables: New perspectives. Subjective Well-
+Being: An Interdisciplinary Perspective , 141–169 .
+*Li, J., Lepp, A., & Barkley, J. E. (2015). Locus of control and cell phone use:
+Implications for sleep quality, academic performance, and subjective well-
+being. Computers in Human Behavior, 52 , 450–457 .
+Linnenbrink, E. A., & Pintrich, P. R. (2002). Achievement goal theory and affect: An
+asymmetrical bidirectional model. Educational Psychologist, 37 , 69–78 .
+Lipsey, M. W., & Wilson, D. B. (2001). Practical meta-analysis . Thousand Oaks, CA:
+Sage .
+Lischetzke, T., & Eid, M. (2006). Wohlbeﬁndensdiagnostik [Assessment of well-
+being]. In F. Petermann & M. Eid (Eds.), Handbuch der psychologischen diagnostik
+[Handbook of psychological assessment] (pp. 550–557). Göttingen, Germany:
+Hogrefe .
+*Liu, D., & Zhang, R. (2006). A preliminary research on middle school students’
+academic subjective well-being and its major inﬂuential factors. Frontiers of
+Education in China, 1 (2), 316–327 .
+Lucas, R. E., Clark, A. E., Georgellis, Y., & Diener, E. (2004). Unemployment alters the
+set point for life satisfaction. Psychological Science, 15 (1), 8–13 .
+Lucas, R. E., Diener, E., & Suh, E. (1996). Discriminant validity of well-being
+measures. Journal of Personality and Social Psychology, 71 , 616–628 .
+*Lv, B., Zhou, H., Guo, X., Liu, C., Liu, Z., & Luo, L. (2016). The relationship between
+academic achievement and the emotional well-being of elementary school
+children in China: The moderating role of parent-school communication.
+Frontiers in Psychology, 7 , 1–9 .
+*Lyons, M. D., & Huebner, E. S. (2016). Academic characteristics of early adolescents
+with higher levels of life satisfaction. Applied Research in Quality of Life, 11 (3),
+757–771 .
+Lyubomirsky, S., King, L., & Diener, E. (2005). The beneﬁts of frequent positive affect:
+Does happiness lead to success? Psychological Bulletin, 131 , 803–855 .
+*MacCann, C., Lipnevich, A. A., Burrus, J., & Roberts, R. D. (2012). The best years of
+our lives? Coping with stress predicts school grades, life satisfaction, and
+feelings about high school. Learning and Individual Differences, 22 (2), 235–241 .
+Marsh, H. W., Byrne, B. M., & Yeung, A. S. (1999). Causal ordering of academic self-
+concept and achievement: Reanalysis of a pioneering study and revised
+recommendations. Educational Psychologist, 34 (3), 155–167 .
+*Martin, A. J., Papworth, B., Ginns, P., & Liem, G. A. D. (2014). Boarding school,
+academic motivation and engagement, and psychological well-being: A large-scale investigation. American Educational Research Journal, 51 (5), 1007–1049 .
+McKnight, C. G., Huebner, E. S., & Suldo, S. (2002). Relationships among stressful life
+events, temperament, problem behavior, and global life satisfaction in
+adolescents. Psychology in the Schools, 39 (6), 677–687 .
+Mega, C., Ronconi, L., & De Beni, R. (2014). What makes a good student? How
+emotions, self-regulated learning, and motivation contribute to academic
+achievement. Journal of Educational Psychology, 106 (1), 121–131 .
+Neubauer, A. B., Lerche, V., & Voss, A. (2017). Inter-individual differences in the
+intra-individual association of competence and well-being: Combining
+experimental and intensive longitudinal designs. Journal of Personality , 1–15 .S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94 93*Ng, Z. J., Huebner, S. E., & Hills, K. J. (2015). Life satisfaction and academic
+performance in early adolescents: Evidence for reciprocal association. Journal of
+School Psychology, 53 (6), 479–491 .
+Nickerson, C., Diener, E., & Schwarz, N. (2011). Positive affect and college success.
+Journal of Happiness Studies, 12 , 717–746 .
+Nikolaev, B. (2016). Does other people’s education make us less happy? Economics
+of Education Review, 52 , 176–191 .
+Noddings, N. (2003). Happiness and education . Cambridge: Cambridge University
+Press .
+*Ocal, K. (2016). Predictors of academic procrastination and university life
+satisfaction among Turkish sport schools students. Educational Research and
+Reviews, 11 (7), 482–490 .
+OECD (2015). Do teacher-student relations affect students’ well-being at school?
+PISA in Focus, 50 , 1–4 .
+OECD (2017). PISA 2015 Results (Volume III): Students’ Well-Being . Paris: OECD
+Publishing .
+Oishi, S., Diener, E., & Lucas, R. E. (2007). The optimum level of well-being: Can
+people be too happy? Perspectives on Psychological Science, 2 (4), 346–360 .
+Oishi, S., Diener, E., Suh, E., & Lucas, R. E. (1999). Value as a moderator in subjective
+well-being. Journal of Personality, 67 (1), 157–184 .
+Oishi, S. (2012). Individual and societal well-being. In M. Snyder & K. Deaux (Eds.),
+Handbook of personality and social psychology . New York, NY: Oxford University
+Press .
+*Okun, M. A., Levy, R., Karoly, P., & Ruehlman, L. (2009). Dispositional happiness and
+college student GPA: Unpacking a null relation. Journal of Research in Personality,
+43(4), 711–715 .
+*Opdenakker, M. C., & Van Damme, J. (2000). Effects of schools, teaching staff and
+classes on achievement and well-being in secondary education: Similarities anddifferences between school outcomes. School Effectiveness and School
+Improvement, 11 (2), 165–196 .
+Park, N. (2004). The role of subjective well-being in positive youth development.
+The Annals of the American Academy of Political and Social Science, 591 (1), 25–39 .
+Pinquart, M., & Sörensen, S. (2000). Inﬂuences of socioeconomic status, social
+network, and competence on subjective well-being in later life: A meta-
+analysis. Psychology and Aging, 15 , 187–224 .
+*Pluut, H., Curs /C223eu, P. L., & Ilies, R. (2015). Social and study related stressors and
+resources among university entrants: Effects on well-being and academic
+performance. Learning and Individual Differences, 37 , 262–268 .
+Pollet, E., & Schnell, T. (2017). Brilliant: But what for? Meaning and subjective well-
+being in the lives of intellectually gifted and academically high-achievingadults. Journal of Happiness Studies, 18 (5), 1459–1484 .
+Pomerantz, E. M., Altermatt, E. R., & Saxon, J. L. (2002). Making the grade but feeling
+distressed: Gender differences in academic performance and internal distress.
+Journal of Educational Psychology, 94 (2), 396–404 .
+R Core Team. (2014). R Foundation for Statistical Computing . Vienna: R: A language
+and environment for statistical computing. Retrieved from < http://www.R-
+project.org/ >.
+Raudenbush, S. W. (2009). Analyzing effect sizes: Random effects models. In H.
+Cooper, L. V. Hedges, & J. C. Valentine (Eds.), The handbook of research synthesis
+and meta-analysis (2nd ed., pp. 295–315). New York: Russell Sage Foundation .
+*Reysen, R. H., Degges-White, S., & Reysen, M. B. (2017). Exploring the
+interrelationships among academic entitlement, academic performance, andsatisfaction with life in a college student sample. Journal of College Student
+Retention: Research, Theory & Practice, 12 , 1–19 .
+*Rode, J. C., Arthaud-Day, M. L., Mooney, C. H., Near, J. P., Baldwin, T. T., Bommer, W.
+H., & Rubin, R. S. (2005). Life satisfaction and student performance. Academy of
+Management Learning & Education, 4 (4), 421–433 .
+Rothstein, H. R., & Bushman, B. J. (2012). Publication bias in psychological science:
+Comment on Ferguson and Brannick (2012). Psychological Methods, 17 ,
+129–136
+.
+*Ruthig, J. C., Haynes, T. L., Perry, R. P., & Chipperﬁeld, J. G. (2007). Academic
+optimistic bias: Implications for college student performance and well-being.
+Social Psychology of Education, 10 (1), 115–137 .
+Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of
+intrinsic motivation, social development, and well-being. American Psychologist,
+55(1), 68–78 .Schaps, E., & Solomon, D. (2003). The role of the school’s social environment in
+preventing student drug use. The Journal of Primary Prevention, 23 (3), 299–328 .
+*Schmitt, N., Oswald, F. L., Friede, A., Imus, A., & Merritt, S. (2008). Perceived ﬁt with
+an academic environment: Attitudinal and behavioral outcomes. Journal of
+Vocational Behavior, 72 (3), 317–335 .
+Sigfúsdóttir, I. D., Kristjánsson, A. L., & Allegrante, J. P. (2007). Health behaviour and
+academic achievement in Icelandic school children. Health Education Research,
+22(1), 70–80 .
+Sirin, S. R. (2005). Socioeconomic status and academic achievement: A meta-
+analytic review of research. Review of Educational Research, 75 (3), 417–453 .
+Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression approximations to reduce
+publication selection bias. Research Synthesis Methods, 5 (1), 60–78 .
+*Steinmayr, R., Crede, J., McElvany, N., & Wirthwein, L. (2015). Subjective well-
+being, test anxiety, academic achievement: Testing for reciprocal effects.
+Frontiers in Psychology, 6 (1994), 1–13 .
+Steinmayr, R., Meißner, A., Weidinger, A. F., & Wirthwein, L. (2014). Academic
+achievement. In L. H. Meyer (Ed.), Oxford bibliographies online: Education . New
+York, NY: Oxford University Press .
+Sterne, J. A., & Egger, M. (2001). Funnel plots for detecting bias in meta-analysis:
+Guidelines on choice of axis. Journal of Clinical Epidemiology, 54 (10), 1046–1055 .
+*Stoeber, J., & Rambow, A. (2007). Perfectionism in adolescent school students:
+Relations with motivation, achievement, and well-being. Personality and
+Individual Differences, 42 (7), 1379–1389 .
+Suldo, S. M., Riley, K. N., & Shaffner, E. J. (2006). Academic correlates of children and
+adolescents’ life satisfaction. School Psychology International, 27 (5), 567–582 .
+Suldo, S. M., & Shaffer, E. J. (2008). Looking beyond psychopathology: The dual-
+factor model of mental health in youth. School Psychology Review, 37 (1), 52–68 .
+*Suldo, S. M., Shaffer, E. J., & Riley, K. N. (2008). A social-cognitive-behavioral model
+of academic predictors of adolescents’ life satisfaction. School Psychology
+Quarterly, 23 (1), 56–69 .
+Supplee, L. H., Shaw, D. S., Hailstones, K., & Hartman, K. (2004). Family and child
+inﬂuences on early academic and emotion regulatory behaviors. Journal of
+School Psychology, 42 (3), 221–242 .
+Tanner-Smith, E. E., & Tipton, E. (2014). Robust variance estimation with dependent
+effect sizes: Practical considerations including a software tutorial in Stata andSPSS. Research Synthesis Methods, 5 (1), 13–30 .
+Tanner-Smith, E. E., Tipton, E., & Polanin, J. R. (2016). Handling complex meta-
+analytic data structures using robust variance estimates: A tutorial in R. Journal
+of Developmental and Life-Course Criminology, 2 , 85–112 .
+Tian, L., Yu, T., & Huebner, E. S. (2017). Achievement goal orientations and
+adolescents’ subjective well-being in school: The mediating roles of academic
+social comparison directions. Frontiers in Psychology, 8 , 1–11 .
+Topitzes, J., Godes, O., Mersky, J. P., Ceglarek, S., & Reynolds, A. J. (2009). Educational
+success and adult health: Findings from the Chicago Longitudinal Study.
+Prevention Science, 10 , 175–195 .
+Tuominen-Soini, H., Salmela-Aro, K., & Niemivirta, M. (2008). Achievement goal
+orientations and subjective well-being: A person-centred analysis. Learning and
+Instruction, 18 (3), 251–266 .
+Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package.
+Journal of Statistical Software, 36 (3), 1–48 .
+Watson, D., Clark, L. A., & Tellegen, A. (1988). Development and validation of brief
+measures of positive and negative affect: The PANAS scales. Journal of
+Personality and Social Psychology, 54 (6), 1063–1070 .
+*Wheeler, R. J., & Magaletta, P. R. (1997). General well-being and academic
+performance. Psychological Reports, 80 (2), 581–582 .
+Zajacova, A., Lynch, S. M., & Espenshade, T. J. (2005). Self-efﬁcacy, stress, and
+academic success in college. Research in Higher Education, 46 (6), 677–706 .
+*Zhang, J., & Kemp, S. (2009). The relationships between student debt and
+motivation, happiness, and academic achievement. New Zealand Journal of
+Psychology, 38 (2), 24–29 .
+Zullig, K. J., Valois, R. F., Huebner, E. S., Oeltmann, J. E., & Drane, J. W. (2001).
+Relationship between perceived life satisfaction and adolescents’ substance
+abuse. Journal of Adolescent Health, 29 (4), 279–288 .94 S. Bücker et al. / Journal of Research in Personality 74 (2018) 83–94"
+2020.0_Self-determination theory interventions for health behavior change: Meta-analysis and meta-analytic structural equation modeling of randomized controlled trials..pdf,"Self-Determination Theory Interventions for Health Behavior Change:
+Meta-Analysis and Meta-Analytic Structural Equation Modeling of
+Randomized Controlled Trials
+Paschal Sheeran
+University of North Carolina at Chapel Hill and Duke
+UniversityCharles E. Wright, Aya Avishai, and
+Megan E. Villegas
+University of North Carolina at Chapel Hill
+Jan Willem Lindemans
+Duke UniversityWilliam M. P. Klein
+National Cancer Institute, Bethesda, Maryland
+Alexander J. Rothman
+University of MinnesotaEleanor Miles
+University of Sussex
+Nikos Ntoumanis
+Curtin University
+Objective: We conducted a meta-analysis of randomized controlled trials (RCTs) to promote health behavior
+change based on self-determination theory (SDT). The review aimed to (a) quantify the impact of SDTinterventions on health behaviors, (b) test mediation by theoretically specified variables (autonomous moti-vation and perceived competence), and (c) identify moderators of intervention effectiveness. Method:
+Computerized searches and additional strategies identified 56 articles that yielded 65 independent tests of SDTinterventions. Random effects meta-analysis and metaregressions were conducted via STATA; meta-analyticstructural equation modeling (MASEM) was used to test mediation. Results: The sample-weighted average
+effect size for SDT interventions was d
+/H11001/H11005.23, and there were significant effects for physical activity,
+sedentary behavior, diet, alcohol consumption, and smoking cessation (.16 /H11350d/H11001/H11350.29). Effect sizes exhibited
+both publication bias and small sample bias but remained significantly different from zero, albeit of smallermagnitude, after correction for bias ( d
+/H11001/H11350.15). MASEM indicated that autonomous motivation and perceived
+competence mediated intervention effects on behavior. Metaregression analyses indicated that features of thesample, intervention, or methodology generally did not moderate effect sizes. Conclusion: The present review
+indicates that SDT interventions have a significant but small effect on health behavior change and suggestsseveral directions for future research.
+What is the public health significance of this article?
+This review examines the efficacy of health behavior interventions based on self-determinationtheory. Findings indicate that interventions have a significant but small effect on behavior change.
+Keywords: health behavior, meta-analysis, physical activity, randomized trial, self-determination theory
+Supplemental materials: http://dx.doi.org/10.1037/ccp0000501.supp
+This article was published Online First May 21, 2020.
+X
+Paschal Sheeran, Department of Psychology and Neuroscience, Uni-
+versity of North Carolina at Chapel Hill, and Center for Advanced Hind-sight, Duke University; Charles E. Wright, X
+Aya Avishai, and Megan E.
+Villegas, Department of Psychology and Neuroscience, University ofNorth Carolina at Chapel Hill; Jan Willem Lindemans, Center for Ad-vanced Hindsight, Duke University; William M. P. Klein, BehavioralResearch Program, National Cancer Institute, Bethesda, Maryland;X
+Alexander J. Rothman, Department of Psychology, University of Min-
+nesota; X
+Eleanor Miles, Department of Psychology, University of Sus-
+sex; Nikos Ntoumanis, School of Psychology, Curtin University.The data reported in this article have not been previously published. A
+copy of the data file used in this meta-analysis has been deposited at theOpen Science Framework ( https://osf.io/k8maf/?view_only /H110054e5e7ff1f
+078426cbb94892f76d8190a ).
+We thank Jennifer Walker and Rachael Posey (Medical Librarians) for
+invaluable assistance with the computerized literature searches. This re-search was partly supported by Zilveren Kruis and the Joep Lange Institute.
+Correspondence concerning this article should be addressed to Paschal
+Sheeran, Department of Psychology and Neuroscience, University of NorthCarolina at Chapel Hill, 323B Davie Hall, Chapel Hill, NC 27599. E-mail:psheeran@unc.eduJournal of Consulting and Clinical Psychology
+In the public domain 2020, Vol. 88, No. 8, 726–737
+ISSN: 0022-006X http://dx.doi.org/10.1037/ccp0000501
+726Noncommunicable diseases accounted for 73% of all global
+deaths in 2017, and more than 50% of all deaths were attributableto just four risk factors related to lifestyle choices: high bloodpressure, smoking, high blood glucose, and high body mass index(The Lancet, 2018 ). The implication is that behavioral interven-
+tions that effectively target diet, physical activity, alcohol con-sumption, and smoking have the potential to reduce rates ofmortality and morbidity considerably ( Kaplan, 2019 ). Health be-
+havior theories specify a range of constructs that (a) predict healthbehaviors and (b) can be modified by interventions ( Sheeran,
+Klein, & Rothman, 2017 ). One prominent theory that has been
+used extensively to promote health behavior change is self-determination theory (SDT; Ryan & Deci, 2017 ;Ryan, Patrick,
+Deci, & Williams, 2008 ). However, a quantitative synthesis of the
+efficacy of SDT interventions in changing health behaviors re-mains to be undertaken. We undertook a meta-analysis of random-ized controlled trials (RCTs) to (a) determine the efficacy of SDTinterventions in promoting health behavior change, (b) test medi-ators of SDT intervention effects, and (c) identify factors thatmoderate intervention effectiveness.
+According to SDT, the “psychological states most essential for
+making meaningful change in terms of health behavior are: (1)being autonomously motivated for the change, and (2) perceivingoneself to be competent to make the change” ( Ryan & Deci, 2017 ,
+p. 455). Autonomous motivation is an overarching term for regu-
+latory styles that reflect self-endorsed reasons for behavioral en-gagement, such as enjoyment (intrinsic motivation), alignmentwith one’s core values (integrated regulation), and personal utility(identified regulation). Autonomous motivation is often contrastedin the SDT literature with controlled motivation , the overarching
+term that refers to non–self-determined regulatory styles. Thesestyles of behavioral regulation reflect internal pressure or the needto prove something to others (introjected regulation), or externalpressure and contingent rewards (external regulation). Perceivedcompetence is the second antecedent of health behavior change(Ryan & Deci, 2017 ). According to Williams et al. (2006) , per-
+ceived competence refers to feeling able to attain health outcomesor perform health behaviors and is similar to the construct ofself-efficacy ( Bandura, 1997 ).
+Ng et al. (2012) distinguished two variants of SDT as applied to
+health. The first, proposed by Ryan et al. (2008) , traces the impact
+of interventions promoting autonomy support through basic psy-chological needs for autonomy, competence, and relatedness tostyles of behavioral regulation (autonomous vs. controlled moti-vation), and ultimately to health behaviors and health outcomes.Health care systems support autonomy by encouraging individualsto engage in health behaviors for their own reasons, fosteringeffective management of barriers to change, and conveying feel-ings of acceptance and respect. Autonomy support, in turn, leads tothe satisfaction of three basic psychological needs—for autonomy(the need to feel in control of one’s behavior), competence (theneed to feel effective in producing desired outcomes), and relat-edness (the need to feel accepted by, and meaningfully related to,others)—which serve to enhance autonomous motivation and per-ceived competence, and so engender behavior change.
+The second variant of SDT identified by Ng et al. (2012) is the
+more parsimonious model developed by Williams, Gagné, Ryan,
+and Deci (2002 ,2006 ) specifically for health care settings. Wil-
+liams et al.’s model focuses on the impact of autonomy supportiveinterventions on both autonomous motivation and perceived com-
+petence, and how changes in these proximal determinants influ-ence health. This model forms the focus of the present review.
+1
+Although reviews are largely supportive of SDT predictions,
+there are notable gaps in the evidence base. First, it is not yet clearhow effective are SDT interventions in promoting health behaviorchange. Multiple SDT interventions proved effective in changingbehavior (e.g., Chatzisarantis & Hagger, 2009 ;Fortier, Sweet,
+O’Sullivan, & Williams, 2007 ;Gourlan, Sarrazin, & Trouilloud,
+2013 ;Ha, Lonsdale, Ng, & Lubans, 2017 ), but there are also
+multiple reports of ineffective interventions ( Duda et al., 2014 ;
+Gillison, Standage, & Skevington, 2013 ;Mayer et al., 2018 ;Men-
+doza et al., 2017 ). This offers a clear rationale for a quantitative
+synthesis that estimates the magnitude of SDT intervention effects,and for moderator analyses to identify factors that determineeffectiveness. Second, previous reviews of SDT interventions didnot address all relevant outcomes. Gillison, Rouse, Standage,
+Sebire, and Ryan (2019) meta-analyzed 84 experimental and
+quasi-experimental studies of SDT interventions to promote healthbehaviors. The review observed significant changes in perceivedautonomy support ( g/H11005.84) and autonomous motivation ( g/H11005.41)
+but did not report intervention effects on perceived competenceand did not test SDT effects on health behaviors.
+Third, evidence that autonomous motivation and perceived com-
+petence predict health behaviors relies on correlational data ( Ng et
+al., 2012 ;Teixeira, Carraça, Markland, Silva, & Ryan, 2012 ).
+However, the fact that a particular variable predicts behavior incorrelational tests does not indicate whether interventions thatincrease scores on that variable will change behavior ( Sheeran,
+Harris, & Epton, 2014 ). This is because (a) correlational designs
+cannot rule out the influence of third variables (i.e., variables suchas health literacy, conscientiousness, or optimism that could en-gender spurious links between the predictors and behavior) and (b)evidence indicates that findings from correlational tests generallyoverestimate the behavioral impact of intervention studies thatchange the relevant predictor ( Sheeran et al., 2017 ). A synthesis of
+experimental or intervention studies is needed to determinewhether SDT interventions change health behaviors and to for-mally assess whether autonomous motivation and perceived com-petence mediate the impact of SDT interventions on behaviorchange.
+The foregoing discussion indicates that a new, comprehensive
+review of SDT interventions, focused on high-quality evidencefrom RCTs, is needed. Accordingly, the present review aimed to:(a) quantify the impact of SDT interventions on health behaviorchange via meta-analysis; (b) determine whether SDT interven-tions promote health behavior change by increasing autonomous
+1Although it would have been desirable to test Ryan et al.’s (2008)
+model wherein (a) interventions determine levels of perceived autonomysupport, (b) perceptions of autonomy support, in turn, predict satisfactionof needs for autonomy, competence, and relatedness, (c) needs satisfactionpredicts autonomous motivation and perceived competence, and (d) auton-omous motivation and perceived competence predict health behaviorchange, too few data were available to do so in the present review. Therewere 17, 12, 12, and 11 tests of intervention effects on perceptions ofautonomy support and satisfaction of needs for autonomy, competence, andrelatedness, respectively. However, few studies reported relevant intercor-relations among these variables, which meant that the relationships spec-ified by Ryan et al. (2008) could not be modeled.727 SELF-DETERMINATION THEORY INTERVENTIONSmotivation and perceived competence using meta-analytic struc-
+tural equation modeling (MASEM); and (c) identify sample, in-tervention, or methodological features that moderate interventioneffectiveness using metaregression analyses.
+Method
+The meta-analysis was registered at Prospero (CRD4201809
+7040) and followed PRISMA guidelines ( Moher, Liberati, Tet-
+zlaff, Altman, & The PRISMA Group, 2009 ). The PRISMA
+Checklist is presented in Table S1 in the online supplemental
+materials. Study data have been deposited on the Open ScienceFramework ( https://osf.io/k8maf/?view_only /H110054e5e7ff1f078426
+cbb94892f76d8190a ).
+Search Strategy
+Studies were obtained via (a) a computerized search of relevant
+databases (PubMed, PsycINFO, Web of Science) initiated onFebruary 19, 2018, (b) a manual search of the reference lists ofprevious reviews and articles that met the inclusion criteria for thereview, and (c) requests for unpublished studies via e-mails to keyresearchers and the listservs of professional societies (Society forPersonality and Social Psychology, Society of Behavioral Medi-cine, European Health Psychology Society, selfdeterminationtheo-ry.org). The computerized search strategy included terms for (a)self-determination theory, (b) RCT (e.g., trial, intervention), and(c) various health behaviors. Search terms were optimized for eachdatabase by a medical librarian (see Table S2 in the online sup-
+plemental materials for the precise search terms).
+There were four inclusion criteria for the review. First, the study
+used a randomized controlled or cluster randomized design; quasi-experimental and observational/correlational studies were ex-cluded. Second, the study included an intervention based on self-determination theory (i.e., the authors stated that the interventionwas based on SDT and/or constructs specified by SDT weretargeted by the intervention). Third, a measure of health behaviorwas taken in the wake of the intervention. Health behaviors weredefined as “overt behavioral patterns, actions, or habits that relateto health maintenance, to health restoration and to health improve-ment” ( Gochman, 1997 , p. 3). Fourth, the report was written in
+English.
+Figure 1 shows the flow of information through phases of the
+present review. The computerized database search identified 640articles and theses, of which 46 were duplicates. Screening of titlesand abstracts resulted in the exclusion of a further 440 recordsbecause they did not concern health behaviors or did not reportfindings from a RCT. Assessment of the eligibility of 154 full-textrecords led to the exclusion of 98 articles. Reasons for exclusionwere (a) duplicate study information was reported (protocol paper,baseline findings, etc.; n/H1100528), (b) study did not involve self-
+determination theory ( n/H1100527), (c) study did not report a measure
+of behavior ( n/H1100521), (d) study was not a RCT ( n/H1100519), (e)
+publication was a conference abstract ( n/H110052), or (f) compared two
+different SDT interventions ( n/H110051). Fifty-six papers met our
+inclusion criteria. Because some papers reported multiple studiesor trials had multiple intervention groups, a total of 65 effect sizescould be computed from these reports. The online supplementalmaterials present the characteristics of each study included in thereview ( Table S3 andS4), and the references for the 56 papers.Analysis Strategy
+We used Cohen’s das the effect size metric. Effect sizes
+represent the difference in the behavior of interest at follow-up forthe treatment compared with the control condition; larger positivevalues indicate more effective interventions (i.e., higher rates ofhealthy behaviors and lower rates of unhealthy behaviors). Whenmultiple indicators of behavior were reported in a single study, weused each individual effect size to assess the impact of interven-tions on these different outcomes and also computed the weightedaverage effect size within the study to represent the overall studyeffect. When studies included more than one treatment condition,
+we divided the sample size for the control group by the number ofintervention groups, so as not to “double count” participants ( Hig-
+gins & Green, 2011 ). To offer a strong test of the effectiveness of
+SDT interventions on health behaviors, effect sizes were computedusing (a) data from the longest follow-up after the intervention and(b) intention-to-treat analyses if both intention-to-treat and perprotocol analyses were reported ( Sheeran et al., 2014 ).
+We used STATA Version 14.0 ( StataCorp, 2015 ) to conduct
+random effects meta-analyses and metaregressions. After correct-ing sample sizes for clustering, we computed the sample-weightedaverage effect size and computed heterogeneity statistics ( Q,I
+2).
+Next, we checked for publication bias using the funnel plot andEgger’s regression. Duval and Tweedie’s (2000) trim and fill
+procedure was used to correct for publication bias. Small samplebias was assessed using the procedure recommended by Coyne,
+Thombs, and Hagedoorn (2010) ; we coded whether or not studies
+had adequate power (i.e., 55% power to detect a medium-sizedeffect even when it is present) and regressed effect sizes on thispredictor. We also used random effects metaregressions to testassociations between effect sizes and (a) sample characteristics, (b)features of the intervention, and (c) methodological features, in-cluding study quality (risk of bias).
+Coded Variables
+Sample, intervention, and methodological characteristics.
+Sample, intervention, and methodological characteristics thatcould potentially moderate effect sizes were coded from eachstudy (see Table S3 in the online supplemental materials). Sample
+characteristics included designations such as clinical (i.e., partici-pants diagnosed with physical ailments), sedentary/inactive, over-weight, adolescents, and older adults as well as mean age, gendercomposition of sample, and mean body mass index (BMI); inter-vention characteristics included the source and setting of theintervention, total contact time, as well as modes of delivery;methodological features included whether the control conditionwas active and aspects of study quality, assessed using the Co-chrane Collaboration’s Tool for Assessing Risk of Bias ( Higgins &
+Green, 2011 ).
+Reliability of coding. Charles Wright and Megan Villegas
+independently coded effect sizes ( k/H1100538, 34% of tests) along with
+sample, intervention, and methodological characteristics ( k/H1100520,
+36% of tests). Coding proved reliable ( M
+ICC/H11005.98,MKAPPA/H11005
+0.94; all ICC and Kappa values were greater than 0.70). Discrep-ancies were resolved through discussion.728 SHEERAN ET AL.Results
+Trial Characteristics
+On average, tests of interventions involved 115 participants in
+the treatment condition and 91 participants in the control condition(SD/H11005159 and 144, respectively). Interventions primarily targeted
+adults ages 24–49 years ( k/H1100539), adolescents aged 12–18 years
+(k/H1100515), and university students ( k/H110058), but there were 13 studies
+of sedentary/inactive participants and 12 studies with clinicalsamples. Participants were predominantly white ( M/H1100558.1%) and
+female ( M/H1100562.1%) and had a mean age of 35.7 years ( SD/H11005
+17.0). Participants had an average BMI of 26.45 ( SD/H110053.10) in the
+22 studies that reported BMI.
+Almost one half of articles included in the review came from the
+United States (27 of 56). Interventions were conducted at schoolsor universities ( k/H1100514), in hospital/clinic settings ( k/H1100513),
+community centers ( k/H1100511), and/or at home ( k/H110057), and pre-
+dominantly involved group counseling sessions ( k/H1100521), one-to-
+one, in-person counseling sessions ( k/H1100521), or counseling via
+telephone ( k/H1100515) or online ( k/H1100511). Interventions were mainly
+delivered by a researcher ( k/H1100525) or a counselor ( k/H1100512). Most
+interventions lasted at least one month and up to six months. Themean number of intervention sessions was 8.25 ( SD/H1100515.94), and
+the average contact time was 9.52 hr ( SD/H1100518.73). Follow-up
+periods for interventions ranged from immediate to 2 years ( M/H11005
+12.60 weeks, SD/H1100525.05). The mean attrition rate was 19.14%.
+Most studies were adequately powered according to Coyne et al.’s
+(2010) criterion ( k/H1100541). Study quality assessed via the Cochrane
+tool generated mixed results (see Table S5 in the online supple-
+mental materials). Selective reporting ( k/H110055) and failure to blind
+outcome assessors ( k/H11005
+14) were infrequent; however, incomplete
+outcome data ( k/H1100526), lack of random sequence generation ( k/H11005
+33), and lack of allocation concealment ( k/H1100536) were relatively
+common.
+Impact of SDT Interventions on Health Behaviors
+The sample-weighted average effect size for 65 trials was of
+small magnitude ( d/H11001/H11005.23, 95% CI [.16, .29]). Table 1 presents
+effect sizes by type of behavior. Most interventions targeted phys-ical activity ( k/H1100550), sedentary behavior ( k/H1100510), diet-related
+behaviors ( k/H110058), and smoking cessation ( k/H110056), and were
+similarly effective in promoting these behaviors (.16 /H11349d
+/H11001/H11349.25),
+Q/H110053.97, p/H11005.27. SDT Interventions led to significant reductions
+in alcohol consumption and significant improvements in dentalFigure 1. Flow of information through the phases of the review. RCT /H11005randomized controlled trial; SDT /H11005
+self-determination theory.729 SELF-DETERMINATION THEORY INTERVENTIONScare and asthma management but had no effect on blood glucose
+monitoring, screen time, or cancer screening. It made no differenceto effect sizes whether physical activity was measured objectivelyvia accelerometer/pedometer data ( d
+/H11001/H11005.29) or by self-reports
+(d/H11001/H11005.23), Q/H110055.86, p/H11005.12. There was no difference in the
+effect size observed for the 26 studies that used an immediatefollow-up in the wake of the intervention compared to the 30studies that used a longer-term follow-up ( d
+/H11001/H11005.24 and .22,
+respectively), Q/H110050.12, p/H11005.734. It also made little difference to
+the sample-weighted average d/H11001if a single effect size was com-
+puted for studies that had multiple treatment arms ( d/H11001/H11005.25, 95%
+CI [.18, .32], k/H1100556,Q/H11005161.72, p/H11021.001, I2/H1100566.0%).
+Figure S1 in the online supplemental materials presents the
+forest plot of effect sizes. Effects were heterogeneous ( Q/H11005
+148.58, p/H11021.001), and heterogeneity was of moderate magnitude
+(I2/H1100556.9). Inspection of the funnel plot (see Figure 2 ) suggested
+that the observed effects were characterized by publication biasand Egger’s regression proved significant ( B/H110051.17, SE/H110050.36,p/H11005.002). Trim and fill analysis to correct for publication bias led
+to the imputation of k/H1100511 additional effects and yielded an
+adjusted d
+/H11001/H11005.15 (95% CI [.08, .22]).
+Metaregression indicated that the effects were characterized by
+small sample bias ( B/H11005/H11002 .30,SE/H110050.10, p/H11005.004). Studies that
+were adequately powered according to Coyne et al.’s (2010) cri-
+terion yielded a smaller average effect size ( d/H11001/H11005.18, 95% CI
+[.12, .24]) compared with underpowered studies ( d/H11001/H11005.50, 95%
+CI [.30, .70]). Seven studies included in the review were unpub-lished (13.0%). Metaregression of effect sizes on publication status(published /H110051, unpublished /H110050) indicated that the association
+was not significant ( B/H11005/H11002 .11,SE/H110050.14, p/H11005.42).
+Meta-Analytic Structural Equation Model
+Having demonstrated that SDT interventions are effective in
+promoting health behavior change, we next tested whether thesechanges were mediated by autonomous motivation and perceivedcompetence. First, we meta-analyzed the impact of interventionson subsequent autonomous motivation and perceived competence.Second, we meta-analyzed the z-transformed correlations among
+autonomous motivation, perceived competence, and health behav-iors reported in the primary studies. These correlations were thensubmitted to a meta-analytic structural equation model ( Jak, 2015 )
+to assess whether autonomous motivation and perceived compe-tence mediated the effect of SDT interventions on health behav-iors.
+The impact of SDT interventions on autonomous motivation
+was tested in 45 trials; the sample-weighted average effect sizewas of small magnitude ( d
+/H11001/H11005.23, 95% CI [.12, .34], Q/H11005204.65,
+I2/H1100578.5%). The impact of SDT interventions on perceived
+competence was assessed in 26 trials and generated a small aver-age effect size ( d
+/H11001/H11005.21, 95% CI [.11, .30], Q/H1100561.45, I2/H11005
+59.3%). We also tested whether SDT interventions influencedcontrolled motivation; however, the effect was negligible(d
+/H11001/H11005/H11002 .01, 95% CI [ /H11002.14, .13], Q/H1100560.55, p/H11021.001, I2/H11005
+65.3%). Because controlled motivation hardly qualifies as a me-diator of intervention effects, this variable is not considered fur-Table 1
+Sample-Weighted Average Effect Sizes for Self-Determination Theory Interventions to PromoteHealth Behaviors
+Outcome Nk d 95% CI QI2
+All studies 13,383 65 .23 [.17, .29] 145.27/H11569/H11569/H1156956.6
+Physical activity 8,772 50 .25 [.16, .33] 147.16/H11569/H11569/H1156966.7
+Self-report 6,896 34 .23 [.13, .33] 101.96/H11569/H11569/H1156967.6
+Objective assessment 1,580 16 .29 [.12, .46] 44.28/H11569/H11569/H1156966.1
+Sedentary behavior 886 10 .22 [.09, .36] 6.29 0.0Diet 1,534 8 .20 [.04, .36] 9.61 48.0Smoking cessation 2,263 6 .16 [.05, .27] 6.29 20.5Screen time 932 3 .17 [ /H11002.02, .35] 4.27 53.2
+Dental care 278 3 .35 [.11, .59] 0.70 0.0Alcohol consumption 337 2 .27 [.06, .49] 0.00 0.0Blood glucose monitoring 237 2 .26 [ /H11002.01, .54] 1.10 8.8
+Cancer screening 881 1 .01 [ /H11002.12, .14] — —
+Asthma management 301 1 .34 [.11, .57] — —
+Note.N/H11005number of participants; k/H11005number of independent tests; d/H11005sample-weighted average effect size;
+95% CI /H1100595% confidence interval; QandI
+2/H11005homogeneity statistics.
+/H11569/H11569/H11569p/H11021.001.
+Figure 2. Funnel plot of effect sizes. Effect sizes ( d) for behavior are
+plotted against the standard errors ( SE) of the effect sizes.730 SHEERAN ET AL.ther. Forest plots and funnel plots are presented in the online
+supplemental materials .
+Autonomous motivation had a medium-sized average correla-
+tion with behavior ( r/H11001/H11005.27, 95% CI [.21, .32], k/H1100517). The
+average correlation between perceived competence and behaviorwas also medium-sized ( r
+/H11001/H11005.34, 95% CI [.24, .44], k/H1100512);
+autonomous motivation and perceived competence were signifi-cantly associated ( r
+/H11001/H11005.38, 95% CI [.26, .49], k/H110059). All three
+average correlations were heterogenous ( Q/H1100555.16, 103.80, and
+59.46, respectively, p/H11021.001) and heterogeneity was of substantial
+magnitude ( I2/H1100571.0, 89.4, and 86.6, respectively).2
+We undertook meta-analytic structural equation modeling of the
+correlation matrices using the metaSEM package Version 1.2.3 in
+R Version 3.6.1. Figure 3 presents the path model. The paths from
+SDT intervention to autonomous motivation and perceived com-petence were both significant, and the paths from autonomousmotivation and perceived competence to health behaviors weresignificant. We tested the indirect paths from intervention to be-havior via autonomous motivation ( B/H11005.035, 95% CI [.006, .082])
+and via perceived competence ( B/H11005.027, 95% CI [.011, .051]);
+both indirect paths proved significant indicating that these con-structs mediated the SDT intervention effects on behavior. Thedirect path from SDT intervention to health behaviors becamenonsignificant (Estimate /H11005.046, 95% CI [ /H11002.008, .101]); 57.4% of
+the total effect of SDT interventions on health behaviors waschanneled through the mediators.
+Moderator Analyses
+Table 2 presents the results of the metaregression analyses used
+to test moderation by sample, intervention, and methodologicalfeatures. Of the many moderators tested, only two factors pre-dicted effect sizes. Overweight samples ( B/H11005.508, SE/H11005.160, p/H11005
+.002) and higher mean BMI of study participants ( B/H11005.053, SE/H11005
+.017, p/H11005.010) were associated with larger effects. It is notable
+that intervention setting, delivery, intensity, or source were notrelated to effectiveness, and interventions were effective irrespec-tive of the time interval between the end of the intervention andobtaining behavioral data, the use of active control conditions, andwhether the intervention targeted a single behavior or multiplebehaviors. We also assessed whether risk of bias predicted effectsizes; no significant associations were observed (see Table S6 in
+the online supplemental materials).
+Discussion
+This is the first meta-analysis of the efficacy of SDT as a
+conceptual framework for designing and delivering interventionsto promote health behavior change. Across 65 randomized tests,we found that the sample-weighted average effect size was d
+/H11001/H11005
+.23 (95% CI [.16, .29]). Interventions were similarly effective forphysical activity, dietary change, and smoking cessation. Despiteextensive efforts to include the gray literature, there was evidenceof publication bias and small sample bias. After correcting forpublication bias, the overall sample-weighted effect size reducedtod
+/H11001/H11005.15 (95% CI [.08, .22]). The implication is that interven-
+tions based on SDT lead to significant changes in health behaviorsbut the magnitude of behavioral change is small.
+3
+Mediation and moderation analyses were also undertaken. We
+tested a process model of SDT intervention effects ( Williams et al.,2002 ,2006 ) using meta-analytic structural equation modeling.
+Findings indicated that autonomous motivation and perceivedcompetence predicted health behavior, and these variables simul-taneously mediated of the effects of SDT interventions on healthbehaviors. We assessed more than 30 potential moderators of SDTintervention effects that pertained to features of the sample, inter-vention, and methodology. A single feature, the mean BMI of thesample, was associated with health behavior change, and thisfinding must be viewed in the context of the large number of testsof moderation.
+Findings from the present meta-analysis support the efficacy of
+SDT interventions in promoting health behavior change, but also
+help to specify strengths and weaknesses of this approach. Keystrengths are that (a) SDT interventions engender significantchange in health behaviors, (b) the structure of the SDT findsempirical support in randomized tests; in particular, interventioneffects are mediated by the factors specified by the theory (auton-omous motivation and perceived competence), and (c) SDT inter-ventions are similarly effective irrespective of multiple features ofthe intervention (source, setting, mode of delivery, and intensity),sample, and methodology (e.g., use of active control conditions,long-term behavioral follow-ups, targeting multiple health behav-iors).
+The key weakness identified by the present review is that SDT
+interventions are not very powerful, especially given that theinterventions involved an average of 8.25 sessions and 9.52 hr ofcontact time. The experimental medicine approach ( Sheeran et al.,
+2017 ) indicates that interventions’ power or behavioral impact
+depends upon two component processes: Target engagement —the
+extent to which the intervention engages relevant targets (here,autonomous motivation and perceived competence), and target
+validity— the extent to which these targets determine behavior
+change. We observed that the impact of interventions on autono-mous motivation and perceived competence was small and these
+2We also tested whether the measurement of autonomous motivation
+influenced effect sizes. Autonomous motivation can be measured in its ownright or relative to controlled motivation (i.e., absolute vs. relative auton-omy). Meta-regression analyses indicated that the use of absolute vs.relative measures did not influence either the magnitude of the impact ofinterventions on autonomous motivation ( B/H11005.07,SE/H11005.17,p/H11005.67) or
+the strength of the association between autonomous motivation and healthbehavior ( B/H11005.05,SE/H11005.08,p/H11005.55).
+3It seems reasonable to characterize the magnitude of the impact of SDT
+interventions on health behavior change as small on several grounds. First,dvalues of .15 and .23 are conventionally considered small according to
+Cohen’s (1992) characterization of effect sizes, and these values remain
+small using Funder and Ozer’s (2019) recent and more lenient guidelines.
+Second, the impact of SDT interventions observed here is approximatelyone-half ( d
+/H11001/H11005.23) or one-third ( d/H11001/H11005.15) the median effect size, d/H11001/H11005
+.44, observed in Lipsey and Wilson’s (1993) meta-analysis of the efficacy
+of psychological, educational, and behavioral programs. Third, whenRosenthal and Rubin’s (1982) binomial effect size display (BESD) is
+applied to d
+/H11001/H11005.15, the rate of behavior change corresponds to an increase
+from 46% in the control condition to only 54% in the treatment condition.Finally, because most interventions targeted physical activity, we con-verted effect sizes into a relevant metric—the number of additional stepsper day conferred by the intervention. For d
+/H11001/H11005.15, number of additional
+steps per day is only 814 ( Wright, Rhodes, Ruggerio, & Sheeran, 2020 ).
+Thus, conventional characterizations of effect size, comparison with abenchmarking meta-analysis, and the use of the BESD and a meaningfulmetric of real-world impact each suggest that the interventions reviewedhere have a small effect on behavior.731 SELF-DETERMINATION THEORY INTERVENTIONStargets had small associations with behavior in the MASEM. That
+is, effect sizes for target engagement and target validity both weresmall.
+Why did SDT interventions not have a larger effect on the
+specified targets? In the present review, the impact of SDT inter-ventions on autonomous motivation was smaller than that ob-served in Gillison et al.’s (2019) meta-analysis of the behavior
+change techniques used in SDT interventions ( d
+/H11001/H11005.23 vs. .41),
+whereas the effect on perceived competence was similar to thatobserved in a meta-analysis of interventions to promote self-efficacy for physical activity ( d
+/H11001/H11005.21 vs. .16; Ashford, Ed-
+munds, & French, 2010 ). None of these reviews observed even
+medium-sized effects ( d/H11001/H11005.50), however, which likely speaks to
+the difficulty of changing autonomous motivation and perceivedcompetence for consequential health behaviors in field settings.
+Two considerations may be important in this regard. First, it is
+challenging to train people in positions of authority to adopt aneed-supportive communication style, based on SDT principles(Ntoumanis, Quested, Reeve, & Cheon, 2018 ). For instance, au-
+thority figures may hold personality dispositions (e.g., dominanceorientation, authoritarianism), or beliefs about motivational stylethat do not align well with the principle of supporting others’ needsfor autonomy, competence, and relatedness. Need-supportive com-munication can be perceived as ineffective (“Sounds nice, but itwon’t work!”), idealistic, impractical, or too time consuming. Incontrast, people in authority may believe that a controlling com-munication is both effective and easy to apply, especially undertime pressure (e.g., when there are brief windows of opportunityfor one-to-one consultation). Furthermore, prevailing culturalnorms (within an organization or society at large) as to what theexpected and common (i.e., normative) approaches should be formotivating and communicating with others, can influence thedegree to which health care professionals, teachers, and othersadopt need-supportive communication. For these reasons, it maybe difficult to instantiate the need-supportive communicativestyles that could effectively promote autonomous motivation andperceived competence.
+The second consideration is that there may be a tension between
+public health goals and SDT’s conceptual goal of enabling indi-viduals to make authentic decisions about health behavior change
+(i.e., make choices based on reasons that are fully endorsed by theself). According to Ryan and Deci (2017) , participants’ autonomy
+should be considered an important outcome in its own right, andnot merely serve as a means for attaining specific behavioral goalssuch as tobacco cessation or increased physical activity. A reflec-tive and true choice could involve the decision notto engage in a
+particular health behavior (e.g., not to participate in an exerciseprogram, or try to quit smoking or lose weight), and should,according to Ryan and Deci (2017) , be supported by health prac-
+titioners. Although this stance is aligned with principles of modernbiomedical ethics (e.g., Beauchamp & Childress, 2001 ), there are
+cultural, financial, and political constraints that must be navigatedby policymakers, practitioners, and researchers as they endeavor topromote health behavior changes that participants may not fullyendorse.
+The effects of changing autonomous motivation and perceived
+competence on health behavior change were modest in the presentreview, and of equivalent magnitude to the effect sizes observed inNg et al.’s (2012) meta-analysis of observational studies. How
+might the SDT framework be extended so as to generate largerchanges in health behaviors? SDT focuses on individuals’ con-scious motivation, which suggests that developments might prof-itably address three issues. First, research on the intention-
+behavior gap (review by Sheeran & Webb, 2016 ) indicates that
+motivation often does not get translated into action, even whenparticipants have high perceived competence or self-efficacy(Sheeran, 2002 ). This is because motivation is only the starting
+point for successful goal striving: People still have to manageself-regulatory problems such as forgetting to act, missing oppor-tunities, or getting derailed by temptations, distractions, or un-wanted internal states (e.g., mood, ego-depletion) to successfullyachieve their goals ( Gollwitzer & Sheeran, 2006 ). Koestner and
+colleagues have shown that supplementing autonomous motivationand perceived competence with if–then plans or implementation
+intentions (Gollwitzer, 1999 ) improves rates of behavioral perfor-
+mance and goal attainment ( Koestner, Lekes, Powers, & Chicoine,
+2002 ,2006 ,2008 ). Implementation intentions are plans that have
+the structure: If [opportunity/obstacle] – then I will [response] .Figure 3. Meta-analytic structural equation model: Self-determination theory interventions promote health
+behavior change via increased autonomous motivation and perceived competence. Solid lines indicate significantpaths; dashed line indicates nonsignificant path; curved line indicates that autonomous motivation and perceivedcompetence were allowed to covary ( r
+/H11001/H11005.38)./H11569p/H11021.05,/H11569/H11569p/H11021.01,/H11569/H11569/H11569p/H11021.001.732 SHEERAN ET AL.The if part of the plan specifies good opportunities to act (e.g.,
+particular times and places) or obstacles to goal attainment (e.g.,laziness, TV viewing habits), whereas the plans’ then part specifiesinstrumental responses to those cues (e.g., “I will go to the gym onMonday after work!”, “I will tell myself I’ll be full of energy aftergoing to the gym!”). M eta-analyses support the efficacy of
+implementation intentions in promoting behavior change (e.g.,Adriaanse et al., 2011 ;Bélanger-Gravel, Godin, Bilodeau, &
+Poirier, 2013 ;Gollwitzer & Sheeran, 2006 ).Koestner et al.
+(2002 ,2006 ,2008 ) observed that autonomous motivation and
+perceived competence have synergistic relations with if-thenplanning, which suggests that implementation intentions couldbe deployed to complement future SDT interventions on healthbehaviors.Second, SDT interventions do not explicitly target nonconscious
+or automatic processes such as antagonistic habits (e.g., cue-drivensedentary behaviors) and implicit associations (approach/avoid-ance biases, automatic affect) that can militate against healthbehavior performance (e.g., Brand & Ekkekakis, 2018 ;Rhodes,
+McEwan, & Rebar, 2019 ; reviews by Rothman et al., 2015 ;
+Sheeran, Gollwitzer, & Bargh, 2013 ). It is also the case that health
+behavior performance is not merely the product of individual-levelprocesses but is also a function of contextual affordances (Per-son/H11003Situation interactions). For example, changing physical
+activity often requires interventions at multiple levels in additionto the individual level, such as modifying built environments,social environments, policies, and practices ( Sallis, 2018 ). Greater
+analysis of how SDT variables interact with, or could help toTable 2
+Meta-Regression of Effect Sizes on Sample, Intervention, and Methodological Features
+Moderator variable Used (%) BS E pR2
+Sample features
+Gender (% female)a— .002 .002 .385 8.06
+Race/ethnicity (% non-white)b— .000 .002 .994 19.13
+Agec— /H11002.002 .002 .382 2.66
+BMId— .053 .017 .010 76.52
+Sedentary/inactive participants 13 (23.2) .083 .094 .382 0.12Clinical patients 12 (21.4) /H11002.069 .093 .465 1.13
+Overweight participants 4 (7.1) .508 .160 .002 35.33University students 6 (10.7) .155 .128 .232 6.32Adolescents 11 (19.6) /H11002.061 .093 .515 6.40
+Older adults 3 (5.4) /H11002.092 .174 .599 2.60
+Intervention features
+Setting of intervention
+Home 7 (12.5) /H11002.186 .099 .065 14.16
+Clinic/Hospital 13 (23.2) .109 .094 .254 3.61Community center 11 (19.6) /H11002.039 .090 .663 6.17
+School/University 14 (25.0) .034 .089 .700 0.87
+Mode of delivery
+One-to-one 21 (37.5) .039 .080 .626 6.34Group session 21 (37.5) .050 .079 .530 1.36Online 11 (19.6) .002 .092 .982 5.63Telephone advice/counseling 15 (26.8) .021 .086 .810 5.91Digital materials 6 (10.7) /H11002.086 .132 .515 5.46
+Mail 7 (12.5) /H11002.173 .105 .106 11.64
+Intensity
+Contact time of intervention
+e— .002 .003 .601 3.83
+Number of sessionsf— .002 .003 .386 3.32
+Duration of interventiong— .027 .017 .117 2.22
+Source of intervention
+Researcher 27 (48.2) /H11002.019 .077 .803 4.81
+Nurse 5 (8.9) .108 .136 .429 0.51Doctor 5 (8.9) .148 .121 .226 3.11Counselor 14 (25.0) .055 .089 .535 4.75Educator 7 (12.5) .033 .106 .759 3.42Fitness Trainer 6 (10.7) .033 .130 .800 5.44
+Methodological features
+Time to follow-up
+h— /H11002.001 .001 .338 0.93
+Active control group 23 (42.6) .029 .077 .710 8.63Usual care 22 (40.7) .003 .077 .969 5.13Waitlist control 8 (14.8) .024 .110 .830 5.65Multi-behavior intervention 11 (20.4) .002 .095 .981 5.50
+Note. “Used” is the number (percentage) of studies that deployed the relevant feature.
+aFifty-five studies reported gender information.bTwenty-nine studies reported race/ethnicity informa-
+tion.cFifty-two studies reported age information.dTwenty-two studies reported participants’ body mass
+index (BMI).eThirty-six studies reported total contact time of information.fFifty-one studies reported the
+number of intervention sessions.gFifty-three studies reported the duration of the intervention.hFifty-six
+studies reported the time interval between the end of the intervention and the final behavioral follow-up.733 SELF-DETERMINATION THEORY INTERVENTIONScircumvent, unwanted implicit influences and structural barriers
+would be valuable.
+The validity of the present meta-analysis depends upon the
+database upon which it rests. Despite extensive searches, includingthe gray literature, we could locate only 56 papers that yielded 65tests of SDT interventions. It appears that SDT, like other healthbehavior theories ( Sheeran et al., 2017 ), relies largely on observa-
+tional evidence (e.g., Ng et al., 2012 ;Teixeira et al., 2012 ).
+Additional intervention studies are clearly needed. Whereas phys-ical activity has been studied extensively, fewer RCTs targeted dietand smoking cessation, and there were very few tests of alcoholconsumption and adherence behaviors. Research is needed onthese understudied behaviors, and other consequential health ac-tions (e.g., vaccination, sleep hygiene) that have not yet beenaddressed by SDT. Studies of patient (e.g., CVD, cancer) andlow–socioeconomic status samples should be a priority. Longer-term follow-ups would also be desirable given that the meanfollow-up period was only 3 months in the present review.
+Additional RCTs based on SDT will be of little value, however,
+if findings are not published. The extent of publication bias wassubstantial in the present review, and though we attempted toadjust for bias via trim and fill analysis, behavior change byresearchers (e.g., trial registration) and reviewers (e.g., checkingRCT protocols) will be the best corrective. Primary studies werealso characterized by small sample bias. Future tests will need torecruit much larger samples than the mean number of participantsin the trials reviewed here ( N/H11005206) to achieve satisfactory power
+(see Table S4 ). Finally, we could retrieve intervention effects on
+autonomous motivation and perceived competence in only 45 and26 trials, respectively, and respective correlations with healthbehaviors were available for only 17 and 12 trials. Authors shouldroutinely report these data in future, and editors and reviewersshould request it.
+The present review indicates opportunities for further concep-
+tual and intervention development in SDT research. At the con-ceptual level, SDT theorists could begin to specify how structuralbarriers and antagonistic implicit processes may undermine self-determined performance of health behaviors, or how self-determination could overcome these influences. Additional tests ofthe efficacy of supplementing SDT interventions with implemen-tation intentions also are warranted. We observed that SDT inter-ventions had no significant effect on controlled motivation in thepresent review. Future studies might profitably test whether inter-ventions that simultaneously increase autonomous motivation andreduce controlled motivation have greater behavioral impact com-pared to changes in either type of motivation on its own. It isintriguing to note that the intensity of SDT interventions (contacttime, number of sessions, intervention duration) was not associatedwith effect sizes. This opens up the possibility that brief SDTinterventions could be effective and could serve to increase thescalability and reach of this approach. Finally, the funnel plots(Figures S3 andS5in the online supplemental materials) demon-
+strated a good deal of variability in the impact of interventions onautonomous motivation and perceived competence. Further re-search geared at specifying the most effective change techniques inSDT interventions (e.g., Gillison et al., 2019 ;Teixeira et al., 2019 )
+should serve to increase the impact of future SDT trials to promote
+health behavior change.The present meta-analysis shows that SDT interventions have a
+significant but small effect on health behaviors. The structure ofthe theory is supported by findings showing that autonomousmotivation and perceived competence mediate intervention effectson health behaviors, and that effectiveness of SDT interventionswas largely unaffected by features of the sample, intervention, andmethodology. Trials of SDT interventions to date are characterizedby publication bias and small sample bias, however, and more andbetter-powered RCTs are warranted to evaluate this framework.Our review offers several suggestions about how the effectivenessof future SDT interventions might be improved.
+References
+Studies included in the meta-analysis are preceded by an asterisk.
+Adriaanse, M. A., Vinkers, C. D. W., De Ridder, D. T. D., Hox, J. J., & De
+Wit, J. B. F. (2011). Do implementation intentions help to eat a healthydiet? A systematic review and meta-analysis of the empirical evidence.Appetite, 56, 183–193. http://dx.doi.org/10.1016/j.appet.2010.10.012
+/H11569Arrogi, A., Schotte, A., Bogaerts, A., Boen, F., & Seghers, J. (2017).
+Short- and long-term effectiveness of a three-month individualized need-supportive physical activity counseling intervention at the workplace.BMC Public Health, 17, 52.http://dx.doi.org/10.1186/s12889-016-
+3965-1
+Ashford, S., Edmunds, J., & French, D. P. (2010). What is the best way to
+change self-efficacy to promote lifestyle and recreational physical ac-tivity? A systematic review with meta-analysis. British Journal of
+Health Psychology, 15, 265–288. http://dx.doi.org/10.1348/135
+910709X461752
+/H11569Babic, M. J., Smith, J. J., Morgan, P. J., Lonsdale, C., Plotnikoff, R. C.,
+Eather, N. ,... Lubans, D. R. (2016). Intervention to reduce recreational
+screen-time in adolescents: Outcomes and mediators from the ‘Switch-Off 4 Healthy Minds’ (S4HM) cluster randomized controlled trial.Preventive Medicine, 91, 50–57. http://dx.doi.org/10.1016/j.ypmed
+.2016.07.014
+Bandura, A. (1997). Self-efficacy: The exercise of control . New York, NY:
+Freeman.
+Beauchamp, T. L., & Childress, J. F. (2001). Principles of biomedical
+ethics (5th ed.). New York, NY: Oxford University Press.
+Bélanger-Gravel, A., Godin, G., Bilodeau, A., & Poirier, P. (2013). The
+effect of implementation intentions on physical activity among obeseolder adults: A randomised control study. Psychology & Health, 28,
+217–233. http://dx.doi.org/10.1080/08870446.2012.723711
+/H11569Blow, J. (2014). A pilot study examining the impact of a brief health
+education intervention on food choices and exercise in a Hispaniccollege student sample . ETD Collection for University of Texas, El
+Paso. AAI3623378. https://digitalcommons.utep.edu/dissertations/
+AAI3623378
+Brand, R., & Ekkekakis, P. (2018). Affective–reflective theory of physical
+inactivity and exercise. German Journal of Exercise and Sport Research,
+48,48–58. http://dx.doi.org/10.1007/s12662-017-0477-9
+/H11569Chatzisarantis, N. L. D., & Hagger, M. S. (2009). Effects of an interven-
+tion based on self-determination theory on self-reported leisure-timephysical activity participation. Psychology & Health, 24, 29–48. http://
+dx.doi.org/10.1080/08870440701809533
+/H11569Chatzisarantis, N. L. D., Hagger, M. S., Kamarova, S., & Kawabata, M.
+(2012). When effects of the universal psychological need for autonomyon health behaviour extend to a large proportion of individuals: A fieldexperiment. British Journal of Health Psychology, 17, 785–797. http://
+dx.doi.org/10.1111/j.2044-8287.2012.02073.x
+Cohen, J. (1992). A power primer. Psychological Bulletin, 112, 155–159.
+http://dx.doi.org/10.1037/0033-2909.112.1.155734 SHEERAN ET AL./H11569Contento, I. R., Koch, P. A., Lee, H., & Calabrese-Barton, A. (2010).
+Adolescents demonstrate improvement in obesity risk behaviors aftercompletion of choice, control & change, a curriculum addressing per-sonal agency and autonomous motivation. Journal of the American
+Dietetic Association, 110, 1830–1839. http://dx.doi.org/10.1016/j.jada
+.2010.09.015
+/H11569Cowdery, J., Majeske, P., Frank, R., & Brown, D. (2015). Exergame apps
+and physical activity: The results of the ZOMBIE Trial. American
+Journal of Health Education, 46, 216–222. http://dx.doi.org/10.1080/
+19325037.2015.1043063
+Coyne, J. C., Thombs, B. D., & Hagedoorn, M. (2010). Ain’t necessarily
+so: Review and critique of recent meta-analyses of behavioral medicineinterventions in health psychology. Health Psychology, 29, 107–116.
+http://dx.doi.org/10.1037/a0017633
+/H11569Crane, M. M. (2015). Improving men’s health through weight control:
+Randomized trials testing recruitment messaging and a novel weight lossintervention (Order No. 3703754). Available from Dissertations & The-
+ses @ University of North Carolina at Chapel Hill; ProQuest Disserta-tions & Theses Global. (1689691040). Retrieved from http://libproxy
+.lib.unc.edu/login?url /H11005https://search.proquest.com/docview/168
+9691040?accountid /H1100514244
+/H11569Duda, J. L., Williams, G. C., Ntoumanis, N., Daley, A., Eves, F. F.,
+Mutrie, N. ,... Jolly, K. (2014). Effects of a standard provision versus
+an autonomy supportive exercise referral programme on physical activ-ity, quality of life and well-being indicators: A cluster randomisedcontrolled trial. The International Journal of Behavioral Nutrition and
+Physical Activity, 11, 10.http://dx.doi.org/10.1186/1479-5868-11-10
+/H11569Durdle, H. E. (2008). Computerized motivational intervention and contin-
+gency management for smoking cessation in methadone-maintained opiate-dependent individuals (Order No. NR47111). Available from ProQuest
+Central, ProQuest Dissertations & Theses Global. (304570429). Retrievedfrom http://libproxy.lib.unc.edu/login?url /H11005https://search.proquest.com/
+docview/304570429?accountid /H1100514244
+Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based
+method of testing and adjusting for publication bias in meta-analysis.Biometrics, 56, 455–463. http://dx.doi.org/10.1111/j.0006-341X.2000
+.00455.x
+/H11569Fortier, M. S., Sweet, S. N., O’Sullivan, T. L., & Williams, G. C. (2007).
+A self-determination process model of physical activity adoption in thecontext of a randomized controlled trial. Psychology of Sport and Ex-
+ercise, 8, 741–757. http://dx.doi.org/10.1016/j.psychsport.2006.10.006
+/H11569Friederichs, S. A. H., Oenema, A., Bolman, C., Guyaux, J., Van Keulen,
+H. M., & Lechner, L. (2015). Motivational interviewing in a web-basedphysical activity intervention: Questions and reflections. Health Promo-
+tion International, 30, 803–815. http://dx.doi.org/10.1093/heapro/
+dat069
+/H11569Friederichs, S. A. H., Oenema, A., Bolman, C., & Lechner, L. (2016).
+Motivational interviewing and self-determination theory in a web-basedcomputer tailored physical activity intervention: A randomized con-trolled trial. Psychology & Health, 31, 907–930. http://dx.doi.org/10
+.1080/08870446.2016.1151018
+Funder, D. C., & Ozer, D. J. (2019). Evaluating effect size in psychological
+research: Sense and nonsense. Advances in Methods and Practices in
+Psychological Science, 2, 156–168. http://dx.doi.org/10.1177/
+2515245919847202
+Gillison, F. B., Rouse, P., Standage, M., Sebire, S. J., & Ryan, R. M.
+(2019). A meta-analysis of techniques to promote motivation for healthbehaviour change from a self-determination theory perspective. Health
+Psychology Review, 13, 110–130. http://dx.doi.org/10.1080/17437199
+.2018.1534071
+/H11569Gillison, F. B., Standage, M., & Skevington, S. M. (2013). The effects of
+manipulating goal content and autonomy support climate on outcomes ofa PE fitness class. Psychology of Sport and Exercise, 14, 342–352.
+http://dx.doi.org/10.1016/j.psychsport.2012.11.011Gochman, D. S. (Ed.). (1997). Handbook of health behavior research I:
+Personal and social determinants (Vol. 1). New York, NY: Plenum
+Press.
+Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of
+simple plans. American Psychologist, 54, 493–503. http://dx.doi.org/10
+.1037/0003-066X.54.7.493
+Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and
+goal achievement: A meta-analysis of effects and processes. Advances in
+Experimental Social Psychology, 38, 69–119. http://dx.doi.org/10.1016/
+S0065-2601(06)38002-1
+/H11569Gourlan, M., Sarrazin, P., & Trouilloud, D. (2013). Motivational inter-
+viewing as a way to promote physical activity in obese adolescents: Arandomised-controlled trial using self-determination theory as an ex-planatory framework. Psychology & Health, 28, 1265–1286. http://dx
+.doi.org/10.1080/08870446.2013.800518
+/H11569Guerrero, M., Tobin, D., Munroe-Chandler, K., & Hall, C. (2015). Tigers
+and lions, oh my! Effect of a guided imagery intervention on children’s
+active play. Journal of Applied Sport Psychology, 27, 412–429. http://
+dx.doi.org/10.1080/10413200.2015.1030797
+/H11569Gustafson, D. H., McTavish, F. M., Chih, M.-Y., Atwood, A. K., Johnson,
+R. A., Boyle, M. G. ,... Shah, D. (2014). A smartphone application to
+support recovery from alcoholism: A randomized clinical trial. Journal
+of the American Medical Association Psychiatry, 71, 566–572. http://
+dx.doi.org/10.1001/jamapsychiatry.2013.4642
+/H11569Gustafson, D., Wise, M., Bhattacharya, A., Pulvermacher, A., Shanovich,
+K., Phillips, B. ,... Kim, J.-S. (2012). The effects of combining
+Web-based eHealth with telephone nurse case management for pediatricasthma control: A randomized controlled trial. Journal of Medical In-
+ternet Research, 14, e101. http://dx.doi.org/10.2196/jmir.1964
+/H11569Ha, A. S., Lonsdale, C., Ng, J. Y. Y., & Lubans, D. R. (2017). A
+school-based rope skipping program for adolescents: Results of a ran-domized trial. Preventive Medicine, 101, 188–194. http://dx.doi.org/10
+.1016/j.ypmed.2017.06.001
+/H11569Halvari, H., Healey, J., Olafsen, A. H., Byrkjeland, R., Deci, E. L., &
+Williams, G. C. (2017). Physical activity and motivational predictors ofchanges in health behavior and health among DM2 and CAD patients.Scandinavian Journal of Medicine & Science in Sports, 27, 1454–1469.
+http://dx.doi.org/10.1111/sms.12757
+/H11569Havenar, J. (2007). Adapted motivational interviewing for increasing
+physical activity: A 12 month clinical trial (Doctoral dissertation). Ari-
+zona State University.
+Higgins, J. P. T., & Green, S. (Eds.). (2011). Cochrane handbook for
+systematic reviews of interventions (Version 5.1.0). Retrieved from
+https://training.cochrane.org/handbook/archive/v5.1/
+/H11569Hooker, S. A. (2017). Integrating meaning, purpose, and self-
+determination theory as predictors of physical activity maintenance(Vol. 78). ProQuest Information & Learning.
+/H11569Hsu, Y.-T., Buckworth, J., Focht, B. C., & O’Connell, A. A. (2013).
+Feasibility of a Self-Determination Theory-based exercise interventionpromoting Healthy at Every Size with sedentary overweight women:Project CHANGE. Psychology of Sport and Exercise, 14, 283–292.
+http://dx.doi.org/10.1016/j.psychsport.2012.11.007
+/H11569Jacobs, N., Clays, E., De Bacquer, D., De Backer, G., Dendale, P., Thijs,
+H . ,... Claes, N. (2011). Effect of a tailored behavior change program
+on a composite lifestyle change score: A randomized controlled trial.Health Education Research, 26, 886–895. http://dx.doi.org/10.1093/
+her/cyr046
+Jak, S. (2015). Meta-analytic structural equation modeling . Dordrecht, the
+Netherlands: Springer.
+Kaplan, R. M. (2019). More than medicine: The broken promise of Amer-
+ican health . Cambridge, MA: Harvard University Press.
+/H11569Kinnafick, F.-E., Thøgersen-Ntoumani, C., & Duda, J. (2016). The effect
+of need supportive text messages on motivation and physical activity735 SELF-DETERMINATION THEORY INTERVENTIONSbehaviour. Journal of Behavioral Medicine, 39, 574–586. http://dx.doi
+.org/10.1007/s10865-016-9722-1
+Koestner, R., Horberg, E. J., Gaudreau, P., Powers, T., Di Dio, P., Bryan,
+C . ,... Salter, N. (2006). Bolstering implementation plans for the long
+haul: The benefits of simultaneously boosting self-concordance or self-efficacy. Personality and Social Psychology Bulletin, 32, 1547–1558.
+http://dx.doi.org/10.1177/0146167206291782
+Koestner, R., Lekes, N., Powers, T. A., & Chicoine, E. (2002). Attaining
+personal goals: Self-concordance plus implementation intentions equalssuccess. Journal of Personality and Social Psychology, 83, 231–244.
+http://dx.doi.org/10.1037/0022-3514.83.1.231
+Koestner, R., Otis, N., Powers, T. A., Pelletier, L., & Gagnon, H. (2008).
+Autonomous motivation, controlled motivation, and goal progress. Jour-
+nal of Personality, 76, 1201–1230. http://dx.doi.org/10.1111/j.1467-
+6494.2008.00519.x
+/H11569Levy, S. S., & Cardinal, B. J. (2004). Effects of a self-determination
+theory-based mail-mediated intervention on adults’ exercise behavior.American Journal of Health Promotion, 18, 345–349. http://dx.doi.org/
+10.4278/0890-1171-18.5.345
+Lipsey, M. W., & Wilson, D. B. (1993). The efficacy of psychological,
+educational, and behavioral treatment: Confirmation from meta-analysis.American Psychologist, 48, 1181–1209. http://dx.doi.org/10.1037/0003-
+066X.48.12.1181
+/H11569Littlecott, H. J., Moore, G. F., Moore, L., & Murphy, S. (2014). Psycho-
+social mediators of change in physical activity in the Welsh nationalexercise referral scheme: Secondary analysis of a randomised controlledtrial. The International Journal of Behavioral Nutrition and Physical
+Activity, 11, 109. http://dx.doi.org/10.1186/s12966-014-0109-9
+/H11569Lonsdale, C., Hall, A. M., Murray, A., Williams, G. C., McDonough,
+S. M., Ntoumanis, N. ,... Hurley, D. A. (2017). Communication skills
+training for practitioners to increase patient adherence to home-basedrehabilitation for chronic low back pain: Results of a cluster randomizedcontrolled trial. Archives of Physical Medicine and Rehabilitation, 98,
+1732–1743.e7. http://dx.doi.org/10.1016/j.apmr.2017.02.025
+/H11569Lonsdale, C., Rosenkranz, R. R., Sanders, T., Peralta, L. R., Bennie, A.,
+Jackson, B. ,... Lubans, D. R. (2013). A cluster randomized controlled
+trial of strategies to increase adolescents’ physical activity and motiva-tion in physical education: Results of the Motivating Active Learning inPhysical Education (MALP) trial. Preventive Medicine, 57, 696–702.
+http://dx.doi.org/10.1016/j.ypmed.2013.09.003
+/H11569Lubans, D. R., Smith, J. J., Plotnikoff, R. C., Dally, K. A., Okely, A. D.,
+Salmon, J., & Morgan, P. J. (2016). Assessing the sustained impact of aschool-based obesity prevention program for adolescent boys: The AT-LAS cluster randomized controlled trial. The International Journal of
+Behavioral Nutrition and Physical Activity, 13, 92.http://dx.doi.org/10
+.1186/s12966-016-0420-8
+/H11569Mahmoodabad, S. S. M., Tonekaboni, N. R., Farmanbar, R., Fallahzadeh,
+H., & Kamalikhah, T. (2017). The effect of motivational interviewing-based intervention using self-determination theory on promotion ofphysical activity among women in reproductive age: A randomizedclinical trial. Electronic Physician, 9, 4461–4472. http://dx.doi.org/10
+.19082/4461
+/H11569Mayer, D. K., Landucci, G., Awoyinka, L., Atwood, A. K., Carmack,
+C. L., Demark-Wahnefried, W. ,... Gustafson, D. H. (2018). Survi-
+vorCHESS to increase physical activity in colon cancer survivors: Canwe get them moving? Journal of Cancer Survivorship, 12, 82–94.
+http://dx.doi.org/10.1007/s11764-017-0647-7
+/H11569Mendoza, J. A., Baker, K. S., Moreno, M. A., Whitlock, K., Abbey-
+Lambertz, M., Waite, A. ,... Chow, E. J. (2017). A Fitbit and Facebook
+mHealth intervention for promoting physical activity among adolescentand young adult childhood cancer survivors: A pilot study. Pediatric
+Blood & Cancer, 64, e26660. http://dx.doi.org/10.1002/pbc.26660
+/H11569Mildestvedt, T., Meland, E., & Eide, G. E. (2008). How important are
+individual counselling, expectancy beliefs and autonomy for the main-tenance of exercise after cardiac rehabilitation? Scandinavian Journal of
+Public Health, 36, 832–840. http://dx.doi.org/10.1177/1403494
+808090633
+/H11569Minicucci, D. S. (2003). Perceived practitioner motivation for smoking
+cessation intervention: Applying Gadow’s moral framework for nursingto self-determination theory . Rochester, NY: University of Rochester.
+Moher, D., Liberati, A., Tetzlaff, J., Altman, D. G., & the PRISMA Group.
+(2009). Preferred reporting items for systematic reviews and meta-
+analyses: The PRISMA statement. PLoS Medicine, 6, e1000097. http://
+dx.doi.org/10.1371/journal.pmed.1000097
+/H11569Mohn, J., Graue, M., Assmus, J., Zoffmann, V., Thordarson, H., Peyrot,
+M., & Rokne, B. (2017). The effect of guided self-determination onself-management in persons with type 1 diabetes mellitus andHbA
+1c/H1135064 mmol/mol: A group-based randomised controlled trial.
+British Medical Journal Open, 7, e013295. http://dx.doi.org/10.1136/
+bmjopen-2016-013295
+/H11569Moustaka, F. C., Vlachopoulos, S. P., Kabitsis, C., & Theodorakis, Y.
+(2012). Effects of an autonomy-supportive exercise instructing style onexercise motivation, psychological well-being, and exercise attendancein middle-age women. Journal of Physical Activity & Health, 9, 138–
+150. http://dx.doi.org/10.1123/jpah.9.1.138
+/H11569Münster Halvari, A. E., Halvari, H., Bjørnebekk, G., & Deci, E. L. (2012).
+Self-determined motivational predictors of increases in dental behaviors,decreases in dental plaque, and improvement in oral health: A random-ized clinical trial. Health Psychology, 31, 777–788. http://dx.doi.org/10
+.1037/a0027062
+Ng, J. Y., Ntoumanis, N., Thøgersen-Ntoumani, C., Deci, E. L., Ryan,
+R. M., Duda, J. L., & Williams, G. C. (2012). Self-Determination Theoryapplied to health contexts: A meta-analysis. Perspectives on Psycholog-
+ical Science, 7, 325–340. http://dx.doi.org/10.1177/1745691612447309
+/H11569Niemiec, C. P., Ryan, R. M., Patrick, H., Deci, E. L., & Williams, G. C.
+(2010). The energization of health-behavior change: Examining theassociations among autonomous self-regulation, subjective vitality, de-pressive symptoms, and tobacco abstinence. The Journal of Positive
+Psychology, 5, 122–138. http://dx.doi.org/10.1080/17439760903569162
+Ntoumanis, N., Quested, E., Reeve, J., & Cheon, S. H. (2018). Need
+supportive communication: Implications for motivation in sport, exer-cise, and physical activity. In B. Jackson, J. A. Dimmock, & J. Compton(Eds.), Persuasion and communication in sport, exercise, and physical
+activity (pp. 155–169). Abingdon, UK: Routledge.
+/H11569Osterman, R. L., & Dyehouse, J. (2012). Effects of a motivational inter-
+viewing intervention to decrease prenatal alcohol use. Western Journal
+of Nursing Research, 34, 434–454. http://dx.doi.org/10.1177/
+0193945911402523
+/H11569Peng, W., Pfeiffer, K. A., Winn, B., Lin, J.-H., & Suton, D. (2015). A pilot
+randomized, controlled trial of an active video game physical activityintervention. Health Psychology, 34, 1229. http://dx.doi.org/10.1037/
+hea0000302
+/H11569Resnicow, K., Davis, R. E., Zhang, G., Konkel, J., Strecher, V. J., Shaikh,
+A .R . ,... Wiese, C. (2008). Tailoring a fruit and vegetable intervention
+on novel motivational constructs: Results of a randomized study. Annals
+of Behavioral Medicine, 35, 159–169. http://dx.doi.org/10.1007/s12160-
+008-9028-9
+/H11569Resnicow, K., Zhou, Y., Hawley, S., Jimbo, M., Ruffin, M. T., Davis,
+R .E . ,... Lafata, J. E. (2014). Communication preference moderates the
+effect of a tailored intervention to increase colorectal cancer screeningamong African Americans. Patient Education and Counseling, 97, 370–
+375. http://dx.doi.org/10.1016/j.pec.2014.08.013
+Rhodes, R. E., McEwan, D., & Rebar, A. L. (2019). Theories of physical
+activity behaviour change: A history and synthesis of approaches. Psy-
+chology of Sport and Exercise, 42, 100–109. http://dx.doi.org/10.1016/
+j.psychsport.2018.11.010736 SHEERAN ET AL.Rosenthal, R., & Rubin, D. B. (1982). A simple, general purpose display of
+magnitude of experimental effect. Journal of Educational Psychology,
+74,166–169. http://dx.doi.org/10.1037/0022-0663.74.2.166
+Rothman, A. J., Gollwitzer, P. M., Grant, A. M., Neal, D. T., Sheeran, P.,
+& Wood, W. (2015). Hale and hearty policies: How psychologicalscience can create and maintain healthy habits. Perspectives on Psycho-
+logical Science, 10, 701–705. http://dx.doi.org/10.1177/174569
+1615598515
+Ryan, R. M., & Deci, E. L. (2017). Self-determination theory: Basic
+psychological needs in motivation, development, and wellness . New
+York, NY: Guilford Press.
+Ryan, R. M., Patrick, H., Deci, E. L., & Williams, G. C. (2008). Facilitating
+health behaviour change and its maintenance: Interventions based onself-determination theory. The European Health Psychologist, 10, 2–5.
+Sallis, J. F. (2018). Needs and challenges related to multilevel interven-
+tions: Physical activity examples. Health Education & Behavior, 45,
+661–667. http://dx.doi.org/10.1177/1090198118796458
+/H11569Shah, K. N., Majeed, Z., Yoruk, Y. B., Yang, H., Hilton, T. N., McMahon,
+J .M . ,... Ryan, R. M. (2016). Enhancing physical function in HIV-
+infected older adults: A randomized controlled clinical trial. Health
+Psychology, 35, 563–573. http://dx.doi.org/10.1037/hea0000311
+/H11569Shaikh, A. R., Vinokur, A. D., Yaroch, A. L., Williams, G. C., &
+Resnicow, K. (2011). Direct and mediated effects of two theoreticallybased interventions to increase consumption of fruits and vegetables inthe Healthy Body Healthy Spirit trial. Health Education & Behavior, 38,
+492–501. http://dx.doi.org/10.1177/1090198110384468
+Sheeran, P. (2002). Intention-behaviour relations: A conceptual and em-
+pirical review. European Review of Social Psychology, 12, 1–36. http://
+dx.doi.org/10.1080/14792772143000003
+Sheeran, P., Gollwitzer, P. M., & Bargh, J. A. (2013). Nonconscious
+processes and health. Health Psychology, 32, 460–473. http://dx.doi
+.org/10.1037/a0029203
+Sheeran, P., Harris, P. R., & Epton, T. (2014). Does heightening risk
+appraisals change people’s intentions and behavior? A meta-analysis ofexperimental studies. Psychological Bulletin, 140, 511–543. http://dx
+.doi.org/10.1037/a0033065
+Sheeran, P., Klein, W. M. P., & Rothman, A. J. (2017). Health behavior
+change: Moving from observation to intervention. Annual Review of
+Psychology, 68, 573–600. http://dx.doi.org/10.1146/annurev-psych-
+010416-044007
+Sheeran, P., & Webb, T. L. (2016). The intention-behavior gap. Social and
+Personality Psychology Compass, 10, 503–518. http://dx.doi.org/10
+.1111/spc3.12265
+/H11569Spruijt-Metz, D., Nguyen-Michel, S. T., Goran, M. I., Chou, C. P., &
+Huang, T. T. K. (2008). Reducing sedentary behavior in minority girlsvia a theory-based, tailored classroom media intervention. International
+Journal of Pediatric Obesity, 3, 240–248. http://dx.doi.org/10.1080/
+17477160802113415
+StataCorp. (2015). Stata statistical software: Release 14 . College Station,
+TX: StataCorp LP. http://dx.doi.org/10.7717/peerj.4598/supp-10
+/H11569Staunton, L., Gellert, P., Knittle, K., & Sniehotta, F. F. (2015). Perceived
+control and intrinsic vs. extrinsic motivation for oral self-care: A fullfactorial experimental test of theory-based persuasive messages. Annals
+of Behavioral Medicine, 49, 258–268. http://dx.doi.org/10.1007/s12160-
+014-9655-2
+/H11569St. George, S. M. (2014). Project SHINE: A family-based intervention for
+improving physical activity, sedentary behavior, and diet in AfricanAmerican adolescents . (Doctoral dissertation). Retrieved from https://
+scholarcommons.sc.edu/etd/3085
+/H11569Sweet, S. N., Fortier, M. S., Guérin, E., Tulloch, H., Sigal, R. J., Kenny,
+G. P., & Reid, R. D. (2009). Understanding physical activity in adultswith type 2 diabetes after completing an exercise intervention trial: A
+mediation model of self-efficacy and autonomous motivation. Psychol-
+ogy, Health, & Medicine, 14, 419–429. http://dx.doi.org/10.1080/
+13548500903111806
+Teixeira, P. J., Carraça, E. V., Markland, D., Silva, M. N., & Ryan, R. M.
+(2012). Exercise, physical activity, and self-determination theory: Asystematic review. The International Journal of Behavioral Nutrition
+and Physical Activity, 9, 78.http://dx.doi.org/10.1186/1479-5868-9-78
+Teixeira, P. J., Marques, M. M., Silva, M. N., Brunet, J., Duda, J. ,...
+Hagger, M. S. (2019). Classification of techniques used in self-
+determination theory-based interventions in health contexts: An expertconsensus study . Manuscript under review.
+/H11569Teixeira, P. J., Silva, M. N., Coutinho, S. R., Palmeira, A. L., Mata, J.,
+Vieira, P. N. ,... Sardinha, L. B. (2010). Mediators of weight loss and
+weight loss maintenance in middle-aged women. Obesity, 18, 725–735.
+http://dx.doi.org/10.1038/oby.2009.281
+The Lancet. (2018). Global burden of disease 2017: A fragile world
+[editorial]. Lancet, 392, 1683. http://dx.doi.org/10.1016/S0140-
+6736(18)32858-7
+/H11569Thompson, D., Cantu, D., Ramirez, B., Cullen, K. W., Baranowski, T.,
+Mendoza, J. ,... Liu, Y. (2016). Texting to increase adolescent physical
+activity: Feasibility assessment. American Journal of Health Behavior,
+40,472–483. http://dx.doi.org/10.5993/ajhb.40.4.9
+/H11569Van Hoecke, A.-S., Delecluse, C., Bogaerts, A., & Boen, F. (2013).
+Effects of need-supportive physical activity counseling on well-being: A2-year follow-up among sedentary older adults. Journal of Physical
+Activity & Health, 11, 1492–1502.
+/H11569Van Roie, E., Bautmans, I., Coudyzer, W., Boen, F., & Delecluse, C.
+(2015). Low- and high-resistance exercise: Long-term adherence andmotivation among older adults. Gerontology, 61, 551–560. http://dx.doi
+.org/10.1159/000381473
+/H11569Weman-Josefsson, K., Fröberg, K., Karlsson, S., & Lindwall, M. (2017).
+Mechanisms in self-determined exercise motivation: effects of a theoryinformed pilot intervention. Current Psychology, 36, 90–100. http://dx
+.doi.org/10.1007/s12144-015-9388-9
+/H11569Williams, G. C., Gagné, M., Ryan, R. M., & Deci, E. L. (2002). Facili-
+tating autonomous motivation for smoking cessation. Health Psychol-
+ogy, 21, 40–50. http://dx.doi.org/10.1037/0278-6133.21.1.40
+Williams, G. C., McGregor, H. A., Sharp, D., Levesque, C., Kouides,
+R. W., Ryan, R. M., & Deci, E. L. (2006). Testing a self-determinationtheory intervention for motivating tobacco cessation: Supporting auton-omy and competence in a clinical trial. Health Psychology, 25, 91–101.
+http://dx.doi.org/10.1037/0278-6133.25.1.91
+Williams, G. C., Minicucci, D. S., Kouides, R. W., Levesque, C. S.,
+Chirkov, V. I., Ryan, R. M., & Deci, E. L. (2002). Self-determination,smoking, diet and health. Health Education Research, 17, 512–521.
+http://dx.doi.org/10.1093/her/17.5.512
+/H11569Williams, G. C., Niemiec, C. P., Patrick, H., Ryan, R. M., & Deci, E. L.
+(2016). Outcomes of the Smoker’s Health Project: A pragmatic com-parative effectiveness trial of tobacco-dependence interventions basedon self-determination theory. Health Education Research, 31, 749–759.
+Wright, C. E., Rhodes, R. E., Ruggerio, E. W., & Sheeran, P. (2020).
+Benchmarking the effectiveness of interventions to promote physicalactivity: A meta-synthesis . Unpublished manuscript, University of North
+Carolina at Chapel Hill, USA.
+Received July 10, 2019
+Revision received March 9, 2020
+Accepted March 13, 2020 /H18546737 SELF-DETERMINATION THEORY INTERVENTIONS"
