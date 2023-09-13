@@ -14,16 +14,13 @@ Google Doc
 Proposal for third year paper
 </button>
 
+<button onclick="location.href='https://lirabenjamin.github.io/effect-size/proposal2/index.html'" type="button" style="background-color: #273ec2; color: white; padding: 10px 20px;border-radius: 12px;  border: none;
+">
+Proposal2 for third year paper
+</button>
+
 <br>
 This is a working document on a potential research project about the true distribution of effect size in psychology and its determinants.
-
-There are three possibilities:
-
-1.  There is a potential empirical contribution, a meta-meta analysis. We would analyze published meta-analyses and examine the distribution of effect sizes and their determinants.
-2.  There is a potential contribution of a review/essay/perspective paper. We would synthesize the literature on effect size in psychology and discuss the implications of the findings.
-3.  We will conclude that there is no value in pursuing this project.
-
-For now, we will focus on the **empirical** option, which is our working hypothesis.
 
 # Motivation
 
@@ -50,6 +47,23 @@ Aside from the contribution towards sample size planning and power calculations,
 
 -   We will use meta-analyses as our unit of analysis. We will use the meta-analytic effect size as our dependent variable.
 -   We could download all meta-analyses published in Psychological Bulletin and code them for the above variables.
+
+# What have we found so far?
+
+### 1. Most meta-analyses are not worried about publication bias.
+
+As shown below, about a quarter of meta analyses do not mention publicaiton bias. Fewer than a half of them use a method to detect publication bias. Fewer than a quarter of them go beyond testing and correct for publication bias. Thus, it is likely that the published record is inflated by publication bias.
+
+```{r}
+knitr::include_graphics("output/B_proportion_by_type.png")
+```
+
+Over the past five years, these indicators seem to slowly improve, but the rate of improvement is definetly slow. Below, I show the increase of the proportion of meta-analyses per year showing these keywords, and results from logistic regression models where publication date predicts whether a given term is increasing across time.
+
+```{r}
+knitr::include_graphics("output/time_combined_image.png")
+```
+
 
 # Open questions
 
@@ -95,12 +109,12 @@ df %>%
   head() %>%
   gt()
 
-df %>% 
-  select(Authors, Title, Year, url = FullTextURL) %>%
-  mutate(Title = str_replace(Title, "\\/", "-")) %>%
-  filter(!is.na(url)) %>% 
-  mutate(filename = glue("test_downloads/{Year}_{Title}.pdf")) %>% 
-  mutate(download = map2(url, filename, download))
+# df %>% 
+#   select(Authors, Title, Year, url = FullTextURL) %>%
+#   mutate(Title = str_replace(Title, "\\/", "-")) %>%
+#   filter(!is.na(url)) %>% 
+#   mutate(filename = glue("test_downloads/{Year}_{Title}.pdf")) %>% 
+#   mutate(download = map2(url, filename, download))
 ```
 
 <!-- # Extra notes from Literature review
