@@ -1,0 +1,67 @@
+---
+title: Effect Size and Publication Bias in Psychology
+author: Benjamin Lira, Daniel Martin, Paschal Sheeran, & Angela Duckworth
+date: 2023-09-15
+---
+
+# Introduction
+
+Publication bias is a problem across psychological disciplines.
+
+Meta-analyses intend to get an unbiased estimate of an effect, but what is the true effect?
+
+RoBMA is a method to estimate the true effect size in a meta-analysis.
+
+In the present paper, we use RoBMA to estimate the true effect size in a large number of meta-analyses. We begin by analyzing how published meta-analyses have dealt with publication bias in the past 5 years (Study 1). We find that meta-analysts have not paid enough attention to publication bias and rarely adjust their estimates for it. Then, we apply RoBMA to every meta-analytic dataset we can find (Study 2). From this, we are able to empirically estimate the average correction factor for publication bias. We find that the average correction factor is 1.5. We then ask researchers to estimate the average correction factor (Study 3). We find that researchers are not very good at estimating the average correction factor. Finally, we show that when funders require pre-registration and publication, there is no publication bias (Study 4).
+
+# Study 1: Publication bias in published meta analyses of the past 5 years
+
+## Methods
+
+## Results
+
+### Very few meta-analyses test and adjust for publication bias
+
+### Interest in publication bias has slightly increased over time
+
+## Discussion
+
+# Study 2a: What is the average correction factor in published meta-analytic data
+
+## Methods
+
+## Results
+
+### The average correction factor
+
+### Determinants of the correction factor
+
+## Discussion
+
+# Study 2b: What is the average correction factor in meta-analytic data requested through email
+
+## Methods
+
+## Results
+
+## Discussion
+
+# Study 3: Researcher perceptions of publication bias
+
+## Methods
+
+## Results
+
+## Discussion
+
+# Study 4: No publication bias when funders require pre-registration and publication
+
+## Methods
+
+## Results
+
+## Discussion
+
+# General discussion
+
+# References
