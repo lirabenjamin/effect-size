@@ -18,6 +18,8 @@ In the present paper, we use RoBMA to estimate the true effect size in a large n
 
 ## Methods
 
+We compiled a list of all published meta-analyses through a google scholar search conducted on Publish or Peruish.
+
 ## Results
 
 ### Very few meta-analyses test and adjust for publication bias

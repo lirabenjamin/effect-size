@@ -40,72 +40,79 @@ csl: ../apa-numeric-superscript.csl
 <!-- # Gap this project would fill -->
 
 Effect size is the currency with which psychological research is interpreted. 
-Despite its importance, there is little consensus on what effect size a researcher can expect when conducting a study. 
-Because of publication bias, the effect sizes that are reported in the literature are biased upward, relative to what a researcher should expect a priori. 
-Moreover, traditional effect size benchmarks (e.g., Cohen's *r* = .10, .30, and .50 for small, medium, and large correlations, respectively, @cohen_power_1992) do not take into account the fact that effect sizes can vary widely depending on the type of study. 
-For example, a longitudinal study where an intervention is supposed to change a real life outcome might have far smaller effects than a cross sectional study where self-reported attitudes are correlated with each other. 
-Fadeout @bailey_persistence_2020, common method variance, and study design are just some of the factors that can influence effect size.
+However, not all research has the same likelihood of being published.
+Studies with large effect sizes and statistically significant results are overrepresented in the scientific literature, leading to a distribution of effect sizes that is biased upward, a phenomenon known as publication bias.
+How large is this bias? I propose a meta-review of meta-analyses in psychology to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status.
 
-To address these limitations, I propose a meta-review of meta-analyses in psychology. 
-Specifically, I plan to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status. 
-Second, I plan to estimate the determinants of effect sizes, such as study design, sample size, and publication status.
-Additionally, I plan to use the results of the meta-review to conduct a survey of researchers to estimate how miscalibrated they are in judging effect sizes, and whether this miscalibration is specific. 
-That is, do researchers uniformly overestimate effect sizes, or do they fail to account for the determinants of effect size?
+Specifically, as a first step, I plan to analyze how meta-analysts deal with publication bias.
+Second, I plan to estimate the distribution of true effect sizes across psychology, taking into account bias introduced by publication status. 
+I plan to estimate the determinants of effect sizes and publication bias, such as **sample size**, **discipline** (i.e., social vs. cognitive psychology), and the **design** of study (i.e., gender differnece, individual difference, or experiment).
+Finally, I plan to use the results of the meta-review to conduct a survey of researchers to estimate how miscalibrated they are in judging effect sizes and publication bias. 
 Such contribution would allow psychologists to better calibrate their expectations of effect size when planning and reviewing research.
 
-What do we know about effect sizes in psychology? First, there is a growing consensus that small effect sizes in psychology should be expected and can still be relevant. Ahadi @ahadi1989 conducted a simulation study to show that when outcomes are multiply determined (an assumption that likely holds for behavior), the correlation of any one trait predictor is bounded (e.g., at .50 if the behavior is influenced by three traits). Similarly, Funder and Ozer @funder2019 argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Götz @götz2022 argues that if small effect sizes are the norm rather than the exception, psychology can only be a cumulative science if we adjust our expectations regarding effect size.
+What do we know about effect sizes and publication bias in psychology? First, original published effect sizes are biased upward, and are roughly twice as large as careful replications. The many labs project @opensciencecollaborationEstimatingReproducibilityPsychological2015 showed that the average effect size across 100 published experiments was *r* = .40, whereas the average effect size across 36 replications was *r* = .20. Similarly, evidence from eleven years of student replication projects, also shows that publsied effect sizes (*r* = .30) are roughly twice the size of replications (*r* = .34) @boyceElevenYearsStudent2023. Consistent with this, unpublished effects are, on average .18 SDs smaller than their published counterparts @polaninEstimatingDifferencePublished2016. 
 
-Second, original published effect sizes are biased upward, and are roughly twice as large as careful replications. The many labs project @opensciencecollaboration2015 showed that the average effect size across 100 published experiments was *r* = .40, whereas the average effect size across 36 replications was *r* = .20. Similarly, evidence from eleven years of student replication projects, also shows that publsied effect sizes (*r* = .30) are roughly twice the size of replications (*r* = .34) @boyceElevenYearsStudent2023. Consistent with this, unpublished effects are, on average .18 SDs smaller than their published counterparts @polanin2016. 
+Second, efforts at characterizing median effect sizes have been circumscribed to particular sub-fields. For example, the median effect size has been estimated at *r* = .42 for cognitive neuroscience and psychology @szucsEmpiricalAssessmentPublished2017, at *r* = .19 for individual differences @gignacEffectSizeGuidelines2016, and at *r* = .16 for applied psychology @boscoCorrelationalEffectSize2015. 
 
-Third, even with plenty of data and sophisticated methods, predicting life outcomes is remarkably difficult. Most notably, Salganik @salganik2020 conducted a prediction contest where participants were asked to predict the outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in the two of the outcomes, and 5% on the other four outcomes. Notably, the best models barely outperformed a simple linear regression model with only four predictors, suggesting that more data or more predictors is not guarenteed to improve prediction.
+Third, evidence suggests that small effect sizes are to be expected even with plenty of data and sophisticated methods. Most notably, Salganik et al @salganik2020 conducted a prediction contest where participants were asked to predict the life outcomes of 1000 people based on a large set of predictors. The best model was only able to explain 20% of the variance in two of the outcomes, and 5% on the other four outcomes. Moreover, The best models barely outperformed a simple linear regression model with only four predictors, suggesting that more data or more predictors is not guarenteed to improve prediction.
 
-Finally, efforts at characterizing median effect sizes have been circumscribed to particular sub-fields. For example, the median effect size has been estimated at *r* = .42 for cognitive neuroscience and psychology @szucs2017, at *r* = .19 for individual differneces @gignac2016, and at *r* = .16 for applied psychology @bosco2015.
+Finally, there is a growing consensus that small effect sizes in psychology should be expected and can still be relevant. Ahadi @ahadiMultipleDeterminantsEffect1989 conducted a simulation study that shows that when outcomes are multiply determined (an assumption that likely holds for behavior), the correlation of any one trait predictor is bounded (e.g., at .50 if the behavior is influenced by three traits). Similarly, Funder and Ozer @funder2019 argued that small effects should be interpreted contextually: if a small effect affects a large numbers of people for a long time, the cumulative change could be greater than a more circumscribed but larger effect. Finally, Götz @gotzSmallEffectsIndispensable2022 argues that if small effect sizes are the norm rather than the exception, psychology can only be a cumulative science if we adjust our expectations regarding effect size.
+
+
 <!-- nudges @dellavigna2022 -->
 
 # Proposed research
 
 ## Study 1
-We survey the meta-analysis literature in psychology in the past 5 years. From that search, we find over 5K published meta-analyses, of which 3.5K have accessible pdfs. From these we get an idea of how are meta-analysts dealing with publication bias. We find that X% of studies mention publication bias, and Y% of studies use some method to correct for publication bias. We also find that Z% of studies report unpublished effect sizes or the size of the difference between published and unpublished studies. Most common methods of adjustment are x (x%), y (y%), and z (z%). From this we learn that meta-analysts don't always analyze gray literature, and tend to not deal with publication bias or deal with it in weak ways.
+We survey the meta-analysis literature in psychology in the past 5 years. From that search, we find over 5K published meta-analyses, of which 1.2K have accessible pdfs. 
+We can computationally analyze the text in these files to learn how meta-analysts deal with publication bias. 
+Preliminary findings, suggest that less than half of meta-analyses conduct an inferential test for publication bias, and fewer than a quarter adjust their findings to account for publication bias.
 
-## Study 2
-We survey pre-registered meta-analyses with existing data posted online. When publication status is reported, we compute the empirical distributions of effect size conditional on publication status. We estimate the file drawer effect size from this. When gray literature is not examined, I apply ROBMA to each dataset, and then compare the original and corrected effect size. We estiamte a credible correction factor across the discipline from this. We als estimate a conditional correction factor based on characteristics of the meta-analysis.
+## Study 2a
+We survey pre-registered meta-analyses with existing data posted online. 
+When publication status is reported, we compute the empirical distributions of effect size conditional on publication status.  We estimate the file drawer effect size from this. 
+Across all datasets, we apply Robust Bayesian Meta-Analysis (RoBMA) @maierRobustBayesianMetaAnalysis2023 to estimate the distribution of true effect sizes.
+This allows us to compare the distribution of corrected effect size to that of published effect sizes.
+We estimate how moderators of effect size relate to the file drawer effect size and the correction factor.
 
-Why ROBMA, since we are esimtating this across psychology, we need a method that is robust to across-study heterogeneity, which RoBMA allows @maierRobustBayesianMetaAnalysis2023.
+## Study 2b
+A replication of Study 2, but with a different sample of meta-analyses.
+We test whether the results of study 2a replicate when estimated from a sample of meta-analyses provided by authors, as opposed to being publicly available.
 
 ## Study 3
-A replication of study 2, but with a different sample of meta-analyses. we email meta analysis authors from study 1 from the past 5 years, and obtain their data. We estimate the file drawer effect and the correction factor as before from this.
-
-## Study 4
-We conduct a survey of researcher expectations. We ask researchers to estimate a correction factor.
+Given the results of Study 2, we survey researchers who have not conducted meta-analyses to estimate the average correction factor.
 
 # Research questions
 
--   What is the distribution of published and unpublished effect sizes in psychology?
--   How do the following features of studies relate to effect size?
-    -   Lab studies vs. field studies
-    -   Experimental vs. correlational studies
-    -   Social vs. cognitive
-    -   Within person vs. between person
-    -   Concurrent vs. time-lagged
-    -   Common method vs multi-method
--   How miscalibrated are scientists to true effect sizes. For what kinds of research are they more likely to overestimate effect sizes?
+-   How do meta-analysts analyze publication bias in the past 5 years of published meta-analyses?
+-   What is the distribution of true effect sizes across psychology?
+-   How do moderators of effect size relate to the file drawer effect size and the correction factor?
+-   How miscalibrated are researchers in judging effect sizes and publication bias?
 
 # Methods
 
-## Meta-review
- 
-We plan to download all meta-analyses published in the past 5 years in psychological journals. 
-Because not all meta-analyses report published and unpublished effect sizes, we will email researchers request their meta-analytic datasets.
-I will also ask authors to specify the predictor, criterion, and field of their study.
-Then, I will aggregate these meta-analytic datasets, and use meta-regression to estimate the distribution of published and unpublished effect sizes, and to test for the moderators of effect size.
+## Study 1
 
-## Survey
+We plan to download all meta-analyses published in the past 5 yeas in psychological journals.
+We will then download all available pdfs, and analyze them using natural language processing tools (i.e., dictionary methods, text classifiers) to extract the following information:
 
-We will conduct a survey of researchers to estimate how miscalibrated they are to true effect sizes. We will use the results of the meta-review to create a set of vignettes that will be used to estimate miscalibration. 
+1. What percentage of meta-analyses collect unpublished effect sizes?
+1. What percentage of meta-analyses conduct an inferential test for publication bias?
+2. What percentage of meta-analyses adjust their findings to account for publication bias?
+3. How do these trends change over time.
 
-# Progress so far
+## Study 2
 
-I have downloaded 5,474 meta-analyses from the past 5 years. Of these, 3,567 have accessible pdfs, from which I am extracting emails. I have created a [survey](https://qfreeaccountssjc1.az1.qualtrics.com/jfe/preview/previewId/cb6934b0-9cf5-4e56-b7ec-b321d1434045/SV_9MQjK2dp8CybTZs?Q_CHL=preview&Q_SurveyVersionID=current) to ask authors to upload their data and categorize their meta-analysis.
+We plan to obtain all meta-analyses with existing data posted online.
+From these we can estimate two distribution of effect sizes: one correcting for publication bias, and one uncorrected. From this, I will estimate the average correction factor on published effect sizes. Finally, I plan to use information on the characteristics of the meta-analyses to estimate the determinants of effect sizes and publication bias (i.e., moderation analyses).
+
+## Study 3
+
+We will conduct a survey of researchers to estimate how miscalibrated they are to true effect sizes. Specifically, we will ask them to estimate the average correction factor in ps
+
+<!-- # Progress so far
+
+I have downloaded 5,474 meta-analyses from the past 5 years. Of these, 3,567 have accessible pdfs, from which I am extracting emails. I have created a [survey](https://qfreeaccountssjc1.az1.qualtrics.com/jfe/preview/previewId/cb6934b0-9cf5-4e56-b7ec-b321d1434045/SV_9MQjK2dp8CybTZs?Q_CHL=preview&Q_SurveyVersionID=current) to ask authors to upload their data and categorize their meta-analysis. -->
 
 # Reading List
 
