@@ -3,20 +3,7 @@
 library(psymetadata)
 library(metadat)
 
-metadat::dat.aloe2013
-metadat::dat.stowe2010
-metadat::dat.pagliaro1992
-metadat::dat.curtis1998
 
-metadat::
-
-psymetadata::agadullina2018 %>% as_tibble()
-psymetadata::aksayli2019 %>% as_tibble()
-psymetadata::wibbelink2017 %>% as_tibble()
-psymetadata::manylabs2018 %>% as_tibble()
-psymetadata::spaniol2020 %>% as_tibble()
-psymetadata::maccann2020 %>% as_tibble()
-library(psymetadata)
 psymetadata = agadullina2018 %>% mutate(meta_id = "agadullina2018", es_metric = "z") %>% 
   bind_rows(aksayli2019 %>% mutate(meta_id = "aksayli2019", es_metric = "")) %>% as_tibble() %>%
   mutate(pub_year = as.numeric(pub_year)) %>%
@@ -80,7 +67,12 @@ fit = RoBMA::RoBMA(d = aksayli2019$yi, v = aksayli2019$vi, seed = 1, model = "PS
 
 library(RoBMA)
 
-load("output/sample_robma_fit.rds")
+fit = read_rds("output/sample_robma_fit.rds")
+
+
+
+
+
 
 forest(fit, order = "increasing")
 plot_models(fit)
