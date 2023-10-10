@@ -1,7 +1,10 @@
 # function.r
 analyze_data <- function(data_file) {
   # Your data analysis code here
-
+  read_csv(data_file) %>%
+    ggplot(aes(x = wt, y = mpg)) +
+    geom_point()
+  ggsave(paste0("test_parallel/",data_file, '.png'))
 }
 
 # Get the dataset index from the environment variable SGE_TASK_ID
