@@ -1,21 +1,24 @@
 library(tidyverse)
+library(RoBMA)
 
 # function.r
 analyze_data <- function(i) {
   # Your data analysis code here
 
   psymetadata = read_rds("data/psymetadata.rds")
-  read_csv(data_file) %>%
-    ggplot(aes(x = wt, y = mpg)) +
-    geom_point()
-  ggsave(paste0("test_parallel/",data_file, '.png'))
+  data = psymetadata %>% 
+    group_by(meta_id) %>%
+    nest() %>% 
+    ungroup() %>%
+    slice(i) %>% 
+    unnest(data)
+  id = data$meta_id[1]
+  fit = RoBMA(r = data$yi, se = data$se, seed = 13)
+  write_rds(fit, paste0("output/robma/id", ".rds"))
 }
 
 # Get the dataset index from the environment variable SGE_TASK_ID
-dataset_index <- Sys.getenv('SGE_TASK_ID')
-
-# Build the dataset file name
-data_file <- paste0('test_parallel/dataset-', dataset_index, '.csv')
+i <- Sys.getenv('SGE_TASK_ID')
 
 # Call your function
-analyze_data(data_file)
+analyze_data(i)
