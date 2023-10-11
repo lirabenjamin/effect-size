@@ -1,6 +1,10 @@
+library(tidyverse)
+
 # function.r
-analyze_data <- function(data_file) {
+analyze_data <- function(i) {
   # Your data analysis code here
+
+  psymetadata = read_rds("data/psymetadata.rds")
   read_csv(data_file) %>%
     ggplot(aes(x = wt, y = mpg)) +
     geom_point()
